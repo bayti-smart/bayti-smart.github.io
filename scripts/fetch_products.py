@@ -15,12 +15,42 @@ API رسمي مثل AliExpress Affiliate API أو Amazon Product Advertising API
 import csv
 import json
 import sys
+import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_CSV = ROOT / "scripts" / "sources.csv"
 PRODUCTS_JSON = ROOT / "products.json"
+
+CATEGORY_LABELS = {
+    "lighting": "إضاءة ذكية",
+    "security": "أمان ومراقبة",
+    "climate": "تحكم بالمناخ",
+    "audio": "صوتيات",
+}
+
+# قيمة تُكتب في عمود image بملف sources.csv كتذكير للمستخدم؛ إذا تُركت
+# كما هي أو تُركت فارغة، نولّد صورة SVG بديلة تلقائيًا بدل كسر الموقع.
+PLACEHOLDER_MARKER = "PASTE_REAL_PRODUCT_IMAGE_URL_HERE"
+
+
+def svg_placeholder(label, color="#177E75"):
+    svg = f'''<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>
+<rect width='400' height='400' fill='#F1EFE7'/>
+<circle cx='200' cy='160' r='55' fill='none' stroke='{color}' stroke-width='6'/>
+<path d='M170 190 L200 150 L230 190 Z' fill='{color}'/>
+<circle cx='185' cy='140' r='10' fill='{color}'/>
+<text x='200' y='260' font-family='sans-serif' font-size='20' fill='#3C5064' text-anchor='middle'>{label}</text>
+</svg>'''
+    return "data:image/svg+xml;utf8," + urllib.parse.quote(svg)
+
+
+def resolve_image(raw_value, category):
+    value = (raw_value or "").strip()
+    if not value or value == PLACEHOLDER_MARKER:
+        return svg_placeholder(CATEGORY_LABELS.get(category, category))
+    return value
 
 
 def load_from_csv():
@@ -42,7 +72,7 @@ def load_from_csv():
                 "currency": row.get("currency", "USD"),
                 "rating": float(row.get("rating", 0) or 0),
                 "reviews_count": int(row.get("reviews_count", 0) or 0),
-                "image": row["image"],
+                "image": resolve_image(row.get("image"), row["category"]),
                 "description": row.get("description", ""),
                 "affiliate_url": row["affiliate_url"],
                 "network": row.get("network", ""),
