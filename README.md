@@ -36,8 +36,14 @@
 عدّل ملف `scripts/sources.csv` وأضف صفوفًا جديدة (كل صف = منتج).
 الأعمدة:
 ```
-id, title, category, price, currency, rating, reviews_count, image, description, affiliate_url, network, tags
+id, category, price, currency, rating, reviews_count, image,
+title_ar, title_en, description_ar, description_en,
+tags_ar, tags_en, affiliate_url, network
 ```
+الموقع الآن **ثنائي اللغة (عربي/إنجليزي)** مع مبدّل لغة في الأعلى.
+إذا تركت عمود `title_en` أو `description_en` فارغًا، سيُستخدم النص
+العربي مؤقتًا بدل كسر الموقع، لحين ما تترجمه.
+
 احفظ الملف وارفعه (`git add . && git commit -m "منتجات جديدة" && git push`) —
 سيتحدث الموقع تلقائيًا خلال دقائق.
 
@@ -45,7 +51,15 @@ id, title, category, price, currency, rating, reviews_count, image, description,
 الأيمن على صورة المنتج في صفحة AliExpress/Amazon واختر "نسخ رابط الصورة").
 هذي الصور مستضافة على خوادم Amazon/AliExpress نفسها وتكون موثوقة دائمًا.
 تجنّب خدمات placeholder خارجية (مثل via.placeholder.com) لأنها قد تكون
-بطيئة أو محجوبة عند بعض الزوار.
+بطيئة أو محجوبة عند بعض الزوار — إذا تركت العمود فارغًا، يُولَّد بديل
+تلقائي داخلي بدون أي اعتماد خارجي.
+
+## إضافة لغة ثالثة (اختياري)
+النظام مصمم ليتوسع بسهولة. لإضافة لغة جديدة (مثلًا فرنسي):
+1. أضف أعمدة `title_fr` و `description_fr` و `tags_fr` في `sources.csv`
+2. أضف `"fr": {...}` داخل `i18n` في كود `fetch_products.py`
+3. أضف قسم `fr: {...}` في كائن `UI` داخل `script.js` بترجمة نصوص الواجهة
+4. أضف زر لغة جديد في `index.html` داخل `#langSwitch`
 
 ## الخطوة 6 — الانضمام لبرامج العمولة (مجانية)
 - **AliExpress Affiliate**: https://portals.aliexpress.com — تسجيل مجاني فوري،

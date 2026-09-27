@@ -1,86 +1,141 @@
 {
-  "updated_at": "2026-09-27T21:29:07.302784+00:00",
+  "updated_at": "2026-09-27T21:49:55.324351+00:00",
   "categories": [
     {
       "id": "lighting",
-      "name": "إضاءة ذكية"
+      "name": {
+        "ar": "إضاءة ذكية",
+        "en": "Smart Lighting"
+      }
     },
     {
       "id": "security",
-      "name": "أمان ومراقبة"
+      "name": {
+        "ar": "أمان ومراقبة",
+        "en": "Security"
+      }
     },
     {
       "id": "climate",
-      "name": "تحكم بالمناخ"
+      "name": {
+        "ar": "تحكم بالمناخ",
+        "en": "Climate Control"
+      }
     },
     {
       "id": "audio",
-      "name": "صوتيات"
+      "name": {
+        "ar": "صوتيات",
+        "en": "Audio"
+      }
     }
   ],
   "products": [
     {
       "id": "p001",
-      "title": "لمبة LED ذكية متعددة الألوان مع تحكم بالتطبيق",
       "category": "lighting",
       "price": 24.99,
       "currency": "USD",
       "rating": 4.5,
       "reviews_count": 1820,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2720%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3E%D8%A5%D8%B6%D8%A7%D8%A1%D8%A9%20%D8%B0%D9%83%D9%8A%D8%A9%3C/text%3E%0A%3C/svg%3E",
-      "description": "لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية تدعم 16 مليون لون وجدولة تلقائية",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3ESmart%20Lighting%3C/text%3E%0A%3C/svg%3E",
       "affiliate_url": "https://www.aliexpress.com/item/PLACEHOLDER1.html",
       "network": "aliexpress",
-      "tags": [
-        "أكثر مبيعًا",
-        "توفير طاقة"
-      ]
+      "i18n": {
+        "ar": {
+          "title": "لمبة LED ذكية متعددة الألوان مع تحكم بالتطبيق",
+          "description": "لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية تدعم 16 مليون لون وجدولة تلقائية",
+          "tags": [
+            "أكثر مبيعًا",
+            "توفير طاقة"
+          ]
+        },
+        "en": {
+          "title": "Smart Multicolor LED Bulb with App Control",
+          "description": "App or voice-controlled smart bulb supporting 16 million colors and automatic scheduling",
+          "tags": [
+            "Best Seller",
+            "Energy Saving"
+          ]
+        }
+      }
     },
     {
       "id": "p002",
-      "title": "كاميرا مراقبة داخلية Full HD بدوران 360 درجة",
       "category": "security",
       "price": 32.5,
       "currency": "USD",
       "rating": 4.3,
       "reviews_count": 964,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2720%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3E%D8%A3%D9%85%D8%A7%D9%86%20%D9%88%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9%3C/text%3E%0A%3C/svg%3E",
-      "description": "كاميرا مراقبة بدقة 1080p مع رؤية ليلية وتنبيهات فورية على الهاتف عند رصد حركة",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3ESecurity%3C/text%3E%0A%3C/svg%3E",
       "affiliate_url": "https://www.aliexpress.com/item/PLACEHOLDER2.html",
       "network": "aliexpress",
-      "tags": [
-        "جديد"
-      ]
+      "i18n": {
+        "ar": {
+          "title": "كاميرا مراقبة داخلية Full HD بدوران 360 درجة",
+          "description": "كاميرا مراقبة بدقة 1080p مع رؤية ليلية وتنبيهات فورية على الهاتف عند رصد حركة",
+          "tags": [
+            "جديد"
+          ]
+        },
+        "en": {
+          "title": "360° Full HD Indoor Security Camera",
+          "description": "1080p camera with night vision and instant phone alerts on motion detection",
+          "tags": [
+            "New"
+          ]
+        }
+      }
     },
     {
       "id": "p003",
-      "title": "مقبس كهربائي ذكي WiFi يدعم مساعد المنزل الصوتي",
       "category": "climate",
       "price": 12.99,
       "currency": "USD",
       "rating": 4.6,
       "reviews_count": 2510,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2720%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3E%D8%AA%D8%AD%D9%83%D9%85%20%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE%3C/text%3E%0A%3C/svg%3E",
-      "description": "تحكم بأي جهاز كهربائي عن بعد مع جدولة تلقائية وقياس استهلاك الطاقة",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3EClimate%20Control%3C/text%3E%0A%3C/svg%3E",
       "affiliate_url": "https://www.amazon.com/dp/PLACEHOLDER3",
       "network": "amazon",
-      "tags": [
-        "الأعلى تقييمًا"
-      ]
+      "i18n": {
+        "ar": {
+          "title": "مقبس كهربائي ذكي WiFi يدعم مساعد المنزل الصوتي",
+          "description": "تحكم بأي جهاز كهربائي عن بعد مع جدولة تلقائية وقياس استهلاك الطاقة",
+          "tags": [
+            "الأعلى تقييمًا"
+          ]
+        },
+        "en": {
+          "title": "Smart WiFi Plug with Voice Assistant Support",
+          "description": "Control any appliance remotely with automatic scheduling and power usage tracking",
+          "tags": [
+            "Top Rated"
+          ]
+        }
+      }
     },
     {
       "id": "p004",
-      "title": "مكبر صوت ذكي متوافق مع المساعدات الصوتية",
       "category": "audio",
       "price": 45.0,
       "currency": "USD",
       "rating": 4.4,
       "reviews_count": 731,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2720%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3E%D8%B5%D9%88%D8%AA%D9%8A%D8%A7%D8%AA%3C/text%3E%0A%3C/svg%3E",
-      "description": "صوت نقي مع تحكم كامل بالمنزل الذكي عبر الأوامر الصوتية",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3EAudio%3C/text%3E%0A%3C/svg%3E",
       "affiliate_url": "https://www.amazon.com/dp/PLACEHOLDER4",
       "network": "amazon",
-      "tags": []
+      "i18n": {
+        "ar": {
+          "title": "مكبر صوت ذكي متوافق مع المساعدات الصوتية",
+          "description": "صوت نقي مع تحكم كامل بالمنزل الذكي عبر الأوامر الصوتية",
+          "tags": []
+        },
+        "en": {
+          "title": "Smart Speaker with Voice Assistant Support",
+          "description": "Crisp sound with full smart-home control through voice commands",
+          "tags": []
+        }
+      }
     }
   ]
 }

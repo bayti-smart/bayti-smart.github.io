@@ -48,12 +48,22 @@ a{color:inherit}
 .cat-btn.is-active{
   border-color:var(--teal);color:var(--teal-deep);font-weight:700;
 }
+.header-actions{display:flex;align-items:center;gap:12px}
 .search-box input{
   border:1px solid var(--line);background:var(--paper-alt);
   padding:9px 14px;font-family:inherit;font-size:0.92rem;
   border-radius:var(--radius);min-width:200px;
 }
 .search-box input:focus{outline:2px solid var(--teal);outline-offset:1px}
+
+.lang-switch{display:flex;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;flex-shrink:0}
+.lang-btn{
+  background:var(--paper);border:none;padding:8px 12px;
+  font-family:inherit;font-size:0.82rem;font-weight:700;
+  color:var(--ink-soft);cursor:pointer;transition:background .15s,color .15s;
+}
+.lang-btn.is-active{background:var(--teal);color:#fff}
+.lang-btn:not(.is-active):hover{background:var(--paper-alt)}
 
 /* Hero */
 .hero{background:var(--ink);color:var(--paper);padding:56px 0 44px}
@@ -74,11 +84,11 @@ main.wrap{padding:44px 24px 64px}
 .card{
   background:var(--paper);
   border:1px solid var(--line);
-  border-right:4px solid var(--teal);
+  border-inline-start:4px solid var(--teal);
   display:flex;flex-direction:column;
   transition:border-color .15s;
 }
-.card:hover{border-color:var(--ink-soft);border-right-color:var(--teal)}
+.card:hover{border-color:var(--ink-soft);border-inline-start-color:var(--teal)}
 .card-img{
   width:100%;aspect-ratio:1/1;object-fit:cover;
   border-bottom:1px solid var(--line);
