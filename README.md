@@ -41,6 +41,12 @@ id, title, category, price, currency, rating, reviews_count, image, description,
 احفظ الملف وارفعه (`git add . && git commit -m "منتجات جديدة" && git push`) —
 سيتحدث الموقع تلقائيًا خلال دقائق.
 
+**بخصوص عمود `image`:** استخدم رابط الصورة الحقيقية للمنتج (اضغط بالزر
+الأيمن على صورة المنتج في صفحة AliExpress/Amazon واختر "نسخ رابط الصورة").
+هذي الصور مستضافة على خوادم Amazon/AliExpress نفسها وتكون موثوقة دائمًا.
+تجنّب خدمات placeholder خارجية (مثل via.placeholder.com) لأنها قد تكون
+بطيئة أو محجوبة عند بعض الزوار.
+
 ## الخطوة 6 — الانضمام لبرامج العمولة (مجانية)
 - **AliExpress Affiliate**: https://portals.aliexpress.com — تسجيل مجاني فوري،
   تحصل على رابط أفيليت لأي منتج على الموقع.
