@@ -1,3 +1,5 @@
 id,title,category,price,currency,rating,reviews_count,image,description,affiliate_url,network,tags
-p001,لمبة LED ذكية متعددة الألوان مع تحكم بالتطبيق,lighting,24.99,USD,4.5,1820,PASTE_REAL_PRODUCT_IMAGE_URL_HERE,لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية,https://www.aliexpress.com/item/PLACEHOLDER1.html,aliexpress,أكثر مبيعًا|توفير طاقة
-p002,كاميرا مراقبة داخلية Full HD,security,32.50,USD,4.3,964,PASTE_REAL_PRODUCT_IMAGE_URL_HERE,كاميرا بدقة 1080p مع رؤية ليلية وتنبيهات فورية,https://www.aliexpress.com/item/PLACEHOLDER2.html,aliexpress,جديد
+p001,لمبة LED ذكية متعددة الألوان مع تحكم بالتطبيق,lighting,24.99,USD,4.5,1820,,لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية تدعم 16 مليون لون وجدولة تلقائية,https://www.aliexpress.com/item/PLACEHOLDER1.html,aliexpress,أكثر مبيعًا|توفير طاقة
+p002,كاميرا مراقبة داخلية Full HD بدوران 360 درجة,security,32.50,USD,4.3,964,,كاميرا مراقبة بدقة 1080p مع رؤية ليلية وتنبيهات فورية على الهاتف عند رصد حركة,https://www.aliexpress.com/item/PLACEHOLDER2.html,aliexpress,جديد
+p003,مقبس كهربائي ذكي WiFi يدعم مساعد المنزل الصوتي,climate,12.99,USD,4.6,2510,,تحكم بأي جهاز كهربائي عن بعد مع جدولة تلقائية وقياس استهلاك الطاقة,https://www.amazon.com/dp/PLACEHOLDER3,amazon,الأعلى تقييمًا
+p004,مكبر صوت ذكي متوافق مع المساعدات الصوتية,audio,45.00,USD,4.4,731,,صوت نقي مع تحكم كامل بالمنزل الذكي عبر الأوامر الصوتية,https://www.amazon.com/dp/PLACEHOLDER4,amazon,
