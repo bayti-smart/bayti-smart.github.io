@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T21:02:47.674061+00:00",
+  "updated_at": "2026-09-27T21:27:57.813590+00:00",
   "categories": [
     {
       "id": "lighting",
@@ -19,7 +19,7 @@
       "currency": "USD",
       "rating": 4.5,
       "reviews_count": 1820,
-      "image": "https://via.placeholder.com/400x400.png?text=Smart+Bulb",
+      "image": "PASTE_REAL_PRODUCT_IMAGE_URL_HERE",
       "description": "لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية",
       "affiliate_url": "https://www.aliexpress.com/item/PLACEHOLDER1.html",
       "network": "aliexpress",
@@ -36,7 +36,7 @@
       "currency": "USD",
       "rating": 4.3,
       "reviews_count": 964,
-      "image": "https://via.placeholder.com/400x400.png?text=Security+Camera",
+      "image": "PASTE_REAL_PRODUCT_IMAGE_URL_HERE",
       "description": "كاميرا بدقة 1080p مع رؤية ليلية وتنبيهات فورية",
       "affiliate_url": "https://www.aliexpress.com/item/PLACEHOLDER2.html",
       "network": "aliexpress",
