@@ -1,0 +1,123 @@
+:root{
+  --ink:#0F2233;
+  --ink-soft:#3C5064;
+  --paper:#FAF9F5;
+  --paper-alt:#F1EFE7;
+  --line:#DAD5C7;
+  --teal:#177E75;
+  --teal-deep:#0F5952;
+  --amber:#C87A1E;
+  --radius:2px;
+  --maxw:1180px;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Tajawal',system-ui,sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.6;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+a{color:inherit}
+
+/* Header */
+.site-header{
+  border-bottom:1px solid var(--line);
+  background:var(--paper);
+  position:sticky;top:0;z-index:20;
+}
+.header-inner{
+  display:flex;align-items:center;gap:28px;
+  padding:16px 24px;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.25rem}
+.brand-mark{
+  width:14px;height:14px;background:var(--teal);
+  transform:rotate(45deg);flex-shrink:0;
+}
+.cat-nav{display:flex;gap:4px;flex-wrap:wrap;flex:1}
+.cat-btn{
+  background:none;border:1px solid transparent;
+  padding:8px 14px;font-family:inherit;font-size:0.92rem;
+  color:var(--ink-soft);cursor:pointer;border-radius:var(--radius);
+  transition:border-color .15s, color .15s;
+}
+.cat-btn:hover{color:var(--ink)}
+.cat-btn.is-active{
+  border-color:var(--teal);color:var(--teal-deep);font-weight:700;
+}
+.search-box input{
+  border:1px solid var(--line);background:var(--paper-alt);
+  padding:9px 14px;font-family:inherit;font-size:0.92rem;
+  border-radius:var(--radius);min-width:200px;
+}
+.search-box input:focus{outline:2px solid var(--teal);outline-offset:1px}
+
+/* Hero */
+.hero{background:var(--ink);color:var(--paper);padding:56px 0 44px}
+.hero-inner h1{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900;max-width:16ch}
+.hero-sub{color:#C7D2D8;max-width:56ch;margin-top:14px;font-size:1.02rem}
+.hero-stats{display:flex;gap:36px;margin-top:32px;flex-wrap:wrap}
+.stat{display:flex;flex-direction:column}
+.stat strong{font-size:1.9rem;font-weight:900;color:var(--teal)}
+.stat span{font-size:0.85rem;color:#9FB0B8;margin-top:2px}
+
+/* Grid */
+main.wrap{padding:44px 24px 64px}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+  gap:22px;
+}
+.card{
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-right:4px solid var(--teal);
+  display:flex;flex-direction:column;
+  transition:border-color .15s;
+}
+.card:hover{border-color:var(--ink-soft);border-right-color:var(--teal)}
+.card-img{
+  width:100%;aspect-ratio:1/1;object-fit:cover;
+  border-bottom:1px solid var(--line);
+  background:var(--paper-alt);
+}
+.card-body{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;min-height:0}
+.tag{
+  font-size:0.72rem;background:var(--paper-alt);
+  color:var(--teal-deep);padding:3px 8px;border-radius:var(--radius);
+  border:1px solid var(--line);
+}
+.card-title{font-size:1rem;font-weight:700;line-height:1.4}
+.card-desc{font-size:0.88rem;color:var(--ink-soft);flex:1}
+.card-meta{display:flex;justify-content:space-between;align-items:center;margin-top:6px}
+.rating{font-size:0.85rem;color:var(--ink-soft)}
+.rating strong{color:var(--amber)}
+.price{font-size:1.15rem;font-weight:900;color:var(--ink)}
+.price small{font-size:0.7rem;font-weight:400;color:var(--ink-soft)}
+.buy-btn{
+  display:block;text-align:center;
+  background:var(--teal);color:#fff;
+  padding:11px;font-weight:700;font-size:0.92rem;
+  text-decoration:none;margin-top:4px;
+  border-radius:var(--radius);
+  transition:background .15s;
+}
+.buy-btn:hover{background:var(--teal-deep)}
+
+.empty-state{text-align:center;color:var(--ink-soft);padding:40px 0}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--line);background:var(--paper-alt);margin-top:40px}
+.footer-inner{padding:26px 24px;display:flex;flex-direction:column;gap:10px}
+.disclosure{font-size:0.82rem;color:var(--ink-soft);max-width:70ch}
+.copyright{font-size:0.8rem;color:var(--ink-soft)}
+
+@media (max-width:640px){
+  .header-inner{flex-direction:column;align-items:stretch}
+  .search-box input{width:100%}
+  .hero{padding:40px 0 32px}
+}
