@@ -1,10 +1,14 @@
 {
-  "updated_at": "2026-09-27T00:00:00Z",
+  "updated_at": "2026-09-27T20:54:26.329020+00:00",
   "categories": [
-    { "id": "lighting", "name": "إضاءة ذكية" },
-    { "id": "security", "name": "أمان ومراقبة" },
-    { "id": "climate", "name": "تحكم بالمناخ" },
-    { "id": "audio", "name": "صوتيات" }
+    {
+      "id": "lighting",
+      "name": "إضاءة ذكية"
+    },
+    {
+      "id": "security",
+      "name": "أمان ومراقبة"
+    }
   ],
   "products": [
     {
@@ -16,52 +20,29 @@
       "rating": 4.5,
       "reviews_count": 1820,
       "image": "https://via.placeholder.com/400x400.png?text=Smart+Bulb",
-      "description": "لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية، تدعم 16 مليون لون وجدولة تلقائية.",
+      "description": "لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية",
       "affiliate_url": "https://www.aliexpress.com/item/PLACEHOLDER1.html",
       "network": "aliexpress",
-      "tags": ["أكثر مبيعًا", "توفير طاقة"]
+      "tags": [
+        "أكثر مبيعًا",
+        "توفير طاقة"
+      ]
     },
     {
       "id": "p002",
-      "title": "كاميرا مراقبة داخلية Full HD بدوران 360 درجة",
+      "title": "كاميرا مراقبة داخلية Full HD",
       "category": "security",
-      "price": 32.50,
+      "price": 32.5,
       "currency": "USD",
       "rating": 4.3,
       "reviews_count": 964,
       "image": "https://via.placeholder.com/400x400.png?text=Security+Camera",
-      "description": "كاميرا مراقبة بدقة 1080p مع رؤية ليلية وتنبيهات فورية على الهاتف عند رصد حركة.",
+      "description": "كاميرا بدقة 1080p مع رؤية ليلية وتنبيهات فورية",
       "affiliate_url": "https://www.aliexpress.com/item/PLACEHOLDER2.html",
       "network": "aliexpress",
-      "tags": ["جديد"]
-    },
-    {
-      "id": "p003",
-      "title": "مقبس كهربائي ذكي WiFi يدعم مساعد المنزل الصوتي",
-      "category": "climate",
-      "price": 12.99,
-      "currency": "USD",
-      "rating": 4.6,
-      "reviews_count": 2510,
-      "image": "https://via.placeholder.com/400x400.png?text=Smart+Plug",
-      "description": "تحكم بأي جهاز كهربائي عن بعد، مع جدولة تلقائية وقياس استهلاك الطاقة.",
-      "affiliate_url": "https://www.amazon.com/dp/PLACEHOLDER3",
-      "network": "amazon",
-      "tags": ["الأعلى تقييمًا"]
-    },
-    {
-      "id": "p004",
-      "title": "مكبر صوت ذكي متوافق مع المساعدات الصوتية",
-      "category": "audio",
-      "price": 45.00,
-      "currency": "USD",
-      "rating": 4.4,
-      "reviews_count": 731,
-      "image": "https://via.placeholder.com/400x400.png?text=Smart+Speaker",
-      "description": "صوت نقي مع تحكم كامل بالمنزل الذكي عبر الأوامر الصوتية.",
-      "affiliate_url": "https://www.amazon.com/dp/PLACEHOLDER4",
-      "network": "amazon",
-      "tags": []
+      "tags": [
+        "جديد"
+      ]
     }
   ]
 }
