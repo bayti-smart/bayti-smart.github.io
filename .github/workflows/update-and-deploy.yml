@@ -1,0 +1,52 @@
+name: تحديث المنتجات ونشر الموقع
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-products:
+    runs-on: ubuntu-latest
+    steps:
+      - name: سحب الكود
+        uses: actions/checkout@v4
+
+      - name: تجهيز بايثون
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: تحديث products.json من sources.csv
+        run: python scripts/fetch_products.py
+
+      - name: حفظ التغييرات في المستودع
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add products.json
+          git diff --cached --quiet || git commit -m "تحديث تلقائي للمنتجات"
+          git push
+        continue-on-error: true
+
+  deploy-pages:
+    needs: update-products
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: تجهيز Pages
+        uses: actions/configure-pages@v5
+      - name: رفع الملفات
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: نشر على GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
