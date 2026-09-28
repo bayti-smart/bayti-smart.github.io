@@ -131,3 +131,5 @@ main.wrap{padding:44px 24px 64px}
   .search-box input{width:100%}
   .hero{padding:40px 0 32px}
 }
+
+.price-note{font-size:0.82rem;color:var(--ink-soft)}

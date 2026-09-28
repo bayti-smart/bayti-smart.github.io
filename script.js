@@ -11,8 +11,9 @@ const UI = {
     statCategories: 'فئات',
     statUpdated: 'آخر تحديث',
     emptyState: 'لا توجد منتجات مطابقة لبحثك. جرّب كلمة أخرى.',
-    disclosure: 'إفصاح: هذا الموقع يشارك في برامج تسويق بالعمولة (Amazon Associates، AliExpress Affiliate)، وقد نحصل على عمولة عند الشراء عبر روابطنا دون أي تكلفة إضافية عليك.',
+    disclosure: 'إفصاح: هذا الموقع يشارك في برنامج Amazon Associates وقد نحصل على عمولة عند الشراء عبر روابطنا دون أي تكلفة إضافية عليك. As an Amazon Associate I earn from qualifying purchases.',
     viewProduct: 'عرض المنتج',
+    checkPrice: 'تحقق من السعر',
     locale: 'ar-EG',
   },
   en: {
@@ -27,8 +28,9 @@ const UI = {
     statCategories: 'categories',
     statUpdated: 'last updated',
     emptyState: 'No products match your search. Try a different term.',
-    disclosure: 'Disclosure: this site participates in affiliate programs (Amazon Associates, AliExpress Affiliate). We may earn a commission on purchases through our links at no extra cost to you.',
+    disclosure: 'Disclosure: this site participates in the Amazon Associates program and may earn a commission on purchases through our links at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.',
     viewProduct: 'View product',
+    checkPrice: 'Check price',
     locale: 'en-US',
   },
 };
@@ -88,6 +90,7 @@ async function loadProducts() {
 
 function renderStats() {
   document.getElementById('statCount').textContent = ALL_PRODUCTS.length;
+  document.getElementById('statCatCount').textContent = ALL_CATEGORIES.length;
   if (LAST_UPDATED) {
     const d = new Date(LAST_UPDATED);
     document.getElementById('statUpdated').textContent =
@@ -158,8 +161,8 @@ function renderCard(p) {
         <h3 class="card-title">${escapeHtml(text.title)}</h3>
         <p class="card-desc">${escapeHtml(text.description || '')}</p>
         <div class="card-meta">
-          <span class="rating"><strong>${stars}</strong> (${p.reviews_count || 0})</span>
-          <span class="price">${p.price} <small>${p.currency || ''}</small></span>
+          ${p.rating > 0 ? `<span class="rating"><strong>${stars}</strong> (${p.reviews_count || 0})</span>` : '<span></span>'}
+          ${p.price > 0 ? `<span class="price">${p.price} <small>${p.currency || ''}</small></span>` : `<span class="price-note">${escapeHtml(t('checkPrice'))}</span>`}
         </div>
         <a class="buy-btn" href="${escapeHtml(p.affiliate_url)}" target="_blank" rel="nofollow sponsored noopener">
           ${escapeHtml(t('viewProduct'))}

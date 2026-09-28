@@ -24,11 +24,34 @@ PRODUCTS_JSON = ROOT / "products.json"
 CATEGORY_LABELS = {
     "lighting": {"ar": "إضاءة ذكية", "en": "Smart Lighting"},
     "security": {"ar": "أمان ومراقبة", "en": "Security"},
-    "climate": {"ar": "تحكم بالمناخ", "en": "Climate Control"},
+    "power": {"ar": "مقابس وطاقة", "en": "Smart Plugs"},
     "audio": {"ar": "صوتيات", "en": "Audio"},
 }
 
 PLACEHOLDER_MARKER = "PASTE_REAL_PRODUCT_IMAGE_URL_HERE"
+CONFIG_PATH = ROOT / "affiliate.config.json"
+
+
+def load_config():
+    if CONFIG_PATH.exists():
+        with open(CONFIG_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+CONFIG = load_config()
+
+
+def build_affiliate_url(url, network):
+    """يضيف معرّف الأفيليت الخاص بك تلقائيًا لروابط Amazon."""
+    tag = (CONFIG.get("amazon_tag") or "").strip()
+    if network == "amazon" and tag:
+        import re
+        m = re.search(r"/dp/([A-Z0-9]{10})", url)
+        if m:
+            domain = CONFIG.get("amazon_domain", "www.amazon.com")
+            return f"https://{domain}/dp/{m.group(1)}?tag={tag}"
+    return url
 
 
 def svg_placeholder(label, color="#177E75"):
@@ -73,12 +96,12 @@ def load_from_csv():
             products.append({
                 "id": row["id"],
                 "category": row["category"],
-                "price": float(row["price"]),
+                "price": float(row.get("price") or 0),
                 "currency": row.get("currency", "USD"),
                 "rating": float(row.get("rating", 0) or 0),
                 "reviews_count": int(row.get("reviews_count", 0) or 0),
                 "image": resolve_image(row.get("image"), row["category"]),
-                "affiliate_url": row["affiliate_url"],
+                "affiliate_url": build_affiliate_url(row["affiliate_url"], row.get("network", "")),
                 "network": row.get("network", ""),
                 "i18n": {
                     "ar": {"title": title_ar, "description": desc_ar, "tags": tags_ar},
