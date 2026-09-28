@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T03:19:11.272281+00:00",
+  "updated_at": "2026-09-28T08:52:37.979071+00:00",
   "categories": [
     {
       "id": "lighting",
@@ -16,10 +16,10 @@
       }
     },
     {
-      "id": "climate",
+      "id": "power",
       "name": {
-        "ar": "تحكم بالمناخ",
-        "en": "Climate Control"
+        "ar": "مقابس وطاقة",
+        "en": "Smart Plugs"
       }
     },
     {
@@ -34,105 +34,137 @@
     {
       "id": "p001",
       "category": "lighting",
-      "price": 24.99,
+      "price": 0.0,
       "currency": "USD",
-      "rating": 4.5,
-      "reviews_count": 1820,
+      "rating": 0.0,
+      "reviews_count": 0,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3ESmart%20Lighting%3C/text%3E%0A%3C/svg%3E",
-      "affiliate_url": "https://www.aliexpress.com/item/PLACEHOLDER1.html",
-      "network": "aliexpress",
+      "affiliate_url": "https://www.amazon.com/dp/B08TB8Z5HF",
+      "network": "amazon",
       "i18n": {
         "ar": {
-          "title": "لمبة LED ذكية متعددة الألوان مع تحكم بالتطبيق",
-          "description": "لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية تدعم 16 مليون لون وجدولة تلقائية",
-          "tags": [
-            "أكثر مبيعًا",
-            "توفير طاقة"
-          ]
+          "title": "مصابيح Kasa ذكية ملونة (4 قطع) KL125P4",
+          "description": "مصابيح Wi-Fi متعددة الألوان بدون حاجة لهاب، تعمل مع Alexa وGoogle Home ويمكن جدولتها من التطبيق",
+          "tags": []
         },
         "en": {
-          "title": "Smart Multicolor LED Bulb with App Control",
-          "description": "App or voice-controlled smart bulb supporting 16 million colors and automatic scheduling",
-          "tags": [
-            "Best Seller",
-            "Energy Saving"
-          ]
+          "title": "Kasa Smart Multicolor Bulbs 4-Pack (KL125P4)",
+          "description": "Multicolor Wi-Fi bulbs with no hub required. Works with Alexa and Google Home and can be scheduled from the app",
+          "tags": []
         }
       }
     },
     {
       "id": "p002",
-      "category": "security",
-      "price": 32.5,
+      "category": "lighting",
+      "price": 0.0,
       "currency": "USD",
-      "rating": 4.3,
-      "reviews_count": 964,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3ESecurity%3C/text%3E%0A%3C/svg%3E",
-      "affiliate_url": "https://www.aliexpress.com/item/PLACEHOLDER2.html",
-      "network": "aliexpress",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3ESmart%20Lighting%3C/text%3E%0A%3C/svg%3E",
+      "affiliate_url": "https://www.amazon.com/dp/B0BQCSC19C",
+      "network": "amazon",
       "i18n": {
         "ar": {
-          "title": "كاميرا مراقبة داخلية Full HD بدوران 360 درجة",
-          "description": "كاميرا مراقبة بدقة 1080p مع رؤية ليلية وتنبيهات فورية على الهاتف عند رصد حركة",
-          "tags": [
-            "جديد"
-          ]
+          "title": "مصابيح Kasa ذكية عالية السطوع (4 قطع) KL135",
+          "description": "مصابيح ذكية بإضاءة 1000 لومن و16 مليون لون وبيضاء من الدافئ إلى البارد",
+          "tags": []
         },
         "en": {
-          "title": "360° Full HD Indoor Security Camera",
-          "description": "1080p camera with night vision and instant phone alerts on motion detection",
-          "tags": [
-            "New"
-          ]
+          "title": "Kasa Smart Bulbs 1000 Lumens 4-Pack (KL135)",
+          "description": "Brighter 1000-lumen smart bulbs with 16 million colors and tunable whites from warm to cool",
+          "tags": []
         }
       }
     },
     {
       "id": "p003",
-      "category": "climate",
-      "price": 12.99,
+      "category": "security",
+      "price": 0.0,
       "currency": "USD",
-      "rating": 4.6,
-      "reviews_count": 2510,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3EClimate%20Control%3C/text%3E%0A%3C/svg%3E",
-      "affiliate_url": "https://www.amazon.com/dp/PLACEHOLDER3",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3ESecurity%3C/text%3E%0A%3C/svg%3E",
+      "affiliate_url": "https://www.amazon.com/dp/B0829KDY9X",
       "network": "amazon",
       "i18n": {
         "ar": {
-          "title": "مقبس كهربائي ذكي WiFi يدعم مساعد المنزل الصوتي",
-          "description": "تحكم بأي جهاز كهربائي عن بعد مع جدولة تلقائية وقياس استهلاك الطاقة",
-          "tags": [
-            "الأعلى تقييمًا"
-          ]
+          "title": "كاميرا Tapo C200 داخلية بدوران وإمالة 1080p",
+          "description": "كاميرا داخلية بدقة 1080p تدور 360 درجة مع رؤية ليلية وصوت ثنائي الاتجاه وتخزين على بطاقة microSD",
+          "tags": []
         },
         "en": {
-          "title": "Smart WiFi Plug with Voice Assistant Support",
-          "description": "Control any appliance remotely with automatic scheduling and power usage tracking",
-          "tags": [
-            "Top Rated"
-          ]
+          "title": "Tapo C200 Pan/Tilt 1080p Indoor Camera",
+          "description": "Indoor 1080p camera with 360° pan and 114° tilt. Night vision two-way audio and microSD local storage",
+          "tags": []
         }
       }
     },
     {
       "id": "p004",
-      "category": "audio",
-      "price": 45.0,
+      "category": "security",
+      "price": 0.0,
       "currency": "USD",
-      "rating": 4.4,
-      "reviews_count": 731,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3EAudio%3C/text%3E%0A%3C/svg%3E",
-      "affiliate_url": "https://www.amazon.com/dp/PLACEHOLDER4",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3ESecurity%3C/text%3E%0A%3C/svg%3E",
+      "affiliate_url": "https://www.amazon.com/dp/B09Y8TLP25",
       "network": "amazon",
       "i18n": {
         "ar": {
-          "title": "مكبر صوت ذكي متوافق مع المساعدات الصوتية",
-          "description": "صوت نقي مع تحكم كامل بالمنزل الذكي عبر الأوامر الصوتية",
+          "title": "كاميرا Tapo C210 بدقة 2K بدوران وإمالة",
+          "description": "كاميرا 2K بدوران وإمالة مع رؤية ليلية وصوت ثنائي الاتجاه وصفارة إنذار وتخزين محلي",
           "tags": []
         },
         "en": {
-          "title": "Smart Speaker with Voice Assistant Support",
-          "description": "Crisp sound with full smart-home control through voice commands",
+          "title": "Tapo C210 2K Pan/Tilt Security Camera",
+          "description": "2K pan/tilt camera with night vision two-way audio a siren and local storage",
+          "tags": []
+        }
+      }
+    },
+    {
+      "id": "p005",
+      "category": "power",
+      "price": 0.0,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3ESmart%20Plugs%3C/text%3E%0A%3C/svg%3E",
+      "affiliate_url": "https://www.amazon.com/dp/B091FXLMS8",
+      "network": "amazon",
+      "i18n": {
+        "ar": {
+          "title": "مقابس Kasa ذكية صغيرة Wi-Fi (4 قطع) EP10P4",
+          "description": "مقابس ذكية بدون هاب تعمل مع Alexa وGoogle Assistant وSmartThings مع جدولة ومؤقتات",
+          "tags": []
+        },
+        "en": {
+          "title": "Kasa Smart Wi-Fi Plug Mini 4-Pack (EP10P4)",
+          "description": "No-hub smart plugs that work with Alexa Google Assistant and SmartThings with schedules and timers",
+          "tags": []
+        }
+      }
+    },
+    {
+      "id": "p006",
+      "category": "audio",
+      "price": 0.0,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27400%27%20height%3D%27400%27%3E%0A%3Crect%20width%3D%27400%27%20height%3D%27400%27%20fill%3D%27%23F1EFE7%27/%3E%0A%3Ccircle%20cx%3D%27200%27%20cy%3D%27160%27%20r%3D%2755%27%20fill%3D%27none%27%20stroke%3D%27%23177E75%27%20stroke-width%3D%276%27/%3E%0A%3Cpath%20d%3D%27M170%20190%20L200%20150%20L230%20190%20Z%27%20fill%3D%27%23177E75%27/%3E%0A%3Ccircle%20cx%3D%27185%27%20cy%3D%27140%27%20r%3D%2710%27%20fill%3D%27%23177E75%27/%3E%0A%3Ctext%20x%3D%27200%27%20y%3D%27260%27%20font-family%3D%27sans-serif%27%20font-size%3D%2718%27%20fill%3D%27%233C5064%27%20text-anchor%3D%27middle%27%3EAudio%3C/text%3E%0A%3C/svg%3E",
+      "affiliate_url": "https://www.amazon.com/dp/B09B8V1LZ3",
+      "network": "amazon",
+      "i18n": {
+        "ar": {
+          "title": "مكبر Echo Dot الجيل الخامس مع Alexa",
+          "description": "مكبر صوت ذكي مع Alexa بصوت محسّن وحساسات حركة وحرارة للتحكم بالمنزل الذكي",
+          "tags": []
+        },
+        "en": {
+          "title": "Amazon Echo Dot (5th Gen) Smart Speaker",
+          "description": "Alexa smart speaker with improved audio plus motion and temperature sensors for smart home control",
           "tags": []
         }
       }
