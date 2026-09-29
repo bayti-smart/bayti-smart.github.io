@@ -133,3 +133,27 @@ main.wrap{padding:44px 24px 64px}
 }
 
 .price-note{font-size:0.82rem;color:var(--ink-soft)}
+
+/* ---- تطويرات ---- */
+[data-l][hidden]{display:none!important}
+a.brand{text-decoration:none;color:inherit}
+.card-tags{min-height:26px}
+.hero-link{display:inline-block;margin-top:16px;color:var(--paper);border-bottom:1px solid var(--teal);text-decoration:none;font-weight:700}
+.compat-note{background:var(--paper-alt);border:1px solid var(--line);border-inline-start:4px solid var(--amber);padding:12px 16px;font-size:0.88rem;color:var(--ink-soft);margin-bottom:24px}
+.top-links{display:flex;gap:16px;flex-wrap:wrap;flex:1}
+.top-links a{text-decoration:none;color:var(--ink-soft);font-size:0.92rem}
+.top-links a:hover{color:var(--teal-deep)}
+.footer-links{display:flex;gap:18px;flex-wrap:wrap}
+.footer-links a{font-size:0.85rem;color:var(--teal-deep)}
+.share-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:0.85rem;color:var(--ink-soft)}
+.share-btn{border:1px solid var(--line);background:var(--paper);padding:6px 12px;border-radius:var(--radius);font-family:inherit;font-size:0.82rem;color:var(--ink);text-decoration:none;cursor:pointer}
+.share-btn:hover{border-color:var(--teal)}
+.page-main{max-width:760px;margin:0 auto;padding:44px 24px 64px}
+.page-main h1{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:900;margin-bottom:8px}
+.page-main h2{font-size:1.2rem;font-weight:700;margin:28px 0 8px}
+.page-main p,.page-main li{color:var(--ink-soft);margin-bottom:10px}
+.page-main ul{padding-inline-start:22px}
+.page-main a{color:var(--teal-deep)}
+.updated{font-size:0.82rem}
+.guide{border-inline-start:4px solid var(--teal);padding-inline-start:18px;margin:32px 0}
+.guide h2{margin-top:0}

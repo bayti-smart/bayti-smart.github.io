@@ -14,6 +14,15 @@ const UI = {
     disclosure: 'إفصاح: هذا الموقع يشارك في برنامج Amazon Associates وقد نحصل على عمولة عند الشراء عبر روابطنا دون أي تكلفة إضافية عليك. As an Amazon Associate I earn from qualifying purchases.',
     viewProduct: 'عرض المنتج',
     checkPrice: 'تحقق من السعر',
+    heroGuides: 'اقرأ أدلة الشراء',
+    compatNote: 'ملاحظة: روابط المنتجات الحالية تقود إلى متجر Amazon الأمريكي، وكثير منها مصمم لكهرباء 120 فولت وقوابس أمريكية. تحقق من الجهد وشكل القابس وقاعدة المصباح (E26 أو E27) قبل الشراء.',
+    shareTitle: 'شارك الموقع',
+    shareMsg: 'اكتشف أفضل أجهزة المنزل الذكي',
+    copyLink: 'نسخ الرابط',
+    copied: 'تم النسخ',
+    navGuides: 'أدلة الشراء',
+    navAbout: 'من نحن',
+    navPrivacy: 'سياسة الخصوصية',
     locale: 'ar-EG',
   },
   en: {
@@ -31,6 +40,15 @@ const UI = {
     disclosure: 'Disclosure: this site participates in the Amazon Associates program and may earn a commission on purchases through our links at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.',
     viewProduct: 'View product',
     checkPrice: 'Check price',
+    heroGuides: 'Read our buying guides',
+    compatNote: 'Note: current product links lead to the US Amazon store, and many items are built for 120 V mains and US plugs. Check voltage, plug shape and bulb base (E26 or E27) before buying.',
+    shareTitle: 'Share this site',
+    shareMsg: 'Discover the best smart home devices',
+    copyLink: 'Copy link',
+    copied: 'Copied',
+    navGuides: 'Buying guides',
+    navAbout: 'About',
+    navPrivacy: 'Privacy Policy',
     locale: 'en-US',
   },
 };
@@ -70,6 +88,7 @@ function applyLanguage() {
   renderCategoryLabels();
   renderStats();
   renderGrid();
+  updateShareLinks();
 }
 
 async function loadProducts() {
@@ -187,6 +206,26 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
     localStorage.setItem('site_lang', LANG);
     applyLanguage();
   });
+});
+
+
+function updateShareLinks() {
+  const url = location.origin + location.pathname;
+  const msg = encodeURIComponent(t('shareMsg') + ' ' + url);
+  document.getElementById('shareWa').href = 'https://wa.me/?text=' + msg;
+  document.getElementById('shareFb').href =
+    'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+}
+
+document.getElementById('copyLink').addEventListener('click', async (e) => {
+  const btn = e.currentTarget;
+  try {
+    await navigator.clipboard.writeText(location.origin + location.pathname);
+    btn.textContent = t('copied');
+    setTimeout(() => { btn.textContent = t('copyLink'); }, 1500);
+  } catch (err) {
+    console.error(err);
+  }
 });
 
 loadProducts();
