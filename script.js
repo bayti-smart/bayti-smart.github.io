@@ -1,57 +1,87 @@
 const UI = {
   ar: {
-    dir: 'rtl',
-    brandName: 'بيتي الذكي',
-    pageTitle: 'بيتي الذكي — أفضل إكسسوارات المنزل الذكي',
-    all: 'الكل',
-    searchPlaceholder: 'ابحث عن جهاز...',
+    dir: 'rtl', locale: 'ar-EG', flag: '🇩🇿',
+    brandName: 'بيتي الذكي', pageTitle: 'بيتي الذكي — أفضل إكسسوارات المنزل الذكي',
+    all: 'الكل', searchPlaceholder: 'ابحث عن جهاز...',
     heroTitle: 'منزلك أذكى بخطوة واحدة',
     heroSub: 'جمعنا لك أفضل أجهزة المنزل الذكي بعد مقارنة الأسعار والتقييمات، حتى توفّر وقت البحث وتشتري بثقة.',
-    statProducts: 'منتج مُختار',
-    statCategories: 'فئات',
-    statUpdated: 'آخر تحديث',
-    emptyState: 'لا توجد منتجات مطابقة لبحثك. جرّب كلمة أخرى.',
-    disclosure: 'إفصاح: هذا الموقع يشارك في برنامج Amazon Associates وقد نحصل على عمولة عند الشراء عبر روابطنا دون أي تكلفة إضافية عليك. As an Amazon Associate I earn from qualifying purchases.',
-    viewProduct: 'عرض المنتج',
-    checkPrice: 'تحقق من السعر',
     heroGuides: 'اقرأ أدلة الشراء',
+    statProducts: 'منتج مُختار', statCategories: 'فئات', statUpdated: 'آخر تحديث',
+    emptyState: 'لا توجد منتجات مطابقة لبحثك. جرّب كلمة أخرى.',
     compatNote: 'ملاحظة: روابط المنتجات الحالية تقود إلى متجر Amazon الأمريكي، وكثير منها مصمم لكهرباء 120 فولت وقوابس أمريكية. تحقق من الجهد وشكل القابس وقاعدة المصباح (E26 أو E27) قبل الشراء.',
-    shareTitle: 'شارك الموقع',
-    shareMsg: 'اكتشف أفضل أجهزة المنزل الذكي',
-    copyLink: 'نسخ الرابط',
-    copied: 'تم النسخ',
-    navGuides: 'أدلة الشراء',
-    navAbout: 'من نحن',
-    navPrivacy: 'سياسة الخصوصية',
-    locale: 'ar-EG',
+    viewProduct: 'عرض المنتج', checkPrice: 'تحقق من السعر',
+    disclosure: 'إفصاح: هذا الموقع يشارك في برنامج Amazon Associates وقد نحصل على عمولة عند الشراء عبر روابطنا دون أي تكلفة إضافية عليك. As an Amazon Associate I earn from qualifying purchases.',
+    shareTitle: 'شارك الموقع', shareMsg: 'اكتشف أفضل أجهزة المنزل الذكي', copyLink: 'نسخ الرابط', copied: 'تم النسخ',
+    navGuides: 'أدلة الشراء', navAbout: 'من نحن', navPrivacy: 'سياسة الخصوصية',
+    eyeComfort: 'وضع حماية العين', backToTop: 'العودة للأعلى', langLabel: 'اللغة',
   },
   en: {
-    dir: 'ltr',
-    brandName: 'Smart Casa',
-    pageTitle: 'Smart Casa — Best Smart Home Accessories',
-    all: 'All',
-    searchPlaceholder: 'Search for a device...',
+    dir: 'ltr', locale: 'en-US', flag: '🇺🇸',
+    brandName: 'Smart Casa', pageTitle: 'Smart Casa — Best Smart Home Accessories',
+    all: 'All', searchPlaceholder: 'Search for a device...',
     heroTitle: 'A smarter home, one step away',
-    heroSub: 'We compared prices and ratings to hand-pick the best smart home devices, so you save research time and buy with confidence.',
-    statProducts: 'curated products',
-    statCategories: 'categories',
-    statUpdated: 'last updated',
-    emptyState: 'No products match your search. Try a different term.',
-    disclosure: 'Disclosure: this site participates in the Amazon Associates program and may earn a commission on purchases through our links at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.',
-    viewProduct: 'View product',
-    checkPrice: 'Check price',
+    heroSub: "We compared prices and ratings to hand-pick the best smart home devices, so you save research time and buy with confidence.",
     heroGuides: 'Read our buying guides',
-    compatNote: 'Note: current product links lead to the US Amazon store, and many items are built for 120 V mains and US plugs. Check voltage, plug shape and bulb base (E26 or E27) before buying.',
-    shareTitle: 'Share this site',
-    shareMsg: 'Discover the best smart home devices',
-    copyLink: 'Copy link',
-    copied: 'Copied',
-    navGuides: 'Buying guides',
-    navAbout: 'About',
-    navPrivacy: 'Privacy Policy',
-    locale: 'en-US',
+    statProducts: 'curated products', statCategories: 'categories', statUpdated: 'last updated',
+    emptyState: 'No products match your search. Try a different term.',
+    compatNote: 'Note: current product links lead to the US Amazon store, and many items are built for 120V mains and US plugs. Check voltage, plug shape and bulb base (E26 or E27) before buying.',
+    viewProduct: 'View product', checkPrice: 'Check price',
+    disclosure: 'Disclosure: this site participates in the Amazon Associates program and may earn a commission on purchases through our links at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.',
+    shareTitle: 'Share this site', shareMsg: 'Discover the best smart home devices', copyLink: 'Copy link', copied: 'Copied',
+    navGuides: 'Buying guides', navAbout: 'About', navPrivacy: 'Privacy Policy',
+    eyeComfort: 'Eye comfort mode', backToTop: 'Back to top', langLabel: 'Language',
+  },
+  fr: {
+    dir: 'ltr', locale: 'fr-FR', flag: '🇫🇷',
+    brandName: 'Smart Casa', pageTitle: 'Smart Casa — Meilleurs accessoires maison connectée',
+    all: 'Tout', searchPlaceholder: 'Rechercher un appareil...',
+    heroTitle: 'Une maison plus intelligente, en un clic',
+    heroSub: "Nous avons comparé les prix et les avis pour sélectionner les meilleurs appareils connectés, afin que vous gagniez du temps et achetiez en confiance.",
+    heroGuides: "Lire nos guides d'achat",
+    statProducts: 'produits sélectionnés', statCategories: 'catégories', statUpdated: 'dernière mise à jour',
+    emptyState: 'Aucun produit ne correspond à votre recherche. Essayez un autre terme.',
+    compatNote: "Remarque : les liens actuels renvoient vers Amazon US, et de nombreux articles sont conçus pour le secteur 120V et les prises américaines. Vérifiez la tension, la forme de la prise et le culot de l'ampoule (E26 ou E27) avant d'achat.",
+    viewProduct: 'Voir le produit', checkPrice: 'Voir le prix',
+    disclosure: "Divulgation : ce site participe au programme Amazon Associates et peut percevoir une commission sur les achats effectués via nos liens, sans coût supplémentaire pour vous. As an Amazon Associate I earn from qualifying purchases.",
+    shareTitle: 'Partager ce site', shareMsg: 'Découvrez les meilleurs appareils pour maison connectée', copyLink: 'Copier le lien', copied: 'Copié',
+    navGuides: "Guides d'achat", navAbout: 'À propos', navPrivacy: 'Confidentialité',
+    eyeComfort: 'Mode confort visuel', backToTop: 'Haut de page', langLabel: 'Langue',
+  },
+  es: {
+    dir: 'ltr', locale: 'es-ES', flag: '🇪🇸',
+    brandName: 'Smart Casa', pageTitle: 'Smart Casa — Los mejores accesorios para el hogar inteligente',
+    all: 'Todo', searchPlaceholder: 'Buscar un dispositivo...',
+    heroTitle: 'Un hogar más inteligente, a un paso',
+    heroSub: 'Comparamos precios y valoraciones para elegir los mejores dispositivos para el hogar inteligente, así ahorras tiempo y compras con confianza.',
+    heroGuides: 'Leer nuestras guías de compra',
+    statProducts: 'productos seleccionados', statCategories: 'categorías', statUpdated: 'última actualización',
+    emptyState: 'Ningún producto coincide con tu búsqueda. Prueba con otro término.',
+    compatNote: 'Nota: los enlaces actuales llevan a Amazon EE. UU., y muchos artículos están diseñados para 120V y enchufes estadounidenses. Verifica el voltaje, la forma del enchufe y el casquillo de la bombilla (E26 o E27) antes de comprar.',
+    viewProduct: 'Ver producto', checkPrice: 'Consultar precio',
+    disclosure: 'Divulgación: este sitio participa en el programa Amazon Associates y puede recibir una comisión por las compras realizadas a través de nuestros enlaces, sin coste adicional para ti. As an Amazon Associate I earn from qualifying purchases.',
+    shareTitle: 'Comparte este sitio', shareMsg: 'Descubre los mejores dispositivos para el hogar inteligente', copyLink: 'Copiar enlace', copied: 'Copiado',
+    navGuides: 'Guías de compra', navAbout: 'Acerca de', navPrivacy: 'Privacidad',
+    eyeComfort: 'Modo protección visual', backToTop: 'Volver arriba', langLabel: 'Idioma',
+  },
+  de: {
+    dir: 'ltr', locale: 'de-DE', flag: '🇩🇪',
+    brandName: 'Smart Casa', pageTitle: 'Smart Casa — Beste Smart-Home-Zubehörteile',
+    all: 'Alle', searchPlaceholder: 'Gerät suchen...',
+    heroTitle: 'Ein intelligenteres Zuhause, einen Schritt entfernt',
+    heroSub: 'Wir haben Preise und Bewertungen verglichen, um die besten Smart-Home-Geräte auszuwählen, damit Sie Zeit sparen und sicher kaufen.',
+    heroGuides: 'Unsere Kaufratgeber lesen',
+    statProducts: 'ausgewählte Produkte', statCategories: 'Kategorien', statUpdated: 'letzte Aktualisierung',
+    emptyState: 'Keine Produkte gefunden. Versuchen Sie einen anderen Suchbegriff.',
+    compatNote: 'Hinweis: Die aktuellen Links führen zum US-Amazon-Shop, viele Artikel sind für 120V-Netzspannung und US-Stecker ausgelegt. Prüfen Sie Spannung, Steckerform und Lampensockel (E26 oder E27) vor dem Kauf.',
+    viewProduct: 'Produkt ansehen', checkPrice: 'Preis prüfen',
+    disclosure: 'Offenlegung: Diese Website nimmt am Amazon-Partnerprogramm teil und erhält ggf. eine Provision für Käufe über unsere Links, ohne Mehrkosten für Sie. As an Amazon Associate I earn from qualifying purchases.',
+    shareTitle: 'Seite teilen', shareMsg: 'Entdecken Sie die besten Smart-Home-Geräte', copyLink: 'Link kopieren', copied: 'Kopiert',
+    navGuides: 'Kaufratgeber', navAbout: 'Über uns', navPrivacy: 'Datenschutz',
+    eyeComfort: 'Augenschonmodus', backToTop: 'Nach oben', langLabel: 'Sprache',
   },
 };
+
+const LANG_ORDER = ['ar', 'en', 'fr', 'es', 'de'];
 
 let ALL_PRODUCTS = [];
 let ALL_CATEGORIES = [];
@@ -60,9 +90,10 @@ let LANG = localStorage.getItem('site_lang') || 'ar';
 let LAST_UPDATED = null;
 
 function t(key) {
-  return (UI[LANG] && UI[LANG][key]) || (UI.ar[key] || key);
+  return (UI[LANG] && UI[LANG][key]) || (UI.en[key] || key);
 }
 
+/* ---------- اللغة ---------- */
 function applyLanguage() {
   document.getElementById('htmlRoot').setAttribute('lang', LANG);
   document.getElementById('htmlRoot').setAttribute('dir', UI[LANG].dir);
@@ -71,7 +102,7 @@ function applyLanguage() {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.dataset.i18n;
     if (key === 'copyright') {
-      el.innerHTML = (LANG === 'ar' ? '© ' : '© ') + '<span id="year"></span> ' + t('brandName');
+      el.innerHTML = '© <span id="year"></span> ' + t('brandName');
       document.getElementById('year').textContent = new Date().getFullYear();
     } else {
       el.textContent = t(key);
@@ -80,10 +111,12 @@ function applyLanguage() {
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
     el.placeholder = t(el.dataset.i18nPlaceholder);
   });
-
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.toggle('is-active', btn.dataset.lang === LANG);
+  document.querySelectorAll('[data-i18n-title]').forEach(el => {
+    el.title = t(el.dataset.i18nTitle);
   });
+
+  const select = document.getElementById('langSelect');
+  if (select) select.value = LANG;
 
   renderCategoryLabels();
   renderStats();
@@ -91,6 +124,85 @@ function applyLanguage() {
   updateShareLinks();
 }
 
+function buildLangSwitch() {
+  const box = document.getElementById('langSwitch');
+  if (!box) return;
+  const select = document.createElement('select');
+  select.id = 'langSelect';
+  select.className = 'lang-select';
+  select.setAttribute('aria-label', 'Language / اللغة');
+  LANG_ORDER.forEach(code => {
+    const opt = document.createElement('option');
+    opt.value = code;
+    opt.textContent = `${UI[code].flag} ${code.toUpperCase()}`;
+    select.appendChild(opt);
+  });
+  select.value = LANG;
+  select.addEventListener('change', () => {
+    LANG = select.value;
+    localStorage.setItem('site_lang', LANG);
+    applyLanguage();
+  });
+  box.appendChild(select);
+}
+
+/* ---------- حماية العين ---------- */
+function applyEyeComfort(on) {
+  document.documentElement.classList.toggle('eye-comfort', on);
+  const btn = document.getElementById('eyeComfortBtn');
+  if (btn) btn.classList.toggle('is-active', on);
+}
+
+function initEyeComfort() {
+  const btn = document.getElementById('eyeComfortBtn');
+  if (!btn) return;
+  let on = localStorage.getItem('eye_comfort') === '1';
+  applyEyeComfort(on);
+  btn.addEventListener('click', () => {
+    on = !on;
+    localStorage.setItem('eye_comfort', on ? '1' : '0');
+    applyEyeComfort(on);
+  });
+}
+
+/* ---------- حجم الخط ---------- */
+function applyFontScale(scale) {
+  document.documentElement.style.setProperty('--font-scale', scale);
+}
+
+function initFontControls() {
+  const dec = document.getElementById('fontDec');
+  const inc = document.getElementById('fontInc');
+  if (!dec || !inc) return;
+  let scale = parseFloat(localStorage.getItem('font_scale') || '1');
+  applyFontScale(scale);
+  const save = () => { localStorage.setItem('font_scale', scale); applyFontScale(scale); };
+  dec.addEventListener('click', () => { scale = Math.max(0.85, +(scale - 0.1).toFixed(2)); save(); });
+  inc.addEventListener('click', () => { scale = Math.min(1.4, +(scale + 0.1).toFixed(2)); save(); });
+}
+
+/* ---------- زر العودة للأعلى ---------- */
+function initBackToTop() {
+  const btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('is-visible', window.scrollY > 500);
+  });
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
+
+/* ---------- المشاركة ---------- */
+function updateShareLinks() {
+  const shareWa = document.getElementById('shareWa');
+  const shareFb = document.getElementById('shareFb');
+  if (!shareWa || !shareFb) return;
+  const url = location.origin + location.pathname;
+  const msg = encodeURIComponent(t('shareMsg') + ' ' + url);
+  shareWa.href = 'https://wa.me/?text=' + msg;
+  shareFb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+}
+
+/* ---------- المنتجات ---------- */
 async function loadProducts() {
   try {
     const res = await fetch('products.json?_=' + Date.now());
@@ -109,7 +221,8 @@ async function loadProducts() {
 
 function renderStats() {
   document.getElementById('statCount').textContent = ALL_PRODUCTS.length;
-  document.getElementById('statCatCount').textContent = ALL_CATEGORIES.length;
+  const catCountEl = document.getElementById('statCatCount');
+  if (catCountEl) catCountEl.textContent = ALL_CATEGORIES.length;
   if (LAST_UPDATED) {
     const d = new Date(LAST_UPDATED);
     document.getElementById('statUpdated').textContent =
@@ -124,7 +237,7 @@ function renderCategoryButtons() {
     const btn = document.createElement('button');
     btn.className = 'cat-btn';
     btn.dataset.cat = cat.id;
-    btn.textContent = cat.name[LANG] || cat.name.ar;
+    btn.textContent = cat.name[LANG] || cat.name.en;
     btn.addEventListener('click', () => setActiveCategory(cat.id));
     nav.appendChild(btn);
   });
@@ -134,7 +247,7 @@ function renderCategoryLabels() {
   document.querySelectorAll('.cat-btn').forEach(btn => {
     if (btn.dataset.cat === 'all') return;
     const cat = ALL_CATEGORIES.find(c => c.id === btn.dataset.cat);
-    if (cat) btn.textContent = cat.name[LANG] || cat.name.ar;
+    if (cat) btn.textContent = cat.name[LANG] || cat.name.en;
   });
 }
 
@@ -147,12 +260,13 @@ function setActiveCategory(catId) {
 }
 
 function localize(product) {
-  return product.i18n[LANG] || product.i18n.ar || product.i18n.en;
+  return product.i18n[LANG] || product.i18n.en || Object.values(product.i18n)[0];
 }
 
 function renderGrid() {
   const grid = document.getElementById('productGrid');
   const emptyState = document.getElementById('emptyState');
+  if (!grid) return;
   const query = document.getElementById('searchInput').value.trim().toLowerCase();
 
   const filtered = ALL_PRODUCTS.filter(p => {
@@ -197,35 +311,19 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-document.getElementById('searchInput').addEventListener('input', () => renderGrid());
-document.querySelector('[data-cat="all"]').addEventListener('click', () => setActiveCategory('all'));
-
-document.querySelectorAll('.lang-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    LANG = btn.dataset.lang;
-    localStorage.setItem('site_lang', LANG);
-    applyLanguage();
-  });
-});
-
-
-function updateShareLinks() {
-  const url = location.origin + location.pathname;
-  const msg = encodeURIComponent(t('shareMsg') + ' ' + url);
-  document.getElementById('shareWa').href = 'https://wa.me/?text=' + msg;
-  document.getElementById('shareFb').href =
-    'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
-}
-
-document.getElementById('copyLink').addEventListener('click', async (e) => {
+document.getElementById('searchInput')?.addEventListener('input', () => renderGrid());
+document.querySelector('[data-cat="all"]')?.addEventListener('click', () => setActiveCategory('all'));
+document.getElementById('copyLink')?.addEventListener('click', async (e) => {
   const btn = e.currentTarget;
   try {
     await navigator.clipboard.writeText(location.origin + location.pathname);
     btn.textContent = t('copied');
     setTimeout(() => { btn.textContent = t('copyLink'); }, 1500);
-  } catch (err) {
-    console.error(err);
-  }
+  } catch (err) { console.error(err); }
 });
 
+buildLangSwitch();
+initEyeComfort();
+initFontControls();
+initBackToTop();
 loadProducts();

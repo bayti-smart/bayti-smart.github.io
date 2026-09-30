@@ -157,3 +157,50 @@ a.brand{text-decoration:none;color:inherit}
 .updated{font-size:0.82rem}
 .guide{border-inline-start:4px solid var(--teal);padding-inline-start:18px;margin:32px 0}
 .guide h2{margin-top:0}
+
+/* ---- حجم خط قابل للتحكم ---- */
+:root{--font-scale:1}
+body{font-size:calc(1rem * var(--font-scale))}
+
+/* ---- مبدّل اللغة (قائمة منسدلة) ---- */
+.lang-select{
+  border:1px solid var(--line);background:var(--paper);
+  padding:8px 10px;font-family:inherit;font-size:0.85rem;font-weight:700;
+  color:var(--ink);border-radius:var(--radius);cursor:pointer;
+}
+
+/* ---- أزرار الأدوات (خط + حماية العين) ---- */
+.tool-switch{display:flex;gap:6px;flex-shrink:0}
+.tool-btn{
+  border:1px solid var(--line);background:var(--paper);
+  width:36px;height:36px;border-radius:var(--radius);
+  font-family:inherit;font-size:0.9rem;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  color:var(--ink-soft);transition:border-color .15s,color .15s;
+}
+.tool-btn:hover{border-color:var(--teal);color:var(--teal-deep)}
+.eye-btn.is-active{background:var(--teal);border-color:var(--teal);color:#fff}
+
+/* ---- وضع حماية العين (فلتر دافئ يقلل الضوء الأزرق) ---- */
+html.eye-comfort{
+  --paper:#F5ECD9; --paper-alt:#EDE1C7; --ink:#2B2318; --ink-soft:#5A503C;
+  --line:#DCCBA6; filter:saturate(0.92);
+}
+html.eye-comfort .site-header{background:var(--paper)}
+html.eye-comfort .hero{background:#2B2318}
+
+/* ---- زر العودة للأعلى ---- */
+.back-to-top{
+  position:fixed;inset-block-end:24px;inset-inline-end:24px;
+  width:46px;height:46px;border-radius:50%;
+  background:var(--teal);color:#fff;border:none;font-size:1.2rem;
+  cursor:pointer;opacity:0;pointer-events:none;transform:translateY(10px);
+  transition:opacity .2s, transform .2s;box-shadow:0 4px 12px rgba(0,0,0,.15);
+  z-index:30;
+}
+.back-to-top.is-visible{opacity:1;pointer-events:auto;transform:translateY(0)}
+.back-to-top:hover{background:var(--teal-deep)}
+
+@media (max-width:640px){
+  .lang-switch, .tool-switch{order:3}
+}

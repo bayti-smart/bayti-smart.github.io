@@ -1,32 +1,51 @@
 {
-  "updated_at": "2026-09-30T03:19:00.682095+00:00",
+  "updated_at": "2026-09-30T18:46:30.017776+00:00",
+  "languages": [
+    "ar",
+    "en",
+    "fr",
+    "es",
+    "de"
+  ],
   "categories": [
     {
       "id": "lighting",
       "name": {
         "ar": "إضاءة ذكية",
-        "en": "Smart Lighting"
+        "en": "Smart Lighting",
+        "fr": "Éclairage intelligent",
+        "es": "Iluminación inteligente",
+        "de": "Intelligente Beleuchtung"
       }
     },
     {
       "id": "security",
       "name": {
         "ar": "أمان ومراقبة",
-        "en": "Security"
+        "en": "Security",
+        "fr": "Sécurité",
+        "es": "Seguridad",
+        "de": "Sicherheit"
       }
     },
     {
       "id": "power",
       "name": {
         "ar": "مقابس وطاقة",
-        "en": "Smart Plugs"
+        "en": "Smart Plugs",
+        "fr": "Prises connectées",
+        "es": "Enchufes inteligentes",
+        "de": "Smarte Steckdosen"
       }
     },
     {
       "id": "audio",
       "name": {
         "ar": "صوتيات",
-        "en": "Audio"
+        "en": "Audio",
+        "fr": "Audio",
+        "es": "Audio",
+        "de": "Audio"
       }
     }
   ],
@@ -43,14 +62,44 @@
       "network": "amazon",
       "i18n": {
         "ar": {
-          "title": "مصابيح Kasa ذكية ملونة (4 قطع) KL125P4",
-          "description": "مصابيح Wi-Fi متعددة الألوان بدون حاجة لهاب، تعمل مع Alexa وGoogle Home ويمكن جدولتها من التطبيق",
-          "tags": []
+          "title": "لمبة LED ذكية متعددة الألوان مع تحكم بالتطبيق",
+          "description": "لمبة ذكية تتحكم بها عبر التطبيق أو الأوامر الصوتية تدعم 16 مليون لون وجدولة تلقائية",
+          "tags": [
+            "أكثر مبيعًا",
+            "توفير طاقة"
+          ]
         },
         "en": {
-          "title": "Kasa Smart Multicolor Bulbs 4-Pack (KL125P4)",
-          "description": "Multicolor Wi-Fi bulbs with no hub required. Works with Alexa and Google Home and can be scheduled from the app",
-          "tags": []
+          "title": "Smart Multicolor LED Bulb with App Control",
+          "description": "App or voice-controlled smart bulb supporting 16 million colors and automatic scheduling",
+          "tags": [
+            "Best Seller",
+            "Energy Saving"
+          ]
+        },
+        "fr": {
+          "title": "Ampoule LED intelligente multicolore avec contrôle par application",
+          "description": "Ampoule connectée pilotable par application ou commande vocale, 16 millions de couleurs et programmation automatique",
+          "tags": [
+            "Best-seller",
+            "Économie d'énergie"
+          ]
+        },
+        "es": {
+          "title": "Bombilla LED inteligente multicolor con control por app",
+          "description": "Bombilla inteligente controlable por app o por voz, con 16 millones de colores y programación automática",
+          "tags": [
+            "Más vendido",
+            "Ahorro de energía"
+          ]
+        },
+        "de": {
+          "title": "Intelligente Multicolor-LED-Lampe mit App-Steuerung",
+          "description": "Per App oder Sprachbefehl steuerbare Lampe mit 16 Millionen Farben und automatischer Zeitplanung",
+          "tags": [
+            "Bestseller",
+            "Energiesparend"
+          ]
         }
       }
     },
@@ -66,13 +115,28 @@
       "network": "amazon",
       "i18n": {
         "ar": {
-          "title": "مصابيح Kasa ذكية عالية السطوع (4 قطع) KL135",
+          "title": "مصابيح Kasa ذكية عالية السطوع (4 قطع)",
           "description": "مصابيح ذكية بإضاءة 1000 لومن و16 مليون لون وبيضاء من الدافئ إلى البارد",
           "tags": []
         },
         "en": {
-          "title": "Kasa Smart Bulbs 1000 Lumens 4-Pack (KL135)",
+          "title": "Kasa Smart Bulbs 1000 Lumens 4-Pack",
           "description": "Brighter 1000-lumen smart bulbs with 16 million colors and tunable whites from warm to cool",
+          "tags": []
+        },
+        "fr": {
+          "title": "Ampoules intelligentes Kasa 1000 lumens (lot de 4)",
+          "description": "Ampoules connectées plus lumineuses (1000 lumens), 16 millions de couleurs et blancs réglables du chaud au froid",
+          "tags": []
+        },
+        "es": {
+          "title": "Bombillas inteligentes Kasa de 1000 lúmenes (paquete de 4)",
+          "description": "Bombillas más brillantes de 1000 lúmenes con 16 millones de colores y blancos ajustables de cálido a frío",
+          "tags": []
+        },
+        "de": {
+          "title": "Kasa Smart-Lampen 1000 Lumen (4er-Pack)",
+          "description": "Hellere 1000-Lumen-Lampen mit 16 Millionen Farben und einstellbarem Weißton von warm bis kalt",
           "tags": []
         }
       }
@@ -91,12 +155,37 @@
         "ar": {
           "title": "كاميرا Tapo C200 داخلية بدوران وإمالة 1080p",
           "description": "كاميرا داخلية بدقة 1080p تدور 360 درجة مع رؤية ليلية وصوت ثنائي الاتجاه وتخزين على بطاقة microSD",
-          "tags": []
+          "tags": [
+            "الأعلى تقييمًا"
+          ]
         },
         "en": {
           "title": "Tapo C200 Pan/Tilt 1080p Indoor Camera",
-          "description": "Indoor 1080p camera with 360° pan and 114° tilt. Night vision two-way audio and microSD local storage",
-          "tags": []
+          "description": "Indoor 1080p camera with 360° pan and 114° tilt, night vision, two-way audio and microSD local storage",
+          "tags": [
+            "Top Rated"
+          ]
+        },
+        "fr": {
+          "title": "Caméra intérieure Tapo C200 orientable 1080p",
+          "description": "Caméra intérieure 1080p avec rotation à 360°, vision nocturne, audio bidirectionnel et stockage local sur carte microSD",
+          "tags": [
+            "Meilleure note"
+          ]
+        },
+        "es": {
+          "title": "Cámara interior Tapo C200 con giro e inclinación 1080p",
+          "description": "Cámara interior 1080p con giro de 360°, visión nocturna, audio bidireccional y almacenamiento local en tarjeta microSD",
+          "tags": [
+            "Mejor valorada"
+          ]
+        },
+        "de": {
+          "title": "Tapo C200 Innenkamera mit Schwenk-/Neigefunktion 1080p",
+          "description": "1080p-Innenkamera mit 360°-Schwenkbereich, Nachtsicht, Zwei-Wege-Audio und lokalem microSD-Speicher",
+          "tags": [
+            "Top bewertet"
+          ]
         }
       }
     },
@@ -114,12 +203,37 @@
         "ar": {
           "title": "كاميرا Tapo C210 بدقة 2K بدوران وإمالة",
           "description": "كاميرا 2K بدوران وإمالة مع رؤية ليلية وصوت ثنائي الاتجاه وصفارة إنذار وتخزين محلي",
-          "tags": []
+          "tags": [
+            "جديد"
+          ]
         },
         "en": {
           "title": "Tapo C210 2K Pan/Tilt Security Camera",
-          "description": "2K pan/tilt camera with night vision two-way audio a siren and local storage",
-          "tags": []
+          "description": "2K pan/tilt camera with night vision, two-way audio, a siren and local storage",
+          "tags": [
+            "New"
+          ]
+        },
+        "fr": {
+          "title": "Caméra de sécurité Tapo C210 2K orientable",
+          "description": "Caméra orientable 2K avec vision nocturne, audio bidirectionnel, sirène et stockage local",
+          "tags": [
+            "Nouveau"
+          ]
+        },
+        "es": {
+          "title": "Cámara de seguridad Tapo C210 2K con giro e inclinación",
+          "description": "Cámara 2K con giro e inclinación, visión nocturna, audio bidireccional, sirena y almacenamiento local",
+          "tags": [
+            "Nuevo"
+          ]
+        },
+        "de": {
+          "title": "Tapo C210 2K-Sicherheitskamera mit Schwenk-/Neigefunktion",
+          "description": "2K-Kamera mit Schwenk-/Neigefunktion, Nachtsicht, Zwei-Wege-Audio, Sirene und lokalem Speicher",
+          "tags": [
+            "Neu"
+          ]
         }
       }
     },
@@ -135,13 +249,28 @@
       "network": "amazon",
       "i18n": {
         "ar": {
-          "title": "مقابس Kasa ذكية صغيرة Wi-Fi (4 قطع) EP10P4",
+          "title": "مقابس Kasa ذكية صغيرة Wi-Fi (4 قطع)",
           "description": "مقابس ذكية بدون هاب تعمل مع Alexa وGoogle Assistant وSmartThings مع جدولة ومؤقتات",
           "tags": []
         },
         "en": {
-          "title": "Kasa Smart Wi-Fi Plug Mini 4-Pack (EP10P4)",
-          "description": "No-hub smart plugs that work with Alexa Google Assistant and SmartThings with schedules and timers",
+          "title": "Kasa Smart Wi-Fi Plug Mini 4-Pack",
+          "description": "No-hub smart plugs that work with Alexa, Google Assistant and SmartThings with schedules and timers",
+          "tags": []
+        },
+        "fr": {
+          "title": "Mini prises Wi-Fi intelligentes Kasa (lot de 4)",
+          "description": "Prises connectées sans passerelle, compatibles Alexa, Google Assistant et SmartThings, avec programmation et minuteries",
+          "tags": []
+        },
+        "es": {
+          "title": "Mini enchufes Wi-Fi inteligentes Kasa (paquete de 4)",
+          "description": "Enchufes inteligentes sin hub compatibles con Alexa, Google Assistant y SmartThings, con horarios y temporizadores",
+          "tags": []
+        },
+        "de": {
+          "title": "Kasa Smart-WLAN-Stecker Mini (4er-Pack)",
+          "description": "Hub-freie Smart-Stecker, kompatibel mit Alexa, Google Assistant und SmartThings, mit Zeitplänen und Timern",
           "tags": []
         }
       }
@@ -165,6 +294,21 @@
         "en": {
           "title": "Amazon Echo Dot (5th Gen) Smart Speaker",
           "description": "Alexa smart speaker with improved audio plus motion and temperature sensors for smart home control",
+          "tags": []
+        },
+        "fr": {
+          "title": "Enceinte Amazon Echo Dot (5e génération) avec Alexa",
+          "description": "Enceinte intelligente Alexa au son amélioré, avec capteurs de mouvement et de température pour la domotique",
+          "tags": []
+        },
+        "es": {
+          "title": "Altavoz Amazon Echo Dot (5.ª generación) con Alexa",
+          "description": "Altavoz inteligente Alexa con audio mejorado y sensores de movimiento y temperatura para el control del hogar",
+          "tags": []
+        },
+        "de": {
+          "title": "Amazon Echo Dot (5. Generation) Smart Speaker",
+          "description": "Alexa-Lautsprecher mit verbessertem Klang sowie Bewegungs- und Temperatursensoren für die Smart-Home-Steuerung",
           "tags": []
         }
       }

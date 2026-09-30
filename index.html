@@ -31,9 +31,11 @@
       <div class="search-box">
         <input type="text" id="searchInput" data-i18n-placeholder="searchPlaceholder" placeholder="ابحث عن جهاز...">
       </div>
-      <div class="lang-switch" id="langSwitch">
-        <button class="lang-btn" data-lang="ar">AR</button>
-        <button class="lang-btn" data-lang="en">EN</button>
+      <div class="lang-switch" id="langSwitch" title="Language / اللغة"></div>
+      <div class="tool-switch">
+        <button class="tool-btn" id="fontDec" type="button" aria-label="A-">A−</button>
+        <button class="tool-btn" id="fontInc" type="button" aria-label="A+">A+</button>
+        <button class="tool-btn eye-btn" id="eyeComfortBtn" type="button" data-i18n-title="eyeComfort" title="Eye comfort mode">👁️</button>
       </div>
     </div>
   </div>
@@ -78,6 +80,8 @@
     <p class="copyright"><span data-i18n="copyright">© <span id="year"></span> بيتي الذكي</span></p>
   </div>
 </footer>
+
+<button class="back-to-top" id="backToTop" type="button" data-i18n-title="backToTop" title="Back to top" aria-label="Back to top">↑</button>
 
 <script src="script.js"></script>
 </body>
