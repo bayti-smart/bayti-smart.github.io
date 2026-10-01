@@ -14,6 +14,8 @@ const UI = {
     shareTitle: 'شارك الموقع', shareMsg: 'اكتشف أفضل أجهزة المنزل الذكي', copyLink: 'نسخ الرابط', copied: 'تم النسخ',
     navGuides: 'أدلة الشراء', navAbout: 'من نحن', navPrivacy: 'سياسة الخصوصية',
     eyeComfort: 'وضع حماية العين', backToTop: 'العودة للأعلى', langLabel: 'اللغة',
+    comingSoonTitle: 'المنتجات قادمة قريبًا',
+    comingSoonBody: 'نراجع حاليًا منتجات حقيقية بروابط موثوقة لنضيفها هنا. تابعنا قريبًا.',
   },
   en: {
     dir: 'ltr', locale: 'en-US', flag: '🇺🇸',
@@ -30,6 +32,8 @@ const UI = {
     shareTitle: 'Share this site', shareMsg: 'Discover the best smart home devices', copyLink: 'Copy link', copied: 'Copied',
     navGuides: 'Buying guides', navAbout: 'About', navPrivacy: 'Privacy Policy',
     eyeComfort: 'Eye comfort mode', backToTop: 'Back to top', langLabel: 'Language',
+    comingSoonTitle: 'Products coming soon',
+    comingSoonBody: "We're currently vetting real products with trustworthy links to add here. Check back soon.",
   },
   fr: {
     dir: 'ltr', locale: 'fr-FR', flag: '🇫🇷',
@@ -46,6 +50,8 @@ const UI = {
     shareTitle: 'Partager ce site', shareMsg: 'Découvrez les meilleurs appareils pour maison connectée', copyLink: 'Copier le lien', copied: 'Copié',
     navGuides: "Guides d'achat", navAbout: 'À propos', navPrivacy: 'Confidentialité',
     eyeComfort: 'Mode confort visuel', backToTop: 'Haut de page', langLabel: 'Langue',
+    comingSoonTitle: 'Produits bientôt disponibles',
+    comingSoonBody: 'Nous sélectionnons actuellement des produits fiables avec des liens vérifiés. Revenez bientôt.',
   },
   es: {
     dir: 'ltr', locale: 'es-ES', flag: '🇪🇸',
@@ -62,6 +68,8 @@ const UI = {
     shareTitle: 'Comparte este sitio', shareMsg: 'Descubre los mejores dispositivos para el hogar inteligente', copyLink: 'Copiar enlace', copied: 'Copiado',
     navGuides: 'Guías de compra', navAbout: 'Acerca de', navPrivacy: 'Privacidad',
     eyeComfort: 'Modo protección visual', backToTop: 'Volver arriba', langLabel: 'Idioma',
+    comingSoonTitle: 'Productos próximamente',
+    comingSoonBody: 'Estamos verificando productos reales con enlaces fiables para añadirlos aquí. Vuelve pronto.',
   },
   de: {
     dir: 'ltr', locale: 'de-DE', flag: '🇩🇪',
@@ -78,6 +86,8 @@ const UI = {
     shareTitle: 'Seite teilen', shareMsg: 'Entdecken Sie die besten Smart-Home-Geräte', copyLink: 'Link kopieren', copied: 'Kopiert',
     navGuides: 'Kaufratgeber', navAbout: 'Über uns', navPrivacy: 'Datenschutz',
     eyeComfort: 'Augenschonmodus', backToTop: 'Nach oben', langLabel: 'Sprache',
+    comingSoonTitle: 'Produkte folgen in Kürze',
+    comingSoonBody: 'Wir prüfen aktuell echte Produkte mit vertrauenswürdigen Links. Schauen Sie bald wieder vorbei.',
   },
 };
 
@@ -266,7 +276,27 @@ function localize(product) {
 function renderGrid() {
   const grid = document.getElementById('productGrid');
   const emptyState = document.getElementById('emptyState');
+  const comingSoon = document.getElementById('comingSoon');
   if (!grid) return;
+
+  if (ALL_PRODUCTS.length === 0) {
+    grid.innerHTML = '';
+    emptyState.hidden = true;
+    if (comingSoon) {
+      comingSoon.hidden = false;
+      comingSoon.querySelector('.cs-title').textContent = t('comingSoonTitle');
+      comingSoon.querySelector('.cs-body').textContent = t('comingSoonBody');
+    }
+    return;
+  }
+  if (comingSoon) comingSoon.hidden = true;
+
+  const compatNote = document.getElementById('compatNoteBox');
+  if (compatNote) {
+    const hasAmazon = ALL_PRODUCTS.some(p => p.network === 'amazon');
+    compatNote.hidden = !hasAmazon;
+  }
+
   const query = document.getElementById('searchInput').value.trim().toLowerCase();
 
   const filtered = ALL_PRODUCTS.filter(p => {

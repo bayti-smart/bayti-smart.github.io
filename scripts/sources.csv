@@ -1,7 +1,1 @@
 id,category,price,currency,rating,reviews_count,image,affiliate_url,network
-p001,lighting,,USD,,,,https://www.amazon.com/dp/B08TB8Z5HF,amazon
-p002,lighting,,USD,,,,https://www.amazon.com/dp/B0BQCSC19C,amazon
-p003,security,,USD,,,,https://www.amazon.com/dp/B0829KDY9X,amazon
-p004,security,,USD,,,,https://www.amazon.com/dp/B09Y8TLP25,amazon
-p005,power,,USD,,,,https://www.amazon.com/dp/B091FXLMS8,amazon
-p006,audio,,USD,,,,https://www.amazon.com/dp/B09B8V1LZ3,amazon

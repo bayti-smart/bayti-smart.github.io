@@ -65,7 +65,11 @@ def resolve_image(raw_value, category):
 
 
 def build_affiliate_url(url, network):
-    """يضيف معرّف الأفيليت الخاص بك تلقائيًا لروابط Amazon."""
+    """
+    Amazon: يضيف معرّف الأفيليت تلقائيًا لرابط /dp/XXXXXXXXXX.
+    AliExpress: الرابط المولَّد من Link Generator في حسابك يحمل
+    معرّف التتبع بداخله مسبقًا، فيُستخدم كما هو بدون أي تعديل.
+    """
     tag = (CONFIG.get("amazon_tag") or "").strip()
     if network == "amazon" and tag:
         import re
@@ -129,8 +133,7 @@ def main():
         sys.exit(0)
 
     if not products:
-        print("ملف sources.csv فارغ — لا يوجد منتجات لكتابتها.")
-        sys.exit(1)
+        print("لا توجد منتجات حاليًا — سيُكتب ملف فارغ (حالة قادم قريبًا).")
 
     data = {
         "updated_at": datetime.now(timezone.utc).isoformat(),

@@ -204,3 +204,12 @@ html.eye-comfort .hero{background:#2B2318}
 @media (max-width:640px){
   .lang-switch, .tool-switch{order:3}
 }
+
+/* ---- حالة قادم قريبًا ---- */
+.coming-soon{
+  text-align:center;padding:64px 24px;border:1px dashed var(--line);
+  background:var(--paper-alt);margin-bottom:24px;
+}
+.coming-soon .cs-icon{font-size:2.2rem;margin-bottom:12px}
+.coming-soon .cs-title{font-size:1.2rem;font-weight:800;margin-bottom:6px}
+.coming-soon .cs-body{color:var(--ink-soft);max-width:48ch;margin:0 auto}
