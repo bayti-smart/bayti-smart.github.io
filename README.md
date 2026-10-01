@@ -16,7 +16,7 @@
    git add .
    git commit -m "أول نسخة من الموقع"
    git branch -M main
-   git remote add origin https://github.com/USERNAME/smart-home-affiliate.git
+   git remote add origin https://github.com/USERNAME/USERNAME.github.io.git
    git push -u origin main
    ```
 
@@ -24,7 +24,7 @@
 1. من المستودع: **Settings → Pages**
 2. تحت "Build and deployment" اختر **Source: GitHub Actions**
 3. بعد أول تشغيل لـ Workflow (خطوة تالية)، سيظهر رابط موقعك مثل:
-   `https://USERNAME.github.io/smart-home-affiliate/`
+   `https://USERNAME.github.io/`
 
 ## الخطوة 4 — تشغيل الأتمتة لأول مرة
 من تبويب **Actions** في المستودع، افتح workflow باسم
