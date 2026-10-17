@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T03:26:20.525419+00:00",
+  "updated_at": "2026-10-17T08:08:28.013659+00:00",
   "languages": [
     "ar",
     "en",
@@ -7,6 +7,81 @@
     "es",
     "de"
   ],
-  "categories": [],
-  "products": []
+  "categories": [
+    {
+      "id": "lighting",
+      "name": {
+        "ar": "إضاءة ذكية",
+        "en": "Smart Lighting",
+        "fr": "Éclairage intelligent",
+        "es": "Iluminación inteligente",
+        "de": "Intelligente Beleuchtung"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "tuya-smart-bulb-rgb",
+      "category": "lighting",
+      "price": 7.96,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviews_count": 2963,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8f8df5295ad5410eb0682ba0613e79f3B.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/e/_c3mgWs9f",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مصباح LED ذكي Tuya بألوان RGB (Wi-Fi / بلوتوث / Zigbee)",
+          "description": "مصباح قابل للتعتيم بألوان RGB ودرجات إضاءة من 2700 إلى 6500 كلفن، ويعمل مع Alexa وGoogle Home وتطبيق Tuya Smart Life. متوفر بقواعد E27 وE14 وGU10.",
+          "tags": [
+            "Wi-Fi",
+            "RGB",
+            "Alexa",
+            "Google Home"
+          ]
+        },
+        "en": {
+          "title": "Tuya Smart LED Bulb, RGB Dimmable (Wi-Fi / Bluetooth / Zigbee)",
+          "description": "Dimmable RGB bulb with 2700–6500K white range, compatible with Alexa, Google Home and the Tuya Smart Life app. Available in E27, E14 and GU10 bases.",
+          "tags": [
+            "Wi-Fi",
+            "RGB",
+            "Alexa",
+            "Google Home"
+          ]
+        },
+        "fr": {
+          "title": "Ampoule LED connectée Tuya RGB variable (Wi-Fi / Bluetooth / Zigbee)",
+          "description": "Ampoule RGB à intensité variable, blancs de 2700 à 6500 K, compatible avec Alexa, Google Home et l'application Tuya Smart Life. Culots E27, E14 et GU10 disponibles.",
+          "tags": [
+            "Wi-Fi",
+            "RVB",
+            "Alexa",
+            "Google Home"
+          ]
+        },
+        "es": {
+          "title": "Bombilla LED inteligente Tuya RGB regulable (Wi-Fi / Bluetooth / Zigbee)",
+          "description": "Bombilla RGB regulable con blancos de 2700 a 6500 K, compatible con Alexa, Google Home y la app Tuya Smart Life. Disponible con casquillos E27, E14 y GU10.",
+          "tags": [
+            "Wi-Fi",
+            "RGB",
+            "Alexa",
+            "Google Home"
+          ]
+        },
+        "de": {
+          "title": "Tuya Smart LED-Lampe RGB dimmbar (WLAN / Bluetooth / Zigbee)",
+          "description": "Dimmbare RGB-Lampe mit Weißtönen von 2700 bis 6500 K, kompatibel mit Alexa, Google Home und der Tuya-Smart-Life-App. Erhältlich mit E27-, E14- und GU10-Sockel.",
+          "tags": [
+            "WLAN",
+            "RGB",
+            "Alexa",
+            "Google Home"
+          ]
+        }
+      }
+    }
+  ]
 }
