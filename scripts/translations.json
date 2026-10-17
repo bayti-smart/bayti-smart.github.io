@@ -81,6 +81,58 @@
           "Google Home"
         ]
       }
+    },
+    "sherway-2k-security-camera": {
+      "ar": {
+        "title": "كاميرا مراقبة Sherway لاسلكية 2K / 5MP بمغناطيس وبطارية (Wi-Fi)",
+        "description": "كاميرا Wi-Fi بدقة 2K Quad HD (5 ميغابكسل) تعمل بالبطارية وتُثبَّت بمغناطيس، للاستخدام داخل المنزل أو خارجه، مع كشف حركة بالذكاء الاصطناعي وتطبيق VicHome.",
+        "tags": [
+          "2K",
+          "Wi-Fi",
+          "بطارية",
+          "كشف الحركة"
+        ]
+      },
+      "en": {
+        "title": "Sherway 2K 5MP Wireless Magnetic Battery Security Camera (Wi-Fi)",
+        "description": "Wi-Fi camera with 2K Quad HD (5MP) video, battery powered and magnetic mount for indoor or outdoor use, with AI motion detection and the VicHome app.",
+        "tags": [
+          "2K",
+          "Wi-Fi",
+          "Battery",
+          "Motion detection"
+        ]
+      },
+      "fr": {
+        "title": "Caméra de surveillance Sherway 2K 5MP sans fil, magnétique, sur batterie (Wi-Fi)",
+        "description": "Caméra Wi-Fi 2K Quad HD (5 Mpx) sur batterie avec fixation magnétique, pour l'intérieur ou l'extérieur, avec détection de mouvement par IA et application VicHome.",
+        "tags": [
+          "2K",
+          "Wi-Fi",
+          "Batterie",
+          "Détection de mouvement"
+        ]
+      },
+      "es": {
+        "title": "Cámara de seguridad Sherway 2K 5MP inalámbrica, magnética, con batería (Wi-Fi)",
+        "description": "Cámara Wi-Fi 2K Quad HD (5 MP) con batería y soporte magnético, para interior o exterior, con detección de movimiento por IA y la app VicHome.",
+        "tags": [
+          "2K",
+          "Wi-Fi",
+          "Batería",
+          "Detección de movimiento"
+        ]
+      },
+      "de": {
+        "title": "Sherway 2K 5MP Überwachungskamera kabellos, magnetisch, mit Akku (WLAN)",
+        "description": "WLAN-Kamera mit 2K Quad HD (5 MP), Akkubetrieb und Magnethalterung für Innen und Außen, mit KI-Bewegungserkennung und der VicHome-App.",
+        "tags": [
+          "2K",
+          "WLAN",
+          "Akku",
+          "Bewegungserkennung"
+        ]
+      }
     }
   }
 }
