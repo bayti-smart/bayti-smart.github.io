@@ -133,6 +133,58 @@
           "Bewegungserkennung"
         ]
       }
+    },
+    "tuya-eu-smart-plug-power-monitor": {
+      "ar": {
+        "title": "مقبس Tuya ذكي بفيشة أوروبية 16A/20A مع مراقبة الاستهلاك (Wi-Fi)",
+        "description": "مقبس Wi-Fi بفيشة أوروبية (EU) وجهد 110-250 فولت، يتحكم بالأجهزة عن بُعد ويراقب استهلاك الطاقة عبر تطبيق Smart Life، ويعمل مع Alexa وGoogle Assistant.",
+        "tags": [
+          "فيشة أوروبية",
+          "Wi-Fi",
+          "مراقبة الطاقة",
+          "Alexa"
+        ]
+      },
+      "en": {
+        "title": "Tuya Smart Plug, EU 16A/20A with Power Monitoring (Wi-Fi)",
+        "description": "Wi-Fi smart plug with EU socket and 110-250V rating. Control devices remotely and track energy use in the Smart Life app. Works with Alexa and Google Assistant.",
+        "tags": [
+          "EU plug",
+          "Wi-Fi",
+          "Power monitor",
+          "Alexa"
+        ]
+      },
+      "fr": {
+        "title": "Prise connectée Tuya EU 16A/20A avec suivi de consommation (Wi-Fi)",
+        "description": "Prise Wi-Fi au standard européen (EU), 110-250 V. Pilotez vos appareils à distance et suivez la consommation via l'application Smart Life. Compatible Alexa et Google Assistant.",
+        "tags": [
+          "Prise EU",
+          "Wi-Fi",
+          "Suivi énergie",
+          "Alexa"
+        ]
+      },
+      "es": {
+        "title": "Enchufe inteligente Tuya EU 16A/20A con monitor de consumo (Wi-Fi)",
+        "description": "Enchufe Wi-Fi con toma europea (EU) y 110-250 V. Controla dispositivos a distancia y mide el consumo desde la app Smart Life. Compatible con Alexa y Google Assistant.",
+        "tags": [
+          "Enchufe EU",
+          "Wi-Fi",
+          "Medidor de energía",
+          "Alexa"
+        ]
+      },
+      "de": {
+        "title": "Tuya Smart-Steckdose EU 16A/20A mit Verbrauchsmessung (WLAN)",
+        "description": "WLAN-Steckdose mit EU-Stecker (Schuko), 110-250 V. Geräte aus der Ferne steuern und den Stromverbrauch in der Smart-Life-App verfolgen. Kompatibel mit Alexa und Google Assistant.",
+        "tags": [
+          "EU-Stecker",
+          "WLAN",
+          "Verbrauchsmessung",
+          "Alexa"
+        ]
+      }
     }
   }
 }
