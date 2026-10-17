@@ -185,6 +185,58 @@
           "Alexa"
         ]
       }
+    },
+    "tuya-zigbee-door-window-sensor": {
+      "ar": {
+        "title": "حساس باب ونافذة Tuya Zigbee مع إنذار",
+        "description": "حساس مغناطيسي يرسل تنبيهًا فوريًا عند فتح الباب أو النافذة أو إغلاقهما، ويعمل مع Smart Life وAlexa وGoogle Assistant. تنبيه: نسخة Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة.",
+        "tags": [
+          "Zigbee",
+          "يحتاج بوابة",
+          "إنذار",
+          "Alexa"
+        ]
+      },
+      "en": {
+        "title": "Tuya Zigbee Door & Window Sensor with Alarm",
+        "description": "Magnetic contact sensor that sends instant alerts when a door or window opens or closes. Works with Smart Life, Alexa and Google Assistant. Note: this Zigbee version requires a Zigbee hub, sold separately.",
+        "tags": [
+          "Zigbee",
+          "Hub required",
+          "Alarm",
+          "Alexa"
+        ]
+      },
+      "fr": {
+        "title": "Capteur d'ouverture porte/fenêtre Tuya Zigbee avec alarme",
+        "description": "Capteur magnétique qui envoie une alerte instantanée à l'ouverture ou à la fermeture d'une porte ou fenêtre. Compatible Smart Life, Alexa et Google Assistant. À noter : la version Zigbee nécessite une passerelle Zigbee, vendue séparément.",
+        "tags": [
+          "Zigbee",
+          "Passerelle requise",
+          "Alarme",
+          "Alexa"
+        ]
+      },
+      "es": {
+        "title": "Sensor de puerta y ventana Tuya Zigbee con alarma",
+        "description": "Sensor magnético que envía una alerta inmediata cuando se abre o se cierra una puerta o ventana. Compatible con Smart Life, Alexa y Google Assistant. Importante: la versión Zigbee requiere un hub Zigbee, que se vende por separado.",
+        "tags": [
+          "Zigbee",
+          "Requiere hub",
+          "Alarma",
+          "Alexa"
+        ]
+      },
+      "de": {
+        "title": "Tuya Zigbee Tür-/Fenstersensor mit Alarm",
+        "description": "Magnetsensor, der sofort meldet, wenn eine Tür oder ein Fenster geöffnet oder geschlossen wird. Kompatibel mit Smart Life, Alexa und Google Assistant. Hinweis: Die Zigbee-Version benötigt ein Zigbee-Gateway, das separat erhältlich ist.",
+        "tags": [
+          "Zigbee",
+          "Gateway nötig",
+          "Alarm",
+          "Alexa"
+        ]
+      }
     }
   }
 }

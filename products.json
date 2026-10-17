@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T20:14:16.772137+00:00",
+  "updated_at": "2026-10-17T21:33:31.457498+00:00",
   "languages": [
     "ar",
     "en",
@@ -224,6 +224,69 @@
             "EU-Stecker",
             "WLAN",
             "Verbrauchsmessung",
+            "Alexa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-zigbee-door-window-sensor",
+      "category": "security",
+      "price": 7.47,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews_count": 337,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S314dc690e4214482923100c2a7149657N.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/e/_c2R0oxNB",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس باب ونافذة Tuya Zigbee مع إنذار",
+          "description": "حساس مغناطيسي يرسل تنبيهًا فوريًا عند فتح الباب أو النافذة أو إغلاقهما، ويعمل مع Smart Life وAlexa وGoogle Assistant. تنبيه: نسخة Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة.",
+          "tags": [
+            "Zigbee",
+            "يحتاج بوابة",
+            "إنذار",
+            "Alexa"
+          ]
+        },
+        "en": {
+          "title": "Tuya Zigbee Door & Window Sensor with Alarm",
+          "description": "Magnetic contact sensor that sends instant alerts when a door or window opens or closes. Works with Smart Life, Alexa and Google Assistant. Note: this Zigbee version requires a Zigbee hub, sold separately.",
+          "tags": [
+            "Zigbee",
+            "Hub required",
+            "Alarm",
+            "Alexa"
+          ]
+        },
+        "fr": {
+          "title": "Capteur d'ouverture porte/fenêtre Tuya Zigbee avec alarme",
+          "description": "Capteur magnétique qui envoie une alerte instantanée à l'ouverture ou à la fermeture d'une porte ou fenêtre. Compatible Smart Life, Alexa et Google Assistant. À noter : la version Zigbee nécessite une passerelle Zigbee, vendue séparément.",
+          "tags": [
+            "Zigbee",
+            "Passerelle requise",
+            "Alarme",
+            "Alexa"
+          ]
+        },
+        "es": {
+          "title": "Sensor de puerta y ventana Tuya Zigbee con alarma",
+          "description": "Sensor magnético que envía una alerta inmediata cuando se abre o se cierra una puerta o ventana. Compatible con Smart Life, Alexa y Google Assistant. Importante: la versión Zigbee requiere un hub Zigbee, que se vende por separado.",
+          "tags": [
+            "Zigbee",
+            "Requiere hub",
+            "Alarma",
+            "Alexa"
+          ]
+        },
+        "de": {
+          "title": "Tuya Zigbee Tür-/Fenstersensor mit Alarm",
+          "description": "Magnetsensor, der sofort meldet, wenn eine Tür oder ein Fenster geöffnet oder geschlossen wird. Kompatibel mit Smart Life, Alexa und Google Assistant. Hinweis: Die Zigbee-Version benötigt ein Zigbee-Gateway, das separat erhältlich ist.",
+          "tags": [
+            "Zigbee",
+            "Gateway nötig",
+            "Alarm",
             "Alexa"
           ]
         }
