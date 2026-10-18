@@ -296,6 +296,58 @@
           "TV"
         ]
       }
+    },
+    "rgb-led-strip-music-sync-app": {
+      "ar": {
+        "title": "شريط إضاءة LED بألوان RGB مع مزامنة الموسيقى وتحكم بالتطبيق",
+        "description": "شريط LED مرن بألوان RGB للغرف وخلفية التلفاز والديكور، يُتحكم به بالتطبيق وبريموت، مع وضع مزامنة الألوان مع الموسيقى. يتوفر بأطوال من 0.5 إلى 30 متر، والسعر المعروض لطول 30 متر.",
+        "tags": [
+          "RGB",
+          "تطبيق + ريموت",
+          "مزامنة الموسيقى",
+          "USB"
+        ]
+      },
+      "en": {
+        "title": "RGB LED Strip Lights with Music Sync and App Control",
+        "description": "Flexible RGB LED strip for rooms, TV backlighting and decor, controlled by app and remote, with music-sync mode. Available in lengths from 0.5 m to 30 m; the price shown is for 30 m.",
+        "tags": [
+          "RGB",
+          "App + remote",
+          "Music sync",
+          "USB"
+        ]
+      },
+      "fr": {
+        "title": "Ruban LED RVB avec synchronisation musicale et contrôle par application",
+        "description": "Ruban LED RVB flexible pour la chambre, le rétroéclairage de TV et la déco, piloté par application et télécommande, avec mode synchronisation musicale. Disponible de 0,5 à 30 m ; le prix affiché correspond à 30 m.",
+        "tags": [
+          "RVB",
+          "App + télécommande",
+          "Synchro musique",
+          "USB"
+        ]
+      },
+      "es": {
+        "title": "Tira LED RGB con sincronización musical y control por app",
+        "description": "Tira LED RGB flexible para habitaciones, retroiluminación de TV y decoración, controlada por app y mando, con modo de sincronización con la música. Disponible de 0,5 a 30 m; el precio mostrado es para 30 m.",
+        "tags": [
+          "RGB",
+          "App + mando",
+          "Sincro música",
+          "USB"
+        ]
+      },
+      "de": {
+        "title": "RGB-LED-Streifen mit Musiksynchronisation und App-Steuerung",
+        "description": "Flexibler RGB-LED-Streifen für Zimmer, TV-Hintergrundbeleuchtung und Deko, steuerbar per App und Fernbedienung, mit Musik-Sync-Modus. In Längen von 0,5 bis 30 m erhältlich; der angezeigte Preis gilt für 30 m.",
+        "tags": [
+          "RGB",
+          "App + Fernbedienung",
+          "Musik-Sync",
+          "USB"
+        ]
+      }
     }
   }
 }
