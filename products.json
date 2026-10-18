@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T03:26:29.886314+00:00",
+  "updated_at": "2026-10-18T09:02:03.967202+00:00",
   "languages": [
     "ar",
     "en",
@@ -36,6 +36,16 @@
         "fr": "Prises connectées",
         "es": "Enchufes inteligentes",
         "de": "Smarte Steckdosen"
+      }
+    },
+    {
+      "id": "control",
+      "name": {
+        "ar": "تحكم عن بعد",
+        "en": "Remote Control",
+        "fr": "Télécommande",
+        "es": "Control remoto",
+        "de": "Fernsteuerung"
       }
     }
   ],
@@ -288,6 +298,69 @@
             "Gateway nötig",
             "Alarm",
             "Alexa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "usb-c-ir-remote-adapter",
+      "category": "control",
+      "price": 6.32,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviews_count": 437,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sba80b5f9d2eb423998472d152310eeddd.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/e/_c38chh1B",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "جهاز تحكم بالأشعة تحت الحمراء يُوصل بمنفذ USB-C (للتلفاز والمكيف والبروجكتر)",
+          "description": "قطعة صغيرة تُوصَل بمنفذ USB-C في الهاتف وتحوّله إلى جهاز تحكم عن بعد شامل بالأشعة تحت الحمراء للتلفاز والمكيف والبروجكتر وجهاز الاستقبال، عبر تطبيق التحكم. تنبيه: تعمل مع هاتف فيه منفذ USB-C، وتحتاج إلى توصيلها بالهاتف أثناء الاستخدام.",
+          "tags": [
+            "USB-C",
+            "أشعة تحت الحمراء",
+            "مكيف",
+            "تلفاز"
+          ]
+        },
+        "en": {
+          "title": "USB-C Infrared Transmitter Adapter – Universal IR Remote (TV, AC, Projector)",
+          "description": "Small adapter that plugs into your phone's USB-C port and turns it into a universal IR remote for TVs, air conditioners, projectors and set-top boxes, via the control app. Note: it needs a phone with a USB-C port and must stay plugged in while in use.",
+          "tags": [
+            "USB-C",
+            "Infrared",
+            "AC",
+            "TV"
+          ]
+        },
+        "fr": {
+          "title": "Adaptateur émetteur infrarouge USB-C – Télécommande IR universelle (TV, clim, projecteur)",
+          "description": "Petit adaptateur à brancher sur le port USB-C du téléphone pour le transformer en télécommande infrarouge universelle (TV, climatiseur, projecteur, décodeur) via l'application. À noter : il faut un téléphone avec port USB-C et l'adaptateur doit rester branché pendant l'utilisation.",
+          "tags": [
+            "USB-C",
+            "Infrarouge",
+            "Clim",
+            "TV"
+          ]
+        },
+        "es": {
+          "title": "Adaptador transmisor infrarrojo USB-C – Mando IR universal (TV, A/A, proyector)",
+          "description": "Pequeño adaptador que se conecta al puerto USB-C del móvil y lo convierte en un mando infrarrojo universal para TV, aire acondicionado, proyector y decodificador, mediante la app. Importante: requiere un móvil con puerto USB-C y debe permanecer conectado mientras se usa.",
+          "tags": [
+            "USB-C",
+            "Infrarrojo",
+            "A/A",
+            "TV"
+          ]
+        },
+        "de": {
+          "title": "USB-C Infrarot-Sender-Adapter – Universal-IR-Fernbedienung (TV, Klima, Beamer)",
+          "description": "Kleiner Adapter für den USB-C-Anschluss des Smartphones, der es per App zur universellen IR-Fernbedienung für TV, Klimaanlage, Beamer und Receiver macht. Hinweis: Das Smartphone braucht einen USB-C-Anschluss, und der Adapter muss während der Nutzung eingesteckt bleiben.",
+          "tags": [
+            "USB-C",
+            "Infrarot",
+            "Klima",
+            "TV"
           ]
         }
       }
