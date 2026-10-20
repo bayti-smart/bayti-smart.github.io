@@ -5,7 +5,7 @@
 المفاتيح تأتي من متغيرات البيئة (أسرار GitHub) ولا تُطبع أبدًا.
 """
 import csv, hashlib, hmac, json, os, re, sys, time
-import urllib.parse, urllib.request, urllib.error
+import urllib.parse, urllib.request, urllib.error, builtins
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -51,6 +51,13 @@ def read_urls():
     return out
 
 
+REPORT = []
+_orig_print = builtins.print
+def print(*a, **k):
+    _orig_print(*a, **k)
+    REPORT.append(" ".join(str(x) for x in a))
+
+
 def main():
     if not KEY or not SECRET:
         print("AE: المفاتيح غير متوفرة في البيئة، تخطّي."); return 0
@@ -94,4 +101,6 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    rc = main()
+    (ROOT / "scripts" / "ae_report.txt").write_text("\n".join(REPORT) + "\n", encoding="utf-8")
+    sys.exit(rc)
