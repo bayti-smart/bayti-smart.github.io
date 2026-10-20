@@ -100,7 +100,36 @@ def main():
     return 0
 
 
+def search_mode():
+    f = ROOT / "scripts" / "ae_search.txt"
+    if not f.exists():
+        return
+    for kw in [l.strip() for l in f.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")]:
+        status, data = call("aliexpress.affiliate.product.query", {
+            "keywords": kw, "page_size": "40", "page_no": "1",
+            "sort": "LAST_VOLUME_DESC", "target_currency": "USD", "target_language": "EN",
+            "ship_to_country": "DZ", "tracking_id": TRACK,
+            "fields": "commission_rate,target_sale_price,product_title,evaluate_rate,lastest_volume,product_id"})
+        print(f"AE-SEARCH [{kw}] HTTP {status}")
+        if "error_response" in data:
+            e = data["error_response"]; print("AE-SEARCH error:", e.get("code"), e.get("msg"), e.get("sub_msg")); continue
+        resp = next((v for k, v in data.items() if k.endswith("_response")), data)
+        res = (resp or {}).get("resp_result", {})
+        prods = (((res.get("result") or {}).get("products") or {}).get("product")) or []
+        def pct(x):
+            try: return float(str(x).replace("%", ""))
+            except Exception: return 0.0
+        good = [p for p in prods if pct(p.get("evaluate_rate")) >= 94 and int(p.get("lastest_volume") or 0) >= 500]
+        good.sort(key=lambda p: (pct(p.get("commission_rate")), int(p.get("lastest_volume") or 0)), reverse=True)
+        print(f"AE-SEARCH   مرجَع={len(prods)} مقبول={len(good)}")
+        for p in good[:4]:
+            print("AE-SEARCH   ", json.dumps({"id": p.get("product_id"), "title": (p.get("product_title") or "")[:70],
+                  "price": p.get("target_sale_price"), "comm": p.get("commission_rate"),
+                  "rating_pct": p.get("evaluate_rate"), "sold": p.get("lastest_volume")}, ensure_ascii=False))
+
+
 if __name__ == "__main__":
     rc = main()
+    search_mode()
     (ROOT / "scripts" / "ae_report.txt").write_text("\n".join(REPORT) + "\n", encoding="utf-8")
     sys.exit(rc)
