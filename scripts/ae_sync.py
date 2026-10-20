@@ -87,6 +87,8 @@ def main():
             for r in csv.DictReader(f):
                 ours[r["id"]] = r.get("price")
     for p in products:
+        print("AE-DETAIL", json.dumps({k: p.get(k) for k in ("product_id","product_title","target_sale_price","commission_rate","evaluate_rate","lastest_volume","product_main_image_url","promotion_link")}, ensure_ascii=False))
+    for p in products:
         print("AE: ", json.dumps({
             "id": p.get("product_id"),
             "title": (p.get("product_title") or "")[:60],
