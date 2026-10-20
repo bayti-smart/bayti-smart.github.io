@@ -23,7 +23,7 @@ def sign(params):
     return hmac.new(SECRET.encode(), base.encode(), hashlib.sha256).hexdigest().upper()
 
 
-def call(method, extra):
+def _call_once(method, extra):
     params = {"app_key": KEY, "timestamp": str(int(time.time() * 1000)),
               "sign_method": "sha256", "method": method, **extra}
     params["sign"] = sign(params)
@@ -36,6 +36,18 @@ def call(method, extra):
         return e.code, {"http_error_body": e.read().decode("utf-8", "replace")[:600]}
     except Exception as e:
         return 0, {"exception": repr(e)}
+
+
+def call(method, extra):
+    """يعيد المحاولة تلقائيًا عند تجاوز حد معدل الاستدعاء."""
+    for attempt in range(5):
+        status, data = _call_once(method, extra)
+        err = data.get("error_response") if isinstance(data, dict) else None
+        if err and err.get("code") == "ApiCallLimit":
+            time.sleep(3 + attempt * 2)
+            continue
+        return status, data
+    return status, data
 
 
 def read_urls():
