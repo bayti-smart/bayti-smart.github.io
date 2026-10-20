@@ -24,6 +24,14 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: فحص/مزامنة AliExpress (لا يوقف النشر عند الفشل)
+        run: python scripts/ae_sync.py
+        continue-on-error: true
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+
       - name: تحديث products.json من sources.csv
         run: python scripts/fetch_products.py
 

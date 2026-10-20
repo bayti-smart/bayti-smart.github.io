@@ -1,0 +1,8 @@
+# ضع هنا رابط كل منتج من aliexpress.com (رابط واحد في كل سطر).
+# يمكنك إضافة الفئة بعد الرابط:  الرابط | category
+https://www.aliexpress.com/item/1005007654887555.html | lighting
+https://www.aliexpress.com/item/1005009888110787.html | security
+https://www.aliexpress.com/item/1005007184129819.html | power
+https://www.aliexpress.com/item/1005010266091323.html | security
+https://www.aliexpress.com/item/1005006904673262.html | control
+https://www.aliexpress.com/item/1005009401897501.html | lighting
