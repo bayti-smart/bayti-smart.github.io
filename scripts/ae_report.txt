@@ -1,0 +1,10 @@
+AE: عدد المنتجات في product_urls.txt = 6
+AE: HTTP 200
+AE: resp_code = 200 | resp_msg = None
+AE: منتجات مُرجَعة = 6
+AE:  {"id": 1005007184129819, "title": "Tuya Smart Socket EU16A/20A Wifi Smart Plug With Power Monit", "price_usd": "9.85", "commission": "7.0%", "rating_pct": "96.5%", "volume": 6494, "has_link": true, "has_image": true}
+AE:  {"id": 1005007654887555, "title": "Tuya E27 E14 GU10 Bulb WIFI Zigbee Bluetooth,Dimmable Smart ", "price_usd": "7.79", "commission": "7.0%", "rating_pct": "90.8%", "volume": 6929, "has_link": true, "has_image": true}
+AE:  {"id": 1005010266091323, "title": "Tuya Zigbee Door Window Sensor Alarm Detector Burglar Magnet", "price_usd": "7.49", "commission": "7.0%", "rating_pct": "93.8%", "volume": 1108, "has_link": true, "has_image": true}
+AE:  {"id": 1005009888110787, "title": "2K 5MP Wifi Home Security Camera Wireless Outdoor Magnetic B", "price_usd": "53.68", "commission": "7.0%", "rating_pct": "95.7%", "volume": 526, "has_link": true, "has_image": true}
+AE:  {"id": 1005006904673262, "title": "Type C USB Infrared Transmitter Adapter - Universal IR Remot", "price_usd": "6.32", "commission": "7.0%", "rating_pct": "98.0%", "volume": 1796, "has_link": true, "has_image": true}
+AE:  {"id": 1005009401897501, "title": "Led Strip Lights Music Sync Led Lights Room with APP Control", "price_usd": "7.62", "commission": "7.0%", "rating_pct": "90.0%", "volume": 10458, "has_link": true, "has_image": true}
