@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T23:09:40.192732+00:00",
+  "updated_at": "2026-10-20T23:10:41.408868+00:00",
   "languages": [
     "ar",
     "en",
@@ -46,6 +46,26 @@
         "fr": "Télécommande",
         "es": "Control remoto",
         "de": "Fernsteuerung"
+      }
+    },
+    {
+      "id": "sensors",
+      "name": {
+        "ar": "حساسات",
+        "en": "Sensors",
+        "fr": "Capteurs",
+        "es": "Sensores",
+        "de": "Sensoren"
+      }
+    },
+    {
+      "id": "audio",
+      "name": {
+        "ar": "صوتيات",
+        "en": "Audio",
+        "fr": "Audio",
+        "es": "Audio",
+        "de": "Audio"
       }
     }
   ],
@@ -424,6 +444,321 @@
             "App + Fernbedienung",
             "Musik-Sync",
             "USB"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tnce-tuya-eu-smart-plug",
+      "category": "power",
+      "price": 9.0,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa25e5e07410049a989fabc5c31c13716B.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyH24UXifs67kf553Vl3kgaVUs705Bjd53hcj8KnCznXw1LmWysPJw6jpl8xSlJ9RUnma1DUM1aW9NZAnmnNVmBe2WSNnLTeNQd86urig9EfKRo9mvzge3j8Tmlgas7UBHChhwuoQ0FkpjbmdxF2yPioNNgqyRLlm6NShcITzay8yN6wWdsha4jBWAW5DV3PlYZmUT8ALbgiOoGWK906gSNOdAgeXB6bqCxCp1OSNJImIxU1jFLtvODLzDojxOupPiKAnE0qHPPAK1wdLjSrimFJ0Id2FGA8pgNRySxjzVSg5qzUhAB6L6UhCDGkguAnIv48rlVbrjPHSXnAFo1tSENaDm0TcAgAHDkao5GbjY0tIAK9YpyRBkJEZTwFPgCxpB9WXEHmkYEE4lZbnOzXrz8sLX8J9dBU8PTYycMhojpnEXyBy91fLZ4n936vb9RA1vD7hTMbARIKZKDBePQd0RDG0mkO3R6z8uLOKYNkCE3iin76MaLmNN1kPnXKbs7omDCMoeJQoRVtQwfq5ozbFRbxb6cwLfm3lL7sTgiuIFXuWFYigW6qYM1fX0wbypq8AIU8zBLoxfxr1eSe9ohIttqyBqCG53uWSet4wKRhQ6WINA2pMY2B54pPXkuoLXOELAdXmxGrj4ObEoSXirVLsnRmnauU1Bw65gzQdkUjcgQ67YsTEijRXH6IB74aQfxAVdVl2D8tSv1oO",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس TNCE Tuya ذكي بفيشة أوروبية 16A/20A مع مراقبة الطاقة والجدولة",
+          "description": "مقبس بفيشة أوروبية (EU) بقدرة 16A/20A، يراقب استهلاك الطاقة ويدعم الجدولة والتحكم الصوتي مع Alexa وGoogle Home. يُباع بنسختين (Wi-Fi أو Zigbee 3.0): اختر Wi-Fi ما لم تكن تملك بوابة Zigbee.",
+          "tags": [
+            "فيشة أوروبية",
+            "مراقبة الطاقة",
+            "جدولة",
+            "Alexa"
+          ]
+        },
+        "en": {
+          "title": "TNCE Tuya Smart Plug, EU 16A/20A with Power Monitoring and Timer",
+          "description": "EU-socket smart plug rated 16A/20A with power monitoring, scheduling and voice control via Alexa and Google Home. Sold in two versions (Wi-Fi or Zigbee 3.0): pick Wi-Fi unless you already own a Zigbee hub.",
+          "tags": [
+            "EU plug",
+            "Power monitor",
+            "Timer",
+            "Alexa"
+          ]
+        },
+        "fr": {
+          "title": "Prise connectée TNCE Tuya EU 16A/20A avec suivi de consommation et minuterie",
+          "description": "Prise au standard européen (EU) 16A/20A avec suivi de consommation, programmation et commande vocale via Alexa et Google Home. Vendue en deux versions (Wi-Fi ou Zigbee 3.0) : choisissez Wi-Fi si vous n'avez pas de passerelle Zigbee.",
+          "tags": [
+            "Prise EU",
+            "Suivi énergie",
+            "Minuterie",
+            "Alexa"
+          ]
+        },
+        "es": {
+          "title": "Enchufe inteligente TNCE Tuya EU 16A/20A con monitor de consumo y temporizador",
+          "description": "Enchufe de toma europea (EU) de 16A/20A con monitor de consumo, programación y control por voz con Alexa y Google Home. Se vende en dos versiones (Wi-Fi o Zigbee 3.0): elige Wi-Fi salvo que tengas un hub Zigbee.",
+          "tags": [
+            "Enchufe EU",
+            "Monitor de energía",
+            "Temporizador",
+            "Alexa"
+          ]
+        },
+        "de": {
+          "title": "TNCE Tuya Smart-Steckdose EU 16A/20A mit Verbrauchsmessung und Timer",
+          "description": "Steckdose mit EU-Stecker (16A/20A) mit Verbrauchsmessung, Zeitplan und Sprachsteuerung über Alexa und Google Home. In zwei Versionen erhältlich (WLAN oder Zigbee 3.0): Wählen Sie WLAN, wenn Sie kein Zigbee-Gateway besitzen.",
+          "tags": [
+            "EU-Stecker",
+            "Verbrauchsmessung",
+            "Timer",
+            "Alexa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-door-window-sensor",
+      "category": "security",
+      "price": 8.2,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbe04c118dcf943c2a3c755f690824f66C.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoinZbNKcDIi9JO4rIb8SSAgrJU9K1hCQm4su0vgO4lToTnb7bm0FtiXHUxHdIDpAgKjpPzvRUEduFbRj9WNFd3cHF9LHiknM2QJpRxNPL9dTbmzrWJdBng2a0WWRf2lzG2V0rJcWAtS4fGfOa0Diyhs2qHVCBwex4s26Kbnfk6zp5OmrOX4N97FeVmRCz7K51iIqOUgp46ND1MsrmVGNWoZNZvBscRvr7I95i87KBcEzH9HZCUYynd6yjlzre8vdv84iUEMeu8TmiNe23WoJ17xCU7hX4Hs8g8kVlN5nDI1k6e2rUeMUzbnT341Bycykcx5MyQbTxmC2OtHd9jvXW0LlSpORGsQmGwvrVtqu2bBjeNcVhBiZ2ygTcYjCD5WBiXoYuaWbvuSzjtOrMDljzSXcBKLCqimbDS1E3ekHWd13e0kXC90OyQC56wwMDwgpicOwLAR7K2v0vfBiKDOCUJCECHwqmTjWcXChUFnI0AFQ6TrwunukywixGXfiquiR4ChhSo2mviCHvcuTq2ZjzsEECanr4eOaui12VXbdEbWwWoNcKNdOXYzIkG6WqMRus8vQGJ4AdBlTlKQrh4ebZvEB0fXIgBQqHj2xXMZPjq4vxNeyhq8Bw7yO7C9MviGXXV2eGmd5IFvS4c7NQJVofFnmmvoBT9bjPy9b0w5eX9Ts0eaZQM9u8AIRSVAx1HYLpHXgBkC7cYT1o",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس باب ونافذة Tuya (Wi-Fi / Zigbee) مع تحكم عبر Smart Life",
+          "description": "حساس مغناطيسي يخبرك عند فتح الباب أو النافذة، ويُدار من تطبيق Smart Life ويعمل مع Alexa. يُباع بنسخ Wi-Fi وZigbee: اختر Wi-Fi للتشغيل المباشر، أما Zigbee فيحتاج بوابة تُشترى منفصلة.",
+          "tags": [
+            "حساس باب",
+            "Smart Life",
+            "Alexa",
+            "Wi-Fi / Zigbee"
+          ]
+        },
+        "en": {
+          "title": "Tuya Door & Window Sensor (Wi-Fi / Zigbee) with Smart Life App",
+          "description": "Magnetic contact sensor that alerts you when a door or window opens, managed in the Smart Life app and compatible with Alexa. Sold in Wi-Fi and Zigbee versions: choose Wi-Fi for standalone use; Zigbee needs a hub, sold separately.",
+          "tags": [
+            "Door sensor",
+            "Smart Life",
+            "Alexa",
+            "Wi-Fi / Zigbee"
+          ]
+        },
+        "fr": {
+          "title": "Capteur d'ouverture porte/fenêtre Tuya (Wi-Fi / Zigbee) avec Smart Life",
+          "description": "Capteur magnétique qui vous alerte à l'ouverture d'une porte ou fenêtre, géré dans l'application Smart Life et compatible Alexa. Vendu en versions Wi-Fi et Zigbee : choisissez Wi-Fi pour un usage autonome ; la version Zigbee exige une passerelle vendue séparément.",
+          "tags": [
+            "Capteur porte",
+            "Smart Life",
+            "Alexa",
+            "Wi-Fi / Zigbee"
+          ]
+        },
+        "es": {
+          "title": "Sensor de puerta y ventana Tuya (Wi-Fi / Zigbee) con Smart Life",
+          "description": "Sensor magnético que avisa cuando se abre una puerta o ventana, gestionado desde la app Smart Life y compatible con Alexa. Se vende en versiones Wi-Fi y Zigbee: elige Wi-Fi para uso independiente; Zigbee requiere un hub que se vende por separado.",
+          "tags": [
+            "Sensor de puerta",
+            "Smart Life",
+            "Alexa",
+            "Wi-Fi / Zigbee"
+          ]
+        },
+        "de": {
+          "title": "Tuya Tür-/Fenstersensor (WLAN / Zigbee) mit Smart-Life-App",
+          "description": "Magnetsensor, der meldet, wenn eine Tür oder ein Fenster geöffnet wird; Verwaltung in der Smart-Life-App, kompatibel mit Alexa. In WLAN- und Zigbee-Version erhältlich: WLAN funktioniert eigenständig, Zigbee benötigt ein separat erhältliches Gateway.",
+          "tags": [
+            "Türsensor",
+            "Smart Life",
+            "Alexa",
+            "WLAN / Zigbee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-temp-humidity-sensor",
+      "category": "sensors",
+      "price": 6.44,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1cc8ea693e754dc988638e434645f8ad5.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmRhxF1LgBZCgjiDRiyPhqmvYZ3neWAMikHSQNPbG3U623L2gxmHq5p4LryQryOH5h17WxMD6PtG8nYHZZ2OEknPWms6RSyygYiUr64snPYa2WUkOXKF3vIqEg6rMDpfFrK22plKm8EBWpz77cEJntcEFQHHOsqh4x9AtCsit6jIXdED8egdwKUAsSp9MRWGZ7SVelc5VwCSdhkCV3wDqH8GCkDQliLTjKGp1vkipVfgnDFkHgSII2Q95NvPgvspKW2cU7DYS5ZWchqQsDdg5FdamzQpRWWsTugrBOfHoQOSJ3YiVcCQyJQr9vZnV46p8DhEB5dDtXg7YBOUiLEZEMze0casQKl4j3GOuh88g4si1fumqWURP5u7Mg8wK820UQCnPGClfOSNCszXHWmSghLw6oo52YOSSa6whqIOZgW5yAKEnukGdoriVty9uKOK39YNNGQr20lFJqe9Ts9wB7PEL6YzJpPiihYaItNNndqOtWxS2imN4LkiczIMKLTeJRfEAOhlGawuKnj5MvUEiBtTXJxBgk3uZPmv8LXDDeHntGammjxfvgiDytWzVDP7ku29QaCxJr2FKqSFFUwANybfezFIjgKikML5VqXX3O9uHpF0FioM7wLzbS5Jew5WWvfuE5ys3Rnv37JSudVtALn6PTdT0s2VBsC2zo4g50p12d5vSk5nLozzErcJpuFar6hWizVg4ah4qk",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس حرارة ورطوبة Tuya Wi-Fi مع تطبيق Smart Life",
+          "description": "جهاز صغير يقيس الحرارة والرطوبة ويعرضها على هاتفك عن بُعد عبر تطبيق Smart Life، ويعمل مع Alexa وGoogle Home.",
+          "tags": [
+            "حرارة ورطوبة",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Temperature & Humidity Sensor with Smart Life App",
+          "description": "Compact sensor that measures temperature and humidity and shows the readings on your phone through the Smart Life app. Compatible with Alexa and Google Home.",
+          "tags": [
+            "Temp & humidity",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "fr": {
+          "title": "Capteur de température et d'humidité Tuya Wi-Fi avec Smart Life",
+          "description": "Petit capteur qui mesure la température et l'humidité et affiche les valeurs sur votre téléphone via l'application Smart Life. Compatible Alexa et Google Home.",
+          "tags": [
+            "Température et humidité",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "es": {
+          "title": "Sensor de temperatura y humedad Tuya Wi-Fi con Smart Life",
+          "description": "Sensor compacto que mide la temperatura y la humedad y muestra los valores en tu móvil mediante la app Smart Life. Compatible con Alexa y Google Home.",
+          "tags": [
+            "Temperatura y humedad",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Temperatur- und Feuchtesensor mit Smart-Life-App",
+          "description": "Kompakter Sensor, der Temperatur und Luftfeuchtigkeit misst und die Werte per Smart-Life-App aufs Smartphone bringt. Kompatibel mit Alexa und Google Home.",
+          "tags": [
+            "Temperatur & Feuchte",
+            "WLAN",
+            "Smart Life",
+            "Alexa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "moes-tuya-wifi-pan-tilt-camera",
+      "category": "security",
+      "price": 46.53,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/A5eb350db35214cb6bfebcd0ba1fef49a9.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C41Bc5fpbywofXIpjQnE2vKrgbq6N4QphsXmc6O0ELRlyHBYlxSSZo5tEoQRjJ292NbWL53sc6vcs3MxHFIJo0dOI4FN8fwANCHG2rvqtTsK3nroYQST4GCbURy1uUSedmHvxJuxKcedeWeFF63GMEKzfOKsrPEdJfwWif41nUIdQcv4VTql9ztk8SqKmrgyUo1oXTZiq7qVpyj4AVlDLZ2y5be2EFFLgMjmKEZS7Djcs1P1QBWY5V7fbEegBK93hcVijnB2vsMgryqD80w5yPbQiRo1EH33g1vWDubrDNcx8NVa0U405DREla4nk8Abgszr00ZEiThE8z2gtSPX28EgAIJBvR34qZHUMRq45JBVKzd07L2bf7btM9dd81kekQMl4y4h9JLCqDHrz7TR9SyHUiqTw9lXuKDG7oPUyICPKq7gCZHL265z5boxzVMsh9TCWLA9inIhcCsHRKTwnE3XM7dLXglK7sqozB5emWiTqnswhAXyYtDXyKkqEr0DjDfnPoqLk3Cmcd3oj5eqgz8h6NwYpiMHxoPueJGrLtBUqZfnp9dBtlhcEP9brT0WI1qBBVXNcSFwFlPSAVoOxMinMWUFvqJjcjdKq8jvisK71K5eAKFBhJNKhkl5MnRslGOKZlqwV5HARytgFjhF5XJjHCdQ9cwGEuLmz5Mb3SLW2keE7qXK2JssXnxqW5bmTTKL3nufbhd38k",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاميرا مراقبة داخلية MOES Tuya Wi-Fi دوّارة 4MP برؤية ليلية",
+          "description": "كاميرا داخلية بدقة 4 ميغابكسل تدور وتميل، مع رؤية ليلية بالأشعة تحت الحمراء وكشف للحركة والصوت، وتعمل مع تطبيق Tuya.",
+          "tags": [
+            "4MP",
+            "دوّارة",
+            "رؤية ليلية",
+            "Wi-Fi"
+          ]
+        },
+        "en": {
+          "title": "MOES Tuya Wi-Fi Indoor Pan/Tilt Security Camera, 4MP, Night Vision",
+          "description": "4MP indoor camera that pans and tilts, with infrared night vision and motion and sound detection, managed through the Tuya app.",
+          "tags": [
+            "4MP",
+            "Pan/Tilt",
+            "Night vision",
+            "Wi-Fi"
+          ]
+        },
+        "fr": {
+          "title": "Caméra de surveillance intérieure MOES Tuya Wi-Fi motorisée 4MP, vision nocturne",
+          "description": "Caméra d'intérieur 4MP à rotation et inclinaison, avec vision nocturne infrarouge et détection de mouvement et de son, gérée via l'application Tuya.",
+          "tags": [
+            "4MP",
+            "Rotative",
+            "Vision nocturne",
+            "Wi-Fi"
+          ]
+        },
+        "es": {
+          "title": "Cámara de seguridad interior MOES Tuya Wi-Fi motorizada 4MP, visión nocturna",
+          "description": "Cámara de interior de 4MP con giro e inclinación, visión nocturna por infrarrojos y detección de movimiento y sonido, gestionada desde la app Tuya.",
+          "tags": [
+            "4MP",
+            "Giratoria",
+            "Visión nocturna",
+            "Wi-Fi"
+          ]
+        },
+        "de": {
+          "title": "MOES Tuya WLAN-Innenkamera schwenk-/neigbar 4MP mit Nachtsicht",
+          "description": "4-MP-Innenkamera mit Schwenk- und Neigefunktion, Infrarot-Nachtsicht sowie Bewegungs- und Geräuscherkennung, gesteuert über die Tuya-App.",
+          "tags": [
+            "4MP",
+            "Schwenkbar",
+            "Nachtsicht",
+            "WLAN"
+          ]
+        }
+      }
+    },
+    {
+      "id": "portable-bluetooth-speaker",
+      "category": "audio",
+      "price": 9.87,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S45ff833f1aa249a89ac36b0125913fd8q.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnEV8QkDG0jq1isLxC8nOWeIUzO8rP5YrWsWMbLRU7mHvzNNxijJWaPqyMw1tZ0IMeJbyzK2dpoxBu21fndef4915RSUUTUMPbo5K6B7pKy8gVziirNf61tdJnEpBP8RtlumqIaupUnlzcS6xOWGZV0CcR5sNTT99cQ3R5c4YBwF6RLshV9zh2ncWwNqHMHajVNVGvbGV391PKuxwbcZXFnTWiHcCsw0BUhGdlaexosA95P1OJcoL00TSZ7F9NTGMzxQEfWNVYLpe7JPNBGCDotVOSHURG2rp3h2wyWznZd4LayPSkZVLd78E0nhBsUwuhq3wtu30SZOQ7Tt4uKxbU9MBwRubujm9Nl0NrnnyMFoM8HTv80W7gwPNxoilEZ1BWYtiqFbjhY61TLpFbDFAb1pMsBJCyLLixFHvBhGYhC57JmgtXtzKXW1X9HpSnAILYaf090Bt8gG2CSNmz1QgGK39nvVExjkEf5fJzhRyHtme4jP2jbyJq3eEQrhPqHZVeaiGOZOtdqg3D1XtWEtJoA8ToLTvMfiIOIwqx8uns5ly8CYSHcQp6NAfxBvjitPsQvxFhJJcY9fEJy5JIHbzzLyVC8AT7wpemOyY1PnLcfmjCS7jcaqHua6Uxs2fEa39ec8FWSQAVUNBgdJCMlf7uAr1EGpaqxCzJH2sExu2IJcjhLVD1W6U9MFDAQHibYytkwplMReUv29Cq",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مكبر صوت بلوتوث محمول لاسلكي بصوت ستيريو وباس قوي",
+          "description": "مكبر صوت بلوتوث صغير ومحمول بصوت ستيريو واهتزاز للباس، مناسب للحمام والتخييم والاستخدام في الخارج.",
+          "tags": [
+            "بلوتوث",
+            "محمول",
+            "ستيريو",
+            "للخارج"
+          ]
+        },
+        "en": {
+          "title": "Portable Wireless Bluetooth Speaker with Stereo Sound and Deep Bass",
+          "description": "Compact portable Bluetooth speaker with stereo sound and vibration bass, suited to the bathroom, camping and outdoor use.",
+          "tags": [
+            "Bluetooth",
+            "Portable",
+            "Stereo",
+            "Outdoor"
+          ]
+        },
+        "fr": {
+          "title": "Enceinte Bluetooth portable sans fil, son stéréo et basses puissantes",
+          "description": "Enceinte Bluetooth compacte et portable avec son stéréo et basses vibrantes, idéale pour la salle de bain, le camping et l'extérieur.",
+          "tags": [
+            "Bluetooth",
+            "Portable",
+            "Stéréo",
+            "Extérieur"
+          ]
+        },
+        "es": {
+          "title": "Altavoz Bluetooth portátil inalámbrico con sonido estéreo y graves potentes",
+          "description": "Altavoz Bluetooth compacto y portátil con sonido estéreo y graves con vibración, ideal para el baño, el camping y el exterior.",
+          "tags": [
+            "Bluetooth",
+            "Portátil",
+            "Estéreo",
+            "Exterior"
+          ]
+        },
+        "de": {
+          "title": "Tragbarer kabelloser Bluetooth-Lautsprecher mit Stereoklang und kräftigem Bass",
+          "description": "Kompakter, tragbarer Bluetooth-Lautsprecher mit Stereoklang und vibrierendem Bass, geeignet für Bad, Camping und Outdoor.",
+          "tags": [
+            "Bluetooth",
+            "Tragbar",
+            "Stereo",
+            "Outdoor"
           ]
         }
       }
