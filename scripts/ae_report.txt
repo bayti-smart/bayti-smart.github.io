@@ -8,3 +8,36 @@ AE:  {"id": 1005010266091323, "title": "Tuya Zigbee Door Window Sensor Alarm Det
 AE:  {"id": 1005009888110787, "title": "2K 5MP Wifi Home Security Camera Wireless Outdoor Magnetic B", "price_usd": "53.68", "commission": "7.0%", "rating_pct": "95.7%", "volume": 526, "has_link": true, "has_image": true}
 AE:  {"id": 1005006904673262, "title": "Type C USB Infrared Transmitter Adapter - Universal IR Remot", "price_usd": "6.32", "commission": "7.0%", "rating_pct": "98.0%", "volume": 1796, "has_link": true, "has_image": true}
 AE:  {"id": 1005009401897501, "title": "Led Strip Lights Music Sync Led Lights Room with APP Control", "price_usd": "7.62", "commission": "7.0%", "rating_pct": "90.0%", "volume": 10458, "has_link": true, "has_image": true}
+AE-SEARCH [smart plug wifi EU alexa] HTTP 200
+AE-SEARCH   مرجَع=40 مقبول=36
+AE-SEARCH    {"id": 1005010706709607, "title": "TNCE TUYA Smart Plug WiFi or Zigbee3.0 Socket EU 16A/20A Power Monitor", "price": "9.00", "comm": "7.0%", "rating_pct": "98.0%", "sold": 11031}
+AE-SEARCH    {"id": 1005006597670357, "title": "TNCE TUYA Smart Plug WiFi or Zigbee3.0 Socket EU 16A/20A Power Monitor", "price": "10.07", "comm": "7.0%", "rating_pct": "94.6%", "sold": 10371}
+AE-SEARCH    {"id": 1005010530126162, "title": "TNCE Tuya Smart Plug WiFi/Zigbee3.0 Socket 16A/20A Power Monitor Remot", "price": "9.84", "comm": "7.0%", "rating_pct": "98.0%", "sold": 6421}
+AE-SEARCH    {"id": 1005009503753957, "title": "TNCE Tuya Smart Plug WiFi/Zigbee3.0 Socket 16A/20A Power Monitor Remot", "price": "9.84", "comm": "7.0%", "rating_pct": "94.5%", "sold": 6240}
+AE-SEARCH [wifi door window sensor tuya] HTTP 200
+AE-SEARCH   مرجَع=40 مقبول=13
+AE-SEARCH    {"id": 1005007987933038, "title": "Tuya WiFi Zigbee Door Sensor Window Sensor Contact Sensor For Smart Ho", "price": "8.20", "comm": "7.0%", "rating_pct": "98.0%", "sold": 3269}
+AE-SEARCH    {"id": 1005007537059674, "title": "Tuya WiFi Zigbee Door Sensor Window Sensor Contact Sensor For Smart Ho", "price": "7.78", "comm": "7.0%", "rating_pct": "95.1%", "sold": 2892}
+AE-SEARCH    {"id": 1005006863715987, "title": "ZigBee Smart Window Door Gate Sensor Contact Detector Smart Life Secur", "price": "7.40", "comm": "7.0%", "rating_pct": "98.0%", "sold": 1942}
+AE-SEARCH    {"id": 1005006904600406, "title": "Tuya WiFi Zigbee Window Door Sensor With Battery Smart Home Security A", "price": "8.28", "comm": "7.0%", "rating_pct": "98.0%", "sold": 1645}
+AE-SEARCH [smart led strip wifi tuya] HTTP 200
+AE-SEARCH   مرجَع=40 مقبول=1
+AE-SEARCH    {"id": 1005004503637449, "title": "Tuya WiFi LED Controller Alexa Google Home Voice Control RGB RGBW CCT ", "price": "9.28", "comm": "7.0%", "rating_pct": "97.3%", "sold": 647}
+AE-SEARCH [bluetooth speaker portable] HTTP 200
+AE-SEARCH   مرجَع=39 مقبول=30
+AE-SEARCH    {"id": 1005010037251642, "title": "Wireless Bluetooth Sound Box Portable Vibration Stereo Audio Loudspeak", "price": "9.87", "comm": "7.0%", "rating_pct": "98.0%", "sold": 30193}
+AE-SEARCH    {"id": 1005009278139726, "title": "Portable Wireless Bluetooth Sound Box Vibration Stereo Audio Subwoofer", "price": "9.83", "comm": "7.0%", "rating_pct": "98.0%", "sold": 30108}
+AE-SEARCH    {"id": 1005007805746081, "title": "Ortizan Bluetooth Speakers 40W Enhanced Bass Portable Outdoor Wireless", "price": "55.71", "comm": "7.0%", "rating_pct": "98.0%", "sold": 8511}
+AE-SEARCH    {"id": 1005010323807313, "title": "K12 Karaoke Machine Portable Bluetooth 5.0 PA Speaker System with 1-2 ", "price": "21.62", "comm": "7.0%", "rating_pct": "98.0%", "sold": 8310}
+AE-SEARCH [wifi smart camera indoor] HTTP 200
+AE-SEARCH   مرجَع=40 مقبول=15
+AE-SEARCH    {"id": 1005007476666646, "title": "2026 NEW IP Camera Plus Smart Home 1620P HD Security Camera Auto Track", "price": "23.12", "comm": "7.0%", "rating_pct": "98.0%", "sold": 6185}
+AE-SEARCH    {"id": 1005008077612340, "title": "Tuya Smart Mini Peephole Door Camera 3MP HD 140°Wide‑Angle WiFi Doorbe", "price": "74.10", "comm": "7.0%", "rating_pct": "98.0%", "sold": 3670}
+AE-SEARCH    {"id": 1005009460538256, "title": "Mini HD Wifi Smart Monitor Surveillance Camera Video Voice DV Recorder", "price": "9.89", "comm": "7.0%", "rating_pct": "98.0%", "sold": 2795}
+AE-SEARCH    {"id": 1005006996672055, "title": "MOES Tuya WiFi Indoor Pan/Tilt Smart Security Camera 4MP HD Infrared N", "price": "46.53", "comm": "7.0%", "rating_pct": "98.0%", "sold": 2407}
+AE-SEARCH [temperature humidity sensor wifi tuya] HTTP 200
+AE-SEARCH   مرجَع=40 مقبول=23
+AE-SEARCH    {"id": 1005010572771377, "title": "Tuya WiFi Temperature Humidity Sensor With External Probe Sensor Hygro", "price": "13.79", "comm": "7.0%", "rating_pct": "98.0%", "sold": 2697}
+AE-SEARCH    {"id": 1005010285571208, "title": "Tuya Zigbee WiFi Temperature and Humidity Sensor APP Remote Control Sm", "price": "9.56", "comm": "7.0%", "rating_pct": "98.0%", "sold": 2681}
+AE-SEARCH    {"id": 1005006859951460, "title": "Tuya WiFi Zigbee Temperature Humidity Sensor Smart Home Indoor Hygrome", "price": "7.55", "comm": "7.0%", "rating_pct": "94.6%", "sold": 2244}
+AE-SEARCH    {"id": 1005007168901128, "title": "Tuya WiFi Temperature Humidity Sensor App Remote Monitor Smart Life Hy", "price": "6.44", "comm": "7.0%", "rating_pct": "98.0%", "sold": 2128}
