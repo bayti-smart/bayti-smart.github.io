@@ -312,13 +312,31 @@ function renderGrid() {
   emptyState.hidden = filtered.length > 0;
 }
 
+// صورة المنتج: إن فشل الرابط الأصلي جرّب نسخة 640x640 ثم صورة بديلة
+const IMG_PLACEHOLDER = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#efe6d2"/>' +
+  '<g fill="none" stroke="#1d6d77" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">' +
+  '<path d="M130 160 L200 100 L270 160 V225 H130 Z"/><path d="M180 225 V185 H220 V225"/></g></svg>');
+
+function imgFallback(img) {
+  const step = Number(img.dataset.step || 0);
+  if (step === 0) {
+    img.dataset.step = '1';
+    img.dataset.orig = img.src;
+    img.src = img.src + '_640x640.jpg';
+    return;
+  }
+  img.onerror = null;
+  img.src = IMG_PLACEHOLDER;
+}
+
 function renderCard(p) {
   const text = localize(p);
   const tags = (text.tags || []).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
   const stars = '★'.repeat(Math.round(p.rating || 0));
   return `
     <article class="card">
-      <img class="card-img" src="${escapeHtml(p.image)}" alt="${escapeHtml(text.title)}" loading="lazy">
+      <img class="card-img" src="${escapeHtml(p.image)}" alt="${escapeHtml(text.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="imgFallback(this)">
       <div class="card-body">
         <div class="card-tags">${tags}</div>
         <h3 class="card-title">${escapeHtml(text.title)}</h3>
