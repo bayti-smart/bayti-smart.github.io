@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T15:52:15.668180+00:00",
+  "updated_at": "2026-10-21T22:49:38.244983+00:00",
   "languages": [
     "ar",
     "en",
@@ -66,6 +66,16 @@
         "fr": "Audio",
         "es": "Audio",
         "de": "Audio"
+      }
+    },
+    {
+      "id": "garden",
+      "name": {
+        "ar": "الحديقة",
+        "en": "Garden",
+        "fr": "Jardin",
+        "es": "Jardín",
+        "de": "Garten"
       }
     }
   ],
@@ -759,6 +769,636 @@
             "Tragbar",
             "Stereo",
             "Outdoor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-smoke-detector",
+      "category": "security",
+      "price": 12.92,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S18891381776d416bbf623a15563a9ca68.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4ns4zklXnWc50GCrScBrPneJX583JUuXsv7w89RdRdHMmkCxvFZUAuUaaMN3vHvssLpNmhnoC6xgWQSI6CBJuaPnfHxIcSLG9Y2CJCjGIvX1YoY0BvIEgYmHxHn32EX6xi8yWiTMYpUbLc92XRq9XSTsenUppVHOkrFzO3iVvPBmON1zkZVwzVbouQYTY9SJRtgeRzMwrN2cbZBVOfgD9bnpDCYUfsWwrjdmFGZS97DLQSsmlQ402qJ1ZPJw34QxuzMztIHjBm9QGojxDDrDIbDEzABO3v12k5dx5sAhrS6zFW0AAnhr6tenXg1e5q7u3LxtcLX3SHe5vsBneUQ4WN0o2SDMEEAJxzrdmVVc79Z7CJ4e9K6wU6Nfwqn49xTBa6rUAuGrVXXrv2aBZcLug7TNrT1Solb0TvDS5FWZijYfrJlZ3wPkObGSb1Ovxw8xVnhL5dFESxFZ7rRZUbphQ4Gmnbko7b30lIpuD2Bzvik6ZDRbQmPzjn0s1DJ0p2Hihd9qqNSDRIPYFAo0cg5TTpPLBfHtbiaxjVIIQrpWIv6zxdlfQ0Yj9dA3Oel9jyL5Ym5owMc0OdSzstEALNyhA9YLeRZXUF2x7JVrXwoAz289l9HzDqgdeBgcRMfaI1xBxlkYMXAbR5DAIdazkDkK8djayEi37ziaICBhT9xyxbPZavIIM8Mlr1GIn4qN8daosY6XJ127sG15G",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاشف دخان ذكي Tuya Wi-Fi بإنذار 85 ديسيبل",
+          "description": "كاشف دخان يرسل إنذارًا إلى هاتفك عبر تطبيق Smart Life، ويطلق صفارة بقوة 85 ديسيبل عند اكتشاف الدخان.",
+          "tags": [
+            "كاشف دخان",
+            "Wi-Fi",
+            "85 dB",
+            "Smart Life"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Smart Smoke Detector with 85 dB Alarm",
+          "description": "Smoke detector that sends alerts to your phone through the Smart Life app and sounds an 85 dB alarm when smoke is detected.",
+          "tags": [
+            "Smoke detector",
+            "Wi-Fi",
+            "85 dB",
+            "Smart Life"
+          ]
+        },
+        "fr": {
+          "title": "Détecteur de fumée connecté Tuya Wi-Fi avec alarme 85 dB",
+          "description": "Détecteur de fumée qui envoie des alertes sur votre téléphone via l'application Smart Life et déclenche une alarme de 85 dB en cas de fumée.",
+          "tags": [
+            "Détecteur de fumée",
+            "Wi-Fi",
+            "85 dB",
+            "Smart Life"
+          ]
+        },
+        "es": {
+          "title": "Detector de humo inteligente Tuya Wi-Fi con alarma de 85 dB",
+          "description": "Detector de humo que envía alertas al móvil mediante la app Smart Life y emite una alarma de 85 dB cuando detecta humo.",
+          "tags": [
+            "Detector de humo",
+            "Wi-Fi",
+            "85 dB",
+            "Smart Life"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Rauchmelder mit 85-dB-Alarm",
+          "description": "Rauchmelder, der über die Smart-Life-App Warnungen aufs Smartphone sendet und bei Rauch einen 85-dB-Alarm auslöst.",
+          "tags": [
+            "Rauchmelder",
+            "WLAN",
+            "85 dB",
+            "Smart Life"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-water-leak-sensor",
+      "category": "sensors",
+      "price": 8.21,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seb17aa27262148da8108ea1603e696f8M.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4Ksdi1ReUN5BF9AWTfcL9qmi8z9ViouFg2KtaPHFDhZZU7APhqoGUPRET7qpv0EGZ4J1m9XLGt8egsykRjvYuihlpUbmbJ94hs27qBTDUgkdk9q53tvXFXIGDs7nxLs1YbGjLxtDO2UjJ6kmpPwTsVK0Phzpmgzd7trxFHS3wJ3W2qSS5Ujx8vwpP8jatmxg8Qbuv99aQEZVBI96CN0WrnmyTwKFr68xvtvbspaxFmoqZATuMTukFVYScJEJWXf3zO1wurXQhWHtG0JRFh6AhUKohzLR6XDd9OHmllReATpoa6KVMWntI6T1dM1yJL35gOcjVCv7h4w5LX5n6Ez1EcmGRiGH76YOHcswtCR6HxdwTYzeJtNoutUAw33F56vm7c03Xv7X0GyD0MK1TY0HsgMPGDAi8i4WywpmN6EBnMspDTdnr6BuEKA1y9LHMavsze5AySJ4dMQhGkgBwV0XOWzK6L503gF4LrdG6D8IExlc8H67MOphg39alvnPWugyvcCxGoEgVVNyFaBs1WtpCYdGGcX5v2QMzng0P8BcXwcMov9j6o1luX71tASAs24xFblwPrtNC4u1nF5RJ8n1endJCfYJxXMhWWzP72DmPqF0b9TOfEPbT2IJMOCBfOVVA6xzmNmQDKIEprN3oO8q4meE12VkmPs0ds5UW074gruPdJ0lHBV6BK1saBlcc7e1runXZxtVx9QM2",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس تسرّب مياه Tuya Wi-Fi مع إنذار وتطبيق Smart Life",
+          "description": "حساس يكتشف تسرّب المياه أو الفيضان ويرسل تنبيهًا إلى هاتفك عبر تطبيق Smart Life.",
+          "tags": [
+            "تسرّب مياه",
+            "Wi-Fi",
+            "إنذار",
+            "Smart Life"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Water Leak Sensor with Alarm and Smart Life App",
+          "description": "Sensor that detects water leaks or overflow and sends an alert to your phone through the Smart Life app.",
+          "tags": [
+            "Water leak",
+            "Wi-Fi",
+            "Alarm",
+            "Smart Life"
+          ]
+        },
+        "fr": {
+          "title": "Détecteur de fuite d'eau Tuya Wi-Fi avec alarme et Smart Life",
+          "description": "Capteur qui détecte les fuites ou débordements d'eau et envoie une alerte sur votre téléphone via l'application Smart Life.",
+          "tags": [
+            "Fuite d'eau",
+            "Wi-Fi",
+            "Alarme",
+            "Smart Life"
+          ]
+        },
+        "es": {
+          "title": "Sensor de fugas de agua Tuya Wi-Fi con alarma y Smart Life",
+          "description": "Sensor que detecta fugas o desbordamientos de agua y envía una alerta al móvil mediante la app Smart Life.",
+          "tags": [
+            "Fugas de agua",
+            "Wi-Fi",
+            "Alarma",
+            "Smart Life"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Wassermelder mit Alarm und Smart-Life-App",
+          "description": "Sensor, der Wasseraustritt oder Überlauf erkennt und über die Smart-Life-App eine Warnung aufs Smartphone sendet.",
+          "tags": [
+            "Wassermelder",
+            "WLAN",
+            "Alarm",
+            "Smart Life"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-pir-motion-sensor",
+      "category": "sensors",
+      "price": 9.11,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S90d4c19426de499689972431498fa447J.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cnm3zstsK2NHsrWjYvnqQEc1y0eeqiijr9qweWUEh1hK8hX7lnYclH6fTJCx5zUInjDs3kMMyZF4xTwRWIvJlGFijtwwTO6MbQVDaPTlXDEetMliC7gxwkI26Hzhasao2Fg7oLZNZUAFWg1fS51qZBFFz8gpPGjYcCCKLR4E4Cm5fTmTkQ2hjy3x17TiS5pNo3ejjwkomVd4f99NNTd0DhPRmgeai394dj9sgedqPYt2G014lpnp5ksjNiFrtrAvMzOMKQ8pNUym0EDXvYb8ydhOYIEbJK8C5lkyPrw65qPCMUeCDJRKoCXUOm7mGVpfuIJn2CwxsFuUloLS34o7hUnkDYfk5zGUVx04KKkSGdEtemqjEozs8wo86Yfb8omnK03RbQUPO7cKxYb86HERC5hI2Gv5dcbw03FKxzhOYU4Lp1bh3JjwmTTeIy1EHVY4DsAi1MdrLFzHAMPlLovvbOmlMSbO1HaH1CzKpAeLGiUV5UPECFUNOaV3Wzj7xRexz0YNRHok1EiJJCldw2rY2SWXY95J2sNW6oQUU9w8M3DskdZtcoL9CRH6haY2DH1HAYUa5rkPXduosB4sb5q8Jla3os21NtuhgrDISgGysCf5xDu8B52KZZteyeXnY7GAeSEKEBm87Okje5FARHCqjic6XMFRZiWR1fxgnzneENwq9usAYnwpJjwtHI3nwV7nCpGWGmcpV32KqQ",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس حركة PIR ذكي Tuya Wi-Fi يعمل مع Alexa",
+          "description": "حساس حركة للجسم البشري يُدار من تطبيق Smart Life ويعمل مع Alexa، ويصلح لأتمتة الإضاءة والتنبيهات.",
+          "tags": [
+            "حساس حركة",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi PIR Motion Sensor, Works with Alexa",
+          "description": "Human-body motion sensor managed in the Smart Life app and compatible with Alexa, useful for automating lights and alerts.",
+          "tags": [
+            "Motion sensor",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "fr": {
+          "title": "Détecteur de mouvement PIR Tuya Wi-Fi compatible Alexa",
+          "description": "Détecteur de mouvement humain géré dans l'application Smart Life et compatible Alexa, utile pour automatiser l'éclairage et les alertes.",
+          "tags": [
+            "Détecteur de mouvement",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "es": {
+          "title": "Sensor de movimiento PIR Tuya Wi-Fi compatible con Alexa",
+          "description": "Sensor de movimiento humano gestionado desde la app Smart Life y compatible con Alexa, útil para automatizar luces y alertas.",
+          "tags": [
+            "Sensor de movimiento",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-PIR-Bewegungsmelder, kompatibel mit Alexa",
+          "description": "Bewegungsmelder für Personen, verwaltet in der Smart-Life-App und kompatibel mit Alexa, nützlich für Licht-Automationen und Benachrichtigungen.",
+          "tags": [
+            "Bewegungsmelder",
+            "WLAN",
+            "Smart Life",
+            "Alexa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-zigbee-gateway-hub",
+      "category": "control",
+      "price": 14.4,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b7606a57e014215a0d30f251d88a908U.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoxcAdEWeL1g6wniLhNSlIMuDedNehKD5LJgr3dGwfmiQ6SqOTbg0tpRY2XhTMmn0t2s46qc5yySFph9fYPVSKygcK6osEcOp91YzbInWGFPcO9mc10TNtjLFhrwHv8a9UikxWaeImPdl3JC9ezx51rYsxjF9DTH3BGr7Yxr0JqttpwZrS5EyD86V3oCrWlJaYdK9nHyBkF5FPePXWBEo2XWFCQ7poE7zgDUJKKrHN10c9DIpO7ky5bMqvfrZ70cDd6jzHJRZl1l7ff8YSxlqcLF0BgEzXiwaZMrLwXjiGDSN7SwMjeTYoS9PTXziTaaMJCcsysbCyeGt3Fx8JAy83OH6tQ17b5sfFi5fQ51P7f8m6wPkaUE4jP2En6LhEJ5ShSMsmASd5Y6LH3zELyLNdtkKrE1SzrFTqyKcQEEmRQvTfBCjWdUh0cJ2iYCLWPmaXDYikP6tOUgIAw2RCqHVbY7LsVWH8FpsczOXUixTBNnxYW16YYSVHt94w6dpow6fA9eR258fP8dA3dllpGUrWLVw5Q8T8xrxmrXAUj72zDiXzMi8xbS8vRyZS7OYz2pZQMpT6uhujXO8zOPy147d4VGPhEqI38fZkLjRvxzvkeL2NnbrGFOwHVFgSJ3YjzkqiPGNwADjybeQDSh6BngSyZNEXyaoGghYNLZQYGy85fz28Vzm3TbddFMJIUYU6Ag7Sq1L5t80Gy5wm",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "بوابة Tuya Zigbee 3.0 لربط الأجهزة الذكية بتطبيق Smart Life",
+          "description": "بوابة (جسر) Zigbee 3.0 تربط أجهزة Zigbee بتطبيق Smart Life وتتيح التحكم عن بعد والأتمتة. تلزم لتشغيل الحساسات من نسخة Zigbee.",
+          "tags": [
+            "Zigbee 3.0",
+            "بوابة",
+            "Smart Life",
+            "أتمتة"
+          ]
+        },
+        "en": {
+          "title": "Tuya Zigbee 3.0 Gateway Hub for the Smart Life App",
+          "description": "Zigbee 3.0 gateway (bridge) that connects Zigbee devices to the Smart Life app for remote control and automation. Needed to run Zigbee-version sensors.",
+          "tags": [
+            "Zigbee 3.0",
+            "Gateway",
+            "Smart Life",
+            "Automation"
+          ]
+        },
+        "fr": {
+          "title": "Passerelle Tuya Zigbee 3.0 pour l'application Smart Life",
+          "description": "Passerelle (pont) Zigbee 3.0 qui relie les appareils Zigbee à l'application Smart Life pour le contrôle à distance et l'automatisation. Nécessaire pour les capteurs en version Zigbee.",
+          "tags": [
+            "Zigbee 3.0",
+            "Passerelle",
+            "Smart Life",
+            "Automatisation"
+          ]
+        },
+        "es": {
+          "title": "Pasarela Tuya Zigbee 3.0 para la app Smart Life",
+          "description": "Pasarela (puente) Zigbee 3.0 que conecta dispositivos Zigbee con la app Smart Life para el control remoto y la automatización. Necesaria para los sensores en versión Zigbee.",
+          "tags": [
+            "Zigbee 3.0",
+            "Pasarela",
+            "Smart Life",
+            "Automatización"
+          ]
+        },
+        "de": {
+          "title": "Tuya Zigbee-3.0-Gateway für die Smart-Life-App",
+          "description": "Zigbee-3.0-Gateway (Brücke), das Zigbee-Geräte mit der Smart-Life-App für Fernsteuerung und Automationen verbindet. Nötig für Sensoren in Zigbee-Version.",
+          "tags": [
+            "Zigbee 3.0",
+            "Gateway",
+            "Smart Life",
+            "Automation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "wifi-ir-control-hub",
+      "category": "control",
+      "price": 10.3,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/A71e42553cb4046b4ae2b2fba7bf05a3ah.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4FnsY3L3fIDArZ9tL6sl1bAbzyzlMWIzQW7ai1sk7FNZdpV5Ea5XwmDQqzVX3kjh1Kl9AcHaEheTfFc9y9ZTjwrhDPlKxIRU4nGytDm3bSfBHHKei1DDfQSdsD8ZxIbcd4t2RnzBUuvaS8QEQp5ON3xUCeJ0GROoqm2Ox7MzcfN1CG3trkx2mMpSXcUJ6031w7NETO9bMj6R4kz1DRdA3fxRx9lPplf4DzleHToo0oN62EuBIoYrPkCrC6Q713PB43871YZhObRP3ttgmNWSZVw7rPf445uz1Ylfwj1b0Tc4s6YLT6Lj2SIEGKQxENxZMlgbvSRcJ4lwY5LKUiOwe5DJldj7dCD85JkjkRfSNWz7dIky2NjQ5UB1tI3y46TjaVIDg0TXUh51Hy15mfe7lLvHsk5sca6TGR4K6LW1JT2OQrfUhouwUyK89SnC3G0kYpc9SvqPs3Jkqj3bMMlSYKkhNm7iHjFx9RVBIVdtk2P52Yx3b5khnZHKaV9hIPyiFT4ZgsnyogxZxL07joAe6gf3MYBcg3w2yLgR5JV4LTM788wHc1Z58VQuFTIgNwDvdTmz5t6apWlcCEuNRAs84pCe8MrhTpM8DKTRl18As4d2OJkphZVhJmfv1PfnkRtlwctnMH0ArSttaH53cdlmjOvjAkxnVBXvYhk9zimwsoiONwWJfFGCWcj0a84K6ETMoIBg3ensOPYVo",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "جهاز تحكم عن بعد Wi-Fi بالأشعة تحت الحمراء يعمل مع Alexa وGoogle Home",
+          "description": "جهاز مستقل (IR Blaster) يحوّل التلفاز والمكيف وغيرهما من الأجهزة التقليدية إلى أجهزة ذكية عبر تطبيق Smart Life، ويعمل مع Google Home وAlexa.",
+          "tags": [
+            "Wi-Fi",
+            "أشعة تحت الحمراء",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "en": {
+          "title": "Wi-Fi IR Control Hub, Works with Alexa and Google Home",
+          "description": "Standalone IR blaster that turns TVs, air conditioners and other conventional devices into smart ones via the Smart Life app, with Google Home and Alexa support.",
+          "tags": [
+            "Wi-Fi",
+            "Infrared",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "fr": {
+          "title": "Télécommande infrarouge Wi-Fi compatible Alexa et Google Home",
+          "description": "Émetteur IR autonome qui rend intelligents TV, climatiseurs et autres appareils classiques via l'application Smart Life, avec prise en charge de Google Home et d'Alexa.",
+          "tags": [
+            "Wi-Fi",
+            "Infrarouge",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "es": {
+          "title": "Mando IR Wi-Fi compatible con Alexa y Google Home",
+          "description": "Emisor IR independiente que convierte TV, aires acondicionados y otros aparatos convencionales en inteligentes mediante la app Smart Life, con soporte para Google Home y Alexa.",
+          "tags": [
+            "Wi-Fi",
+            "Infrarrojo",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "de": {
+          "title": "WLAN-IR-Fernbedienungs-Hub, kompatibel mit Alexa und Google Home",
+          "description": "Eigenständiger IR-Sender, der TV, Klimaanlage und andere herkömmliche Geräte per Smart-Life-App smart macht, mit Unterstützung für Google Home und Alexa.",
+          "tags": [
+            "WLAN",
+            "Infrarot",
+            "Smart Life",
+            "Alexa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-video-doorbell-1080p",
+      "category": "security",
+      "price": 25.88,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbbed27435d184d9d81974d3d52a78ad3A.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmwoIRVEAOl0zCMZasc9uv8Z6R46ISHWRpTTdXYwqJuhZYfG6qqjNZtcVKaVkzfSlUkY1mMBjslJwBpvRfVSYQZ4LJLpKTmAGh4XIgsJOBSoQuKxS3xoCXO89kMT9ZArXAWmpDTTvWU7srKenytLjSUkDghE2vkkBWqzLNwF8XxL7qiyM2Gb905wPgW9LQLHOk2X1kRZQmWUwIaE7xwokTSVNhdYm4NFsuwRLPtaKze2LnHSMW5mQKmrf6nNdmgyrIHcCtqcvq5g7qjg8zc1Y9VTYkWq7vN2Ujw2xC8hGdSwMHOEkAYcw9KJd979VkYFOSFgVmvoZYcwmKvsO5ydnFsMTecxR3UG4vTKA3jM1St2kcnriSS8BBKmDRlLK8lJZTuJXJaANeRld57dNgaD1cxBe17RJTJ3NYoYjEBsi8U3YnXPdXrDQdrzziOOcUX9Ky8HXRcGW422rwIdhNBeBtqlcivAnSNOJXooKKPR5USRGsjuQqc9bQnyNyU3oPQOXljulUGCZbGS8oFaoWarL65F4jeQgFFDi35KPEXNq04L7wXNEEawlordZfoi5uAjruxthWEoHARBy1E6h8aTY3HeWgYw5QOEWIdQWZN6aGtW3SFHiSdlPMyrWKJbK0Ms3B2Tp6jyUfXQMP6XNVOBQDTSCHsVZiuE1U6wbCoOKA7DssrSKC8HkYHmpyqGNnJXiNPwPaY64FjbIo",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "جرس باب ذكي بكاميرا Tuya Wi-Fi 1080P للخارج مع صوت ثنائي الاتجاه",
+          "description": "جرس باب بكاميرا بدقة 1080P HD للاستخدام الخارجي، مقاوم للماء، مع اتصال صوتي ثنائي الاتجاه ويُدار عبر تطبيق Tuya.",
+          "tags": [
+            "1080P",
+            "جرس باب",
+            "صوت ثنائي",
+            "مقاوم للماء"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Smart Video Doorbell, 1080P, Outdoor, Two-Way Audio",
+          "description": "1080P HD outdoor video doorbell, waterproof, with two-way audio intercom, managed through the Tuya app.",
+          "tags": [
+            "1080P",
+            "Doorbell",
+            "Two-way audio",
+            "Waterproof"
+          ]
+        },
+        "fr": {
+          "title": "Sonnette vidéo connectée Tuya Wi-Fi 1080P, extérieur, audio bidirectionnel",
+          "description": "Sonnette vidéo 1080P HD pour l'extérieur, étanche, avec interphone audio bidirectionnel, gérée via l'application Tuya.",
+          "tags": [
+            "1080P",
+            "Sonnette",
+            "Audio bidirectionnel",
+            "Étanche"
+          ]
+        },
+        "es": {
+          "title": "Timbre con vídeo Tuya Wi-Fi 1080P para exterior con audio bidireccional",
+          "description": "Timbre con vídeo 1080P HD para exterior, resistente al agua, con intercomunicador de audio bidireccional, gestionado desde la app Tuya.",
+          "tags": [
+            "1080P",
+            "Timbre",
+            "Audio bidireccional",
+            "Resistente al agua"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Video-Türklingel 1080P für außen mit Zwei-Wege-Audio",
+          "description": "1080P-HD-Video-Türklingel für den Außenbereich, wasserdicht, mit Gegensprechfunktion, gesteuert über die Tuya-App.",
+          "tags": [
+            "1080P",
+            "Türklingel",
+            "Zwei-Wege-Audio",
+            "Wasserdicht"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-garden-watering-timer",
+      "category": "garden",
+      "price": 48.85,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/A465865ecd2df4b62b32b5c38ea33ef710.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2Phr5Jc0YpxZP7yoWKRFlw3CdS5ndZMwJPEHoj69onw1VtQHLaBSwUGfpd8l5izmmLZlNkZvJUvJ0ufqVTIlSx4nK8BZAMd7CnQlYraW6VXYQ6L0nPVXvslKjntorqBjJVLOdZZEp7ZtQ0DkU7LkbVcVNIyUbmaSM7Z3SOwIJmBL5LokqX216o2naP84v0BFqwDH19OPbMeICSziH3oB93iwCUK3R7DSJYSqhIy3vDz0YRyIrLEbswOq3iE4XkshYgp1gcWqFQcZW0wRwhfGYSy60meGwhIUSd3fTgL3Ee8iohTyPy6MtTPAkGnkmrYZqq6yqxO0T8d60FsGHlAv7C6SXP5SlHumFC2sKuVtRvn0VSFAUF3MaoQt2ADA5gJOUCNQvT0rxlXV187KqpURdy1bQsPhF05fGM4zd8xpAc65M5LkINHB6yNBbAU0VOIvCJAnCUwXEW2TvULhbUy7eQYM6q5dsgzYsSWiERjdAPpDmK0MJ4auLcEh9GEKIilUe3Bd7Ddkpm5zm1WFGi7qSsANV6iWwo4cBKe7XkMA9O3N10dfRbXqmQbl1uuP02b7FJltCWgGDvyYRAfwO8W5yDpUXWwGhSrYqcsu6x5EOqfv95UrMdMRmZciwkkcIDgKFmi0Najv3mz7xETg4Ne0DE66MzANKvqvXNhRQRNxfQbEpqHcXe4s8KmDEKym5Eu57HeoCJ4JjRXBW",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مؤقّت ري ذكي للحديقة Tuya Wi-Fi مع صمام للتنقيط والرشّاشات",
+          "description": "متحكّم ري ذكي يعمل بتطبيق Tuya لتشغيل الرشّاشات أو الري بالتنقيط عن بُعد وجدولته تلقائيًا.",
+          "tags": [
+            "ري ذكي",
+            "Wi-Fi",
+            "جدولة",
+            "Tuya"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Smart Garden Watering Timer with Valve",
+          "description": "Smart irrigation controller driven by the Tuya app to run sprinklers or drip irrigation remotely and on a schedule.",
+          "tags": [
+            "Smart watering",
+            "Wi-Fi",
+            "Scheduling",
+            "Tuya"
+          ]
+        },
+        "fr": {
+          "title": "Programmateur d'arrosage connecté Tuya Wi-Fi avec vanne",
+          "description": "Contrôleur d'irrigation intelligent piloté par l'application Tuya pour gérer arroseurs ou goutte-à-goutte à distance et selon un programme.",
+          "tags": [
+            "Arrosage connecté",
+            "Wi-Fi",
+            "Programmation",
+            "Tuya"
+          ]
+        },
+        "es": {
+          "title": "Programador de riego inteligente Tuya Wi-Fi con válvula",
+          "description": "Controlador de riego inteligente gestionado con la app Tuya para manejar aspersores o riego por goteo a distancia y con horarios.",
+          "tags": [
+            "Riego inteligente",
+            "Wi-Fi",
+            "Programación",
+            "Tuya"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Bewässerungscomputer für den Garten mit Ventil",
+          "description": "Smarte Bewässerungssteuerung über die Tuya-App für Sprinkler oder Tropfbewässerung, aus der Ferne und nach Zeitplan.",
+          "tags": [
+            "Smarte Bewässerung",
+            "WLAN",
+            "Zeitplan",
+            "Tuya"
+          ]
+        }
+      }
+    },
+    {
+      "id": "loratap-wifi-curtain-blind-switch",
+      "category": "control",
+      "price": 20.04,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S091bd73362924415a5405d2745f1621bA.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2fgkALaX69jqmp5yDzigvHFEFHFpMhIZPVreqYsI5E7r2xqaHw4uMLNmgWd4oy25wIksCNu4yjGK9YBea1utFq5TVejlbsH2RlCpfyhZaTznjDJszkSGS7Wl5f7zLQEHfUS3duQRxgau7nqHmpqDYiNZjvc6C73KwCnxJCNra7jCc0Tf7RyeQbNrDK8UVe3LHSzHUBc6F1kcsTj3KNWRhq1inOUQ54ceCQOvLgikzL6B9cD2H1DrKEdzjRr5E6hbaAnscrvlui0BUgME98uQJNv2thBeQzZ2uJItBRkrtXSVzq1S4in8AC4dVOmOubhBU9mhBaJ0c47tsNwED7uQFV3GCR53dQDI2jytjnFjxccNmAIJH66qkPDZ6g5aGbx7EUqnn8GkSMApGSfmUVEkg7Wkekxdbe4jaisQSvTqYeBviGfSJBOdVvvTaDFAvqouehgPyAZ6aHRRym9HStWFkmIk3QVHTxyWV3Pwx6VZhORR0pLX6QTAN9L2VS2krpdIZ6a8fS9U8ZN0h2yuvyrbIQXlo9nJMuMvj78Ldqerip35ysHxEeueyrOGZ3jhP2T9O3i6bQLGAQm5c8eEqMdpNlE8cYUwX3yrBVjFNtc23Q5VuILapCaa4lrAiWwg3C0YSrFOx9ITsGcgGmYgj5eC96UqzJ1aarwsFcqZKbquNNWRn8f96zJBTBlKEi61TFPQnba5IyUzRTE4o",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح ستائر وستائر رول LoraTap Wi-Fi مع تحكم صوتي",
+          "description": "مفتاح جداري يتحكم بمحرك ستائر أو ستائر رول موجود لديك عبر تطبيق Smart Life، مع Alexa وGoogle Home. هو مفتاح تحكم وليس محركًا.",
+          "tags": [
+            "ستائر",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "en": {
+          "title": "LoraTap Wi-Fi Curtain & Roller Shutter Switch with Voice Control",
+          "description": "Wall switch that controls an existing curtain or roller-shutter motor through the Smart Life app, with Alexa and Google Home. It is a control switch, not a motor.",
+          "tags": [
+            "Curtains",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur Wi-Fi LoraTap pour rideaux et volets roulants, commande vocale",
+          "description": "Interrupteur mural qui pilote un moteur de rideau ou de volet roulant existant via l'application Smart Life, avec Alexa et Google Home. C'est un interrupteur de commande, pas un moteur.",
+          "tags": [
+            "Rideaux",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "es": {
+          "title": "Interruptor Wi-Fi LoraTap para cortinas y persianas con control por voz",
+          "description": "Interruptor de pared que controla un motor de cortina o persiana ya instalado mediante la app Smart Life, con Alexa y Google Home. Es un interruptor de control, no un motor.",
+          "tags": [
+            "Cortinas",
+            "Wi-Fi",
+            "Smart Life",
+            "Alexa"
+          ]
+        },
+        "de": {
+          "title": "LoraTap WLAN-Schalter für Vorhänge und Rollläden mit Sprachsteuerung",
+          "description": "Wandschalter, der einen vorhandenen Vorhang- oder Rollladenmotor über die Smart-Life-App steuert, mit Alexa und Google Home. Es ist ein Steuerschalter, kein Motor.",
+          "tags": [
+            "Vorhänge",
+            "WLAN",
+            "Smart Life",
+            "Alexa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-wall-light-switch-eu",
+      "category": "lighting",
+      "price": 14.0,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7b8758c9115545ac9901075192365127l.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoQxPcIU6nGKOcj6N6XwnTMugt3HYNtUPeGHr3uFFQcqSWtTcvYirwwviUSAnEoU2q9qp9S6bFwau2K38J4yhwiz2XEQx3KrmMdzqcj49zO55y1HWiG9RhGKKBTjaXnvup5EfVVxTLnTwRHt9QkEEpuPSSi3qMlhys3CU3QhSxQkPFyCcsQrCqzlmxng4299i0zGcRe5vdic7la7uRYHNzuVyq0iZGAmQzk6xlfYEj2zhfJXMvx6fP1qiUGSH9BDbRz8rwMRXP0Lyeee402lh5TeBXIwfvrL9nkeBSJZlnI75q7ffSSgltACFcJtL6XPcGHlJ4JNjDHz9TZUUyuq7BOl0MN67dflTBdzpWpcxtNZv7hx5dgmZCMM9fR6HUEqOw3DeuoD2VK0MvEZNzJdA9chOr9D95ACJ08pEmnVahmxzQlu8iSRFJu2QJXKmTMIDpo9NajlXf8RkybUazZnSx15UZdaebt8cotJ1eaoYBSFj7RrDG3FK7scE7dMJFMrNF40NSFsz0bcBprD51ngnNlcB1c5l2T1jKOHiUxqI4Xn2KCRKs3IQUxnRlcxo8XhPH0qkWeWA0kM9f5PXzgrV0ZZBp3N0hmyU6fZB36bEUQINt05VJ9rtfVJs0nxn4qS2y4ZfVtfv9tt5sBKYirXUNbC5wGAqna94nJO3XpkoLCQ62iWPqpCmqX9BAVlPs2BDdlLMSHFl8dt8E",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح إضاءة جداري ذكي Tuya Wi-Fi لمس بدون سلك محايد، فيشة EU",
+          "description": "مفتاح جداري بلوحة لمس لا يحتاج إلى سلك محايد، بنسخ 1 أو 2 أو 3 مفاتيح، ويعمل مع Alexa وGoogle Home. اختر عدد المفاتيح في صفحة المنتج.",
+          "tags": [
+            "بدون سلك محايد",
+            "لمس",
+            "Alexa",
+            "Google Home"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Touch Wall Light Switch, No Neutral Wire, EU",
+          "description": "Touch-panel wall switch that needs no neutral wire, in 1, 2 or 3 gangs, compatible with Alexa and Google Home. Choose the number of gangs on the product page.",
+          "tags": [
+            "No neutral",
+            "Touch",
+            "Alexa",
+            "Google Home"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur mural tactile Tuya Wi-Fi sans neutre, standard EU",
+          "description": "Interrupteur mural à panneau tactile sans fil neutre, en version 1, 2 ou 3 touches, compatible Alexa et Google Home. Choisissez le nombre de touches sur la page du produit.",
+          "tags": [
+            "Sans neutre",
+            "Tactile",
+            "Alexa",
+            "Google Home"
+          ]
+        },
+        "es": {
+          "title": "Interruptor de pared táctil Tuya Wi-Fi sin neutro, estándar EU",
+          "description": "Interruptor de pared con panel táctil que no necesita cable neutro, en versiones de 1, 2 o 3 botones, compatible con Alexa y Google Home. Elige el número de botones en la página del producto.",
+          "tags": [
+            "Sin neutro",
+            "Táctil",
+            "Alexa",
+            "Google Home"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Touch-Wandschalter ohne Neutralleiter, EU-Standard",
+          "description": "Touch-Wandschalter, der keinen Neutralleiter braucht, mit 1, 2 oder 3 Tasten, kompatibel mit Alexa und Google Home. Die Tastenzahl wählen Sie auf der Produktseite.",
+          "tags": [
+            "Ohne Neutralleiter",
+            "Touch",
+            "Alexa",
+            "Google Home"
+          ]
+        }
+      }
+    },
+    {
+      "id": "motion-sensor-led-night-light",
+      "category": "lighting",
+      "price": 7.99,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S682ec38c0a4649fcb1588342fd5049b12.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C240UTfxdp0YsNlbK4PHMctMnbsjmeECvpIElFGpFOMaoXHVnbRotkLVQzlTECAKjahpwnNMOVOss0YujM1DOhJxMmJxoo3xmELAcJyWVcDqklNeAsFjbrnynmZrAlzU9hV126eYNiDIKkD6MY6zVMN7lMhP4em2JhErRcthlllILno2cuN3Ro0LdO7rDWfOLkyp4mkbHVkdVFFNjHbRykwEaQOelhOmRJNr6xn2FNPjq8lQyztl5kjKckup5HbHiI1nugT2H0CNCBtB2Rtqfmk2UAjVXcWiD1mosZKxm8D91qrYp1MVWf75mnU6uvCVzkAFYaqb8MPSdSz4rZmg9B5D7vj4gHojlXqpj6e2FhCumOnDUMPVBgIg8cO8r4udUiw4bQokHy5JJgZpWldb8qb1JIfsFm0i7GiRbPaGpJpDg9TgplA4IJY1YVMvLcYrJtKf9RawqNOdCrTPTAFM1MDA1IexYzyllRFAqBUlTgFiVXpWZs6nWrALQ6Sux8CrscCVO3RDyK6R8YWJtvl9QmpDYyjLjnhhi3ew3xEkWCwxZF5n2OnzDgPxNlDgrkCtvOXj417bVuvGcma8rvsTM5jsYBOqoEk1docEbjb2Gn6LUu3ME0HXIqe1xMROo9IjGifz7E6L79jriPpTETxTo0ymkmNCpn5bfynhAcSWz2OWtvHkguQye8onwCTjpAvzG1Vk0ps4cZszkm",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مصباح ليلي LED بحساس حركة بنمطين قابل للتعديل",
+          "description": "شريط COB LED يعمل بجهد 5 فولت مع حساس حركة يضيء تلقائيًا، مناسب للحمام وغرفة النوم وجانب السرير.",
+          "tags": [
+            "حساس حركة",
+            "LED",
+            "5V",
+            "للحمام"
+          ]
+        },
+        "en": {
+          "title": "Motion Sensor LED Night Light, Dual Mode, Adjustable",
+          "description": "5V COB LED strip with a motion sensor that lights up automatically, suited to the bathroom, bedroom and bedside.",
+          "tags": [
+            "Motion sensor",
+            "LED",
+            "5V",
+            "Bathroom"
+          ]
+        },
+        "fr": {
+          "title": "Veilleuse LED à détecteur de mouvement, double mode réglable",
+          "description": "Ruban LED COB 5V avec détecteur de mouvement qui s'allume automatiquement, adapté à la salle de bain, la chambre et la table de chevet.",
+          "tags": [
+            "Détecteur de mouvement",
+            "LED",
+            "5V",
+            "Salle de bain"
+          ]
+        },
+        "es": {
+          "title": "Luz nocturna LED con sensor de movimiento, doble modo ajustable",
+          "description": "Tira LED COB de 5V con sensor de movimiento que se enciende automáticamente, ideal para el baño, el dormitorio y la mesita de noche.",
+          "tags": [
+            "Sensor de movimiento",
+            "LED",
+            "5V",
+            "Baño"
+          ]
+        },
+        "de": {
+          "title": "LED-Nachtlicht mit Bewegungsmelder, zwei Modi, einstellbar",
+          "description": "5-V-COB-LED-Streifen mit Bewegungsmelder, der sich automatisch einschaltet, geeignet für Bad, Schlafzimmer und Nachttisch.",
+          "tags": [
+            "Bewegungsmelder",
+            "LED",
+            "5V",
+            "Badezimmer"
           ]
         }
       }
