@@ -119,6 +119,7 @@ def search_mode():
     if not f.exists():
         return
     for kw in [l.strip() for l in f.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")]:
+        time.sleep(1.5)
         status, data = call("aliexpress.affiliate.product.query", {
             "keywords": kw, "page_size": "40", "page_no": "1",
             "sort": "LAST_VOLUME_DESC", "target_currency": "USD", "target_language": "EN",
