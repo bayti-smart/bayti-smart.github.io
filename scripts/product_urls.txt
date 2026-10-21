@@ -1,13 +1,12 @@
-# ضع هنا رابط كل منتج من aliexpress.com (رابط واحد في كل سطر).
+# ضع هنا رابط كل منتج من aliexpress.com (رابط واحد في كل سطر) ليجلب السكربت بياناته.
 # يمكنك إضافة الفئة بعد الرابط:  الرابط | category
-https://www.aliexpress.com/item/1005007654887555.html | lighting
-https://www.aliexpress.com/item/1005009888110787.html | security
-https://www.aliexpress.com/item/1005007184129819.html | power
-https://www.aliexpress.com/item/1005010266091323.html | security
-https://www.aliexpress.com/item/1005006904673262.html | control
-https://www.aliexpress.com/item/1005009401897501.html | lighting
-https://www.aliexpress.com/item/1005010706709607.html | power
-https://www.aliexpress.com/item/1005007987933038.html | security
-https://www.aliexpress.com/item/1005007168901128.html | sensors
-https://www.aliexpress.com/item/1005006996672055.html | security
-https://www.aliexpress.com/item/1005010037251642.html | audio
+https://www.aliexpress.com/item/1005006784530324.html | security
+https://www.aliexpress.com/item/1005006889591798.html | sensors
+https://www.aliexpress.com/item/1005007857211240.html | sensors
+https://www.aliexpress.com/item/1005010333605572.html | control
+https://www.aliexpress.com/item/1005005715469636.html | control
+https://www.aliexpress.com/item/1005009960242702.html | security
+https://www.aliexpress.com/item/1005008702337733.html | garden
+https://www.aliexpress.com/item/1005007540124409.html | control
+https://www.aliexpress.com/item/1005006903350922.html | lighting
+https://www.aliexpress.com/item/1005012650169190.html | lighting
