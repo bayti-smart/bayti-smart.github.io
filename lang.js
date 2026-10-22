@@ -20,6 +20,15 @@ const LANG_ORDER = ['ar', 'en', 'fr', 'es', 'de'];
     if (select) select.value = LANG;
     var t = document.body.dataset[contentLang === 'ar' ? 'titleAr' : 'titleEn'];
     if (t) document.title = t;
+    jumpToHash();
+  }
+
+  // الروابط تشير إلى #zigbee مثلًا؛ نقفز إلى النسخة الظاهرة (العربية أو الإنجليزية -en)
+  function jumpToHash() {
+    var h = (location.hash || '').slice(1).replace(/-en$/, '');
+    if (!h) return;
+    var el = document.getElementById(contentLang === 'ar' ? h : h + '-en');
+    if (el && !el.closest('[hidden]')) setTimeout(function () { el.scrollIntoView(); }, 0);
   }
 
   function buildLangSwitch() {

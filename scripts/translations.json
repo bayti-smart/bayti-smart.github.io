@@ -69,6 +69,13 @@
       "fr": "Réseau",
       "es": "Red",
       "de": "Netzwerk"
+    },
+    "misc": {
+      "ar": "منزل ذكي متنوع",
+      "en": "More Smart Home",
+      "fr": "Maison connectée : divers",
+      "es": "Más hogar inteligente",
+      "de": "Weitere Smart-Home-Geräte"
     }
   },
   "products": {

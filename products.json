@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T20:37:12.790490+00:00",
+  "updated_at": "2026-10-22T22:22:36.021504+00:00",
   "languages": [
     "ar",
     "en",
@@ -79,33 +79,13 @@
       }
     },
     {
-      "id": "climate",
+      "id": "misc",
       "name": {
-        "ar": "التدفئة والمناخ",
-        "en": "Climate",
-        "fr": "Climat",
-        "es": "Clima",
-        "de": "Klima"
-      }
-    },
-    {
-      "id": "pets",
-      "name": {
-        "ar": "الحيوانات الأليفة",
-        "en": "Pets",
-        "fr": "Animaux",
-        "es": "Mascotas",
-        "de": "Haustiere"
-      }
-    },
-    {
-      "id": "network",
-      "name": {
-        "ar": "الشبكة",
-        "en": "Network",
-        "fr": "Réseau",
-        "es": "Red",
-        "de": "Netzwerk"
+        "ar": "منزل ذكي متنوع",
+        "en": "More Smart Home",
+        "fr": "Maison connectée : divers",
+        "es": "Más hogar inteligente",
+        "de": "Weitere Smart-Home-Geräte"
       }
     }
   ],
@@ -1561,7 +1541,7 @@
     },
     {
       "id": "tuya-wifi-zigbee-radiator-valve",
-      "category": "climate",
+      "category": "misc",
       "price": 35.95,
       "currency": "USD",
       "rating": 0.0,
@@ -1687,7 +1667,7 @@
     },
     {
       "id": "wifi-automatic-pet-feeder",
-      "category": "pets",
+      "category": "misc",
       "price": 66.42,
       "currency": "USD",
       "rating": 0.0,
@@ -2065,7 +2045,7 @@
     },
     {
       "id": "avatto-wifi-smart-thermostat",
-      "category": "climate",
+      "category": "misc",
       "price": 25.56,
       "currency": "USD",
       "rating": 0.0,
@@ -2443,7 +2423,7 @@
     },
     {
       "id": "fenvi-ac1200-wifi-repeater",
-      "category": "network",
+      "category": "misc",
       "price": 21.36,
       "currency": "USD",
       "rating": 0.0,
@@ -2884,7 +2864,7 @@
     },
     {
       "id": "cat-water-fountain-3-2l-stainless",
-      "category": "pets",
+      "category": "misc",
       "price": 10.91,
       "currency": "USD",
       "rating": 0.0,
@@ -3262,7 +3242,7 @@
     },
     {
       "id": "ampcom-gigabit-switch-5-8-port",
-      "category": "network",
+      "category": "misc",
       "price": 19.0,
       "currency": "USD",
       "rating": 0.0,

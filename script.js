@@ -9,7 +9,7 @@ const UI = {
     statProducts: 'منتج مُختار', statCategories: 'فئات', statUpdated: 'آخر تحديث',
     emptyState: 'لا توجد منتجات مطابقة لبحثك. جرّب كلمة أخرى.',
     compatNote: 'ملاحظة: روابط المنتجات الحالية تقود إلى متجر Amazon الأمريكي، وكثير منها مصمم لكهرباء 120 فولت وقوابس أمريكية. تحقق من الجهد وشكل القابس وقاعدة المصباح (E26 أو E27) قبل الشراء.',
-    viewProduct: 'عرض المنتج', checkPrice: 'تحقق من السعر',
+    viewProduct: 'عرض المنتج', checkPrice: 'تحقق من السعر', guideLink: 'اقرأ الدليل المناسب',
     disclosure: "إفصاح: هذا الموقع يشارك في برامج تسويق بالعمولة (مثل AliExpress Affiliate)، وقد نحصل على عمولة عند الشراء عبر روابطنا دون أي تكلفة إضافية عليك.",
     shareTitle: 'شارك الموقع', shareMsg: 'اكتشف أفضل أجهزة المنزل الذكي', copyLink: 'نسخ الرابط', copied: 'تم النسخ',
     navGuides: 'أدلة الشراء', navAbout: 'من نحن', navPrivacy: 'سياسة الخصوصية',
@@ -27,7 +27,7 @@ const UI = {
     statProducts: 'curated products', statCategories: 'categories', statUpdated: 'last updated',
     emptyState: 'No products match your search. Try a different term.',
     compatNote: 'Note: current product links lead to the US Amazon store, and many items are built for 120V mains and US plugs. Check voltage, plug shape and bulb base (E26 or E27) before buying.',
-    viewProduct: 'View product', checkPrice: 'Check price',
+    viewProduct: 'View product', checkPrice: 'Check price', guideLink: 'Read the related guide',
     disclosure: "Disclosure: this site participates in affiliate programs (such as the AliExpress Affiliate Program) and may earn a commission on purchases made through our links at no extra cost to you.",
     shareTitle: 'Share this site', shareMsg: 'Discover the best smart home devices', copyLink: 'Copy link', copied: 'Copied',
     navGuides: 'Buying guides', navAbout: 'About', navPrivacy: 'Privacy Policy',
@@ -45,7 +45,7 @@ const UI = {
     statProducts: 'produits sélectionnés', statCategories: 'catégories', statUpdated: 'dernière mise à jour',
     emptyState: 'Aucun produit ne correspond à votre recherche. Essayez un autre terme.',
     compatNote: "Remarque : les liens actuels renvoient vers Amazon US, et de nombreux articles sont conçus pour le secteur 120V et les prises américaines. Vérifiez la tension, la forme de la prise et le culot de l'ampoule (E26 ou E27) avant d'achat.",
-    viewProduct: 'Voir le produit', checkPrice: 'Voir le prix',
+    viewProduct: 'Voir le produit', checkPrice: 'Voir le prix', guideLink: 'Lire le guide associé',
     disclosure: "Divulgation : ce site participe à des programmes d'affiliation (comme AliExpress Affiliate) et peut percevoir une commission sur les achats effectués via nos liens, sans coût supplémentaire pour vous.",
     shareTitle: 'Partager ce site', shareMsg: 'Découvrez les meilleurs appareils pour maison connectée', copyLink: 'Copier le lien', copied: 'Copié',
     navGuides: "Guides d'achat", navAbout: 'À propos', navPrivacy: 'Confidentialité',
@@ -63,7 +63,7 @@ const UI = {
     statProducts: 'productos seleccionados', statCategories: 'categorías', statUpdated: 'última actualización',
     emptyState: 'Ningún producto coincide con tu búsqueda. Prueba con otro término.',
     compatNote: 'Nota: los enlaces actuales llevan a Amazon EE. UU., y muchos artículos están diseñados para 120V y enchufes estadounidenses. Verifica el voltaje, la forma del enchufe y el casquillo de la bombilla (E26 o E27) antes de comprar.',
-    viewProduct: 'Ver producto', checkPrice: 'Consultar precio',
+    viewProduct: 'Ver producto', checkPrice: 'Consultar precio', guideLink: 'Leer la guía relacionada',
     disclosure: "Divulgación: este sitio participa en programas de afiliados (como AliExpress Affiliate) y puede recibir una comisión por las compras realizadas a través de nuestros enlaces, sin coste adicional para ti.",
     shareTitle: 'Comparte este sitio', shareMsg: 'Descubre los mejores dispositivos para el hogar inteligente', copyLink: 'Copiar enlace', copied: 'Copiado',
     navGuides: 'Guías de compra', navAbout: 'Acerca de', navPrivacy: 'Privacidad',
@@ -81,7 +81,7 @@ const UI = {
     statProducts: 'ausgewählte Produkte', statCategories: 'Kategorien', statUpdated: 'letzte Aktualisierung',
     emptyState: 'Keine Produkte gefunden. Versuchen Sie einen anderen Suchbegriff.',
     compatNote: 'Hinweis: Die aktuellen Links führen zum US-Amazon-Shop, viele Artikel sind für 120V-Netzspannung und US-Stecker ausgelegt. Prüfen Sie Spannung, Steckerform und Lampensockel (E26 oder E27) vor dem Kauf.',
-    viewProduct: 'Produkt ansehen', checkPrice: 'Preis prüfen',
+    viewProduct: 'Produkt ansehen', checkPrice: 'Preis prüfen', guideLink: 'Passenden Ratgeber lesen',
     disclosure: "Offenlegung: Diese Website nimmt an Partnerprogrammen teil (z. B. AliExpress Affiliate) und erhält ggf. eine Provision für Käufe über unsere Links, ohne Mehrkosten für Sie.",
     shareTitle: 'Seite teilen', shareMsg: 'Entdecken Sie die besten Smart-Home-Geräte', copyLink: 'Link kopieren', copied: 'Kopiert',
     navGuides: 'Kaufratgeber', navAbout: 'Über uns', navPrivacy: 'Datenschutz',
@@ -330,6 +330,21 @@ function imgFallback(img) {
   img.src = IMG_PLACEHOLDER;
 }
 
+// ربط كل منتج بالدليل المناسب في guides.html (أول قاعدة تنطبق على المعرّف تفوز)
+const GUIDE_RULES = [
+  [/zigbee/, 'zigbee'],
+  [/camera|doorbell/, 'cameras'],
+  [/bulb/, 'bulbs'],
+  [/plug|power-strip/, 'plugs'],
+  [/din-rail|switch|curtain|dimmer|gigabit/, 'electrical'],
+  [/sensor|detector|thermometer/, 'sensors'],
+  [/garden|watering|soil/, 'garden'],
+];
+function guideFor(p) {
+  const rule = GUIDE_RULES.find(([re]) => re.test(p.id));
+  return rule ? rule[1] : null;
+}
+
 function renderCard(p) {
   const text = localize(p);
   const tags = (text.tags || []).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
@@ -348,6 +363,7 @@ function renderCard(p) {
         <a class="buy-btn" href="${escapeHtml(p.affiliate_url)}" target="_blank" rel="nofollow sponsored noopener">
           ${escapeHtml(t('viewProduct'))}
         </a>
+        ${guideFor(p) ? `<a class="guide-link" href="guides.html#${guideFor(p)}">${escapeHtml(t('guideLink'))}</a>` : ''}
       </div>
     </article>
   `;

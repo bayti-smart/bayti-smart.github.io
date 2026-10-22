@@ -120,6 +120,9 @@ def build_categories(products):
     for p in products:
         if p["category"] not in seen:
             seen.append(p["category"])
+    if "misc" in seen:  # فئة «متنوع» تأتي دائمًا في آخر الشريط
+        seen.remove("misc")
+        seen.append("misc")
     return [
         {"id": cid, "name": TRANSLATIONS["categories"].get(cid, {"ar": cid, "en": cid})}
         for cid in seen
