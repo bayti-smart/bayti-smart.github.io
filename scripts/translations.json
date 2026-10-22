@@ -48,6 +48,20 @@
       "fr": "Jardin",
       "es": "Jardín",
       "de": "Garten"
+    },
+    "climate": {
+      "ar": "التدفئة والمناخ",
+      "en": "Climate",
+      "fr": "Climat",
+      "es": "Clima",
+      "de": "Klima"
+    },
+    "pets": {
+      "ar": "الحيوانات الأليفة",
+      "en": "Pets",
+      "fr": "Animaux",
+      "es": "Mascotas",
+      "de": "Haustiere"
     }
   },
   "products": {
@@ -1140,6 +1154,526 @@
           "LED",
           "5V",
           "Badezimmer"
+        ]
+      }
+    },
+    "wofea-wifi-garage-door-opener": {
+      "ar": {
+        "title": "متحكّم باب جراج ذكي Wofea Wi-Fi يعمل مع Alexa وGoogle Home",
+        "description": "مفتاح Wi-Fi يحوّل باب الجراج أو البوابة إلى باب ذكي يُدار من تطبيق Smart Life/Tuya، ويعمل مع Alexa وGoogle Home، ولا يحتاج إلى بوابة (Hub).",
+        "tags": [
+          "باب جراج",
+          "Wi-Fi",
+          "بدون Hub",
+          "Alexa"
+        ]
+      },
+      "en": {
+        "title": "Wofea Wi-Fi Smart Garage Door Opener Controller, Works with Alexa and Google Home",
+        "description": "Wi-Fi switch that makes your garage door or gate smart, controlled from the Smart Life/Tuya app, compatible with Alexa and Google Home, and requiring no hub.",
+        "tags": [
+          "Garage door",
+          "Wi-Fi",
+          "No hub",
+          "Alexa"
+        ]
+      },
+      "fr": {
+        "title": "Contrôleur de porte de garage connecté Wofea Wi-Fi, compatible Alexa et Google Home",
+        "description": "Interrupteur Wi-Fi qui rend votre porte de garage ou portail intelligent, piloté depuis l'application Smart Life/Tuya, compatible Alexa et Google Home, sans passerelle nécessaire.",
+        "tags": [
+          "Porte de garage",
+          "Wi-Fi",
+          "Sans passerelle",
+          "Alexa"
+        ]
+      },
+      "es": {
+        "title": "Controlador de puerta de garaje inteligente Wofea Wi-Fi, compatible con Alexa y Google Home",
+        "description": "Interruptor Wi-Fi que convierte la puerta del garaje o la cancela en inteligente, controlado desde la app Smart Life/Tuya, compatible con Alexa y Google Home, sin necesidad de hub.",
+        "tags": [
+          "Puerta de garaje",
+          "Wi-Fi",
+          "Sin hub",
+          "Alexa"
+        ]
+      },
+      "de": {
+        "title": "Wofea WLAN-Garagentoröffner-Controller, kompatibel mit Alexa und Google Home",
+        "description": "WLAN-Schalter, der Ihr Garagentor oder Hoftor smart macht, gesteuert über die Smart-Life-/Tuya-App, kompatibel mit Alexa und Google Home, ohne Hub.",
+        "tags": [
+          "Garagentor",
+          "WLAN",
+          "Ohne Hub",
+          "Alexa"
+        ]
+      }
+    },
+    "kerui-wifi-alarm-siren-system": {
+      "ar": {
+        "title": "نظام إنذار KERUI Wi-Fi لاسلكي بصافرة يعمل مع Tuya وAlexa",
+        "description": "نظام إنذار لاسلكي بصافرة يعمل مع منزل Tuya الذكي ومع Alexa، ويتصل بحساسات السرقة والحركة والأبواب بتردد 433MHz. راجع محتويات العلبة قبل الطلب.",
+        "tags": [
+          "إنذار",
+          "صافرة",
+          "433MHz",
+          "Tuya"
+        ]
+      },
+      "en": {
+        "title": "KERUI Wi-Fi Wireless Security Alarm System with Siren, Works with Tuya and Alexa",
+        "description": "Wireless alarm system with a siren that works with the Tuya smart home and Alexa, and pairs with 433MHz burglar, motion and door sensors. Check what is included in the pack before ordering.",
+        "tags": [
+          "Alarm",
+          "Siren",
+          "433MHz",
+          "Tuya"
+        ]
+      },
+      "fr": {
+        "title": "Système d'alarme sans fil KERUI Wi-Fi avec sirène, compatible Tuya et Alexa",
+        "description": "Système d'alarme sans fil avec sirène compatible avec la maison connectée Tuya et Alexa, associable à des capteurs d'intrusion, de mouvement et d'ouverture en 433MHz. Vérifiez le contenu du pack avant de commander.",
+        "tags": [
+          "Alarme",
+          "Sirène",
+          "433MHz",
+          "Tuya"
+        ]
+      },
+      "es": {
+        "title": "Sistema de alarma inalámbrico KERUI Wi-Fi con sirena, compatible con Tuya y Alexa",
+        "description": "Sistema de alarma inalámbrico con sirena compatible con el hogar inteligente Tuya y Alexa, que se combina con sensores antirrobo, de movimiento y de puerta de 433MHz. Revisa el contenido del pack antes de pedir.",
+        "tags": [
+          "Alarma",
+          "Sirena",
+          "433MHz",
+          "Tuya"
+        ]
+      },
+      "de": {
+        "title": "KERUI WLAN-Funkalarmanlage mit Sirene, kompatibel mit Tuya und Alexa",
+        "description": "Funk-Alarmanlage mit Sirene, kompatibel mit dem Tuya-Smart-Home und Alexa, kombinierbar mit 433-MHz-Einbruch-, Bewegungs- und Türsensoren. Prüfen Sie vor der Bestellung den Lieferumfang.",
+        "tags": [
+          "Alarm",
+          "Sirene",
+          "433MHz",
+          "Tuya"
+        ]
+      }
+    },
+    "tuya-wifi-zigbee-radiator-valve": {
+      "ar": {
+        "title": "صمام مشع تدفئة ذكي Tuya (Wi-Fi / Zigbee) بجدولة وتحكم صوتي",
+        "description": "صمام ثرموستات للمشعّات يُبرمج ويُدار عن بُعد، مع تحكم صوتي عبر Alexa وGoogle Home. يُباع بنسختين Wi-Fi وZigbee: Zigbee يحتاج بوابة، وتأكد من توافقه مع مشعّك.",
+        "tags": [
+          "مشعّ",
+          "جدولة",
+          "Wi-Fi / Zigbee",
+          "Alexa"
+        ]
+      },
+      "en": {
+        "title": "Tuya Smart Radiator Valve (Wi-Fi / Zigbee) with Scheduling and Voice Control",
+        "description": "Thermostatic radiator valve you can program and control remotely, with Alexa and Google Home voice control. Sold in Wi-Fi and Zigbee versions: Zigbee needs a hub, and you should check it fits your radiator.",
+        "tags": [
+          "Radiator",
+          "Scheduling",
+          "Wi-Fi / Zigbee",
+          "Alexa"
+        ]
+      },
+      "fr": {
+        "title": "Tête thermostatique connectée Tuya (Wi-Fi / Zigbee) avec programmation et commande vocale",
+        "description": "Tête de radiateur thermostatique programmable et pilotable à distance, avec commande vocale Alexa et Google Home. Vendue en versions Wi-Fi et Zigbee : la version Zigbee exige une passerelle, et vérifiez la compatibilité avec votre radiateur.",
+        "tags": [
+          "Radiateur",
+          "Programmation",
+          "Wi-Fi / Zigbee",
+          "Alexa"
+        ]
+      },
+      "es": {
+        "title": "Válvula de radiador inteligente Tuya (Wi-Fi / Zigbee) con programación y control por voz",
+        "description": "Válvula termostática para radiadores programable y controlable a distancia, con control por voz de Alexa y Google Home. Se vende en versiones Wi-Fi y Zigbee: Zigbee requiere hub, y comprueba que encaja en tu radiador.",
+        "tags": [
+          "Radiador",
+          "Programación",
+          "Wi-Fi / Zigbee",
+          "Alexa"
+        ]
+      },
+      "de": {
+        "title": "Tuya Smartes Heizkörperthermostat (WLAN / Zigbee) mit Zeitplan und Sprachsteuerung",
+        "description": "Programmierbares, aus der Ferne steuerbares Heizkörperthermostat mit Sprachsteuerung über Alexa und Google Home. In WLAN- und Zigbee-Version erhältlich: Zigbee braucht ein Gateway; prüfen Sie die Passform an Ihrem Heizkörper.",
+        "tags": [
+          "Heizkörper",
+          "Zeitplan",
+          "WLAN / Zigbee",
+          "Alexa"
+        ]
+      }
+    },
+    "tuya-wifi-bt-ceiling-light-24w": {
+      "ar": {
+        "title": "مصباح سقف ذكي Tuya Wi-Fi وبلوتوث بقدرة 24 واط بألوان RGB",
+        "description": "مصباح سقف دائري LED بقدرة 24 واط بألوان RGB وإضاءة دافئة وباردة، يُدار من تطبيق Smart Life ويعمل مع Alexa وGoogle Home، بجهد 85-265 فولت.",
+        "tags": [
+          "سقف",
+          "RGB",
+          "24W",
+          "Alexa"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi and Bluetooth Smart Ceiling Light, 24W RGB",
+        "description": "24W round LED ceiling lamp with RGB and warm/cool white, managed in the Smart Life app and compatible with Alexa and Google Home, rated 85-265V.",
+        "tags": [
+          "Ceiling",
+          "RGB",
+          "24W",
+          "Alexa"
+        ]
+      },
+      "fr": {
+        "title": "Plafonnier connecté Tuya Wi-Fi et Bluetooth, 24W RVB",
+        "description": "Plafonnier LED rond de 24W en RVB avec blancs chaud et froid, géré dans l'application Smart Life et compatible Alexa et Google Home, 85-265V.",
+        "tags": [
+          "Plafonnier",
+          "RVB",
+          "24W",
+          "Alexa"
+        ]
+      },
+      "es": {
+        "title": "Lámpara de techo inteligente Tuya Wi-Fi y Bluetooth, 24W RGB",
+        "description": "Lámpara de techo LED redonda de 24W con RGB y blanco cálido y frío, gestionada desde la app Smart Life y compatible con Alexa y Google Home, de 85-265V.",
+        "tags": [
+          "Techo",
+          "RGB",
+          "24W",
+          "Alexa"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN- und Bluetooth-Deckenleuchte, 24W RGB",
+        "description": "Runde 24-W-LED-Deckenleuchte mit RGB sowie warm- und kaltweiß, verwaltet in der Smart-Life-App und kompatibel mit Alexa und Google Home, 85-265V.",
+        "tags": [
+          "Decke",
+          "RGB",
+          "24W",
+          "Alexa"
+        ]
+      }
+    },
+    "wifi-automatic-pet-feeder": {
+      "ar": {
+        "title": "موزّع طعام ذكي للقطط والكلاب بتطبيق وجدولة (Wi-Fi 2.4G)",
+        "description": "موزّع طعام مبرمج يُدار بتطبيق الهاتف لإطعام القطط والكلاب في مواعيد محددة. يعمل بشبكة Wi-Fi 2.4G فقط.",
+        "tags": [
+          "قطط وكلاب",
+          "جدولة",
+          "تطبيق",
+          "Wi-Fi 2.4G"
+        ]
+      },
+      "en": {
+        "title": "Smart Automatic Pet Feeder with App Control and Scheduling (2.4G Wi-Fi)",
+        "description": "Timed food dispenser controlled from a phone app to feed cats and dogs at set times. Works on 2.4G Wi-Fi only.",
+        "tags": [
+          "Cats & dogs",
+          "Scheduling",
+          "App",
+          "2.4G Wi-Fi"
+        ]
+      },
+      "fr": {
+        "title": "Distributeur de croquettes connecté pour chats et chiens, application et programmation (Wi-Fi 2,4G)",
+        "description": "Distributeur de nourriture programmable piloté par application pour nourrir chats et chiens à heures fixes. Fonctionne uniquement en Wi-Fi 2,4G.",
+        "tags": [
+          "Chats et chiens",
+          "Programmation",
+          "Application",
+          "Wi-Fi 2,4G"
+        ]
+      },
+      "es": {
+        "title": "Dispensador automático de comida para gatos y perros con app y programación (Wi-Fi 2.4G)",
+        "description": "Dispensador de comida programable controlado desde una app para alimentar a gatos y perros a horas fijas. Funciona solo con Wi-Fi de 2,4G.",
+        "tags": [
+          "Gatos y perros",
+          "Programación",
+          "App",
+          "Wi-Fi 2.4G"
+        ]
+      },
+      "de": {
+        "title": "Smarter Futterautomat für Katzen und Hunde mit App und Zeitplan (2,4G-WLAN)",
+        "description": "Programmierbarer Futterspender, per Smartphone-App gesteuert, der Katzen und Hunde zu festen Zeiten füttert. Funktioniert nur mit 2,4-G-WLAN.",
+        "tags": [
+          "Katzen & Hunde",
+          "Zeitplan",
+          "App",
+          "2,4G-WLAN"
+        ]
+      }
+    },
+    "kerui-fingerprint-padlock": {
+      "ar": {
+        "title": "قفل بصمة KERUI محمول مقاوم للماء بشحن USB",
+        "description": "قفل بصمة بلا مفتاح يفتح خلال 0.2 ثانية، بجسم من سبيكة الزنك مقاوم للماء ومضاد للسرقة، ويُشحن عبر USB.",
+        "tags": [
+          "بصمة",
+          "مقاوم للماء",
+          "USB",
+          "محمول"
+        ]
+      },
+      "en": {
+        "title": "KERUI Portable Fingerprint Padlock, Waterproof, USB Rechargeable",
+        "description": "Keyless fingerprint lock that unlocks in 0.2 seconds, with a waterproof, anti-theft zinc-alloy body, charged over USB.",
+        "tags": [
+          "Fingerprint",
+          "Waterproof",
+          "USB",
+          "Portable"
+        ]
+      },
+      "fr": {
+        "title": "Cadenas à empreinte digitale KERUI portable, étanche, rechargeable USB",
+        "description": "Cadenas sans clé à empreinte digitale qui s'ouvre en 0,2 seconde, avec un corps en alliage de zinc étanche et antivol, rechargé par USB.",
+        "tags": [
+          "Empreinte",
+          "Étanche",
+          "USB",
+          "Portable"
+        ]
+      },
+      "es": {
+        "title": "Candado de huella KERUI portátil, resistente al agua, recargable por USB",
+        "description": "Candado sin llave con huella dactilar que abre en 0,2 segundos, con cuerpo de aleación de zinc resistente al agua y antirrobo, que se carga por USB.",
+        "tags": [
+          "Huella",
+          "Resistente al agua",
+          "USB",
+          "Portátil"
+        ]
+      },
+      "de": {
+        "title": "KERUI Fingerabdruck-Vorhängeschloss, tragbar, wasserdicht, USB-aufladbar",
+        "description": "Schlüsselloses Fingerabdruckschloss, das in 0,2 Sekunden öffnet, mit wasserdichtem, diebstahlsicherem Zinklegierungsgehäuse, per USB aufladbar.",
+        "tags": [
+          "Fingerabdruck",
+          "Wasserdicht",
+          "USB",
+          "Tragbar"
+        ]
+      }
+    },
+    "zealot-s32-bluetooth-speaker": {
+      "ar": {
+        "title": "مكبر صوت بلوتوث Zealot S32 محمول للخارج مقاوم للماء IPX6",
+        "description": "مكبر صوت لاسلكي بباص قوي مقاوم للماء بمعيار IPX6، ببطارية 1800mAh، ويدعم الاقتران المزدوج بين مكبرين.",
+        "tags": [
+          "IPX6",
+          "بطارية 1800mAh",
+          "اقتران مزدوج",
+          "للخارج"
+        ]
+      },
+      "en": {
+        "title": "Zealot S32 Portable Outdoor Bluetooth Speaker, IPX6 Waterproof",
+        "description": "Wireless speaker with strong bass, IPX6 waterproof rating and a 1800mAh battery, supporting dual pairing of two speakers.",
+        "tags": [
+          "IPX6",
+          "1800mAh",
+          "Dual pairing",
+          "Outdoor"
+        ]
+      },
+      "fr": {
+        "title": "Enceinte Bluetooth portable d'extérieur Zealot S32, étanche IPX6",
+        "description": "Enceinte sans fil à basses puissantes, étanche IPX6, batterie 1800mAh, avec appairage double de deux enceintes.",
+        "tags": [
+          "IPX6",
+          "1800mAh",
+          "Double appairage",
+          "Extérieur"
+        ]
+      },
+      "es": {
+        "title": "Altavoz Bluetooth portátil de exterior Zealot S32, resistente al agua IPX6",
+        "description": "Altavoz inalámbrico de graves potentes, resistente al agua IPX6, con batería de 1800mAh y emparejamiento doble de dos altavoces.",
+        "tags": [
+          "IPX6",
+          "1800mAh",
+          "Emparejamiento doble",
+          "Exterior"
+        ]
+      },
+      "de": {
+        "title": "Zealot S32 tragbarer Outdoor-Bluetooth-Lautsprecher, IPX6 wasserdicht",
+        "description": "Kabelloser Lautsprecher mit kräftigem Bass, IPX6 wasserdicht, 1800-mAh-Akku und Dual-Pairing zweier Lautsprecher.",
+        "tags": [
+          "IPX6",
+          "1800mAh",
+          "Dual-Pairing",
+          "Outdoor"
+        ]
+      }
+    },
+    "moes-wifi-zigbee-switch-dimmer-module": {
+      "ar": {
+        "title": "وحدة مفتاح/دمر MOES Mini Tuya (Wi-Fi / Zigbee) بمفتاح أو مفتاحين",
+        "description": "وحدة صغيرة تُركَّب خلف مفتاح الإضاءة الحالي لتحوّله إلى ذكي، بنسخ 1 أو 2 مفتاح، مع تحكم عن بُعد وAlexa وGoogle Home. تحتاج إلى تركيب كهربائي، ونسخة Zigbee تحتاج بوابة.",
+        "tags": [
+          "وحدة مفتاح",
+          "Wi-Fi / Zigbee",
+          "Alexa",
+          "تركيب"
+        ]
+      },
+      "en": {
+        "title": "MOES Mini Tuya Smart Switch/Dimmer Module (Wi-Fi / Zigbee), 1 or 2 Gang",
+        "description": "Small module installed behind your existing light switch to make it smart, in 1- or 2-gang versions, with remote control, Alexa and Google Home. Requires electrical installation, and the Zigbee version needs a hub.",
+        "tags": [
+          "Switch module",
+          "Wi-Fi / Zigbee",
+          "Alexa",
+          "Installation"
+        ]
+      },
+      "fr": {
+        "title": "Module interrupteur/variateur MOES Mini Tuya (Wi-Fi / Zigbee), 1 ou 2 touches",
+        "description": "Petit module à installer derrière votre interrupteur existant pour le rendre intelligent, en versions 1 ou 2 touches, avec contrôle à distance, Alexa et Google Home. Nécessite une installation électrique ; la version Zigbee exige une passerelle.",
+        "tags": [
+          "Module interrupteur",
+          "Wi-Fi / Zigbee",
+          "Alexa",
+          "Installation"
+        ]
+      },
+      "es": {
+        "title": "Módulo interruptor/regulador MOES Mini Tuya (Wi-Fi / Zigbee), 1 o 2 botones",
+        "description": "Pequeño módulo que se instala detrás del interruptor actual para hacerlo inteligente, en versiones de 1 o 2 botones, con control remoto, Alexa y Google Home. Requiere instalación eléctrica y la versión Zigbee necesita hub.",
+        "tags": [
+          "Módulo interruptor",
+          "Wi-Fi / Zigbee",
+          "Alexa",
+          "Instalación"
+        ]
+      },
+      "de": {
+        "title": "MOES Mini Tuya Schalter-/Dimmermodul (WLAN / Zigbee), 1 oder 2 Tasten",
+        "description": "Kleines Modul, das hinter dem vorhandenen Lichtschalter eingebaut wird, in 1- oder 2-Tasten-Version, mit Fernsteuerung, Alexa und Google Home. Elektrische Installation nötig; die Zigbee-Version braucht ein Gateway.",
+        "tags": [
+          "Schaltermodul",
+          "WLAN / Zigbee",
+          "Alexa",
+          "Installation"
+        ]
+      }
+    },
+    "tuya-zigbee-scene-button": {
+      "ar": {
+        "title": "زر مشاهد لاسلكي Tuya Zigbee يعمل بالبطارية لتشغيل الأتمتة",
+        "description": "زر لاسلكي يعمل بالبطارية لتشغيل مشاهد وأتمتة بنقرة واحدة عبر التطبيق، ويدعم Zigbee2MQTT. نسخة Zigbee تحتاج بوابة تُشترى منفصلة.",
+        "tags": [
+          "Zigbee",
+          "زر مشاهد",
+          "بطارية",
+          "يحتاج بوابة"
+        ]
+      },
+      "en": {
+        "title": "Tuya Zigbee Wireless Scene Button, Battery Powered, for Automations",
+        "description": "Battery-powered wireless button that triggers scenes and automations with one press via the app, with Zigbee2MQTT support. The Zigbee version needs a Zigbee hub, sold separately.",
+        "tags": [
+          "Zigbee",
+          "Scene button",
+          "Battery",
+          "Hub required"
+        ]
+      },
+      "fr": {
+        "title": "Bouton de scène sans fil Tuya Zigbee sur pile pour automatisations",
+        "description": "Bouton sans fil à pile qui déclenche scènes et automatisations d'une simple pression via l'application, compatible Zigbee2MQTT. La version Zigbee nécessite une passerelle Zigbee vendue séparément.",
+        "tags": [
+          "Zigbee",
+          "Bouton de scène",
+          "Pile",
+          "Passerelle requise"
+        ]
+      },
+      "es": {
+        "title": "Botón de escenas inalámbrico Tuya Zigbee a pilas para automatizaciones",
+        "description": "Botón inalámbrico a pilas que activa escenas y automatizaciones con una pulsación desde la app, compatible con Zigbee2MQTT. La versión Zigbee necesita un hub Zigbee que se vende por separado.",
+        "tags": [
+          "Zigbee",
+          "Botón de escenas",
+          "Pilas",
+          "Requiere hub"
+        ]
+      },
+      "de": {
+        "title": "Tuya Zigbee Funk-Szenentaster mit Batterie für Automationen",
+        "description": "Batteriebetriebener Funktaster, der per Tastendruck Szenen und Automationen über die App auslöst, mit Zigbee2MQTT-Unterstützung. Die Zigbee-Version benötigt ein separat erhältliches Zigbee-Gateway.",
+        "tags": [
+          "Zigbee",
+          "Szenentaster",
+          "Batterie",
+          "Gateway nötig"
+        ]
+      }
+    },
+    "ortizan-40w-bluetooth-speaker": {
+      "ar": {
+        "title": "مكبر صوت بلوتوث Ortizan بقدرة 40 واط وبطارية 30 ساعة مقاوم للماء IP7",
+        "description": "مكبر صوت بلوتوث 5.3 بقدرة 40 واط وباص معزز، يعمل حتى 30 ساعة، مقاوم للماء بمعيار IP7 ويصلح للاستحمام والخارج.",
+        "tags": [
+          "40W",
+          "30 ساعة",
+          "IP7",
+          "بلوتوث 5.3"
+        ]
+      },
+      "en": {
+        "title": "Ortizan 40W Bluetooth Speaker, 30-Hour Battery, IP7 Waterproof",
+        "description": "Bluetooth 5.3 speaker with 40W output and enhanced bass, up to 30 hours of playback and IP7 waterproofing, suitable for the shower and outdoors.",
+        "tags": [
+          "40W",
+          "30 hours",
+          "IP7",
+          "Bluetooth 5.3"
+        ]
+      },
+      "fr": {
+        "title": "Enceinte Bluetooth Ortizan 40W, autonomie 30 h, étanche IP7",
+        "description": "Enceinte Bluetooth 5.3 de 40W aux basses renforcées, jusqu'à 30 heures d'autonomie et étanchéité IP7, utilisable sous la douche et en extérieur.",
+        "tags": [
+          "40W",
+          "30 h",
+          "IP7",
+          "Bluetooth 5.3"
+        ]
+      },
+      "es": {
+        "title": "Altavoz Bluetooth Ortizan 40W, batería de 30 h, resistente al agua IP7",
+        "description": "Altavoz Bluetooth 5.3 de 40W con graves reforzados, hasta 30 horas de reproducción y resistencia al agua IP7, apto para la ducha y el exterior.",
+        "tags": [
+          "40W",
+          "30 h",
+          "IP7",
+          "Bluetooth 5.3"
+        ]
+      },
+      "de": {
+        "title": "Ortizan 40W Bluetooth-Lautsprecher, 30 Std. Akku, IP7 wasserdicht",
+        "description": "Bluetooth-5.3-Lautsprecher mit 40 W und verstärktem Bass, bis zu 30 Stunden Spielzeit und IP7-Wasserschutz, geeignet für die Dusche und draußen.",
+        "tags": [
+          "40W",
+          "30 Std.",
+          "IP7",
+          "Bluetooth 5.3"
         ]
       }
     }
