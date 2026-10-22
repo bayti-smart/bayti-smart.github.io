@@ -1,11 +1,5 @@
-# ضع هنا رابط كل منتج من aliexpress.com (رابط واحد في كل سطر) ليجلب السكربت بياناته.
-https://www.aliexpress.com/item/1005009834474145.html | security
-https://www.aliexpress.com/item/1005010806556184.html | sensors
-https://www.aliexpress.com/item/1005005265088796.html | power
-https://www.aliexpress.com/item/1005006782753934.html | network
-https://www.aliexpress.com/item/1005007987888163.html | climate
-https://www.aliexpress.com/item/1005009351086448.html | lighting
-https://www.aliexpress.com/item/1005010759360854.html | sensors
-https://www.aliexpress.com/item/1005007575302849.html | security
-https://www.aliexpress.com/item/1005007129005679.html | sensors
-https://www.aliexpress.com/item/1005008557860854.html | lighting
+https://www.aliexpress.com/item/1005009874271290.html | sensors
+https://www.aliexpress.com/item/1005012014022552.html | garden
+https://www.aliexpress.com/item/1005006913576881.html | garden
+https://www.aliexpress.com/item/1005009045177597.html | pets
+https://www.aliexpress.com/item/1005007476941197.html | control

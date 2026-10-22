@@ -1,10 +1,10 @@
-Zigbee gateway hub
-smart plug energy monitor
-smart bluetooth speaker
-mesh wifi extender
-smart water timer garden
-smart pet feeder
-temperature humidity sensor Zigbee
-smart curtain motor
-smart door window sensor
-smart LED strip
+mmWave human presence sensor
+smart fingerprint door lock
+smart air quality CO2 monitor
+smart IR air conditioner controller
+smart siren alarm Zigbee
+gigabit ethernet switch 8 port
+smart energy meter din rail
+solar garden light motion
+smart outdoor waterproof plug
+smart RGB table lamp
