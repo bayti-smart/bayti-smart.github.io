@@ -62,6 +62,13 @@
       "fr": "Animaux",
       "es": "Mascotas",
       "de": "Haustiere"
+    },
+    "network": {
+      "ar": "الشبكة",
+      "en": "Network",
+      "fr": "Réseau",
+      "es": "Red",
+      "de": "Netzwerk"
     }
   },
   "products": {
@@ -1674,6 +1681,526 @@
           "30 Std.",
           "IP7",
           "Bluetooth 5.3"
+        ]
+      }
+    },
+    "avatto-wifi-smart-thermostat": {
+      "ar": {
+        "title": "ثرموستات ذكي AVATTO Wi-Fi للتدفئة الكهربائية ومراجل الماء والغاز",
+        "description": "ثرموستات يُدار عن بُعد لأنظمة التدفئة الكهربائية أو بالماء أو مراجل الغاز، ويعمل مع Alexa وGoogle Home. تأكد من توافقه مع نظام التدفئة عندك قبل الشراء.",
+        "tags": [
+          "ثرموستات",
+          "Wi-Fi",
+          "مرجل",
+          "Alexa"
+        ]
+      },
+      "en": {
+        "title": "AVATTO Wi-Fi Smart Thermostat for Electric, Water and Gas Boiler Heating",
+        "description": "Remote-controlled thermostat for electric heating, water heating or gas boilers, compatible with Alexa and Google Home. Check that it suits your heating system before buying.",
+        "tags": [
+          "Thermostat",
+          "Wi-Fi",
+          "Boiler",
+          "Alexa"
+        ]
+      },
+      "fr": {
+        "title": "Thermostat connecté AVATTO Wi-Fi pour chauffage électrique, eau et chaudière gaz",
+        "description": "Thermostat pilotable à distance pour chauffage électrique, à eau ou chaudière gaz, compatible Alexa et Google Home. Vérifiez sa compatibilité avec votre installation avant l'achat.",
+        "tags": [
+          "Thermostat",
+          "Wi-Fi",
+          "Chaudière",
+          "Alexa"
+        ]
+      },
+      "es": {
+        "title": "Termostato inteligente AVATTO Wi-Fi para calefacción eléctrica, de agua y caldera de gas",
+        "description": "Termostato controlable a distancia para calefacción eléctrica, de agua o caldera de gas, compatible con Alexa y Google Home. Comprueba que sirve para tu sistema de calefacción antes de comprarlo.",
+        "tags": [
+          "Termostato",
+          "Wi-Fi",
+          "Caldera",
+          "Alexa"
+        ]
+      },
+      "de": {
+        "title": "AVATTO WLAN-Thermostat für Elektro-, Wasser- und Gasheizung",
+        "description": "Aus der Ferne steuerbares Thermostat für Elektroheizung, Warmwasserheizung oder Gasboiler, kompatibel mit Alexa und Google Home. Prüfen Sie vor dem Kauf, ob es zu Ihrer Heizung passt.",
+        "tags": [
+          "Thermostat",
+          "WLAN",
+          "Heizkessel",
+          "Alexa"
+        ]
+      }
+    },
+    "solar-motion-wall-light": {
+      "ar": {
+        "title": "إضاءة جدارية شمسية للخارج بحساس حركة مقاومة للماء IP65",
+        "description": "لمبة LED تعمل بالطاقة الشمسية مع حساس حركة ومقاومة للماء بمعيار IP65، مناسبة للشرفة والفناء والمرآب والمخزن.",
+        "tags": [
+          "طاقة شمسية",
+          "حساس حركة",
+          "IP65",
+          "للخارج"
+        ]
+      },
+      "en": {
+        "title": "Outdoor Solar Wall Light with Motion Sensor, IP65 Waterproof",
+        "description": "Solar-powered LED light with a motion sensor and IP65 waterproofing, suited to porches, patios, garages and barns.",
+        "tags": [
+          "Solar",
+          "Motion sensor",
+          "IP65",
+          "Outdoor"
+        ]
+      },
+      "fr": {
+        "title": "Applique murale solaire d'extérieur à détecteur de mouvement, étanche IP65",
+        "description": "Lampe LED solaire avec détecteur de mouvement et étanchéité IP65, adaptée aux porches, terrasses, garages et granges.",
+        "tags": [
+          "Solaire",
+          "Détecteur de mouvement",
+          "IP65",
+          "Extérieur"
+        ]
+      },
+      "es": {
+        "title": "Aplique solar de exterior con sensor de movimiento, resistente al agua IP65",
+        "description": "Luz LED solar con sensor de movimiento y resistencia al agua IP65, apta para porches, patios, garajes y graneros.",
+        "tags": [
+          "Solar",
+          "Sensor de movimiento",
+          "IP65",
+          "Exterior"
+        ]
+      },
+      "de": {
+        "title": "Solar-Wandleuchte für außen mit Bewegungsmelder, IP65 wasserdicht",
+        "description": "Solarbetriebene LED-Leuchte mit Bewegungsmelder und IP65-Wasserschutz, geeignet für Veranda, Terrasse, Garage und Scheune.",
+        "tags": [
+          "Solar",
+          "Bewegungsmelder",
+          "IP65",
+          "Außen"
+        ]
+      }
+    },
+    "wifi-smart-power-strip-4-eu-usb": {
+      "ar": {
+        "title": "شريط طاقة ذكي Wi-Fi بأربع مخارج أوروبية وأربع منافذ USB",
+        "description": "شريط طاقة بأربع مخارج EU وأربع منافذ شحن USB، مع جدولة وتحكم عبر التطبيق وصوتيًا مع Alexa وGoogle Home.",
+        "tags": [
+          "شريط طاقة",
+          "4 مخارج EU",
+          "4 USB",
+          "Alexa"
+        ]
+      },
+      "en": {
+        "title": "Wi-Fi Smart Power Strip with 4 EU Outlets and 4 USB Ports",
+        "description": "Power strip with 4 EU outlets and 4 USB charging ports, with scheduling, app control and voice control via Alexa and Google Home.",
+        "tags": [
+          "Power strip",
+          "4 EU outlets",
+          "4 USB",
+          "Alexa"
+        ]
+      },
+      "fr": {
+        "title": "Multiprise connectée Wi-Fi avec 4 prises EU et 4 ports USB",
+        "description": "Multiprise avec 4 prises EU et 4 ports de charge USB, avec programmation, contrôle par application et commande vocale via Alexa et Google Home.",
+        "tags": [
+          "Multiprise",
+          "4 prises EU",
+          "4 USB",
+          "Alexa"
+        ]
+      },
+      "es": {
+        "title": "Regleta inteligente Wi-Fi con 4 tomas EU y 4 puertos USB",
+        "description": "Regleta con 4 tomas EU y 4 puertos de carga USB, con programación, control por app y control por voz con Alexa y Google Home.",
+        "tags": [
+          "Regleta",
+          "4 tomas EU",
+          "4 USB",
+          "Alexa"
+        ]
+      },
+      "de": {
+        "title": "WLAN-Smart-Steckdosenleiste mit 4 EU-Steckdosen und 4 USB-Ports",
+        "description": "Steckdosenleiste mit 4 EU-Steckdosen und 4 USB-Ladeanschlüssen, mit Zeitplan, App-Steuerung und Sprachsteuerung über Alexa und Google Home.",
+        "tags": [
+          "Steckdosenleiste",
+          "4 EU-Steckdosen",
+          "4 USB",
+          "Alexa"
+        ]
+      }
+    },
+    "moes-wifi-solar-security-camera": {
+      "ar": {
+        "title": "كاميرا مراقبة MOES شمسية Wi-Fi مقاومة للماء IP65 تعمل مع Tuya وAlexa",
+        "description": "كاميرا أمان للخارج بالطاقة الشمسية مع Wi-Fi ثنائي النطاق (2.4/5GHz) ومقاومة للماء IP65، تُراقَب عبر التطبيق وتعمل مع Alexa وGoogle Home.",
+        "tags": [
+          "شمسية",
+          "Wi-Fi 5GHz",
+          "IP65",
+          "Tuya"
+        ]
+      },
+      "en": {
+        "title": "MOES Solar Wi-Fi Security Camera, IP65 Waterproof, Works with Tuya and Alexa",
+        "description": "Solar-powered outdoor security camera with dual-band Wi-Fi (2.4/5GHz) and IP65 waterproofing, monitored in the app and compatible with Alexa and Google Home.",
+        "tags": [
+          "Solar",
+          "5GHz Wi-Fi",
+          "IP65",
+          "Tuya"
+        ]
+      },
+      "fr": {
+        "title": "Caméra de surveillance solaire MOES Wi-Fi, étanche IP65, compatible Tuya et Alexa",
+        "description": "Caméra de sécurité d'extérieur solaire avec Wi-Fi double bande (2,4/5GHz) et étanchéité IP65, consultable via l'application et compatible Alexa et Google Home.",
+        "tags": [
+          "Solaire",
+          "Wi-Fi 5GHz",
+          "IP65",
+          "Tuya"
+        ]
+      },
+      "es": {
+        "title": "Cámara de seguridad solar MOES Wi-Fi, resistente al agua IP65, compatible con Tuya y Alexa",
+        "description": "Cámara de seguridad solar para exterior con Wi-Fi de doble banda (2,4/5GHz) y resistencia al agua IP65, con monitorización por app y compatible con Alexa y Google Home.",
+        "tags": [
+          "Solar",
+          "Wi-Fi 5GHz",
+          "IP65",
+          "Tuya"
+        ]
+      },
+      "de": {
+        "title": "MOES Solar-Überwachungskamera mit WLAN, IP65 wasserdicht, kompatibel mit Tuya und Alexa",
+        "description": "Solarbetriebene Außenkamera mit Dualband-WLAN (2,4/5GHz) und IP65-Wasserschutz, per App überwacht und kompatibel mit Alexa und Google Home.",
+        "tags": [
+          "Solar",
+          "5GHz-WLAN",
+          "IP65",
+          "Tuya"
+        ]
+      }
+    },
+    "tuya-wifi-vibration-sensor": {
+      "ar": {
+        "title": "حساس اهتزاز Tuya Wi-Fi للكشف عن كسر زجاج الباب والنافذة",
+        "description": "حساس ضد السرقة يكتشف الاهتزاز وكسر زجاج الأبواب والنوافذ ويرسل تنبيهًا فوريًا إلى هاتفك عبر تطبيق Smart Life.",
+        "tags": [
+          "اهتزاز",
+          "كسر زجاج",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi Vibration Sensor for Door and Window Glass-Break Detection",
+        "description": "Anti-theft sensor that detects vibration and breaking glass on doors and windows and sends a real-time alert to your phone via the Smart Life app.",
+        "tags": [
+          "Vibration",
+          "Glass break",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "fr": {
+        "title": "Capteur de vibrations Tuya Wi-Fi pour détecter un bris de vitre de porte ou fenêtre",
+        "description": "Capteur antivol qui détecte les vibrations et le bris de vitre sur portes et fenêtres et envoie une alerte en temps réel sur votre téléphone via l'application Smart Life.",
+        "tags": [
+          "Vibrations",
+          "Bris de vitre",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "es": {
+        "title": "Sensor de vibración Tuya Wi-Fi para detectar rotura de cristal en puertas y ventanas",
+        "description": "Sensor antirrobo que detecta vibraciones y rotura de cristal en puertas y ventanas y envía una alerta en tiempo real al móvil mediante la app Smart Life.",
+        "tags": [
+          "Vibración",
+          "Rotura de cristal",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-Vibrationssensor zur Glasbruch-Erkennung an Türen und Fenstern",
+        "description": "Diebstahlschutz-Sensor, der Erschütterungen und Glasbruch an Türen und Fenstern erkennt und über die Smart-Life-App in Echtzeit eine Warnung aufs Smartphone sendet.",
+        "tags": [
+          "Vibration",
+          "Glasbruch",
+          "WLAN",
+          "Smart Life"
+        ]
+      }
+    },
+    "tuya-wifi-gas-detector": {
+      "ar": {
+        "title": "كاشف غاز طبيعي Tuya Wi-Fi مع شاشة LED ودالة قياس الحرارة",
+        "description": "كاشف تسرّب للغاز القابل للاشتعال والغاز الطبيعي مع قياس للحرارة وشاشة LCD، ويرسل إنذارًا إلى هاتفك عبر تطبيق Smart Life.",
+        "tags": [
+          "كاشف غاز",
+          "شاشة LCD",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi Natural Gas Leak Detector with LCD Display and Temperature Function",
+        "description": "Detector for combustible and natural gas leaks with temperature reading and an LCD display, sending alarms to your phone through the Smart Life app.",
+        "tags": [
+          "Gas detector",
+          "LCD",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "fr": {
+        "title": "Détecteur de gaz naturel Tuya Wi-Fi avec écran LCD et fonction température",
+        "description": "Détecteur de fuites de gaz combustible et de gaz naturel avec mesure de la température et écran LCD, qui envoie des alarmes sur votre téléphone via l'application Smart Life.",
+        "tags": [
+          "Détecteur de gaz",
+          "LCD",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "es": {
+        "title": "Detector de gas natural Tuya Wi-Fi con pantalla LCD y función de temperatura",
+        "description": "Detector de fugas de gas combustible y gas natural con medición de temperatura y pantalla LCD, que envía alarmas al móvil mediante la app Smart Life.",
+        "tags": [
+          "Detector de gas",
+          "LCD",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-Erdgasmelder mit LCD-Display und Temperaturfunktion",
+        "description": "Melder für brennbare Gase und Erdgas mit Temperaturanzeige und LCD-Display, der über die Smart-Life-App Alarme aufs Smartphone sendet.",
+        "tags": [
+          "Gasmelder",
+          "LCD",
+          "WLAN",
+          "Smart Life"
+        ]
+      }
+    },
+    "fenvi-ac1200-wifi-repeater": {
+      "ar": {
+        "title": "مقوّي إشارة Wi-Fi مزدوج النطاق FENVI AC1200 بسرعة 1200Mbps",
+        "description": "مكرّر ومضخّم إشارة Wi-Fi مزدوج النطاق 2.4/5GHz بسرعة تصل إلى 1200Mbps، يوسّع تغطية الشبكة داخل المنزل وهو مفيد لأجهزتك الذكية البعيدة عن الراوتر.",
+        "tags": [
+          "Wi-Fi",
+          "AC1200",
+          "2.4/5GHz",
+          "مقوّي"
+        ]
+      },
+      "en": {
+        "title": "FENVI AC1200 Dual-Band Wi-Fi Repeater, 1200Mbps",
+        "description": "Dual-band 2.4/5GHz Wi-Fi repeater and signal booster up to 1200Mbps that extends coverage at home, handy for smart devices far from the router.",
+        "tags": [
+          "Wi-Fi",
+          "AC1200",
+          "2.4/5GHz",
+          "Booster"
+        ]
+      },
+      "fr": {
+        "title": "Répéteur Wi-Fi double bande FENVI AC1200, 1200Mbps",
+        "description": "Répéteur et amplificateur de signal Wi-Fi double bande 2,4/5GHz jusqu'à 1200Mbps qui étend la couverture à la maison, utile pour les appareils connectés éloignés du routeur.",
+        "tags": [
+          "Wi-Fi",
+          "AC1200",
+          "2,4/5GHz",
+          "Amplificateur"
+        ]
+      },
+      "es": {
+        "title": "Repetidor Wi-Fi de doble banda FENVI AC1200, 1200Mbps",
+        "description": "Repetidor y amplificador de señal Wi-Fi de doble banda 2,4/5GHz de hasta 1200Mbps que amplía la cobertura en casa, útil para dispositivos inteligentes lejos del router.",
+        "tags": [
+          "Wi-Fi",
+          "AC1200",
+          "2,4/5GHz",
+          "Amplificador"
+        ]
+      },
+      "de": {
+        "title": "FENVI AC1200 Dualband-WLAN-Repeater, 1200Mbit/s",
+        "description": "Dualband-WLAN-Repeater und Signalverstärker (2,4/5GHz) mit bis zu 1200Mbit/s, der die Reichweite im Haus erweitert, praktisch für smarte Geräte weit vom Router.",
+        "tags": [
+          "WLAN",
+          "AC1200",
+          "2,4/5GHz",
+          "Verstärker"
+        ]
+      }
+    },
+    "xiaomi-mijia-thermometer-2": {
+      "ar": {
+        "title": "مقياس حرارة ورطوبة Xiaomi MIJIA 2 بلوتوث مع تطبيق Mijia",
+        "description": "جهاز رقمي صغير يقيس الحرارة والرطوبة ويرسل القراءات عبر بلوتوث إلى تطبيق Mijia. يعمل ببلوتوث وليس Wi-Fi.",
+        "tags": [
+          "حرارة ورطوبة",
+          "بلوتوث",
+          "Mijia",
+          "رقمي"
+        ]
+      },
+      "en": {
+        "title": "Xiaomi MIJIA Thermometer & Hygrometer 2, Bluetooth, Mijia App",
+        "description": "Small digital device that measures temperature and humidity and sends readings over Bluetooth to the Mijia app. It uses Bluetooth, not Wi-Fi.",
+        "tags": [
+          "Temp & humidity",
+          "Bluetooth",
+          "Mijia",
+          "Digital"
+        ]
+      },
+      "fr": {
+        "title": "Thermomètre-hygromètre Xiaomi MIJIA 2 Bluetooth avec application Mijia",
+        "description": "Petit appareil numérique qui mesure la température et l'humidité et envoie les valeurs en Bluetooth à l'application Mijia. Il fonctionne en Bluetooth, pas en Wi-Fi.",
+        "tags": [
+          "Température et humidité",
+          "Bluetooth",
+          "Mijia",
+          "Numérique"
+        ]
+      },
+      "es": {
+        "title": "Termohigrómetro Xiaomi MIJIA 2 Bluetooth con app Mijia",
+        "description": "Pequeño dispositivo digital que mide la temperatura y la humedad y envía las lecturas por Bluetooth a la app Mijia. Funciona por Bluetooth, no por Wi-Fi.",
+        "tags": [
+          "Temperatura y humedad",
+          "Bluetooth",
+          "Mijia",
+          "Digital"
+        ]
+      },
+      "de": {
+        "title": "Xiaomi MIJIA Thermo-Hygrometer 2 mit Bluetooth und Mijia-App",
+        "description": "Kleines digitales Gerät, das Temperatur und Luftfeuchtigkeit misst und die Werte per Bluetooth an die Mijia-App sendet. Es nutzt Bluetooth, kein WLAN.",
+        "tags": [
+          "Temperatur & Feuchte",
+          "Bluetooth",
+          "Mijia",
+          "Digital"
+        ]
+      }
+    },
+    "lenovo-5mp-wifi-indoor-camera": {
+      "ar": {
+        "title": "كاميرا مراقبة داخلية Lenovo 5MP بـ Wi-Fi مع تتبع تلقائي وحديث ثنائي",
+        "description": "كاميرا IP داخلية بدقة 5 ميغابكسل تدعم Wi-Fi بنطاقيه 2.4 و5GHz، مع تتبع تلقائي للحركة وحديث ثنائي الاتجاه، وتصلح لمراقبة المنزل أو الأطفال.",
+        "tags": [
+          "5MP",
+          "Wi-Fi 5GHz",
+          "تتبع تلقائي",
+          "حديث ثنائي"
+        ]
+      },
+      "en": {
+        "title": "Lenovo 5MP Wi-Fi Indoor Security Camera with Auto Tracking and Two-Way Talk",
+        "description": "5MP indoor IP camera supporting 2.4 and 5GHz Wi-Fi, with automatic motion tracking and two-way talk, useful for home or baby monitoring.",
+        "tags": [
+          "5MP",
+          "5GHz Wi-Fi",
+          "Auto tracking",
+          "Two-way talk"
+        ]
+      },
+      "fr": {
+        "title": "Caméra de surveillance intérieure Lenovo 5MP Wi-Fi, suivi automatique et audio bidirectionnel",
+        "description": "Caméra IP d'intérieur 5MP compatible Wi-Fi 2,4 et 5GHz, avec suivi automatique du mouvement et audio bidirectionnel, utile pour surveiller la maison ou un bébé.",
+        "tags": [
+          "5MP",
+          "Wi-Fi 5GHz",
+          "Suivi auto",
+          "Audio bidirectionnel"
+        ]
+      },
+      "es": {
+        "title": "Cámara de seguridad interior Lenovo 5MP Wi-Fi con seguimiento automático y audio bidireccional",
+        "description": "Cámara IP de interior de 5MP compatible con Wi-Fi de 2,4 y 5GHz, con seguimiento automático del movimiento y audio bidireccional, útil para vigilar la casa o a un bebé.",
+        "tags": [
+          "5MP",
+          "Wi-Fi 5GHz",
+          "Seguimiento auto",
+          "Audio bidireccional"
+        ]
+      },
+      "de": {
+        "title": "Lenovo 5MP WLAN-Innenkamera mit Auto-Tracking und Gegensprechfunktion",
+        "description": "5-MP-IP-Innenkamera mit 2,4- und 5-GHz-WLAN, automatischer Bewegungsverfolgung und Gegensprechfunktion, nützlich zur Überwachung von Haus oder Baby.",
+        "tags": [
+          "5MP",
+          "5GHz-WLAN",
+          "Auto-Tracking",
+          "Gegensprechen"
+        ]
+      }
+    },
+    "tuya-e14-candle-smart-bulb": {
+      "ar": {
+        "title": "مصباح شمعة ذكي Tuya E14 بألوان RGB وإضاءة بيضاء (Wi-Fi أو بلوتوث)",
+        "description": "مصباح شمعة بقاعدة E14 بألوان RGB وإضاءة بيضاء قابل للتعتيم، بجهد 220 فولت، ويُدار من تطبيق Smart Life. يُباع بنسختي Wi-Fi وبلوتوث: اختر Wi-Fi للتحكم عن بُعد.",
+        "tags": [
+          "E14",
+          "RGB",
+          "Smart Life",
+          "Wi-Fi / بلوتوث"
+        ]
+      },
+      "en": {
+        "title": "Tuya E14 Smart Candle Bulb, RGB + White (Wi-Fi or Bluetooth)",
+        "description": "E14-base candle bulb with RGB and white light, dimmable, 220V, managed in the Smart Life app. Sold in Wi-Fi and Bluetooth versions: choose Wi-Fi for remote control.",
+        "tags": [
+          "E14",
+          "RGB",
+          "Smart Life",
+          "Wi-Fi / Bluetooth"
+        ]
+      },
+      "fr": {
+        "title": "Ampoule flamme connectée Tuya E14, RVB + blanc (Wi-Fi ou Bluetooth)",
+        "description": "Ampoule flamme à culot E14 en RVB et blanc, variable, 220V, gérée dans l'application Smart Life. Vendue en versions Wi-Fi et Bluetooth : choisissez Wi-Fi pour le contrôle à distance.",
+        "tags": [
+          "E14",
+          "RVB",
+          "Smart Life",
+          "Wi-Fi / Bluetooth"
+        ]
+      },
+      "es": {
+        "title": "Bombilla vela inteligente Tuya E14, RGB + blanco (Wi-Fi o Bluetooth)",
+        "description": "Bombilla vela con casquillo E14 en RGB y blanco, regulable, de 220V, gestionada desde la app Smart Life. Se vende en versiones Wi-Fi y Bluetooth: elige Wi-Fi para el control remoto.",
+        "tags": [
+          "E14",
+          "RGB",
+          "Smart Life",
+          "Wi-Fi / Bluetooth"
+        ]
+      },
+      "de": {
+        "title": "Tuya E14 Smart-Kerzenlampe, RGB + Weiß (WLAN oder Bluetooth)",
+        "description": "Kerzenlampe mit E14-Sockel in RGB und Weiß, dimmbar, 220V, verwaltet in der Smart-Life-App. In WLAN- und Bluetooth-Version erhältlich: Wählen Sie WLAN für die Fernsteuerung.",
+        "tags": [
+          "E14",
+          "RGB",
+          "Smart Life",
+          "WLAN / Bluetooth"
         ]
       }
     }
