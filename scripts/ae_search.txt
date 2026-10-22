@@ -1,0 +1,10 @@
+Zigbee gateway hub
+smart plug energy monitor
+smart bluetooth speaker
+mesh wifi extender
+smart water timer garden
+smart pet feeder
+temperature humidity sensor Zigbee
+smart curtain motor
+smart door window sensor
+smart LED strip
