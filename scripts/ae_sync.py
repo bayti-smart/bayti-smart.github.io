@@ -110,8 +110,8 @@ def search_mode():
         if "error_response" in data:
             e = data["error_response"]; print("AE-SEARCH error:", kw, e.get("code")); continue
         prods = products_of(data)
-        good = [p for p in prods if pct(p.get("evaluate_rate")) >= 94 and int(p.get("lastest_volume") or 0) >= 500]
-        good.sort(key=lambda p: (pct(p.get("commission_rate")), int(p.get("lastest_volume") or 0)), reverse=True)
+        good = [p for p in prods if pct(p.get("evaluate_rate")) >= 92 and int(p.get("lastest_volume") or 0) >= 200]
+        good.sort(key=lambda p: int(p.get("lastest_volume") or 0), reverse=True)
         print(f"AE-SEARCH [{kw}] مرجَع={len(prods)} مقبول={len(good)}")
         for p in good[:4]:
             print("AE-SEARCH   ", json.dumps({"id": p.get("product_id"), "title": (p.get("product_title") or "")[:70],
