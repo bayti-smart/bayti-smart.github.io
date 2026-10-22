@@ -1,11 +1,1 @@
 # ضع هنا رابط كل منتج من aliexpress.com (رابط واحد في كل سطر) ليجلب السكربت بياناته.
-https://www.aliexpress.com/item/1005007476716563.html | control
-https://www.aliexpress.com/item/1005012013828922.html | security
-https://www.aliexpress.com/item/1005007989470086.html | climate
-https://www.aliexpress.com/item/1005010285411741.html | lighting
-https://www.aliexpress.com/item/1005009121784040.html | pets
-https://www.aliexpress.com/item/1005008248091532.html | security
-https://www.aliexpress.com/item/1005006677962779.html | audio
-https://www.aliexpress.com/item/1005006967506238.html | lighting
-https://www.aliexpress.com/item/1005008743447773.html | control
-https://www.aliexpress.com/item/1005007805746081.html | audio
