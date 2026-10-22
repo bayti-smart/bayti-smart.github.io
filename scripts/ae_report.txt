@@ -1,32 +1,51 @@
 AE: عدد المنتجات في product_urls.txt = 0
-AE-SEARCH [tuya wifi smart door lock fingerprint] مرجَع=39 مقبول=0
-AE-SEARCH [tuya wifi garage door opener] مرجَع=40 مقبول=11
-AE-SEARCH    {"id": 1005012218229650, "title": "Tuya ZigBee WiFi Garage Door Opener Smart Gate Controller Switch Modul", "price": "13.10", "comm": "7.0%", "rating_pct": "98.0%", "sold": 1517}
-AE-SEARCH    {"id": 1005008795886363, "title": "Tuya WiFi /Zigbee Smart Garage Door Opener Controller Switch module Vo", "price": "10.95", "comm": "7.0%", "rating_pct": "95.3%", "sold": 1350}
-AE-SEARCH    {"id": 1005010084155574, "title": "Tuya WiFi/Zigbee Garage Door Opener Smart Life Application Switch Modu", "price": "12.87", "comm": "7.0%", "rating_pct": "94.2%", "sold": 1134}
-AE-SEARCH    {"id": 1005007476716563, "title": "Wofea WiFi Switch Smart Garage Door Opener Controller Work With Alexa ", "price": "22.89", "comm": "7.0%", "rating_pct": "98.0%", "sold": 923}
-AE-SEARCH [tuya wifi thermostat radiator valve] مرجَع=40 مقبول=0
-AE-SEARCH [tuya wifi siren alarm] مرجَع=40 مقبول=1
-AE-SEARCH    {"id": 1005012013828922, "title": "KERUI WIFI Wireless Security Alarm System Siren Work With Tuya Smart H", "price": "27.79", "comm": "7.0%", "rating_pct": "98.0%", "sold": 656}
-AE-SEARCH [tuya wifi air quality monitor CO2] مرجَع=40 مقبول=0
-AE-SEARCH [tuya wifi automatic pet feeder] مرجَع=40 مقبول=0
-AE-SEARCH [smart wifi light bar TV backlight] مرجَع=9 مقبول=0
-AE-SEARCH [tuya wifi ceiling light RGB] مرجَع=40 مقبول=0
-AE-SEARCH [wifi smart bulb GU10 E14 RGB] مرجَع=40 مقبول=0
-AE-SEARCH [smart speaker alexa echo] مرجَع=39 مقبول=0
-AE-SEARCH [bluetooth speaker waterproof outdoor] مرجَع=40 مقبول=24
-AE-SEARCH    {"id": 1005007805746081, "title": "Ortizan Bluetooth Speakers 40W Enhanced Bass Portable Outdoor Wireless", "price": "55.74", "comm": "7.0%", "rating_pct": "98.0%", "sold": 8532}
-AE-SEARCH    {"id": 1005007357456579, "title": "Ortizan Bluetooth Speakers 40W Enhanced Bass Portable Outdoor Wireless", "price": "54.72", "comm": "7.0%", "rating_pct": "96.7%", "sold": 7374}
-AE-SEARCH    {"id": 1005007038567261, "title": "ZEALOT-S32PRO Powerful Bluetooth Speaker, Bass Wireless, LED Light, Ou", "price": "38.69", "comm": "7.0%", "rating_pct": "98.0%", "sold": 3908}
-AE-SEARCH    {"id": 1005006677962779, "title": "Zealot-S32 Wireless Speaker Outdoor Portable Subwoofer Speaker, Waterp", "price": "27.84", "comm": "7.0%", "rating_pct": "98.0%", "sold": 3908}
-AE-SEARCH [wifi pet camera indoor] مرجَع=40 مقبول=2
-AE-SEARCH    {"id": 1005006160172696, "title": "YI 2K 3MP Cameras 2/4Pack Homekit IP Security Protection System with N", "price": "29.00", "comm": "7.0%", "rating_pct": "96.0%", "sold": 1565}
-AE-SEARCH    {"id": 1005008430157207, "title": "4G WiFi IP Camera E27 Bulb Cam 3MP Wireless Baby Monitor AI Tracking S", "price": "17.98", "comm": "7.0%", "rating_pct": "98.0%", "sold": 929}
-AE-SEARCH [tuya wifi wall socket outlet EU] مرجَع=40 مقبول=2
-AE-SEARCH    {"id": 1005010799013132, "title": "Works with Tuya Smart Life App Wifi Plug 20A Smart Socket EU Power Mon", "price": "11.77", "comm": "7.0%", "rating_pct": "95.5%", "sold": 666}
-AE-SEARCH    {"id": 1005006995472050, "title": "Tuya Smart Home Wireless WIFI Plug Socket UK EU US Universal 16A Trave", "price": "10.88", "comm": "7.0%", "rating_pct": "98.0%", "sold": 626}
-AE-SEARCH [tuya wifi dimmer switch] مرجَع=40 مقبول=12
-AE-SEARCH    {"id": 1005006284627977, "title": "Tuya WiFi Smart Light Switch Smart Home Wireless RF 433mhz Push Button", "price": "7.60", "comm": "7.0%", "rating_pct": "95.7%", "sold": 2068}
-AE-SEARCH    {"id": 1005009954369212, "title": "Smart WiFi/Zigbee 3.0 Switch 16A 20A Module Relay Breaker 2-way Contro", "price": "7.69", "comm": "7.0%", "rating_pct": "94.8%", "sold": 1019}
-AE-SEARCH    {"id": 1005006967506238, "title": "MOES Mini Tuya WiFi/Zigbee Smart Switch/Dimmer Module DIY Module Light", "price": "11.29", "comm": "7.0%", "rating_pct": "98.0%", "sold": 969}
-AE-SEARCH    {"id": 1005003417122659, "title": "GIRIER Tuya ZigBee 3.0 Switch Module 10A Smart Home DIY Breaker 1 2 3 ", "price": "8.79", "comm": "7.0%", "rating_pct": "97.5%", "sold": 815}
+AE-SEARCH [smart door lock fingerprint] مرجَع=40 مقبول=31
+AE-SEARCH    {"id": 1005008570592245, "title": "KERUI Smart Fingerprint Padlock Waterproof Fingerprint Keyless Door Lo", "price": "14.47", "comm": "7.0%", "rating_pct": "94.3%", "sold": 3484}
+AE-SEARCH    {"id": 1005008248091532, "title": "KERUI Keyless USB Charging Fingerprint Lock Smart Padlock Waterproof D", "price": "12.89", "comm": "7.0%", "rating_pct": "98.0%", "sold": 3210}
+AE-SEARCH    {"id": 1005010754558896, "title": "KERUI Fingerprint Lock Keyless USB Charging Smart Padlock Waterproof D", "price": "15.25", "comm": "7.0%", "rating_pct": "93.9%", "sold": 2902}
+AE-SEARCH    {"id": 1005009193685859, "title": "KERUI Smart Fingerprint Padlock Waterproof Zinc Alloy Biometric Padloc", "price": "13.88", "comm": "7.0%", "rating_pct": "98.0%", "sold": 987}
+AE-SEARCH [wifi smart lock tuya] مرجَع=39 مقبول=14
+AE-SEARCH    {"id": 1005010754558896, "title": "KERUI Fingerprint Lock Keyless USB Charging Smart Padlock Waterproof D", "price": "15.25", "comm": "7.0%", "rating_pct": "93.9%", "sold": 2902}
+AE-SEARCH    {"id": 1005008729113822, "title": "CDOK P2 Fingerprint Padlock, Built-in Rechargeable Battery, Outdoor Wa", "price": "13.24", "comm": "7.0%", "rating_pct": "93.6%", "sold": 951}
+AE-SEARCH    {"id": 1005008797904984, "title": "WiFi 20A Socket With Power Monitoring Work With Tuya Smart EU Plug Tim", "price": "9.83", "comm": "7.0%", "rating_pct": "94.5%", "sold": 866}
+AE-SEARCH    {"id": 1005007063580233, "title": "TTlock Smartkey Lock Box Home Key Wireless Smartlock Box Electronic Ke", "price": "77.42", "comm": "7.0%", "rating_pct": "93.2%", "sold": 527}
+AE-SEARCH [thermostatic radiator valve smart] مرجَع=40 مقبول=14
+AE-SEARCH    {"id": 1005006063706718, "title": "SONOFF TRVZB Zigbee Thermostatic Radiator Valve Smart Home Heating Fro", "price": "22.67", "comm": "7.0%", "rating_pct": "97.7%", "sold": 901}
+AE-SEARCH    {"id": 1005007791582345, "title": "AVATTO ZigBee3.0 Thermostat Radiator Actuator Smart TRV Thermostatic V", "price": "28.94", "comm": "7.0%", "rating_pct": "98.0%", "sold": 776}
+AE-SEARCH    {"id": 1005012983187514, "title": "SONOFF Zigbee Smart TRV Gen2 Thermostatic Radiator Valve Control Actua", "price": "31.17", "comm": "7.0%", "rating_pct": "93.5%", "sold": 570}
+AE-SEARCH    {"id": 1005007989470086, "title": "Tuya WiFi/Zigbee Smart Radiator Valve Programmable Thermostatic Radiat", "price": "35.95", "comm": "7.0%", "rating_pct": "98.0%", "sold": 492}
+AE-SEARCH [air quality detector CO2 tuya] مرجَع=40 مقبول=0
+AE-SEARCH [automatic pet feeder wifi] مرجَع=39 مقبول=5
+AE-SEARCH    {"id": 1005009121784040, "title": "Smart WiFi Automatic Pet Feeder App‑Controlled Timed Food Dispenser fo", "price": "66.42", "comm": "7.0%", "rating_pct": "98.0%", "sold": 283}
+AE-SEARCH    {"id": 1005008830731346, "title": "2L Automatic Pet Feeder Cat Smart Pet Feeder Wi-Fi & Camera Controlled", "price": "75.26", "comm": "7.0%", "rating_pct": "98.0%", "sold": 268}
+AE-SEARCH    {"id": 1005010439291655, "title": "Automatic Cat Feeder Pet Smart WiFi Cat Food Kibble Dispenser Remote C", "price": "65.58", "comm": "7.0%", "rating_pct": "98.0%", "sold": 263}
+AE-SEARCH    {"id": 1005008634195979, "title": "2L Automatic Pet Feeder Cat Smart Pet Feeder Wi-Fi & Camera Controlled", "price": "73.29", "comm": "7.0%", "rating_pct": "94.3%", "sold": 226}
+AE-SEARCH [TV led backlight strip smart] مرجَع=40 مقبول=11
+AE-SEARCH    {"id": 1005007107591507, "title": "USB LED Strip Lights DC 5V Smart Dimmer Hand Scan Sensor Switch On/off", "price": "6.44", "comm": "7.0%", "rating_pct": "93.8%", "sold": 1984}
+AE-SEARCH    {"id": 1005006995392123, "title": "1m LED Night Lamp Smart Dimmer Gesture Sensor Switch Control USB 60LED", "price": "6.07", "comm": "7.0%", "rating_pct": "98.0%", "sold": 1318}
+AE-SEARCH    {"id": 1005006967291785, "title": "USB 60 LED Strip Lights DC 5V Smart Dimmer Gesture Sensor Switch Contr", "price": "6.34", "comm": "7.0%", "rating_pct": "98.0%", "sold": 916}
+AE-SEARCH    {"id": 1005007107359965, "title": "USB 60 LED Strip Lights DC 5V Smart Dimmer Gesture Sensor Switch Contr", "price": "6.22", "comm": "7.0%", "rating_pct": "94.7%", "sold": 916}
+AE-SEARCH [wifi ceiling lamp smart] مرجَع=40 مقبول=4
+AE-SEARCH    {"id": 1005010517317890, "title": "Tuya Wifi/Zigbee Ceiling Light RGBCW Led Ceiling Lamp Livingroom Home ", "price": "33.41", "comm": "7.0%", "rating_pct": "92.9%", "sold": 745}
+AE-SEARCH    {"id": 1005010285411741, "title": "AC85-265V Tuya WiFi Bluetooth Smart Ceiling Light  Smart Life APP Alex", "price": "31.42", "comm": "7.0%", "rating_pct": "98.0%", "sold": 317}
+AE-SEARCH    {"id": 1005010759345964, "title": "Tuya Zigbee Smart LED Ceiling Lamp WiFi Room Decor RGBCW Ceiling Light", "price": "38.28", "comm": "7.0%", "rating_pct": "98.0%", "sold": 308}
+AE-SEARCH    {"id": 1005008905876751, "title": "Tuya Zigbee Smart LED Ceiling Lamp WiFi Room Decor RGBCW Ceiling Light", "price": "37.29", "comm": "7.0%", "rating_pct": "93.5%", "sold": 234}
+AE-SEARCH [alexa smart speaker] مرجَع=40 مقبول=1
+AE-SEARCH    {"id": 1005010128987519, "title": "Tuya Samrt Bluetooth WiFi Zigbee LED Light Strip Controller Alexa Spea", "price": "11.34", "comm": "7.0%", "rating_pct": "92.9%", "sold": 563}
+AE-SEARCH [robot vacuum cleaner wifi] مرجَع=39 مقبول=2
+AE-SEARCH    {"id": 1005004803929676, "title": "ABIR K30 Robot Vacuum Cleaner, Auto-Empty Station, Dual Lidar, 6500PA ", "price": "274.99", "comm": "7.0%", "rating_pct": "97.8%", "sold": 675}
+AE-SEARCH    {"id": 1005010687645509, "title": "Model Sweeping Robot Automatic Home Mini Cleaning Machine USB Charging", "price": "24.31", "comm": "7.0%", "rating_pct": "95.5%", "sold": 650}
+AE-SEARCH [wireless doorbell chime] مرجَع=40 مقبول=34
+AE-SEARCH    {"id": 1005011745649832, "title": "Hanging Decorations Wooden Wind Chimes Wireless Doorbell Entrance Door", "price": "5.68", "comm": "7.0%", "rating_pct": "92.3%", "sold": 4590}
+AE-SEARCH    {"id": 1005006678059553, "title": "Fuers Wireless Doorbell Waterproof Door Chime Kit Welcome Chime Home D", "price": "13.06", "comm": "7.0%", "rating_pct": "98.0%", "sold": 1420}
+AE-SEARCH    {"id": 1005010439396326, "title": "SIXWGH Wireless Doorbell No Battery Required Waterproof Self-Powered D", "price": "13.90", "comm": "7.0%", "rating_pct": "98.0%", "sold": 1096}
+AE-SEARCH    {"id": 1005006782835627, "title": "Wireless Doorbell FullHouse Waterproof Door Chime Kit Includes Push Bu", "price": "12.27", "comm": "7.0%", "rating_pct": "98.0%", "sold": 1048}
+AE-SEARCH [tuya wifi scene button switch] مرجَع=40 مقبول=3
+AE-SEARCH    {"id": 1005008743447773, "title": "Tuya ZigBee Push Button Wireless Hand -Remoter Scene Switch Controller", "price": "8.02", "comm": "7.0%", "rating_pct": "94.7%", "sold": 337}
+AE-SEARCH    {"id": 1005008300832821, "title": "1~2pcs Tuya ZigBee Button Scene Switch Intelligent Linkage Switch Batt", "price": "8.18", "comm": "7.0%", "rating_pct": "95.9%", "sold": 301}
+AE-SEARCH    {"id": 1005007170770180, "title": "Tuya Zigbee Wireless Scene Switch 4 Gang Smart Push Button Automation ", "price": "12.41", "comm": "7.0%", "rating_pct": "98.0%", "sold": 228}
+AE-SEARCH [smart humidifier wifi] مرجَع=40 مقبول=12
+AE-SEARCH    {"id": 1005006903602340, "title": "Fragrance Diffuser Aromatic Oil Diffuser Electric Home Air Freshener M", "price": "68.37", "comm": "7.0%", "rating_pct": "96.8%", "sold": 1256}
+AE-SEARCH    {"id": 1005007408202722, "title": "Aroma Diffuser Scent Machine Coverage 200m³ Bluetooth APP Control Frag", "price": "47.72", "comm": "7.0%", "rating_pct": "92.9%", "sold": 1240}
+AE-SEARCH    {"id": 1005009761226581, "title": "NAMASTE Smart Essential Oil Diffuser Office Aromatherapy Machine Batte", "price": "94.54", "comm": "7.0%", "rating_pct": "96.1%", "sold": 425}
+AE-SEARCH    {"id": 1005010179026071, "title": "Fragrance Diffuser Coverage 300m³ Room Air Freshener Bluetooth Oil Dif", "price": "72.01", "comm": "7.0%", "rating_pct": "93.4%", "sold": 390}
