@@ -2203,6 +2203,526 @@
           "WLAN / Bluetooth"
         ]
       }
+    },
+    "tuya-zigbee-mini-temp-humidity-sensor": {
+      "ar": {
+        "title": "حساس حرارة ورطوبة Tuya Zigbee 3.0 صغير بشاشة LCD",
+        "description": "حساس صغير لقياس الحرارة والرطوبة بشاشة LCD، بتقنية Zigbee 3.0 ويعمل مع تطبيق Smart Life. يحتاج بوابة Zigbee تُشترى منفصلة.",
+        "tags": [
+          "Zigbee 3.0",
+          "شاشة LCD",
+          "Smart Life",
+          "يحتاج بوابة Zigbee"
+        ]
+      },
+      "en": {
+        "title": "Tuya Zigbee 3.0 Mini Temperature & Humidity Sensor with LCD",
+        "description": "Compact temperature and humidity sensor with an LCD screen, using Zigbee 3.0 and working with the Smart Life app. Requires a Zigbee gateway, sold separately.",
+        "tags": [
+          "Zigbee 3.0",
+          "LCD",
+          "Smart Life",
+          "Needs Zigbee gateway"
+        ]
+      },
+      "fr": {
+        "title": "Mini capteur de température et d'humidité Tuya Zigbee 3.0 avec écran LCD",
+        "description": "Petit capteur de température et d'humidité avec écran LCD, en Zigbee 3.0, compatible avec l'application Smart Life. Nécessite une passerelle Zigbee vendue séparément.",
+        "tags": [
+          "Zigbee 3.0",
+          "LCD",
+          "Smart Life",
+          "Passerelle Zigbee requise"
+        ]
+      },
+      "es": {
+        "title": "Mini sensor de temperatura y humedad Tuya Zigbee 3.0 con pantalla LCD",
+        "description": "Sensor compacto de temperatura y humedad con pantalla LCD, con Zigbee 3.0 y compatible con la app Smart Life. Requiere una pasarela Zigbee que se vende por separado.",
+        "tags": [
+          "Zigbee 3.0",
+          "LCD",
+          "Smart Life",
+          "Requiere pasarela Zigbee"
+        ]
+      },
+      "de": {
+        "title": "Tuya Zigbee 3.0 Mini-Temperatur- und Feuchtigkeitssensor mit LCD",
+        "description": "Kompakter Temperatur- und Feuchtigkeitssensor mit LCD-Display, mit Zigbee 3.0 und für die Smart-Life-App. Erfordert ein separat erhältliches Zigbee-Gateway.",
+        "tags": [
+          "Zigbee 3.0",
+          "LCD",
+          "Smart Life",
+          "Zigbee-Gateway nötig"
+        ]
+      }
+    },
+    "zigbee-soil-moisture-sensor": {
+      "ar": {
+        "title": "حساس تربة Zigbee لقياس الرطوبة والحرارة والإضاءة والخصوبة",
+        "description": "حساس للحديقة والنباتات يقيس رطوبة التربة والحرارة والرطوبة والإضاءة والخصوبة، ويعمل مع Tuya وZigbee2MQTT. يحتاج بوابة Zigbee تُشترى منفصلة.",
+        "tags": [
+          "Zigbee",
+          "تربة",
+          "Tuya",
+          "Zigbee2MQTT"
+        ]
+      },
+      "en": {
+        "title": "Zigbee Soil Sensor for Moisture, Temperature, Light and Fertility",
+        "description": "Garden and plant sensor measuring soil moisture, temperature, humidity, light and fertility, working with Tuya and Zigbee2MQTT. Requires a Zigbee gateway, sold separately.",
+        "tags": [
+          "Zigbee",
+          "Soil",
+          "Tuya",
+          "Zigbee2MQTT"
+        ]
+      },
+      "fr": {
+        "title": "Capteur de sol Zigbee : humidité, température, lumière et fertilité",
+        "description": "Capteur pour jardin et plantes mesurant l'humidité du sol, la température, l'humidité, la luminosité et la fertilité, compatible Tuya et Zigbee2MQTT. Nécessite une passerelle Zigbee vendue séparément.",
+        "tags": [
+          "Zigbee",
+          "Sol",
+          "Tuya",
+          "Zigbee2MQTT"
+        ]
+      },
+      "es": {
+        "title": "Sensor de suelo Zigbee: humedad, temperatura, luz y fertilidad",
+        "description": "Sensor para jardín y plantas que mide la humedad del suelo, la temperatura, la humedad, la luz y la fertilidad, compatible con Tuya y Zigbee2MQTT. Requiere una pasarela Zigbee que se vende por separado.",
+        "tags": [
+          "Zigbee",
+          "Suelo",
+          "Tuya",
+          "Zigbee2MQTT"
+        ]
+      },
+      "de": {
+        "title": "Zigbee-Bodensensor für Feuchtigkeit, Temperatur, Licht und Fruchtbarkeit",
+        "description": "Sensor für Garten und Pflanzen, der Bodenfeuchte, Temperatur, Luftfeuchtigkeit, Licht und Nährstoffgehalt misst, kompatibel mit Tuya und Zigbee2MQTT. Erfordert ein separat erhältliches Zigbee-Gateway.",
+        "tags": [
+          "Zigbee",
+          "Boden",
+          "Tuya",
+          "Zigbee2MQTT"
+        ]
+      }
+    },
+    "tuya-zigbee-wifi-water-valve-timer": {
+      "ar": {
+        "title": "محكّم ري ومغلق مياه ذكي Tuya (Zigbee أو Wi-Fi)",
+        "description": "محكّم ري ومغلق مياه للحديقة بمؤقّت، يعمل مع تطبيق Tuya وAlexa وGoogle Assistant. يُباع بنسختي Zigbee وWi-Fi؛ نسخة Zigbee تحتاج بوابة تُشترى منفصلة.",
+        "tags": [
+          "ري",
+          "Zigbee / Wi-Fi",
+          "Alexa",
+          "Google Assistant"
+        ]
+      },
+      "en": {
+        "title": "Tuya Smart Water Valve and Irrigation Timer (Zigbee or Wi-Fi)",
+        "description": "Garden water shut-off valve and irrigation controller with a timer, working with the Tuya app, Alexa and Google Assistant. Sold in Zigbee and Wi-Fi versions; the Zigbee version needs a gateway, sold separately.",
+        "tags": [
+          "Irrigation",
+          "Zigbee / Wi-Fi",
+          "Alexa",
+          "Google Assistant"
+        ]
+      },
+      "fr": {
+        "title": "Vanne d'eau et programmateur d'arrosage Tuya (Zigbee ou Wi-Fi)",
+        "description": "Vanne de coupure d'eau et contrôleur d'irrigation avec minuterie pour le jardin, compatible avec l'application Tuya, Alexa et Google Assistant. Vendu en versions Zigbee et Wi-Fi ; la version Zigbee nécessite une passerelle vendue séparément.",
+        "tags": [
+          "Irrigation",
+          "Zigbee / Wi-Fi",
+          "Alexa",
+          "Google Assistant"
+        ]
+      },
+      "es": {
+        "title": "Válvula de agua y programador de riego Tuya (Zigbee o Wi-Fi)",
+        "description": "Válvula de corte de agua y controlador de riego con temporizador para el jardín, compatible con la app Tuya, Alexa y Google Assistant. Se vende en versiones Zigbee y Wi-Fi; la versión Zigbee requiere una pasarela que se vende por separado.",
+        "tags": [
+          "Riego",
+          "Zigbee / Wi-Fi",
+          "Alexa",
+          "Google Assistant"
+        ]
+      },
+      "de": {
+        "title": "Tuya Smart-Wasserventil und Bewässerungstimer (Zigbee oder WLAN)",
+        "description": "Wasserabsperrventil und Bewässerungssteuerung mit Timer für den Garten, kompatibel mit der Tuya-App, Alexa und Google Assistant. In Zigbee- und WLAN-Version erhältlich; die Zigbee-Version benötigt ein separat erhältliches Gateway.",
+        "tags": [
+          "Bewässerung",
+          "Zigbee / WLAN",
+          "Alexa",
+          "Google Assistant"
+        ]
+      }
+    },
+    "cat-water-fountain-3-2l-stainless": {
+      "ar": {
+        "title": "نافورة مياه للقطط والكلاب 3.2 لتر من الستانلس ستيل بنافذة شفافة",
+        "description": "موزّع مياه لاسلكي سعة 3.2 لتر بوعاء من الستانلس ستيل ونافذة شفافة تُظهر مستوى الماء، للقطط والكلاب.",
+        "tags": [
+          "3.2 لتر",
+          "ستانلس ستيل",
+          "قطط وكلاب",
+          "لاسلكي"
+        ]
+      },
+      "en": {
+        "title": "3.2L Stainless Steel Pet Water Fountain with Visual Window",
+        "description": "Wireless 3.2L water dispenser for cats and dogs, with a stainless steel bowl and a transparent window that shows the water level.",
+        "tags": [
+          "3.2L",
+          "Stainless steel",
+          "Cats & dogs",
+          "Wireless"
+        ]
+      },
+      "fr": {
+        "title": "Fontaine à eau en inox 3,2 L pour animaux avec fenêtre transparente",
+        "description": "Distributeur d'eau sans fil de 3,2 L pour chats et chiens, avec bol en inox et fenêtre transparente qui montre le niveau d'eau.",
+        "tags": [
+          "3,2 L",
+          "Inox",
+          "Chats et chiens",
+          "Sans fil"
+        ]
+      },
+      "es": {
+        "title": "Fuente de agua de acero inoxidable de 3,2 L para mascotas con ventana visual",
+        "description": "Dispensador de agua inalámbrico de 3,2 L para gatos y perros, con cuenco de acero inoxidable y ventana transparente que muestra el nivel de agua.",
+        "tags": [
+          "3,2 L",
+          "Acero inoxidable",
+          "Gatos y perros",
+          "Inalámbrica"
+        ]
+      },
+      "de": {
+        "title": "3,2-L-Edelstahl-Trinkbrunnen für Haustiere mit Sichtfenster",
+        "description": "Kabelloser 3,2-L-Wasserspender für Katzen und Hunde mit Edelstahlschale und transparentem Fenster, das den Wasserstand zeigt.",
+        "tags": [
+          "3,2 L",
+          "Edelstahl",
+          "Katzen & Hunde",
+          "Kabellos"
+        ]
+      }
+    },
+    "girier-zigbee-wifi-curtain-switch-module": {
+      "ar": {
+        "title": "وحدة تحكم ستائر وشيش ذكية GIRIER (Zigbee أو Wi-Fi، RF433)",
+        "description": "وحدة تحكم بمحرك الستائر والشيش الكهربائي بقناة أو قناتين، تعمل مع Tuya وAlexa وGoogle. يُباع بنسختي Zigbee وWi-Fi؛ نسخة Zigbee تحتاج بوابة تُشترى منفصلة، وتُركَّب داخل الجدار مع الأسلاك الكهربائية.",
+        "tags": [
+          "ستائر",
+          "Zigbee / Wi-Fi",
+          "RF433",
+          "Alexa"
+        ]
+      },
+      "en": {
+        "title": "GIRIER Smart Curtain and Shutter Switch Module (Zigbee or Wi-Fi, RF433)",
+        "description": "Control module for electric curtain and roller shutter motors, 1 or 2 channels, working with Tuya, Alexa and Google. Sold in Zigbee and Wi-Fi versions; the Zigbee version needs a gateway, sold separately, and it is wired into the electrical installation.",
+        "tags": [
+          "Curtains",
+          "Zigbee / Wi-Fi",
+          "RF433",
+          "Alexa"
+        ]
+      },
+      "fr": {
+        "title": "Module GIRIER pour rideaux et volets connectés (Zigbee ou Wi-Fi, RF433)",
+        "description": "Module de commande pour moteurs de rideaux et volets roulants électriques, 1 ou 2 canaux, compatible Tuya, Alexa et Google. Vendu en versions Zigbee et Wi-Fi ; la version Zigbee nécessite une passerelle vendue séparément, et il se raccorde à l'installation électrique.",
+        "tags": [
+          "Rideaux",
+          "Zigbee / Wi-Fi",
+          "RF433",
+          "Alexa"
+        ]
+      },
+      "es": {
+        "title": "Módulo GIRIER para cortinas y persianas inteligentes (Zigbee o Wi-Fi, RF433)",
+        "description": "Módulo de control para motores eléctricos de cortinas y persianas, de 1 o 2 canales, compatible con Tuya, Alexa y Google. Se vende en versiones Zigbee y Wi-Fi; la versión Zigbee requiere una pasarela que se vende por separado, y se conecta a la instalación eléctrica.",
+        "tags": [
+          "Cortinas",
+          "Zigbee / Wi-Fi",
+          "RF433",
+          "Alexa"
+        ]
+      },
+      "de": {
+        "title": "GIRIER Smart-Modul für Vorhänge und Rollläden (Zigbee oder WLAN, RF433)",
+        "description": "Steuermodul für elektrische Vorhang- und Rollladenmotoren, 1 oder 2 Kanäle, kompatibel mit Tuya, Alexa und Google. In Zigbee- und WLAN-Version erhältlich; die Zigbee-Version benötigt ein separat erhältliches Gateway, und das Modul wird in die Elektroinstallation eingebunden.",
+        "tags": [
+          "Vorhänge",
+          "Zigbee / WLAN",
+          "RF433",
+          "Alexa"
+        ]
+      }
+    },
+    "tuya-mmwave-human-presence-sensor": {
+      "ar": {
+        "title": "حساس حضور بشري Tuya بالرادار mmWave مع حساس إضاءة (Zigbee أو Wi-Fi)",
+        "description": "حساس رادار mmWave يكشف وجود الإنسان ويشمل حساس إضاءة، ومقدَّم بديلًا لحساسات الحركة PIR، ويعمل مع Smart Life. يُباع بنسختي Zigbee وWi-Fi؛ نسخة Zigbee تحتاج بوابة تُشترى منفصلة.",
+        "tags": [
+          "mmWave",
+          "رادار",
+          "Zigbee / Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "en": {
+        "title": "Tuya mmWave Human Presence Sensor with Luminance (Zigbee or Wi-Fi)",
+        "description": "mmWave radar sensor that detects human presence and includes a luminance sensor, offered as a replacement for PIR motion sensors, working with Smart Life. Sold in Zigbee and Wi-Fi versions; the Zigbee version needs a gateway, sold separately.",
+        "tags": [
+          "mmWave",
+          "Radar",
+          "Zigbee / Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "fr": {
+        "title": "Détecteur de présence humaine mmWave Tuya avec capteur de luminosité (Zigbee ou Wi-Fi)",
+        "description": "Capteur radar mmWave qui détecte la présence humaine et inclut un capteur de luminosité, proposé en remplacement des détecteurs de mouvement PIR, compatible Smart Life. Vendu en versions Zigbee et Wi-Fi ; la version Zigbee nécessite une passerelle vendue séparément.",
+        "tags": [
+          "mmWave",
+          "Radar",
+          "Zigbee / Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "es": {
+        "title": "Sensor de presencia humana mmWave Tuya con sensor de luminosidad (Zigbee o Wi-Fi)",
+        "description": "Sensor de radar mmWave que detecta la presencia humana e incluye un sensor de luminosidad, ofrecido como sustituto de los sensores de movimiento PIR, compatible con Smart Life. Se vende en versiones Zigbee y Wi-Fi; la versión Zigbee requiere una pasarela que se vende por separado.",
+        "tags": [
+          "mmWave",
+          "Radar",
+          "Zigbee / Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "de": {
+        "title": "Tuya mmWave-Anwesenheitssensor mit Helligkeitssensor (Zigbee oder WLAN)",
+        "description": "mmWave-Radarsensor, der die Anwesenheit von Menschen erkennt und einen Helligkeitssensor enthält, als Ersatz für PIR-Bewegungsmelder angeboten, kompatibel mit Smart Life. In Zigbee- und WLAN-Version erhältlich; die Zigbee-Version benötigt ein separat erhältliches Gateway.",
+        "tags": [
+          "mmWave",
+          "Radar",
+          "Zigbee / WLAN",
+          "Smart Life"
+        ]
+      }
+    },
+    "tuya-zigbee-siren-alarm-100db": {
+      "ar": {
+        "title": "صفارة إنذار Tuya Zigbee بقوة 100 ديسيبل",
+        "description": "صفارة إنذار منزلية بقوة 100 ديسيبل تعمل مع Alexa، وتتطلب بوابة Tuya Zigbee تُشترى منفصلة.",
+        "tags": [
+          "100 ديسيبل",
+          "Zigbee",
+          "Alexa",
+          "يحتاج بوابة"
+        ]
+      },
+      "en": {
+        "title": "Tuya Zigbee Siren Alarm, 100 dB",
+        "description": "100 dB home security siren working with Alexa. Requires a Tuya Zigbee gateway, sold separately.",
+        "tags": [
+          "100 dB",
+          "Zigbee",
+          "Alexa",
+          "Needs gateway"
+        ]
+      },
+      "fr": {
+        "title": "Sirène d'alarme Tuya Zigbee, 100 dB",
+        "description": "Sirène d'alarme domestique de 100 dB compatible avec Alexa. Nécessite une passerelle Tuya Zigbee vendue séparément.",
+        "tags": [
+          "100 dB",
+          "Zigbee",
+          "Alexa",
+          "Passerelle requise"
+        ]
+      },
+      "es": {
+        "title": "Sirena de alarma Tuya Zigbee, 100 dB",
+        "description": "Sirena de alarma doméstica de 100 dB compatible con Alexa. Requiere una pasarela Tuya Zigbee que se vende por separado.",
+        "tags": [
+          "100 dB",
+          "Zigbee",
+          "Alexa",
+          "Requiere pasarela"
+        ]
+      },
+      "de": {
+        "title": "Tuya Zigbee-Sirene, 100 dB",
+        "description": "Alarmsirene für zu Hause mit 100 dB, kompatibel mit Alexa. Erfordert ein separat erhältliches Tuya-Zigbee-Gateway.",
+        "tags": [
+          "100 dB",
+          "Zigbee",
+          "Alexa",
+          "Gateway nötig"
+        ]
+      }
+    },
+    "tuya-wifi-din-rail-energy-meter-100a": {
+      "ar": {
+        "title": "عدّاد طاقة ذكي Tuya Wi-Fi لسكة DIN، 100 أمبير",
+        "description": "عدّاد كهرباء رقمي بشاشة يقيس الجهد والتيار ويعرض المنحنيات، بنطاق AC 50–320 فولت و100 أمبير، ويعمل عبر Wi-Fi وتطبيق Tuya. يُركَّب في لوحة الكهرباء، فيُفضَّل أن يتولاه كهربائي.",
+        "tags": [
+          "DIN",
+          "100 أمبير",
+          "Wi-Fi",
+          "Tuya"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi DIN Rail Energy Meter, 100A",
+        "description": "Digital electricity meter with a display that monitors voltage and current and shows curves, rated AC 50–320V and 100A, working over Wi-Fi with the Tuya app. It is installed in the electrical panel, so an electrician should handle the installation.",
+        "tags": [
+          "DIN rail",
+          "100A",
+          "Wi-Fi",
+          "Tuya"
+        ]
+      },
+      "fr": {
+        "title": "Compteur d'énergie Tuya Wi-Fi sur rail DIN, 100 A",
+        "description": "Compteur électrique numérique avec écran qui surveille la tension et le courant et affiche des courbes, de 50 à 320 V CA et 100 A, fonctionnant en Wi-Fi avec l'application Tuya. Il s'installe dans le tableau électrique : l'installation doit être confiée à un électricien.",
+        "tags": [
+          "Rail DIN",
+          "100 A",
+          "Wi-Fi",
+          "Tuya"
+        ]
+      },
+      "es": {
+        "title": "Medidor de energía Tuya Wi-Fi para carril DIN, 100 A",
+        "description": "Medidor eléctrico digital con pantalla que monitoriza el voltaje y la corriente y muestra curvas, de 50 a 320 V CA y 100 A, y funciona por Wi-Fi con la app Tuya. Se instala en el cuadro eléctrico, por lo que debe encargarse un electricista.",
+        "tags": [
+          "Carril DIN",
+          "100 A",
+          "Wi-Fi",
+          "Tuya"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-Energiezähler für DIN-Schiene, 100 A",
+        "description": "Digitaler Stromzähler mit Display, der Spannung und Strom überwacht und Kurven anzeigt, für 50–320 V AC und 100 A, per WLAN mit der Tuya-App. Er wird im Sicherungskasten montiert, die Installation sollte ein Elektriker übernehmen.",
+        "tags": [
+          "DIN-Schiene",
+          "100 A",
+          "WLAN",
+          "Tuya"
+        ]
+      }
+    },
+    "solar-garden-light-148led-motion": {
+      "ar": {
+        "title": "إضاءة شمسية خارجية للحديقة بـ148 ليد وحساس حركة، IP65",
+        "description": "مصباح جداري يعمل بالطاقة الشمسية بـ148 ليد وحساس حركة و3 أوضاع إضاءة، ومقاوم للماء بدرجة IP65، للحدائق والمداخل.",
+        "tags": [
+          "طاقة شمسية",
+          "148 ليد",
+          "حساس حركة",
+          "IP65"
+        ]
+      },
+      "en": {
+        "title": "Outdoor Solar Garden Light, 148 LEDs with Motion Sensor, IP65",
+        "description": "Solar-powered wall light with 148 LEDs, a motion sensor and 3 lighting modes, IP65 waterproof, for gardens and entrances.",
+        "tags": [
+          "Solar",
+          "148 LEDs",
+          "Motion sensor",
+          "IP65"
+        ]
+      },
+      "fr": {
+        "title": "Lampe solaire de jardin extérieure, 148 LED avec détecteur de mouvement, IP65",
+        "description": "Applique murale solaire de 148 LED avec détecteur de mouvement et 3 modes d'éclairage, étanche IP65, pour jardins et entrées.",
+        "tags": [
+          "Solaire",
+          "148 LED",
+          "Détecteur de mouvement",
+          "IP65"
+        ]
+      },
+      "es": {
+        "title": "Luz solar de jardín para exterior, 148 LED con sensor de movimiento, IP65",
+        "description": "Aplique solar de 148 LED con sensor de movimiento y 3 modos de iluminación, resistente al agua IP65, para jardines y entradas.",
+        "tags": [
+          "Solar",
+          "148 LED",
+          "Sensor de movimiento",
+          "IP65"
+        ]
+      },
+      "de": {
+        "title": "Solar-Gartenleuchte für außen, 148 LEDs mit Bewegungsmelder, IP65",
+        "description": "Solarbetriebene Wandleuchte mit 148 LEDs, Bewegungsmelder und 3 Lichtmodi, wasserdicht nach IP65, für Gärten und Eingänge.",
+        "tags": [
+          "Solar",
+          "148 LEDs",
+          "Bewegungsmelder",
+          "IP65"
+        ]
+      }
+    },
+    "ampcom-gigabit-switch-5-8-port": {
+      "ar": {
+        "title": "سويتش إيثرنت AMPCOM جيجابت 1000Mbps (5 أو 8 منافذ)",
+        "description": "سويتش شبكة بسرعة 1000 ميغابت في الثانية بمنافذ RJ45، يُباع بنسخ 5 و8 منافذ، لتوصيل أجهزة المنزل الذكي والكاميرات بكابل.",
+        "tags": [
+          "جيجابت",
+          "RJ45",
+          "5 / 8 منافذ",
+          "شبكة"
+        ]
+      },
+      "en": {
+        "title": "AMPCOM 1000Mbps Gigabit Ethernet Switch (5 or 8 Port)",
+        "description": "1000Mbps network switch with RJ45 ports, sold in 5-port and 8-port versions, for wiring smart home devices and cameras by cable.",
+        "tags": [
+          "Gigabit",
+          "RJ45",
+          "5 / 8 ports",
+          "Network"
+        ]
+      },
+      "fr": {
+        "title": "Switch Ethernet Gigabit AMPCOM 1000 Mbps (5 ou 8 ports)",
+        "description": "Switch réseau 1000 Mbps avec ports RJ45, vendu en versions 5 et 8 ports, pour raccorder par câble les appareils domotiques et les caméras.",
+        "tags": [
+          "Gigabit",
+          "RJ45",
+          "5 / 8 ports",
+          "Réseau"
+        ]
+      },
+      "es": {
+        "title": "Switch Ethernet Gigabit AMPCOM de 1000 Mbps (5 u 8 puertos)",
+        "description": "Switch de red de 1000 Mbps con puertos RJ45, disponible en versiones de 5 y 8 puertos, para conectar por cable dispositivos del hogar inteligente y cámaras.",
+        "tags": [
+          "Gigabit",
+          "RJ45",
+          "5 / 8 puertos",
+          "Red"
+        ]
+      },
+      "de": {
+        "title": "AMPCOM Gigabit-Ethernet-Switch mit 1000 Mbit/s (5 oder 8 Ports)",
+        "description": "Netzwerk-Switch mit 1000 Mbit/s und RJ45-Ports, in Versionen mit 5 und 8 Ports erhältlich, um Smart-Home-Geräte und Kameras per Kabel anzubinden.",
+        "tags": [
+          "Gigabit",
+          "RJ45",
+          "5 / 8 Ports",
+          "Netzwerk"
+        ]
+      }
     }
   }
 }

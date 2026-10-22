@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:33:58.119831+00:00",
+  "updated_at": "2026-10-22T19:35:31.952435+00:00",
   "languages": [
     "ar",
     "en",
@@ -2689,6 +2689,636 @@
             "RGB",
             "Smart Life",
             "WLAN / Bluetooth"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-zigbee-mini-temp-humidity-sensor",
+      "category": "sensors",
+      "price": 7.77,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S621974d20ba64ae1adb9a38238ae4887o.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CndJGNcqJs2wzE1L85VgwCFLmB6lRvrRSPUtEBiC7RMOeZMUw5Wyr00bXT0MBQo7Juor4s4LbGD7vUOBYYV9xwiIhKxuAetL98i4Mb0r39s75OH5NTMz3YN5mVZ7GxfBRlSuM6ye5VjsYrgkV7YM4KvqEuF9Viu3hFY16UzaHJRwOoSuMZ1id6n7gDfSVirLNDqhegg2M3yRcKhO8O7Ly8bynczyqrEUuwrE3J5kJV34e1lpoPxbF8dpPxD958Pk789kFM6gX5g7mfqWVuHEqDNkXgSmkZQOLHH62IVbDD286GAlQfV8Y2uBOx1kSquFyvtxzCgElXbqb3i97h6dx5gIHx6fSYxnAoDaIqMLAQRlAd5u3vWoeJ42dsHpJh8mIDWksir8mqOPEF28VNEEToLXODgUQg3xoNQBoONOIaEUVqQ5iMaNuwq0ng6nruvKobc7zsswpy0eDAQLByTBFmq2WTUn84XzIHGqVSiqspw1YhvjDQxp4iNh7Lb7hRGv5xFgidkTkCUidMOO90iO0qyllotfyFSFBPxOIUkXREzOIwtojwg3Vi5oBmVNi3O1ruLdVPIHxfwEPPfpQ1IcOOwOwdEajLyeUrABarHof7kxEwNES3JZYCtwPOw56TZcxCp1MJFGebkNVJcogEpQZp3tn2rEHi0jGnpRcfBkdrNFgRUefCVrh5JyTr71nxdHV7F4P807RtRV5s",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس حرارة ورطوبة Tuya Zigbee 3.0 صغير بشاشة LCD",
+          "description": "حساس صغير لقياس الحرارة والرطوبة بشاشة LCD، بتقنية Zigbee 3.0 ويعمل مع تطبيق Smart Life. يحتاج بوابة Zigbee تُشترى منفصلة.",
+          "tags": [
+            "Zigbee 3.0",
+            "شاشة LCD",
+            "Smart Life",
+            "يحتاج بوابة Zigbee"
+          ]
+        },
+        "en": {
+          "title": "Tuya Zigbee 3.0 Mini Temperature & Humidity Sensor with LCD",
+          "description": "Compact temperature and humidity sensor with an LCD screen, using Zigbee 3.0 and working with the Smart Life app. Requires a Zigbee gateway, sold separately.",
+          "tags": [
+            "Zigbee 3.0",
+            "LCD",
+            "Smart Life",
+            "Needs Zigbee gateway"
+          ]
+        },
+        "fr": {
+          "title": "Mini capteur de température et d'humidité Tuya Zigbee 3.0 avec écran LCD",
+          "description": "Petit capteur de température et d'humidité avec écran LCD, en Zigbee 3.0, compatible avec l'application Smart Life. Nécessite une passerelle Zigbee vendue séparément.",
+          "tags": [
+            "Zigbee 3.0",
+            "LCD",
+            "Smart Life",
+            "Passerelle Zigbee requise"
+          ]
+        },
+        "es": {
+          "title": "Mini sensor de temperatura y humedad Tuya Zigbee 3.0 con pantalla LCD",
+          "description": "Sensor compacto de temperatura y humedad con pantalla LCD, con Zigbee 3.0 y compatible con la app Smart Life. Requiere una pasarela Zigbee que se vende por separado.",
+          "tags": [
+            "Zigbee 3.0",
+            "LCD",
+            "Smart Life",
+            "Requiere pasarela Zigbee"
+          ]
+        },
+        "de": {
+          "title": "Tuya Zigbee 3.0 Mini-Temperatur- und Feuchtigkeitssensor mit LCD",
+          "description": "Kompakter Temperatur- und Feuchtigkeitssensor mit LCD-Display, mit Zigbee 3.0 und für die Smart-Life-App. Erfordert ein separat erhältliches Zigbee-Gateway.",
+          "tags": [
+            "Zigbee 3.0",
+            "LCD",
+            "Smart Life",
+            "Zigbee-Gateway nötig"
+          ]
+        }
+      }
+    },
+    {
+      "id": "zigbee-soil-moisture-sensor",
+      "category": "garden",
+      "price": 9.58,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sde310507b0b6450490e86aec6a43b5f59.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmzpdB4l5XstRsk32LNB49HQCUxRBitAjMsMLi5Z1DoVD5DEGIiIClYowqMkqRMqGZWGQwnP3uDl7LF7S3mvA2LKawTeM553V0MtPQc3ovjyfJWWutok0apCakUu6r7NxBRNqSk81LZaY9yTzyEbMRcewDMlzAMxGdNb5OEAUWeKm7dAaEN3roNMAqey9gB3UB95m8ED4LIWARPrEiQQvIhGzjlO8C76rkAh1kBESpmJ8XRppJFgWoOAIN0R7ddvajj8VCwhZ9QVvmNPQAPKQmDh6tkzf2Axx7WithfS6IOUfZt2aQoc1Gm816tKXdGXHEf9dEE2jJFn5bVI19tW82cRNFPel0I4nnEDlwYFOR8uTn3Nujd6n9URwF9xfmA0DTEGBjkLeT50cYcZVFyRjJasXZfLz1nvAsSQVp7RYeE7MtQlI6VsrcVDn7jqqAzoRLx57EnwJxUIp8zvgR76yKK0fsRG6n4EynJzLogAq5BxadNHcq9WXWHUwOUfUTxsaOETSZ4JixfLXjLP4rKaewSIJT83cPA6UjihTC3LmY2K88kjrGuo4wJu6em5COJvmKYVGMiLNn8n9txHhgMwQ7vMeWd0iDu4cY2Ml693fPseC2XR0E3CckWXaWapIWLBRw5kcDrR4VERsHlCpDnTshVIekucM59aqmrJCJx5Mu6Y50dozQFcIxSOBnBUoKJ5pEjox4WCmWg6OA",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس تربة Zigbee لقياس الرطوبة والحرارة والإضاءة والخصوبة",
+          "description": "حساس للحديقة والنباتات يقيس رطوبة التربة والحرارة والرطوبة والإضاءة والخصوبة، ويعمل مع Tuya وZigbee2MQTT. يحتاج بوابة Zigbee تُشترى منفصلة.",
+          "tags": [
+            "Zigbee",
+            "تربة",
+            "Tuya",
+            "Zigbee2MQTT"
+          ]
+        },
+        "en": {
+          "title": "Zigbee Soil Sensor for Moisture, Temperature, Light and Fertility",
+          "description": "Garden and plant sensor measuring soil moisture, temperature, humidity, light and fertility, working with Tuya and Zigbee2MQTT. Requires a Zigbee gateway, sold separately.",
+          "tags": [
+            "Zigbee",
+            "Soil",
+            "Tuya",
+            "Zigbee2MQTT"
+          ]
+        },
+        "fr": {
+          "title": "Capteur de sol Zigbee : humidité, température, lumière et fertilité",
+          "description": "Capteur pour jardin et plantes mesurant l'humidité du sol, la température, l'humidité, la luminosité et la fertilité, compatible Tuya et Zigbee2MQTT. Nécessite une passerelle Zigbee vendue séparément.",
+          "tags": [
+            "Zigbee",
+            "Sol",
+            "Tuya",
+            "Zigbee2MQTT"
+          ]
+        },
+        "es": {
+          "title": "Sensor de suelo Zigbee: humedad, temperatura, luz y fertilidad",
+          "description": "Sensor para jardín y plantas que mide la humedad del suelo, la temperatura, la humedad, la luz y la fertilidad, compatible con Tuya y Zigbee2MQTT. Requiere una pasarela Zigbee que se vende por separado.",
+          "tags": [
+            "Zigbee",
+            "Suelo",
+            "Tuya",
+            "Zigbee2MQTT"
+          ]
+        },
+        "de": {
+          "title": "Zigbee-Bodensensor für Feuchtigkeit, Temperatur, Licht und Fruchtbarkeit",
+          "description": "Sensor für Garten und Pflanzen, der Bodenfeuchte, Temperatur, Luftfeuchtigkeit, Licht und Nährstoffgehalt misst, kompatibel mit Tuya und Zigbee2MQTT. Erfordert ein separat erhältliches Zigbee-Gateway.",
+          "tags": [
+            "Zigbee",
+            "Boden",
+            "Tuya",
+            "Zigbee2MQTT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-zigbee-wifi-water-valve-timer",
+      "category": "garden",
+      "price": 30.59,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbe852f4e127046dbb01a920eda623f414.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Co9khXzVxKZeCBBlQGJwYV60A3FfcXhJrGPt2AB4s0vEXZzemoYoHQiBQoSFpbnjCXXgaUYEizwI0YtfbxJ737NVi2qGoahFdfpzJbb0aERq574yYNkEsNrAK6zTCl28rcHKVBlUJfqvw6qG4loo8QEh12u0hUA6F2OK4zs2Mn0UrzcQQ2kVjHsCrt09HFna6EzOG51KB07xRe57p4pW5UM1M92y0RZrOrhwXem8PnWrToT8rMp8bAvUrpFYj6JHbsh2xgrgIZSanMIr6DM0lFGFybgpSRxwkhCEFeLHtgWfMr6A1GVvRAsc7oCjbEna8IsCBZmoh09EMXRzOjlCWfDSpZhUDHrC1fjhnA9NAULiKvQML04bt5sx6K4rK4EdfZo2oBZMJISyGPqtSbbHQ5iTxkMQTV2PUr4XW1YKhFGcp7e05T0MUggJEOtMeSgCu9rYY68DcMYYBbo2STlTIn7A1utbMFdkDOTBhTPA1Zp2l5zEC72vWvDFffUo0U4NdEE7cOttroueOFMYue0M2KpYwrDKROEAenre9IlYU6oCQVpaDYwYFSeAfLPGAmUn1BqTqMMd3DoIRYib1s5eYIi8lI0bvPHbAcFb3QA2SMV4LVX79NxzmsMwQluQVxvSCgYJ3AgEu13JXl5t5w5bPc2zoLYbmbR9sHl4uf6u9uPdQJBLaU470EGCMDKeFaAoPzkiyBqe9bcsZE",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "محكّم ري ومغلق مياه ذكي Tuya (Zigbee أو Wi-Fi)",
+          "description": "محكّم ري ومغلق مياه للحديقة بمؤقّت، يعمل مع تطبيق Tuya وAlexa وGoogle Assistant. يُباع بنسختي Zigbee وWi-Fi؛ نسخة Zigbee تحتاج بوابة تُشترى منفصلة.",
+          "tags": [
+            "ري",
+            "Zigbee / Wi-Fi",
+            "Alexa",
+            "Google Assistant"
+          ]
+        },
+        "en": {
+          "title": "Tuya Smart Water Valve and Irrigation Timer (Zigbee or Wi-Fi)",
+          "description": "Garden water shut-off valve and irrigation controller with a timer, working with the Tuya app, Alexa and Google Assistant. Sold in Zigbee and Wi-Fi versions; the Zigbee version needs a gateway, sold separately.",
+          "tags": [
+            "Irrigation",
+            "Zigbee / Wi-Fi",
+            "Alexa",
+            "Google Assistant"
+          ]
+        },
+        "fr": {
+          "title": "Vanne d'eau et programmateur d'arrosage Tuya (Zigbee ou Wi-Fi)",
+          "description": "Vanne de coupure d'eau et contrôleur d'irrigation avec minuterie pour le jardin, compatible avec l'application Tuya, Alexa et Google Assistant. Vendu en versions Zigbee et Wi-Fi ; la version Zigbee nécessite une passerelle vendue séparément.",
+          "tags": [
+            "Irrigation",
+            "Zigbee / Wi-Fi",
+            "Alexa",
+            "Google Assistant"
+          ]
+        },
+        "es": {
+          "title": "Válvula de agua y programador de riego Tuya (Zigbee o Wi-Fi)",
+          "description": "Válvula de corte de agua y controlador de riego con temporizador para el jardín, compatible con la app Tuya, Alexa y Google Assistant. Se vende en versiones Zigbee y Wi-Fi; la versión Zigbee requiere una pasarela que se vende por separado.",
+          "tags": [
+            "Riego",
+            "Zigbee / Wi-Fi",
+            "Alexa",
+            "Google Assistant"
+          ]
+        },
+        "de": {
+          "title": "Tuya Smart-Wasserventil und Bewässerungstimer (Zigbee oder WLAN)",
+          "description": "Wasserabsperrventil und Bewässerungssteuerung mit Timer für den Garten, kompatibel mit der Tuya-App, Alexa und Google Assistant. In Zigbee- und WLAN-Version erhältlich; die Zigbee-Version benötigt ein separat erhältliches Gateway.",
+          "tags": [
+            "Bewässerung",
+            "Zigbee / WLAN",
+            "Alexa",
+            "Google Assistant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cat-water-fountain-3-2l-stainless",
+      "category": "pets",
+      "price": 10.91,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S16814e9422d543639b2d7db5c3d423faN.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnnCfhhnK09cqySnELAMcyteRYMfF8E6gSMWbJ65svh2JeHT92myqk4qTa8jtKg1v00qR4DD8dWx8KIpuwFjnmBWn8Y220ymHZR9bTVAwELtwnzptmvlyWZhmgd9sioHovGfRwqholxU7prqFmVS5ePRK7yEN0H1EG1cceiCITN7rfRkynscUZn9rrgW7WPA6FWqyBg9im5GZQDu1ENB0RnRHdCVWWChNLtgXjfncF9S9deVDnTg5mw6CA8Q4UZO3Qq13bJVsBAcVLJySsir7KuYxp27yuAj68PF1phVHTKFE9MerBgtvwYTt4bB9kYXlRNlsTyptBB1PVePpsHbStlNjUfwWuQmMKSuCIJOpwaGwpsMtrTw0CupJ33ACUtqLxStFlBatfnAOsZMRN1jIC6vlxRf8bBU4XhqOSw7Zug0ojRYDnYdb9jhP0GAYW2rz7MXCWafpEdd2CI84P8mPr4YwqKNb5LsdffLBpFbgZ7mzIv4NNul6y65ZHeQDWAYwa3Azf8vVFUhpY9XRMs7vFweEoaiBpm2Jr33nG6aVeG5jZK4QiB6IRVZhrU4t0x1fLm81UJIEUzKD3X5D08ciEixq3g5D67Oqo7udxbaQA87NCtH5RGkCKAax1POSgqQys8l8pJ7uX9y4drgZwwiuxqMAz9hDoUnAHosKUrl6tivHeYDp8AN2XX0oLXN8okzXoQ8rcYvGaat5c",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "نافورة مياه للقطط والكلاب 3.2 لتر من الستانلس ستيل بنافذة شفافة",
+          "description": "موزّع مياه لاسلكي سعة 3.2 لتر بوعاء من الستانلس ستيل ونافذة شفافة تُظهر مستوى الماء، للقطط والكلاب.",
+          "tags": [
+            "3.2 لتر",
+            "ستانلس ستيل",
+            "قطط وكلاب",
+            "لاسلكي"
+          ]
+        },
+        "en": {
+          "title": "3.2L Stainless Steel Pet Water Fountain with Visual Window",
+          "description": "Wireless 3.2L water dispenser for cats and dogs, with a stainless steel bowl and a transparent window that shows the water level.",
+          "tags": [
+            "3.2L",
+            "Stainless steel",
+            "Cats & dogs",
+            "Wireless"
+          ]
+        },
+        "fr": {
+          "title": "Fontaine à eau en inox 3,2 L pour animaux avec fenêtre transparente",
+          "description": "Distributeur d'eau sans fil de 3,2 L pour chats et chiens, avec bol en inox et fenêtre transparente qui montre le niveau d'eau.",
+          "tags": [
+            "3,2 L",
+            "Inox",
+            "Chats et chiens",
+            "Sans fil"
+          ]
+        },
+        "es": {
+          "title": "Fuente de agua de acero inoxidable de 3,2 L para mascotas con ventana visual",
+          "description": "Dispensador de agua inalámbrico de 3,2 L para gatos y perros, con cuenco de acero inoxidable y ventana transparente que muestra el nivel de agua.",
+          "tags": [
+            "3,2 L",
+            "Acero inoxidable",
+            "Gatos y perros",
+            "Inalámbrica"
+          ]
+        },
+        "de": {
+          "title": "3,2-L-Edelstahl-Trinkbrunnen für Haustiere mit Sichtfenster",
+          "description": "Kabelloser 3,2-L-Wasserspender für Katzen und Hunde mit Edelstahlschale und transparentem Fenster, das den Wasserstand zeigt.",
+          "tags": [
+            "3,2 L",
+            "Edelstahl",
+            "Katzen & Hunde",
+            "Kabellos"
+          ]
+        }
+      }
+    },
+    {
+      "id": "girier-zigbee-wifi-curtain-switch-module",
+      "category": "control",
+      "price": 10.05,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdf002c83781b4d2ea23d03a881988edcc.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmx1qc1tWOxo2eTH92kQVqLeb1qJrkt1usAJHs2DigMHvwuG4jS2tQRm2ZECXAENd2TfAlEFJjtEUN5VAdp9D14vwboSlp0VPOht2BQ1wMoBlwCBNiPtZTDkl7bDnRNyhejbYYdykoWyPsU2T0s7tYzVz8LHjsrTRumwiYazDfSCadO225V3wRUw0F8xzEgRjSDSkQUfivODCrYF4Ox8qD9bJvspwDZqSmOIohNAyEOt8YLHHJI7Lqwajeoa4JFH0IkpoRnoeTlhpCmaW3a6OK2NcvpMbUluZ2lWQEGg9P53ICr42KXcLBZT4tDnuQfa6M7QiZ0iix3slgKvOYFfLekEgVS3qqQ9yP2ONfZfohPT6XpOwmSFzII0wNVWYJdCzXuoufKk4juV6EUd8KKWJEDvqC6K2EYRlZAG2ZZcET3CYu2bCyt2eLeykKEmezWCDnwiJgSgmivP0Kie6fHA2Hul74khCuKLq8nwNZVtdJX9eChUTAtQ1RXwXnqG798meL0m5lKppjn8D0SBJbVzV84IpSOaPo4mKfjgnMIBg2EsJP0YQCVuoSJCsH0Gr2iH0DBQnsPw7iSVxhwBLXXRaZOgx9MihiTAgtp92j6DT0AgEJrTCajV4e3uXblTUejArw3zEMUv6lbFj49Qz2t9BhvmNWcWZWsX9rziyH5lyzVuEFtI53zYGePHLMA1ImV7os7XlI9KbVUzPC",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "وحدة تحكم ستائر وشيش ذكية GIRIER (Zigbee أو Wi-Fi، RF433)",
+          "description": "وحدة تحكم بمحرك الستائر والشيش الكهربائي بقناة أو قناتين، تعمل مع Tuya وAlexa وGoogle. يُباع بنسختي Zigbee وWi-Fi؛ نسخة Zigbee تحتاج بوابة تُشترى منفصلة، وتُركَّب داخل الجدار مع الأسلاك الكهربائية.",
+          "tags": [
+            "ستائر",
+            "Zigbee / Wi-Fi",
+            "RF433",
+            "Alexa"
+          ]
+        },
+        "en": {
+          "title": "GIRIER Smart Curtain and Shutter Switch Module (Zigbee or Wi-Fi, RF433)",
+          "description": "Control module for electric curtain and roller shutter motors, 1 or 2 channels, working with Tuya, Alexa and Google. Sold in Zigbee and Wi-Fi versions; the Zigbee version needs a gateway, sold separately, and it is wired into the electrical installation.",
+          "tags": [
+            "Curtains",
+            "Zigbee / Wi-Fi",
+            "RF433",
+            "Alexa"
+          ]
+        },
+        "fr": {
+          "title": "Module GIRIER pour rideaux et volets connectés (Zigbee ou Wi-Fi, RF433)",
+          "description": "Module de commande pour moteurs de rideaux et volets roulants électriques, 1 ou 2 canaux, compatible Tuya, Alexa et Google. Vendu en versions Zigbee et Wi-Fi ; la version Zigbee nécessite une passerelle vendue séparément, et il se raccorde à l'installation électrique.",
+          "tags": [
+            "Rideaux",
+            "Zigbee / Wi-Fi",
+            "RF433",
+            "Alexa"
+          ]
+        },
+        "es": {
+          "title": "Módulo GIRIER para cortinas y persianas inteligentes (Zigbee o Wi-Fi, RF433)",
+          "description": "Módulo de control para motores eléctricos de cortinas y persianas, de 1 o 2 canales, compatible con Tuya, Alexa y Google. Se vende en versiones Zigbee y Wi-Fi; la versión Zigbee requiere una pasarela que se vende por separado, y se conecta a la instalación eléctrica.",
+          "tags": [
+            "Cortinas",
+            "Zigbee / Wi-Fi",
+            "RF433",
+            "Alexa"
+          ]
+        },
+        "de": {
+          "title": "GIRIER Smart-Modul für Vorhänge und Rollläden (Zigbee oder WLAN, RF433)",
+          "description": "Steuermodul für elektrische Vorhang- und Rollladenmotoren, 1 oder 2 Kanäle, kompatibel mit Tuya, Alexa und Google. In Zigbee- und WLAN-Version erhältlich; die Zigbee-Version benötigt ein separat erhältliches Gateway, und das Modul wird in die Elektroinstallation eingebunden.",
+          "tags": [
+            "Vorhänge",
+            "Zigbee / WLAN",
+            "RF433",
+            "Alexa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-mmwave-human-presence-sensor",
+      "category": "sensors",
+      "price": 11.96,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8bb1144c57974c46a1334f7aa74077f0U.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmzFUNRDw30zu1ymVH8YQOh0XPXLEU0SW0Q8B4olP6LU98jiw08qoyn0ENwvqaLCrz47uyKQzpEWefFwBjzWvpHxWraXWXkVU8exDHFGA1dCujWc9IgCkqOTQXCmllv87lT39vlIqpjIy4wsW7uzo0xOfA9B8KIzE4VDZeCUnvenHml9QwgbjfMgeKiTlwPd6ha0qZ9D3S1QBRGprAazfsz0CvAN13IBxV5Hy4pDKxs9a3t6yRMFNNLpz4PJ7kiFnBf3qeQdpZGxjeCEEEGOM8YLVFhBPRbIDC8TrbJ77heashiMKSapUjNDCbiEmTBZXECBFxFoffkwBqrhckdTzPbbyVaMrEEAICQbScWnMfQB2VrmGOefpPZ0S4TAVPsR3aUbfrY4HyX4eZp4SGR4eQA54bS2EJ5urUjTsF4E8c4XvIp7UgdNG8oVAlW3QDkomjEIVMTSYgBrNkBtFQuUCahgXjTdZvgJuC3q9Iik8r5PO7QUj61YXmFfysuBkDcH64lljAxLLvbJU878GgvizmIRqGhHvaJeJ4fMwTeoMfczYNJ4hKqpiRDKyPMRtLIkmEYAHaK7xLrEvpXMzIckyZ7lepJVK8zumiDMzD5lR7lDq2WKRTSAGRy9UPqJAI1ysN7ULqZ7E9HnwuUV14frv6f2ihbwh6KA3rtBMhe71Ap7EME42v5rh88gj8jqlGWf5tmefXu8pHlN4w",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس حضور بشري Tuya بالرادار mmWave مع حساس إضاءة (Zigbee أو Wi-Fi)",
+          "description": "حساس رادار mmWave يكشف وجود الإنسان ويشمل حساس إضاءة، ومقدَّم بديلًا لحساسات الحركة PIR، ويعمل مع Smart Life. يُباع بنسختي Zigbee وWi-Fi؛ نسخة Zigbee تحتاج بوابة تُشترى منفصلة.",
+          "tags": [
+            "mmWave",
+            "رادار",
+            "Zigbee / Wi-Fi",
+            "Smart Life"
+          ]
+        },
+        "en": {
+          "title": "Tuya mmWave Human Presence Sensor with Luminance (Zigbee or Wi-Fi)",
+          "description": "mmWave radar sensor that detects human presence and includes a luminance sensor, offered as a replacement for PIR motion sensors, working with Smart Life. Sold in Zigbee and Wi-Fi versions; the Zigbee version needs a gateway, sold separately.",
+          "tags": [
+            "mmWave",
+            "Radar",
+            "Zigbee / Wi-Fi",
+            "Smart Life"
+          ]
+        },
+        "fr": {
+          "title": "Détecteur de présence humaine mmWave Tuya avec capteur de luminosité (Zigbee ou Wi-Fi)",
+          "description": "Capteur radar mmWave qui détecte la présence humaine et inclut un capteur de luminosité, proposé en remplacement des détecteurs de mouvement PIR, compatible Smart Life. Vendu en versions Zigbee et Wi-Fi ; la version Zigbee nécessite une passerelle vendue séparément.",
+          "tags": [
+            "mmWave",
+            "Radar",
+            "Zigbee / Wi-Fi",
+            "Smart Life"
+          ]
+        },
+        "es": {
+          "title": "Sensor de presencia humana mmWave Tuya con sensor de luminosidad (Zigbee o Wi-Fi)",
+          "description": "Sensor de radar mmWave que detecta la presencia humana e incluye un sensor de luminosidad, ofrecido como sustituto de los sensores de movimiento PIR, compatible con Smart Life. Se vende en versiones Zigbee y Wi-Fi; la versión Zigbee requiere una pasarela que se vende por separado.",
+          "tags": [
+            "mmWave",
+            "Radar",
+            "Zigbee / Wi-Fi",
+            "Smart Life"
+          ]
+        },
+        "de": {
+          "title": "Tuya mmWave-Anwesenheitssensor mit Helligkeitssensor (Zigbee oder WLAN)",
+          "description": "mmWave-Radarsensor, der die Anwesenheit von Menschen erkennt und einen Helligkeitssensor enthält, als Ersatz für PIR-Bewegungsmelder angeboten, kompatibel mit Smart Life. In Zigbee- und WLAN-Version erhältlich; die Zigbee-Version benötigt ein separat erhältliches Gateway.",
+          "tags": [
+            "mmWave",
+            "Radar",
+            "Zigbee / WLAN",
+            "Smart Life"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-zigbee-siren-alarm-100db",
+      "category": "security",
+      "price": 17.34,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scc1dd7e69953483ba0dd9d82847ab7c2d.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmys3U9aCNDw3YW540Kbpm6It0Arz0cEnrK6Zw9HGCjxlGu78FuJCpYIEKdrOllFmLwkODI34XJjXsr5gqWTdo4qpGqHtK4XFajAezzjbha282otMJoRBofV5sMm7orgbs0H6pVHPg8ZdpCUSpFQdwWTJ5EqyyDS4W3pvkb1P7qI6dFSQDAguLs93lVD3ntcQPRf4dOWja42I92bNTqbRnZfP435zuqPFLNwiEbT240VVixjUFBCH1gbm6Iy0AKOIdUBwhoOK9Czbwl2evBvLyp9E854ely4dvjqy83OwAWqs1mli2Sw6z7Ef3CYHNqCej6yyeDjh9ZwkXVBAlevAjDL0vicwDcIMcHQOg5C0gK0671W7RqtikpRQcBgFgQZcJ8Uj0JC3jxdow9IuWToUItMsP0AJyWt9jk1cfjVguFddtwQWLQuRqOkEUK5SbGtYUflwKR7CJC7HH3mVdxFE5aybw9T4RV2hnIyXbnNhl4YdWaDzw9Dl5LVf4Ihquzx7Y7VtilAmYw68cGjLWloXm1qPm9aC5KKylLncT4qhsiJEM0RQ3EbnmcCVygKms6cyFtSQbIB2FMbhZOlJi7TMr8EQDof7uTyvQT4y2UJ2rZcpWLtrZWgUSaio9G4Mfh0jLKrnOu09C7gUPWgMYCHwshBeIxjlY7SfMd6S8a61w1fKwUFpByITOwI9vbC0LpQjlX5AtmYaboGZK",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "صفارة إنذار Tuya Zigbee بقوة 100 ديسيبل",
+          "description": "صفارة إنذار منزلية بقوة 100 ديسيبل تعمل مع Alexa، وتتطلب بوابة Tuya Zigbee تُشترى منفصلة.",
+          "tags": [
+            "100 ديسيبل",
+            "Zigbee",
+            "Alexa",
+            "يحتاج بوابة"
+          ]
+        },
+        "en": {
+          "title": "Tuya Zigbee Siren Alarm, 100 dB",
+          "description": "100 dB home security siren working with Alexa. Requires a Tuya Zigbee gateway, sold separately.",
+          "tags": [
+            "100 dB",
+            "Zigbee",
+            "Alexa",
+            "Needs gateway"
+          ]
+        },
+        "fr": {
+          "title": "Sirène d'alarme Tuya Zigbee, 100 dB",
+          "description": "Sirène d'alarme domestique de 100 dB compatible avec Alexa. Nécessite une passerelle Tuya Zigbee vendue séparément.",
+          "tags": [
+            "100 dB",
+            "Zigbee",
+            "Alexa",
+            "Passerelle requise"
+          ]
+        },
+        "es": {
+          "title": "Sirena de alarma Tuya Zigbee, 100 dB",
+          "description": "Sirena de alarma doméstica de 100 dB compatible con Alexa. Requiere una pasarela Tuya Zigbee que se vende por separado.",
+          "tags": [
+            "100 dB",
+            "Zigbee",
+            "Alexa",
+            "Requiere pasarela"
+          ]
+        },
+        "de": {
+          "title": "Tuya Zigbee-Sirene, 100 dB",
+          "description": "Alarmsirene für zu Hause mit 100 dB, kompatibel mit Alexa. Erfordert ein separat erhältliches Tuya-Zigbee-Gateway.",
+          "tags": [
+            "100 dB",
+            "Zigbee",
+            "Alexa",
+            "Gateway nötig"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-din-rail-energy-meter-100a",
+      "category": "power",
+      "price": 17.91,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3c37ad785fa44c04b61c3712cebd0b506.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnFqxmJh6qxNjqVXMYSpKArrXYGXOeAp7uJLVVxY6f1xjzlDJONR3Zk8GWM22qWJiBxutEK5C45GSD0XSmEPKq5TtyLszdAvwjTs1FwHvGe4iPnW7NPanVLm0gcwHuIbhUMf8MxDQOiBTQxFq5ikjLssvGShcAXR9jXGR7GUT5MH7El7JOsq1Mf7DgVYElfXSdAboILDAyW8ZBN18Bh3EPjNficlQqgHjw8XPMRse3tOdt9Qznevswmenyy1r1F3NBPMyJlnIxTpU1m05bQrWJBYhh8bAtQcZ8VRIrJYBZVeTKZOokriY07vc02NRwK0Nurbnq1GxvZrlwuXrUZx9WqLRv5ZdhKCNwl11Jm4RjmneHVIBxHHOTZDg1UYq71YqvqqCiQfsUuvGpvGtD5b6GNJ5TkXpWCsgMate4Zgv2V1ZohytJornPwF5W2UkHmU858Wovx8fGvVRHlo4m53OiQa38hp825mRHnqZJyl694prWnUzCRrDp7p7TetgVYWVPWaL1fswmb7qI7TIK2pNXAQ7HwGcyu3VzDxkEoAYOGsfNOEBf7A94EpSgv9MJqgHOefH8dSAJzvni1p8k8JpLNE0yvfe7BVxCRny1vFLKy2IRssIcXO8liRXZIcvhsJwRF3ZmqaVDsIBH1XGaTqoAOKEOT6FXmTMt2LITi9d3ETuDQeIrnE2taFiWj41aOpA6ORC24SGSOzIo",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "عدّاد طاقة ذكي Tuya Wi-Fi لسكة DIN، 100 أمبير",
+          "description": "عدّاد كهرباء رقمي بشاشة يقيس الجهد والتيار ويعرض المنحنيات، بنطاق AC 50–320 فولت و100 أمبير، ويعمل عبر Wi-Fi وتطبيق Tuya. يُركَّب في لوحة الكهرباء، فيُفضَّل أن يتولاه كهربائي.",
+          "tags": [
+            "DIN",
+            "100 أمبير",
+            "Wi-Fi",
+            "Tuya"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi DIN Rail Energy Meter, 100A",
+          "description": "Digital electricity meter with a display that monitors voltage and current and shows curves, rated AC 50–320V and 100A, working over Wi-Fi with the Tuya app. It is installed in the electrical panel, so an electrician should handle the installation.",
+          "tags": [
+            "DIN rail",
+            "100A",
+            "Wi-Fi",
+            "Tuya"
+          ]
+        },
+        "fr": {
+          "title": "Compteur d'énergie Tuya Wi-Fi sur rail DIN, 100 A",
+          "description": "Compteur électrique numérique avec écran qui surveille la tension et le courant et affiche des courbes, de 50 à 320 V CA et 100 A, fonctionnant en Wi-Fi avec l'application Tuya. Il s'installe dans le tableau électrique : l'installation doit être confiée à un électricien.",
+          "tags": [
+            "Rail DIN",
+            "100 A",
+            "Wi-Fi",
+            "Tuya"
+          ]
+        },
+        "es": {
+          "title": "Medidor de energía Tuya Wi-Fi para carril DIN, 100 A",
+          "description": "Medidor eléctrico digital con pantalla que monitoriza el voltaje y la corriente y muestra curvas, de 50 a 320 V CA y 100 A, y funciona por Wi-Fi con la app Tuya. Se instala en el cuadro eléctrico, por lo que debe encargarse un electricista.",
+          "tags": [
+            "Carril DIN",
+            "100 A",
+            "Wi-Fi",
+            "Tuya"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Energiezähler für DIN-Schiene, 100 A",
+          "description": "Digitaler Stromzähler mit Display, der Spannung und Strom überwacht und Kurven anzeigt, für 50–320 V AC und 100 A, per WLAN mit der Tuya-App. Er wird im Sicherungskasten montiert, die Installation sollte ein Elektriker übernehmen.",
+          "tags": [
+            "DIN-Schiene",
+            "100 A",
+            "WLAN",
+            "Tuya"
+          ]
+        }
+      }
+    },
+    {
+      "id": "solar-garden-light-148led-motion",
+      "category": "garden",
+      "price": 12.18,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb896693ef143494d8e611bcf4b09931b5.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CpbMXQeUwOrgjzXYvTIFWehCm2OuO2RjC8ClRne4k2pDizvcqmtWFYgVv8QBDH6vGRzyFlHUto5ehEaPLh6V9tFsRlIKTYTvcEq37AYgPZkq57iow9kranA0bJ1msHa4VdAKqiiPQlKM3ik7wuIBrFMg5D97flPOKlcC5iH6TDCMJdfXcj3V2QENMn4utPTesObEKNRfu9yV5Pcvn2cu6rZe3KeCAL72iMBGDr8weVO3M2bfDUFrbQRZKd74MgRUDGMNHNwBBlqfrhsb7qQiwd67YT5Bk8WlTQvm05MKC2uBrTx6RhwJUYAx3DtaiShoI1Nnur8zSIvRo29uH1VwKyYa1npUmnIGNunX2f3pZkttlWflLoYztd2hYaEjKs4GOVCmWXdFwYMqARaoLoXK0eeUTSWkCuJWbt6osibykJ4LzsLYJiJygSGoEyeotW41whFXXjeRriLo7MQ6DtKht9pUNRHMhxP0iO4Pi8lWNsMUIXfqgfuV5F46nqThVRPbQW2zg1rqLd02tFnDLJ4BKo3vImWnJl5lVZXL8PVkrakAwBBjbiBLXZGSzHj6CNur9iOgKr6DKtUbklAmwtmoLQfRelDGUgTM18tFGPj9H9nERyc5dkhvJjBcvwA39JAYl49qTZh2x08o08kMEP6I5cjZHtzDQU9vY6r15cj6xMLRKKIjrRtCgkMhQeuQsRBcPFZrASRFUtRD02",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "إضاءة شمسية خارجية للحديقة بـ148 ليد وحساس حركة، IP65",
+          "description": "مصباح جداري يعمل بالطاقة الشمسية بـ148 ليد وحساس حركة و3 أوضاع إضاءة، ومقاوم للماء بدرجة IP65، للحدائق والمداخل.",
+          "tags": [
+            "طاقة شمسية",
+            "148 ليد",
+            "حساس حركة",
+            "IP65"
+          ]
+        },
+        "en": {
+          "title": "Outdoor Solar Garden Light, 148 LEDs with Motion Sensor, IP65",
+          "description": "Solar-powered wall light with 148 LEDs, a motion sensor and 3 lighting modes, IP65 waterproof, for gardens and entrances.",
+          "tags": [
+            "Solar",
+            "148 LEDs",
+            "Motion sensor",
+            "IP65"
+          ]
+        },
+        "fr": {
+          "title": "Lampe solaire de jardin extérieure, 148 LED avec détecteur de mouvement, IP65",
+          "description": "Applique murale solaire de 148 LED avec détecteur de mouvement et 3 modes d'éclairage, étanche IP65, pour jardins et entrées.",
+          "tags": [
+            "Solaire",
+            "148 LED",
+            "Détecteur de mouvement",
+            "IP65"
+          ]
+        },
+        "es": {
+          "title": "Luz solar de jardín para exterior, 148 LED con sensor de movimiento, IP65",
+          "description": "Aplique solar de 148 LED con sensor de movimiento y 3 modos de iluminación, resistente al agua IP65, para jardines y entradas.",
+          "tags": [
+            "Solar",
+            "148 LED",
+            "Sensor de movimiento",
+            "IP65"
+          ]
+        },
+        "de": {
+          "title": "Solar-Gartenleuchte für außen, 148 LEDs mit Bewegungsmelder, IP65",
+          "description": "Solarbetriebene Wandleuchte mit 148 LEDs, Bewegungsmelder und 3 Lichtmodi, wasserdicht nach IP65, für Gärten und Eingänge.",
+          "tags": [
+            "Solar",
+            "148 LEDs",
+            "Bewegungsmelder",
+            "IP65"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ampcom-gigabit-switch-5-8-port",
+      "category": "network",
+      "price": 19.0,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S69bd03ce2fdc456ba28bb25fa9098159i.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4cIQT0XqdR4M5bUi90oojpQIkBd1HbsbmrIhemVEghxiyFMQ3DB4BogSMmlK1NWLHm4DNWWA0aOJsKmTUzoHXkVldRFvpyxpGiKFiCXQf2Wyud9Bz6F8unEK7GhykCIXqDQyPSwuNsNli5Y0XcG7k6z9QoNRolnWKpvXQ7LsrH7yGQz731xdjRua2iNgn5S5eWmJAwmNCZAalxaOrCe27npmPObMv4S3PfZpgPvBCM0xAjAps8FylncxsC8bRV8dQOEcZZt9WnT1z0tuebg7kH0kgTZOTfwWw35aZLQJV8aqrHDISOSBA4nYyfkFEnWByYGwrSrb0cpWS2PsnC37KtDuBv651HFiNeweAztYqlTKbIeL6R9E7zt3pTvkChkrJccSV6u5rMa0HJxnHQdH8guwHNlFg3ylo15heCriQqO4FpsedCmOksXL8qBCpq8udPtqrRbtP8n08kKs0tYmvOgV1ruqauXbanWEoMOJCfjVh5KCBZsqmJHk6gK3lP8BRU9bB0QLCeHyAcDQp0yG4aTZnqIlGbxSd584HiXOmhJzGx6qUNroa5Ksmk4qKKzfmCXzwKyr0FGWl3l36nfglDmqOl6HtC7mGalE6VJW5XjwTSysuJngXcOqz4I9vyhtWKAIE1XwocYYZlmsidbs2b5ISpsqRUPjK1GmTWFEuYAVpyvdnVQ8MgHi7gWJhKtq5VUihlkF1Ez7E",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "سويتش إيثرنت AMPCOM جيجابت 1000Mbps (5 أو 8 منافذ)",
+          "description": "سويتش شبكة بسرعة 1000 ميغابت في الثانية بمنافذ RJ45، يُباع بنسخ 5 و8 منافذ، لتوصيل أجهزة المنزل الذكي والكاميرات بكابل.",
+          "tags": [
+            "جيجابت",
+            "RJ45",
+            "5 / 8 منافذ",
+            "شبكة"
+          ]
+        },
+        "en": {
+          "title": "AMPCOM 1000Mbps Gigabit Ethernet Switch (5 or 8 Port)",
+          "description": "1000Mbps network switch with RJ45 ports, sold in 5-port and 8-port versions, for wiring smart home devices and cameras by cable.",
+          "tags": [
+            "Gigabit",
+            "RJ45",
+            "5 / 8 ports",
+            "Network"
+          ]
+        },
+        "fr": {
+          "title": "Switch Ethernet Gigabit AMPCOM 1000 Mbps (5 ou 8 ports)",
+          "description": "Switch réseau 1000 Mbps avec ports RJ45, vendu en versions 5 et 8 ports, pour raccorder par câble les appareils domotiques et les caméras.",
+          "tags": [
+            "Gigabit",
+            "RJ45",
+            "5 / 8 ports",
+            "Réseau"
+          ]
+        },
+        "es": {
+          "title": "Switch Ethernet Gigabit AMPCOM de 1000 Mbps (5 u 8 puertos)",
+          "description": "Switch de red de 1000 Mbps con puertos RJ45, disponible en versiones de 5 y 8 puertos, para conectar por cable dispositivos del hogar inteligente y cámaras.",
+          "tags": [
+            "Gigabit",
+            "RJ45",
+            "5 / 8 puertos",
+            "Red"
+          ]
+        },
+        "de": {
+          "title": "AMPCOM Gigabit-Ethernet-Switch mit 1000 Mbit/s (5 oder 8 Ports)",
+          "description": "Netzwerk-Switch mit 1000 Mbit/s und RJ45-Ports, in Versionen mit 5 und 8 Ports erhältlich, um Smart-Home-Geräte und Kameras per Kabel anzubinden.",
+          "tags": [
+            "Gigabit",
+            "RJ45",
+            "5 / 8 Ports",
+            "Netzwerk"
           ]
         }
       }
