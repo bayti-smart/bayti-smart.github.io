@@ -336,9 +336,9 @@ const GUIDE_RULES = [
   [/camera|doorbell/, 'cameras'],
   [/bulb/, 'bulbs'],
   [/plug|power-strip/, 'plugs'],
-  [/din-rail|switch|curtain|dimmer|gigabit/, 'electrical'],
+  [/din-rail|switch|curtain|dimmer|gigabit|breaker|boiler|relay/, 'electrical'],
   [/sensor|detector|thermometer/, 'sensors'],
-  [/garden|watering|soil/, 'garden'],
+  [/garden|watering|soil|grow/, 'garden'],
 ];
 function guideFor(p) {
   const rule = GUIDE_RULES.find(([re]) => re.test(p.id));

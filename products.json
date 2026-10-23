@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T22:37:28.809651+00:00",
+  "updated_at": "2026-10-22T22:39:26.864260+00:00",
   "languages": [
     "ar",
     "en",
@@ -3299,6 +3299,888 @@
             "RJ45",
             "5 / 8 Ports",
             "Netzwerk"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-boiler-switch-energy-monitor",
+      "category": "power",
+      "price": 22.37,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S32f3d463604c46d2aaee5d4dab54b012L.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CpaVdKOgt0p29TeVDTqO0yOSGTyRE0sqspdNea8j2JGUM5daH825ABgOAi0AMNDC5Z4HEVmB796X1M0RKdc3BKwXkdXw804IsykMMDqWR1y2nlvSYU34zQfD89fBBIt0MPN1BiYianGuZhfOIULM0hRWul6k9ZDf3TNuTr1IJz0btoNdu0shjccA6PNKO8Mmveq06dtbvsivMwBYN8MWDEj61iWLVVrfONfnkUgH0jLGhe7OP7KdzjvcwoBlK7SxhE8jpzCNiPbuMVS6w9YDR5iZriqQAn6dfdqKTz7LI4CFYouwdb9Qi8ww3fxj69cOY8FV3WcFkpnPACxQl7E7PaW1Kyh1EGw3aeiFGBjtYS3CAeUSCDl6L5yjt9B9GZ3NEHlgjPHxpKbAKRAxBqSlKPBgMVp6nGVs0BzGQUN0zJwVAeG9MjUHkQEfl0NjhqinUzlywQVLhGJfSfabEnlvOTIuZM89Zl4iROvIg0MDqE6c5fqVSvFIhEx83vskUBSQ5aVMbheG5G1cLbFwDvJvVDIYCraQ11HoVv4GLsk0gyWnR9YRYki8XegimcuOsGmsd0gJtap4c8CHYhLtNAyUOnEfDpsDfc098qAuWTUveKKNoc05c2Wpg1MbxiozMszz4zTZbDNQj0klNAaQg22Hy2t4kBEmPTeyaO7GzmUxpNLiff9KhofZyXzf9wxQtwaqshMe0YvOGFRSfW",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح سخان الماء الذكي Tuya Wi-Fi مع قياس الطاقة (20/40 أمبير)",
+          "description": "مفتاح لسخان الماء يتحكم به التطبيق وGoogle Home، ويقيس استهلاك الطاقة، ويُباع بنسختي 20 و40 أمبير. العنوان يذكر المعيار الأمريكي، فتحقق من توافقه مع جهد كهرباء بيتك وتمديداته قبل الشراء. يُركَّب مع الأسلاك فيُفضَّل أن يتولاه كهربائي.",
+          "tags": [
+            "سخان ماء",
+            "قياس الطاقة",
+            "20/40 أمبير",
+            "Google Home"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Smart Boiler Switch with Energy Monitoring (20A/40A)",
+          "description": "Water heater switch controlled from the app and Google Home, with energy monitoring, sold in 20A and 40A versions. The listing states a US standard, so check that it matches your home's mains voltage and wiring before buying. It is wired in, so an electrician should install it.",
+          "tags": [
+            "Water heater",
+            "Energy monitor",
+            "20A/40A",
+            "Google Home"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur connecté Tuya Wi-Fi pour chauffe-eau avec suivi d'énergie (20/40 A)",
+          "description": "Interrupteur pour chauffe-eau piloté par l'application et Google Home, avec suivi de la consommation, en versions 20 A et 40 A. L'annonce indique une norme américaine : vérifiez la compatibilité avec la tension et le câblage de votre logement avant l'achat. Il se raccorde au câblage, mieux vaut un électricien.",
+          "tags": [
+            "Chauffe-eau",
+            "Suivi d'énergie",
+            "20/40 A",
+            "Google Home"
+          ]
+        },
+        "es": {
+          "title": "Interruptor inteligente Tuya Wi-Fi para calentador con monitor de energía (20/40 A)",
+          "description": "Interruptor para calentador de agua controlado desde la app y Google Home, con monitor de consumo, en versiones de 20 y 40 A. El anuncio indica estándar estadounidense, así que comprueba que sea compatible con el voltaje y el cableado de tu casa antes de comprar. Se conecta al cableado, por lo que conviene un electricista.",
+          "tags": [
+            "Calentador",
+            "Monitor de energía",
+            "20/40 A",
+            "Google Home"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Boilerschalter mit Energiemessung (20/40 A)",
+          "description": "Schalter für den Warmwasserbereiter, steuerbar per App und Google Home, mit Energiemessung, in Versionen mit 20 und 40 A. Das Angebot nennt einen US-Standard, prüfen Sie daher vor dem Kauf Spannung und Verkabelung Ihres Hauses. Er wird fest verdrahtet, ein Elektriker sollte ihn installieren.",
+          "tags": [
+            "Boiler",
+            "Energiemessung",
+            "20/40 A",
+            "Google Home"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-sos-panic-button",
+      "category": "security",
+      "price": 10.88,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S595fd99a136248b7b9282de0b87b2c63D.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4aKkAXcbcS5H0bHRgU2KRYxPmGTco5dHzw8Fqbj5tHHdqfHGVVeXWk4XAlr4mdcdOQOOETs9hTKMXm92eR1sdkTHnzU0lNG7w9EAbJ6Loh6XsdqwODcfZWmM42XIkFRYyZyIAvT1bqyAwQ6xQ06amFsLx3ZcIYPP8hcMsOVUjTpT2ttLV9hQ68MIDtSZwtKdALqi5995cWx6bLoyj77kICTceg0fuRprplgres7Ij7EqrehOulfZ5NPeHzQ8eVrm0xp3xYNa7rNuy3QnUXLxy1dFnLoSJYd50iGyQF8Fmz2LJB4dNkSF17nS52xtNN23mSnL9vmXKU96hPUr1Cwytz5UNGJmR8avhx9161Pk20P7mJrkpLsEqqb43BAxZH5941UPBJqHkod3APdvsE5l0gvlsAC8O8rMMqLa2vpExRgXkhc5fV2DIrdN2F5y7IvR1gA2r9L7W0NdDUZNIji35yrZVa5n2vwMiTgwPNn9wLxrjLKyYrjwSr1nhPjCD40b2KcQ0G8QJ1N0c9QpddLCSPghXyLbnwA3dQ3U4ezcGQrejDvjEaVLZ21jX6qcSyFfwIcDvHqMWTFMvjx9KCcNoXXoZvuZvw2KWa6bMuZPRYDNKNEVsWEfKTR211NN7IbmCtQejZ4PLL9ZkQnylZNPOXnUMPpqdmA4gsR7mTWvapQjLEEktHeHLTjvHgOn9hhfH3dxfvFSv26r4",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "زر استغاثة SOS ذكي Tuya Wi-Fi بضغطة واحدة",
+          "description": "زر طوارئ يرسل تنبيهًا إلى تطبيق Smart Life بضغطة واحدة، ومقدَّم لكبار السن والأطفال في البيت. هو إضافة للأمان المنزلي وليس بديلًا عن الاتصال بخدمات الطوارئ.",
+          "tags": [
+            "SOS",
+            "زر واحد",
+            "Smart Life",
+            "Wi-Fi"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi SOS Emergency Button, One-Key Panic Alarm",
+          "description": "Emergency button that sends an alert to the Smart Life app with one press, offered for elderly people and kids at home. It adds to home safety but does not replace calling emergency services.",
+          "tags": [
+            "SOS",
+            "One key",
+            "Smart Life",
+            "Wi-Fi"
+          ]
+        },
+        "fr": {
+          "title": "Bouton d'urgence SOS Tuya Wi-Fi, alarme panique en un appui",
+          "description": "Bouton d'urgence qui envoie une alerte à l'application Smart Life en un appui, proposé pour les personnes âgées et les enfants à la maison. C'est un complément de sécurité, pas un remplacement des services d'urgence.",
+          "tags": [
+            "SOS",
+            "Un appui",
+            "Smart Life",
+            "Wi-Fi"
+          ]
+        },
+        "es": {
+          "title": "Botón de emergencia SOS Tuya Wi-Fi con alarma de pánico",
+          "description": "Botón de emergencia que envía una alerta a la app Smart Life con una pulsación, pensado para personas mayores y niños en casa. Complementa la seguridad del hogar, pero no sustituye llamar a los servicios de emergencia.",
+          "tags": [
+            "SOS",
+            "Una pulsación",
+            "Smart Life",
+            "Wi-Fi"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-SOS-Notrufknopf mit Panikalarm",
+          "description": "Notrufknopf, der per Tastendruck einen Alarm an die Smart-Life-App sendet, gedacht für ältere Menschen und Kinder zu Hause. Er ergänzt die Sicherheit im Haus, ersetzt aber nicht den Anruf bei den Rettungsdiensten.",
+          "tags": [
+            "SOS",
+            "Ein Tastendruck",
+            "Smart Life",
+            "WLAN"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-smart-circuit-breaker-1pn",
+      "category": "power",
+      "price": 13.61,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5e51473a35dc4ba9b5b08de04ebba326s.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmjxy0xYBTqV05XM72XLfj2QEH9v18clc3hoCbzTkTvX22ChiFpW38ksvuKF1CBcCdfgTBp8PvRDJT7FTBWT5Bd4VfdBiVgSALizKnDT4VSXpUYg937vapz1v44Mm6niDQL52hl4HKXQywiuYBM1IDiOnhj4iXjjgimAkxBm0oDnVRq5K9apVShKcAk6yVE8wvWDgAxDvFyU3kYWhgaBwif71NsgkJyTFMNk4NPRVsN2flle4gFEDwTIuPr7Qjc7znreBbtt9SMu9RSJis6GQOZqq0iS6ikfDUeDXVVU6wIzevYIQbrYz8Vw3V4WRs5eFFpwuLZUzl3K7YJyCVC7BGRsWVssTkuokkjgcBqc4msRMgAD0bfIzPxoMe0XTdCxmB4uCMpiK18jVvCA6FT9QRksBVSvErmZEYjKhHQtRyUd29uqzQLrT6HZlKDKpNmsqsS2iK9Svws13kYs4i8JF22SzJjettKZCzLpiahNhnZG270kWZRPGOIqZJRi0XwG1qlO1VpG3tx8o64Fsk6USeuGyOmHgBOYqSMv7vwbWBTBfaU2O7LfupYDqlpH2Z2fAdp5MSppmtPxCXAxPuqVvWwC2C1M95xVEoAsJKe1nxEVZyy1W6ror0THcCVmtDX2fovcn2jDJbflVF905NAacZRpaLkv2f1RjEJVQTZqs5InybNveKybdY56F2a9jCehoZ9oYivwKgbW4I",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "قاطع كهرباء ذكي Tuya Wi-Fi 1P+N بحماية من الجهد والتيار",
+          "description": "قاطع ذكي بـ1P+N يوفّر حماية من زيادة الجهد وانخفاضه وزيادة التيار والقدرة، ويُتحكَّم به عن بُعد وبالصوت. يُركَّب في لوحة الكهرباء، فيُفضَّل أن يتولاه كهربائي، واختر القيمة بالأمبير المناسبة لدائرتك.",
+          "tags": [
+            "قاطع ذكي",
+            "1P+N",
+            "حماية جهد",
+            "Tuya"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Smart Circuit Breaker 1P+N with Voltage and Current Protection",
+          "description": "Smart 1P+N circuit breaker with over-voltage, under-voltage, over-current and power protection, controllable remotely and by voice. It is installed in the electrical panel, so an electrician should handle it, and you must pick the amp rating that fits your circuit.",
+          "tags": [
+            "Smart breaker",
+            "1P+N",
+            "Voltage protection",
+            "Tuya"
+          ]
+        },
+        "fr": {
+          "title": "Disjoncteur connecté Tuya Wi-Fi 1P+N avec protection tension et courant",
+          "description": "Disjoncteur connecté 1P+N avec protection contre la surtension, la sous-tension, la surintensité et la surpuissance, commandable à distance et à la voix. Il s'installe dans le tableau électrique : confiez-le à un électricien et choisissez le calibre adapté à votre circuit.",
+          "tags": [
+            "Disjoncteur",
+            "1P+N",
+            "Protection tension",
+            "Tuya"
+          ]
+        },
+        "es": {
+          "title": "Disyuntor inteligente Tuya Wi-Fi 1P+N con protección de tensión y corriente",
+          "description": "Disyuntor inteligente 1P+N con protección contra sobretensión, subtensión, sobrecorriente y exceso de potencia, controlable a distancia y por voz. Se instala en el cuadro eléctrico, por lo que debe encargarse un electricista, y debes elegir el amperaje adecuado a tu circuito.",
+          "tags": [
+            "Disyuntor",
+            "1P+N",
+            "Protección de tensión",
+            "Tuya"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Leitungsschutzschalter 1P+N mit Spannungs- und Stromschutz",
+          "description": "Smarter 1P+N-Schutzschalter mit Schutz vor Über- und Unterspannung, Überstrom und Überlast, aus der Ferne und per Sprache steuerbar. Er wird im Sicherungskasten montiert, die Installation sollte ein Elektriker übernehmen, und die Ampere-Angabe muss zu Ihrem Stromkreis passen.",
+          "tags": [
+            "Schutzschalter",
+            "1P+N",
+            "Spannungsschutz",
+            "Tuya"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rf433-self-powered-wireless-light-switch",
+      "category": "control",
+      "price": 15.34,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2f2aa4366ab5489b8c58f989e2f603ecB.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4rM7nJzqIHGdbJWQIh0Hew4g1PzzIZEEuVvpBWUh3pOfFfmO64sTtszpXS1D3NWzvezBnQOGsgtcDpuNmxh3aONV4JUW58lJYI3lIQjjnTlVoG25pom2bHfApSi8zfPSqdp5TgQrLOWZGtmzkzj3a4Xna3WY1TTJtzyDu5tO5N2PR54cpiQWGr5kGFWLdyf4itoz6ZIJzgggwFwmLQYSCLHeJWWAi4MZyFK0KMdZg4Q2Gi0t8kYMKJ6VquayNYkBVNO3VuSH5tOo1A2iluKWPxTQTyy7TdjAslhWh17LlV9ODJu5bi2z9j5mC8tNuygfy2SuZNsy5mtdTrPQ3Uju1eew93Chwx7wSOvfBPVZ0yWac8XhUXpiWJWgQglCfN4uSUQ18pNBXACqyApz7ycPlFMg5wjjCdcazP72Bk19m71qDjgTUTSfTXUAIPyMLFagXFW9gCrVkD1P3qiPbHsnr89Qk6yUg9FiGJYU0nFhvNgpD7nA8KvgJqtgiQ5ON1g8P8l2j9xwAlfkDCFtAuIMGyB30h15kGbA7W1dmhIqgvRaoMtijMC3kY6VVXV7KpAGzmvgiMr3qhEgiWkK1nEJMyLVdAVbLwA8BAIjRVd6Gr9hLtu9UaNyzIYv3WzR7H3ATH6i4idNz4F5M4PYTsyhm3ccCY2D8FVHvDjcPaEEsSxMWjxaVn8v5eQW6Ubln20tj4e6Gf0AzegVi",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح إضاءة لاسلكي RF433 ذاتي الطاقة بلا بطارية",
+          "description": "مفتاح جداري لاسلكي يعمل بالطاقة الحركية دون بطارية، بإشارة بعيدة المدى تخترق الجدران، ومناسب لإضافة مفتاح دون تمديد أسلاك. تأكد من وجود مستقبل RF433 مع الطقم أو اشتره منفصلًا.",
+          "tags": [
+            "بلا بطارية",
+            "RF433",
+            "طاقة حركية",
+            "تركيب سهل"
+          ]
+        },
+        "en": {
+          "title": "RF433 Self-Powered Wireless Light Switch, No Battery",
+          "description": "Wireless wall switch powered by kinetic energy with no battery, with a long-range signal that passes through walls, handy for adding a switch without running wires. Make sure an RF433 receiver is included in the set or buy one separately.",
+          "tags": [
+            "No battery",
+            "RF433",
+            "Kinetic",
+            "Easy retrofit"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur lumière sans fil RF433 autoalimenté, sans pile",
+          "description": "Interrupteur mural sans fil alimenté par l'énergie cinétique, sans pile, avec un signal longue portée qui traverse les murs, pratique pour ajouter un interrupteur sans tirer de câbles. Vérifiez qu'un récepteur RF433 est inclus ou achetez-en un séparément.",
+          "tags": [
+            "Sans pile",
+            "RF433",
+            "Cinétique",
+            "Pose facile"
+          ]
+        },
+        "es": {
+          "title": "Interruptor de luz inalámbrico RF433 autoalimentado, sin pilas",
+          "description": "Interruptor de pared inalámbrico con energía cinética y sin pilas, con señal de largo alcance que atraviesa paredes, útil para añadir un interruptor sin tender cables. Comprueba que el kit incluya un receptor RF433 o cómpralo por separado.",
+          "tags": [
+            "Sin pilas",
+            "RF433",
+            "Cinética",
+            "Fácil de instalar"
+          ]
+        },
+        "de": {
+          "title": "Selbstversorgender RF433-Funk-Lichtschalter ohne Batterie",
+          "description": "Funk-Wandschalter mit Bewegungsenergie ohne Batterie und mit weitreichendem Signal, das Wände durchdringt, praktisch zum Nachrüsten ohne Kabel. Achten Sie darauf, dass ein RF433-Empfänger im Set enthalten ist, oder kaufen Sie ihn separat.",
+          "tags": [
+            "Ohne Batterie",
+            "RF433",
+            "Kinetisch",
+            "Einfach nachrüsten"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sonoff-zb-dongle-e-zigbee-usb",
+      "category": "misc",
+      "price": 18.49,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S90cc4730cb684b33a3901f222b16f3f8r.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Co8t1UhoOVPtNBnDI2HQjv6SYFtUsIJh7aOdMRw91SaEEDpCmSLhDLeZbQ14cZ2p3WXRSntewOQOdnJCDMpYWFWI0FD5SAiFvhx5ndC2vS8Jqb4nd7PzpyJE6PLq0ztskoS7Eb0cP7RABMmv3KbUYrb4OUgYnKZ8664rLuAXV1o6pzspRwX8qztRKgdCUxsfGwOmrfkf9TZHqb58bGVXVh2KuEeKweBhJFwziYG3ekka030Ffy7vv6xaMlNSL2bibj8ufmB9qBDyfBasto0hHHktxICtBmowaiKDOuQvdQe77HqDefpfF4wOr3hL6xk22gII1U7ASK6OPmDTsbXv9rIFSU2Rr68tWbHepCFma48XSePECQMkeuFY3N5pIFVu8YwI2I1aA6Bu0y7A5y4Ggy1pMRoSXDVltgBSD2IRkNbeQRy0D5rxsQmtwd7jwpn1v1ITqz53Rc063JzCarsEweYT4IwFbrA79ypkNy1oqMREAvKJOmqukoeXYuVKipsDW7yR0nFOoOqapAgmlDl19WQ3JQYZX76Yf0YBFnAQOY6LIJ3zj0parPoSzr41Ik4A04Um27aKnqELoqtiB9ADFBJ3siXJyOhRzEnoiqYaw79khd7ZOSzeDvjaKkJ3oslWFR88wMsSEHjaRiOVPnONhce58lxrWBWY5GlSLP9jACTtcNB0GJuGWae0ccVWotBwJo72rp7xUcUblI",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "دونجل SONOFF ZB Dongle-E USB بتقنية Zigbee 3.0",
+          "description": "دونجل USB بتقنية Zigbee 3.0 مع هوائي، يعمل مع ZHA وZigbee2MQTT. موجَّه للمستخدمين المتقدمين الذين يشغّلون Home Assistant أو جهازًا يستضيف Zigbee2MQTT، وليس بوابة جاهزة للتشغيل مع تطبيق Smart Life.",
+          "tags": [
+            "Zigbee 3.0",
+            "USB",
+            "Zigbee2MQTT",
+            "ZHA"
+          ]
+        },
+        "en": {
+          "title": "SONOFF ZB Dongle-E USB Zigbee 3.0 Dongle",
+          "description": "USB Zigbee 3.0 dongle with an antenna, working with ZHA and Zigbee2MQTT. Aimed at advanced users running Home Assistant or a device hosting Zigbee2MQTT, not a ready-to-use gateway for the Smart Life app.",
+          "tags": [
+            "Zigbee 3.0",
+            "USB",
+            "Zigbee2MQTT",
+            "ZHA"
+          ]
+        },
+        "fr": {
+          "title": "Clé USB SONOFF ZB Dongle-E Zigbee 3.0",
+          "description": "Clé USB Zigbee 3.0 avec antenne, compatible ZHA et Zigbee2MQTT. Destinée aux utilisateurs avancés qui utilisent Home Assistant ou un appareil hébergeant Zigbee2MQTT, et non une passerelle prête à l'emploi pour l'application Smart Life.",
+          "tags": [
+            "Zigbee 3.0",
+            "USB",
+            "Zigbee2MQTT",
+            "ZHA"
+          ]
+        },
+        "es": {
+          "title": "Dongle USB SONOFF ZB Dongle-E Zigbee 3.0",
+          "description": "Dongle USB Zigbee 3.0 con antena, compatible con ZHA y Zigbee2MQTT. Orientado a usuarios avanzados que usan Home Assistant o un dispositivo que aloje Zigbee2MQTT, y no una pasarela lista para usar con la app Smart Life.",
+          "tags": [
+            "Zigbee 3.0",
+            "USB",
+            "Zigbee2MQTT",
+            "ZHA"
+          ]
+        },
+        "de": {
+          "title": "SONOFF ZB Dongle-E USB-Zigbee-3.0-Stick",
+          "description": "USB-Zigbee-3.0-Stick mit Antenne, kompatibel mit ZHA und Zigbee2MQTT. Gedacht für fortgeschrittene Nutzer mit Home Assistant oder einem Gerät, das Zigbee2MQTT hostet, und kein fertiges Gateway für die Smart-Life-App.",
+          "tags": [
+            "Zigbee 3.0",
+            "USB",
+            "Zigbee2MQTT",
+            "ZHA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "full-spectrum-led-grow-lamp-timer",
+      "category": "garden",
+      "price": 13.32,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd21315f5ca5046128a99d69d1d18bf8fC.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C3RvocBtfV5DT9GxkrlRZtB9vsyR8YeveKH3r9W8yhovtlCvvc9nVWJciDdhRovgLkMrQvJIZrVayKOlmNChycEkpDjg0ViF9G7RozPrUmJ9i1GBfcN09TqKGTzFILZiN1sLPFlu0hKwqBnqtyaWcwHIJhOXNJJKY3fY2timQ7qpUdZZTrFZL0HGgKFBxGA3xcNPAi9mFN1rj5DxHGwI8G131jg2b0lCmPKqrB6lPKose8QY2TTYpJkWkRH4nUCpKp2JUYENoNFMh5Zc6k5xhuSIjLwiA6Z2w9CIma2AEBrSwBClanJEo84nUCEFVSsGp6jRGUCnro4n5dP8ZzYloREIViekHiizc8VaZ0LKVSPLmY2XWLYP2fA9yirGPq65AsTFahsz9mWPxDKftsMCI7WzsSsbSI0yFMi4pCCdHqxmny6zOjA475cwonEjUUSv3om2kQ064ZSngSv64YKLGt0W8VdsFp6K1p5vr9B4wA3jN19naudHffT2LE4ByO7Lx9ZPzMngrS6tUWWI4DMbnxqdF1aZvuqO5s8JZP6txThbbghvP0P6nD3A1ypxjxhWsgtCKY3tp2GPaYKqHN6dIyJ7dFKZeeJHFzBGzSNvuaLW2TQb7qE71neqJkX1HuwVFMfxVecIwfpoORJNWaZRhwL2y5pWpXFt00sfauc9gugDkqQKg4BapqnZ9IoDOHKstbAM8sQadHQ2rG",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مصباح نمو LED بطيف كامل للنباتات الداخلية بمؤقّت وتعتيم",
+          "description": "مصباح نمو بطيف كامل بارتفاع قابل للضبط ومؤقّت 3 أو 9 أو 12 ساعة وتعتيم بعشرة مستويات، للنباتات الداخلية.",
+          "tags": [
+            "طيف كامل",
+            "مؤقّت",
+            "10 مستويات",
+            "نباتات داخلية"
+          ]
+        },
+        "en": {
+          "title": "Full Spectrum LED Grow Lamp for Indoor Plants with Timer and Dimming",
+          "description": "Full-spectrum grow lamp with adjustable height, a 3/9/12-hour timer and 10-level dimming, for indoor plants.",
+          "tags": [
+            "Full spectrum",
+            "Timer",
+            "10 levels",
+            "Indoor plants"
+          ]
+        },
+        "fr": {
+          "title": "Lampe de culture LED à spectre complet pour plantes d'intérieur, avec minuterie et variateur",
+          "description": "Lampe de culture à spectre complet avec hauteur réglable, minuterie de 3, 9 ou 12 h et variateur à 10 niveaux, pour plantes d'intérieur.",
+          "tags": [
+            "Spectre complet",
+            "Minuterie",
+            "10 niveaux",
+            "Plantes d'intérieur"
+          ]
+        },
+        "es": {
+          "title": "Lámpara de cultivo LED de espectro completo para plantas de interior con temporizador y regulación",
+          "description": "Lámpara de cultivo de espectro completo con altura ajustable, temporizador de 3, 9 o 12 horas y regulación en 10 niveles, para plantas de interior.",
+          "tags": [
+            "Espectro completo",
+            "Temporizador",
+            "10 niveles",
+            "Plantas de interior"
+          ]
+        },
+        "de": {
+          "title": "Vollspektrum-LED-Pflanzenlampe für Zimmerpflanzen mit Timer und Dimmer",
+          "description": "Vollspektrum-Pflanzenlampe mit verstellbarer Höhe, Timer für 3, 9 oder 12 Stunden und zehn Dimmstufen für Zimmerpflanzen.",
+          "tags": [
+            "Vollspektrum",
+            "Timer",
+            "10 Stufen",
+            "Zimmerpflanzen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sixwgh-self-powered-wireless-doorbell",
+      "category": "security",
+      "price": 13.9,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S979954e1583443f8aa36ca415904c257K.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoS4Zt9ELvCcDFDL1w8U0aHsQeC5NL6hqrflV14zdr9h5PFiOM66eiD1VvKfCfXoCgNQRWkKpdbRJ0o5h0gGsEoLDfiepBIWJi4hhUMe64XODguTnkWXkL6vSStN6xK3Hsqmjts8NS9HqOaRqClfr0Fn3vUNMBh6AjWi7gmGrYIlIOE49VW06yCXmkOgpIdnZecMTUeszxkgeSspYs34IwSocCLAVdxxLssWGIsW7vvXhVzpbQ3LH3AiRNdw3iGEYXdsJzmwsRwnAwMwiyt2CU0HVpUGSA0bH1CzbyLdBLbUkf4rXJPBkDgwhvECNEOXFn9wYaV6xnyyvLPmCF4PWtqh86HNzy9d8vxpqF3VIWtOXdE7o4AI3WAw6j0L9SCI2cthp0pJy8GD2kiGTSR6TirvYhrl85vWLtozjGtBePbsFzSVpHle06nL9nCShMzYTv8PbPzSZfhnkoJHgTRERyz35yxrqRabcztWCUNdQWfCCEGYkfsUQsh2CsWuQISI03r3vLlUy6PK88XR8mpQY2cPcG02SgAm7gVvZNy4D8SFRiBiRIMANRjskUkogF1B0pqG5ND5cIcyckA4fX3u7nt9Q7k9qqksYcKK904LK9ZDpShfVIryjIo7MXVpTpgZ4RdXlpdlm6zdjUcfxEZQPAwifVUIEY1yfOBTAPR9gOreUt1RyQPLsyjh6TDAdAPfzvTR08WZIsrcCe",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "جرس باب لاسلكي SIXWGH ذاتي الطاقة بلا بطارية ومقاوم للماء",
+          "description": "جرس باب لاسلكي يعمل زرّه بالطاقة الحركية دون بطارية، ومقاوم للماء للاستخدام الخارجي.",
+          "tags": [
+            "بلا بطارية",
+            "ذاتي الطاقة",
+            "مقاوم للماء",
+            "خارجي"
+          ]
+        },
+        "en": {
+          "title": "SIXWGH Self-Powered Wireless Doorbell, No Battery, Waterproof",
+          "description": "Wireless doorbell whose button runs on kinetic energy with no battery, and is waterproof for outdoor use.",
+          "tags": [
+            "No battery",
+            "Self-powered",
+            "Waterproof",
+            "Outdoor"
+          ]
+        },
+        "fr": {
+          "title": "Sonnette sans fil SIXWGH autoalimentée, sans pile, étanche",
+          "description": "Sonnette sans fil dont le bouton fonctionne à l'énergie cinétique, sans pile, et étanche pour l'extérieur.",
+          "tags": [
+            "Sans pile",
+            "Autoalimentée",
+            "Étanche",
+            "Extérieur"
+          ]
+        },
+        "es": {
+          "title": "Timbre inalámbrico SIXWGH autoalimentado, sin pilas e impermeable",
+          "description": "Timbre inalámbrico cuyo pulsador funciona con energía cinética, sin pilas, e impermeable para exteriores.",
+          "tags": [
+            "Sin pilas",
+            "Autoalimentado",
+            "Impermeable",
+            "Exterior"
+          ]
+        },
+        "de": {
+          "title": "SIXWGH selbstversorgende Funk-Türklingel ohne Batterie, wasserdicht",
+          "description": "Funk-Türklingel, deren Taster mit Bewegungsenergie ohne Batterie arbeitet und die für den Außenbereich wasserdicht ist.",
+          "tags": [
+            "Ohne Batterie",
+            "Selbstversorgend",
+            "Wasserdicht",
+            "Außen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-bedside-table-lamp",
+      "category": "lighting",
+      "price": 22.94,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5da00e67b11647488b0ec0ed28951cdfb.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2715wpQqDpjfi4RyVGIiEhipx1NGyRvnJbuCAwWhujizAPN8NKJlL7y0X2mLxiRPvUnTpG9zrQCa38pFp8zfS3hkqOZ0aeEWo3ViBMyCKkQtk3eNC7Pr8G9seKZKWZfVCSh5FOnAen0l8dcLyyEg9Sn1TG6fMcAndeEIivTYH3PXTHMAKtjhJaNZD1mqSQXg1sIq5hdFdWLFRnE5nDqvILZ8Q7QhLRi53Ri0T8lOkoSQZ6qLU647Id4UVld9akqT24gihttopsF76vSxwOckJQZZtwEr5PAr7MkpWmjyQGNdFffYFn8yCsyn9zsdSJeXpjMY56Xq5v5uNDnPnHquxyYpIwl1OBaXAIuEJkwX6ffiayMoenYf7kAEYFCbmkzV7jR8dMRbmQveuHAtEDsTWkO4lvHH76NwImV45nSEguMfAUVR9I5gdmgKyb4w1a2T9zjZaHUJeeOlVwoWopJ0afOwW72QFJFwF2yHCBYzpFDb9vtKTic0bk3OKvQM7KxSWoxTB3XmMQdDGpt5RGVWbC9fTphrojxi1oX40ScGRVoRDzupmb1cJyCBBxmB9RROaAVWUD2NbrgTVt7TRj1I638IlVrSZqWOxeascQZsL69W9qLXY5tpeyGM7c1wRgSICj3F8s1vUF5T7KB0Z6RgLfX9eb6s71FG1ojPrQGKcGfR5MZPjiQtDH1ZaFTlqg8P1YvwFI2NciVIo",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مصباح طاولة بجانب السرير Tuya Wi-Fi بأوضاع إضاءة متعددة",
+          "description": "مصباح مكتب وسرير يُتحكَّم به عن بُعد عبر تطبيق Tuya، بإضاءة محيطية وأوضاع متعددة ويصلح كضوء ليلي.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "ضوء ليلي",
+            "أوضاع متعددة"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Bedside Table Lamp with Multiple Lighting Modes",
+          "description": "Bedside and table lamp controlled remotely through the Tuya app, with ambient lighting, multiple modes and use as a night light.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Night light",
+            "Multiple modes"
+          ]
+        },
+        "fr": {
+          "title": "Lampe de chevet Tuya Wi-Fi avec plusieurs modes d'éclairage",
+          "description": "Lampe de chevet et de bureau commandée à distance via l'application Tuya, avec éclairage d'ambiance, plusieurs modes et usage en veilleuse.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Veilleuse",
+            "Plusieurs modes"
+          ]
+        },
+        "es": {
+          "title": "Lámpara de mesita Tuya Wi-Fi con varios modos de iluminación",
+          "description": "Lámpara de mesita y escritorio controlada a distancia con la app Tuya, con luz ambiental, varios modos y uso como luz nocturna.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Luz nocturna",
+            "Varios modos"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Nachttischlampe mit mehreren Lichtmodi",
+          "description": "Nachttisch- und Tischlampe, per Tuya-App fernsteuerbar, mit Ambientelicht, mehreren Modi und als Nachtlicht nutzbar.",
+          "tags": [
+            "WLAN",
+            "Tuya",
+            "Nachtlicht",
+            "Mehrere Modi"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fingerbot-smart-switch-robot-tuya",
+      "category": "control",
+      "price": 16.77,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sec8b8b0736a44e398991361fc15c0039f.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoQ09L6CptogwVEAI15VpipxhSrOZMjMl4uTpcEf41YVFkIXuzlTjuH3PB7aKbVxIQQJ9t0SEgtDC6Fw5AwjuAh0mGSG6zSDmMJgqFROIFWUGEErLmW2alGPdt8NSbPMwo4YJsnInMbVgjHVm6AwZ0BHIwbLysMwghvC3PgFG2h8DrsKwZWGQJAgfkRN2DSb4KnErmuW2CL3mUAow1CCTsgT06u9oM7k43vwH9G563B1rwkAixEAnoMpRHWEu49P03AZykqHmOKNzxVVTMQOhpTClcMEbxeMyHcUnHcm5br1mqZVK4H4RdNxmvMpFBJEEuWla40rcrgxYyl8buySy6lVxARrRQahi9tn7VIJfa6PTKsJZeBjELsj4OrWbFdrYTKlXdqse9cfWel52Cp8AIMW1upWje53gXakdsAKPtJrNzhHUp18AuB6j9zoT8xqkx7qxUibyWUbkwbQyG9ZOe2Exqz31aApJyMAn2Y3e0xxntApRbNIjexJal1vgNmSZsHEfJgc4AtwQtgq0tD2V5xQSk2fBBIFz4qsw4Xd8cczxcjEpftwhLmPeEz5XANaAw5pQqJADRz5cm400x9fohChk4I2LLjdq5aFXRp3aexityAS4PLt6JcfD8oj1IrRxXjzj0oQaZhlQ06ASfTspL4APrm8XFXeFy9Z8YmirHfDK55yB3PTYl3IXviKos0iyDL6WRsHYlZ788",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "روبوت Fingerbot ذكي قابل للشحن يضغط الأزرار ويعمل مع Tuya",
+          "description": "جهاز صغير قابل للشحن يضغط الزر فعليًا نيابةً عنك، فيحوّل الأجهزة التقليدية إلى أجهزة تُتحكَّم بالتطبيق والصوت (Alexa وGoogle) دون تعديل أي أسلاك، مثل مفاتيح الإضاءة وبوابة الكراج. راجع نسخة الاتصال في صفحة المنتج.",
+          "tags": [
+            "Fingerbot",
+            "قابل للشحن",
+            "Alexa / Google",
+            "بلا أسلاك"
+          ]
+        },
+        "en": {
+          "title": "Rechargeable Smart Fingerbot Switch Robot for Tuya",
+          "description": "Small rechargeable device that physically presses a button for you, so ordinary devices can be controlled by app and voice (Alexa and Google) without any wiring, such as light switches and a garage door button. Check the connection version on the product page.",
+          "tags": [
+            "Fingerbot",
+            "Rechargeable",
+            "Alexa / Google",
+            "No wiring"
+          ]
+        },
+        "fr": {
+          "title": "Fingerbot connecté rechargeable pour Tuya",
+          "description": "Petit appareil rechargeable qui appuie physiquement sur un bouton à votre place, pour piloter des appareils classiques par application et à la voix (Alexa et Google) sans toucher au câblage, comme des interrupteurs ou un bouton de garage. Vérifiez la version de connexion sur la page produit.",
+          "tags": [
+            "Fingerbot",
+            "Rechargeable",
+            "Alexa / Google",
+            "Sans câblage"
+          ]
+        },
+        "es": {
+          "title": "Fingerbot inteligente recargable para Tuya",
+          "description": "Pequeño dispositivo recargable que pulsa físicamente un botón por ti, para controlar aparatos normales por app y voz (Alexa y Google) sin tocar el cableado, como interruptores de luz o el botón del garaje. Revisa la versión de conexión en la página del producto.",
+          "tags": [
+            "Fingerbot",
+            "Recargable",
+            "Alexa / Google",
+            "Sin cableado"
+          ]
+        },
+        "de": {
+          "title": "Wiederaufladbarer Smart-Fingerbot für Tuya",
+          "description": "Kleines, wiederaufladbares Gerät, das einen Knopf für Sie physisch drückt, damit gewöhnliche Geräte per App und Sprache (Alexa und Google) ohne Verkabelung steuerbar werden, etwa Lichtschalter oder ein Garagentaster. Prüfen Sie die Verbindungsversion auf der Produktseite.",
+          "tags": [
+            "Fingerbot",
+            "Wiederaufladbar",
+            "Alexa / Google",
+            "Ohne Verkabelung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "electric-curtain-track-dooya-82-motor",
+      "category": "control",
+      "price": 29.22,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scec4ff8508fe4dd89e8476c35bb95608s.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnDhtAu30j3lqmHjO1onCaltqvoWDDSw9JoaIHqeCZrVQcaJIgUOhpuUGAzEjHUZVwy2LJIqf6U84AIji52Yw7nECGn2vg78tnL6UhbIVyzOa0vNXAgTR0klfxKMDoI9T13L8XI51TQobFehGb2PtyAiRg0zdIOG7H1LMFOM6tuurS8oTU4RfxcfCE7Z3UG08MdPRFPEqblR8bGRi61VycsSuZPnPCIhGVfcy7BxbyqMZahjLcJNnFdZYL3dOqkZ1S4H6lYZZcnnotZtYMFFy0oPlBOBtaKvhL7KiG0jrQ1zZTNO9jQPsaSCn7e8DptdWWcqFqfy0f4xjcoenBu6zqOi8HTnvtqsybKwU2SXwDMdNfEQnhfWhO5khkXnlRrgZsAibCrlpgciHFPKihnK8mVZCA54HL0N8cW6Gejg2ivI8lScZMsOu4ZinnfNJzFdYY960vqKWT7lxeyIH9SK4y0Ms4sSvjfifPxZ6drv1T4eN4k5otRrQuvm4XesrXk6B9RMHWy6Mq4ofodFaZUtluDbwMzpWh5VDb7NPTbkqoefVFI1iaEQOrgJlDloRIguauNRBzmwWq3nwo04dhjJF0ucxxDBLl93h8GyAo5O9zzU7EfHuRJRzSEBw2zwQRc3v6UZXQZqTrPx5Z8ZU59HgVqkwUW4P5ykJYHrCLCcIaFn86AejREjNCAx8vMmkPJLqqbXMQ7t4OBAT0",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "سكة ستائر كهربائية صامتة قابلة للتخصيص لمحرك Dooya 82 (Tuya / Aqara)",
+          "description": "سكة ستائر كهربائية صامتة قابلة للتخصيص مصمَّمة لمحرك Dooya 82، وتعمل مع أنظمة Tuya وAqara (Wi-Fi أو Zigbee حسب النسخة). راجع صفحة المنتج لمعرفة هل المحرك مشمول أم يُباع منفصلًا، ونسخة Zigbee تحتاج بوابة.",
+          "tags": [
+            "ستائر",
+            "Dooya 82",
+            "Tuya / Aqara",
+            "صامتة"
+          ]
+        },
+        "en": {
+          "title": "Customizable Silent Electric Curtain Track for Dooya 82 Motor (Tuya / Aqara)",
+          "description": "Customizable silent electric curtain track designed for the Dooya 82 motor, working with Tuya and Aqara systems (Wi-Fi or Zigbee depending on the version). Check the product page to see whether the motor is included or sold separately; the Zigbee version needs a gateway.",
+          "tags": [
+            "Curtains",
+            "Dooya 82",
+            "Tuya / Aqara",
+            "Silent"
+          ]
+        },
+        "fr": {
+          "title": "Rail de rideau électrique silencieux sur mesure pour moteur Dooya 82 (Tuya / Aqara)",
+          "description": "Rail de rideau électrique silencieux et personnalisable conçu pour le moteur Dooya 82, compatible avec les systèmes Tuya et Aqara (Wi-Fi ou Zigbee selon la version). Vérifiez sur la page produit si le moteur est inclus ou vendu séparément ; la version Zigbee nécessite une passerelle.",
+          "tags": [
+            "Rideaux",
+            "Dooya 82",
+            "Tuya / Aqara",
+            "Silencieux"
+          ]
+        },
+        "es": {
+          "title": "Riel de cortina eléctrico silencioso a medida para motor Dooya 82 (Tuya / Aqara)",
+          "description": "Riel de cortina eléctrico silencioso y personalizable diseñado para el motor Dooya 82, compatible con sistemas Tuya y Aqara (Wi-Fi o Zigbee según la versión). Mira en la página del producto si el motor está incluido o se vende aparte; la versión Zigbee requiere una pasarela.",
+          "tags": [
+            "Cortinas",
+            "Dooya 82",
+            "Tuya / Aqara",
+            "Silencioso"
+          ]
+        },
+        "de": {
+          "title": "Individuell anpassbare leise elektrische Vorhangschiene für Dooya-82-Motor (Tuya / Aqara)",
+          "description": "Individuell anpassbare, leise elektrische Vorhangschiene für den Dooya-82-Motor, kompatibel mit Tuya und Aqara (WLAN oder Zigbee je nach Version). Prüfen Sie auf der Produktseite, ob der Motor enthalten ist oder separat verkauft wird; die Zigbee-Version benötigt ein Gateway.",
+          "tags": [
+            "Vorhänge",
+            "Dooya 82",
+            "Tuya / Aqara",
+            "Leise"
+          ]
+        }
+      }
+    },
+    {
+      "id": "shelly-1-gen3-dry-contact-relay",
+      "category": "control",
+      "price": 17.44,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S02db754dbb2949bdb8d6eb7a8426bc8bt.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4EAKukE7iEMONtGhw4lysUe95rr8Ub8lf6KR60qZgQdcbXiz3bhcmYUNpuHJG2sVcsuNU2kMdvSAk3pnmJRoUzKQOMc4IYujZZnmSv5OGjewtWp8VtORPNL8xSy0lBqcMIj2XaKOTfydhiIGlZEBHwCnPhru3Fsg626LerLIy19S6xFMefsIy5HaWThKLLTWyiDCROYv8O692Rt0zbKHuIuaqAbb5C3ocBvvb1iY6OonYWhvigyeTLihnZ9xwdJb2VozKFOWT9Cns1URb6GfHMF14cdXsKkaV5avx7ANUYmW9MzGgNi6VjfW1JzhZEhSPVPbn9WzUQ7ycPKJjfJuoxy6y5FlNj9OGhiuD8bh3wyYLBxip8FX1JHZlxuZTBuOCU6kfoP7kaC6HsBgta9qFHOg0UIsdAeiY4LCJtXvKpctwy4Cn9bv0DFc6RDiuOXczWfQwOLkHgNAxw56pzvGl6VATeVQ5CgLfwWpXYjI1cyoxkW2xlh5yYT0ChyZoCPFBxUV00TSqmwhUWr7KHfsk3CawRIBYu808FA11BgPgRid7fNKBLlr6wiAkolCzRNYGcN3sQa7bRv6h3QZhUhwaciRe4Eyo6md16Q67Ej7MIKP1w7xdwpUbBhW7Bngck4vuIzGOi3XkG8PxTbG2kz5UGVilQzktk0Mk5JdFWI7XZ08Uy2gD0aij82xF7X9JtrFN46KQ0D5h0ReY",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "ريلاي Shelly 1 Gen3 بملامس جافة، Wi-Fi وبلوتوث",
+          "description": "ريلاي ذكي بملامس جافة يعمل بـWi-Fi وبلوتوث ويدعم الجهد المنخفض ومزوَّد بحماية من ارتفاع الحرارة. يُركَّب مع الأسلاك فيُفضَّل أن يتولاه كهربائي إن لم تكن لديك خبرة.",
+          "tags": [
+            "Shelly",
+            "ملامس جاف",
+            "Wi-Fi + بلوتوث",
+            "جهد منخفض"
+          ]
+        },
+        "en": {
+          "title": "Shelly 1 Gen3 Dry Contact Smart Relay, Wi-Fi and Bluetooth",
+          "description": "Smart dry-contact relay working over Wi-Fi and Bluetooth, with low-voltage support and over-temperature protection. It is wired in, so an electrician should install it if you lack experience.",
+          "tags": [
+            "Shelly",
+            "Dry contact",
+            "Wi-Fi + Bluetooth",
+            "Low voltage"
+          ]
+        },
+        "fr": {
+          "title": "Relais connecté Shelly 1 Gen3 à contact sec, Wi-Fi et Bluetooth",
+          "description": "Relais connecté à contact sec fonctionnant en Wi-Fi et Bluetooth, compatible basse tension et doté d'une protection contre la surchauffe. Il se raccorde au câblage : faites appel à un électricien si vous manquez d'expérience.",
+          "tags": [
+            "Shelly",
+            "Contact sec",
+            "Wi-Fi + Bluetooth",
+            "Basse tension"
+          ]
+        },
+        "es": {
+          "title": "Relé inteligente Shelly 1 Gen3 de contacto seco, Wi-Fi y Bluetooth",
+          "description": "Relé inteligente de contacto seco que funciona por Wi-Fi y Bluetooth, con soporte de bajo voltaje y protección contra sobrecalentamiento. Se conecta al cableado, así que recurre a un electricista si no tienes experiencia.",
+          "tags": [
+            "Shelly",
+            "Contacto seco",
+            "Wi-Fi + Bluetooth",
+            "Bajo voltaje"
+          ]
+        },
+        "de": {
+          "title": "Shelly 1 Gen3 Smart-Relais mit potenzialfreiem Kontakt, WLAN und Bluetooth",
+          "description": "Smartes Relais mit potenzialfreiem Kontakt über WLAN und Bluetooth, mit Niederspannungsunterstützung und Übertemperaturschutz. Es wird fest verdrahtet, ziehen Sie ohne Erfahrung einen Elektriker hinzu.",
+          "tags": [
+            "Shelly",
+            "Potenzialfrei",
+            "WLAN + Bluetooth",
+            "Niederspannung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "boykeep-2k-pet-dog-camera-pan-tilt",
+      "category": "security",
+      "price": 30.71,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S028078a061764ddb934cf961af19f5f83.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyiwOHHI78upxuqyvipJxbXGgCz7JnqtNtWUwrymewAprSEb5gDDx6bMcFEeqIMZhEfOEY2BoycCyLosbn6nQSGTEo7Isj8FcdzSZNW5OFNXIT904MmjARRCgaPHRdC4S3smBMZsg2l7whPc4Ocy0kVPQCW8oIpzgXBua978dTSpfXMRAe4kqlJiQ51amfNJicbNOCTCl4Jv7jzRMYRCjthCdc4tloMbSR9p2H3jOk3NbiaAGZaxoqgp4NXwQ9LNNI8WPyUgu3ywbmF5702LEoUE47C84lyJOZEcDFiPCk3MomUBhtL5W4FO5xNsEO9d9Y8QDwFq2wt12GP0RuchBoh0mFgCSdrGwaQiIMNPg7Mv2IAd4LtcWx2sfKdhU2jlkxPXrGYBPwaH00vqPkEdX2PseRS410QI8FPAT0hqDGfmsPBR9vzO5GVZhsRBc9zxOfAwELg6GO1hmX78zzW1QEIsdmn004DztDGUs4ySvR6lVVXKIaiaX0DJNVHtaWdwJ0Tb9ZG8UsdKAj76iQuVDvLgD2egivbycfOawDiDdnThQ9mnYk09evIZetxDNnWMAEGlvHYat4jE2sNUpZ1Jjcz5kC5CIKkqe1baSHYjqt1hGHsFmrtnz5TN6FEipurwAFlZEM80XtEAJW8ATkEpQ0qTFCI5uaBTlmV7popcO0uQJIji5CqUyTSFGB6vA05rHM6OovEoyIkZK",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاميرا Boykeep 2K للحيوانات الأليفة والأطفال بدوران 360° وصوت ثنائي الاتجاه",
+          "description": "كاميرا داخلية بدقة 2K تعمل على Wi-Fi بتردد 5 و2.4 جيجاهرتز مع تطبيق، تدور وتميل 360° وفيها صوت ثنائي الاتجاه ورؤية ليلية، لمراقبة الحيوانات الأليفة والأطفال داخل البيت. وجّهها داخل ملكيتك وراجع القوانين المحلية.",
+          "tags": [
+            "2K",
+            "دوران 360°",
+            "صوت ثنائي",
+            "رؤية ليلية"
+          ]
+        },
+        "en": {
+          "title": "Boykeep 2K Pet and Baby Camera, 360° Pan and Tilt, Two-Way Audio",
+          "description": "2K indoor camera working on 5 and 2.4 GHz Wi-Fi with an app, 360° pan and tilt, two-way audio and night vision, for watching pets and children at home. Point it inside your own property and check local laws.",
+          "tags": [
+            "2K",
+            "360° pan/tilt",
+            "Two-way audio",
+            "Night vision"
+          ]
+        },
+        "fr": {
+          "title": "Caméra Boykeep 2K pour animaux et bébé, rotation 360°, audio bidirectionnel",
+          "description": "Caméra d'intérieur 2K fonctionnant en Wi-Fi 5 et 2,4 GHz avec application, rotation et inclinaison à 360°, audio bidirectionnel et vision nocturne, pour surveiller animaux et enfants à la maison. Orientez-la dans votre propriété et vérifiez la législation locale.",
+          "tags": [
+            "2K",
+            "360°",
+            "Audio bidirectionnel",
+            "Vision nocturne"
+          ]
+        },
+        "es": {
+          "title": "Cámara Boykeep 2K para mascotas y bebé, giro 360°, audio bidireccional",
+          "description": "Cámara interior 2K que funciona con Wi-Fi de 5 y 2,4 GHz y app, con giro e inclinación de 360°, audio bidireccional y visión nocturna, para vigilar mascotas y niños en casa. Oriéntala dentro de tu propiedad y revisa la normativa local.",
+          "tags": [
+            "2K",
+            "360°",
+            "Audio bidireccional",
+            "Visión nocturna"
+          ]
+        },
+        "de": {
+          "title": "Boykeep 2K-Kamera für Haustiere und Babys, 360° schwenkbar, Zwei-Wege-Audio",
+          "description": "2K-Innenkamera mit WLAN auf 5 und 2,4 GHz und App, 360° schwenk- und neigbar, mit Zwei-Wege-Audio und Nachtsicht, zur Überwachung von Haustieren und Kindern zu Hause. Richten Sie sie nur auf Ihr eigenes Grundstück aus und beachten Sie die lokalen Gesetze.",
+          "tags": [
+            "2K",
+            "360°",
+            "Zwei-Wege-Audio",
+            "Nachtsicht"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-ambient-tv-backlight-hdmi-sync-box",
+      "category": "lighting",
+      "price": 23.6,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sff8392fbc3644251860c5d45769cc1f1T.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4FWzjWihVojYDg9yXjFkKlUQWFrmVhR1GvkqI2KZbyY4T1A6UfkkmbY0NhPLcqD29Bt6RJDxQvmN485BTv3PXYfQH6IIGlTwWS3A9X2xPN0nkWIoLKbi4OOte7jPSDXWeCsKmsqKD7H8t4WXTUkNwdxl1fAg5xzk3x8DkUNv2RbhJ9wAAyV0lY66yBdSnUe4dqJ8I8lVccO4b9sr4HkBXFBvoUKvdcxS2g0HVST4HHUKPQkYRizk2ooV7ZzqUMwr5k5CwppxwVBK4OpoxEKromAx2F23B8yWVxHGE0LUeDL46twS4hy9tMzwZ3iNK9ikRTihw7NHBh24AbVVZ3DMw004L76cLT6JaypJkIo2wWdSFlE76GcQoq6AzXJgyCojQQPIqN9NC5arPt1eqCid36qTpKkn1AcSavxFRFEWsPa3MtDSqRX9QOoE8ltMNBZ8O4jdSkmTZuhifSfkmAK8v9k0XempJqQcvvcI5g65LoTFZZqosgSKkF6UxFflC4YrbxtMMqB5o0wgkqAm5GQsSCwHzQC0ZEgn7RJcG5LJR3AWSPahNqpDTYmsC8YVcXkCYGQyZvPMbRMwShR6U4P2uZpUOTXUYzLtL7yYfbSudKnzCVK3Fo3lS339nrdsZvS5wfzTQxsCekE49WADPk4TmTn4UXgVCYehXeu4XTbKYzAYCdy9QHF8qb03ZxiITCVKA0HWZZLBRLUlk",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "إضاءة خلفية ذكية للتلفاز بصندوق HDMI ومزامنة 4K وشريط RGBIC",
+          "description": "طقم إضاءة خلفية يزامن ألوان الشريط مع الصورة عبر صندوق HDMI يدعم 4K، بشريط RGBIC من نوع WS2812B، ومناسب لشاشات من 24 إلى 65 بوصة وأجهزة مثل PS4 وXbox.",
+          "tags": [
+            "4K HDMI",
+            "RGBIC",
+            "24–65 بوصة",
+            "مزامنة"
+          ]
+        },
+        "en": {
+          "title": "Smart Ambient TV Backlight with 4K HDMI Sync Box and RGBIC Strip",
+          "description": "Backlight kit that syncs the strip's colors with the picture through a 4K-capable HDMI box, with a WS2812B RGBIC strip, suited to 24 to 65 inch screens and devices such as PS4 and Xbox.",
+          "tags": [
+            "4K HDMI",
+            "RGBIC",
+            "24–65 in",
+            "Sync"
+          ]
+        },
+        "fr": {
+          "title": "Rétroéclairage ambiant pour TV avec boîtier HDMI 4K et bandeau RGBIC",
+          "description": "Kit de rétroéclairage qui synchronise les couleurs du bandeau avec l'image via un boîtier HDMI compatible 4K, avec bandeau RGBIC WS2812B, adapté aux écrans de 24 à 65 pouces et à des appareils comme PS4 et Xbox.",
+          "tags": [
+            "4K HDMI",
+            "RGBIC",
+            "24–65 po",
+            "Synchro"
+          ]
+        },
+        "es": {
+          "title": "Retroiluminación ambiental para TV con caja HDMI 4K y tira RGBIC",
+          "description": "Kit de retroiluminación que sincroniza los colores de la tira con la imagen mediante una caja HDMI compatible con 4K, con tira RGBIC WS2812B, apto para pantallas de 24 a 65 pulgadas y dispositivos como PS4 y Xbox.",
+          "tags": [
+            "4K HDMI",
+            "RGBIC",
+            "24–65 pulg.",
+            "Sincronía"
+          ]
+        },
+        "de": {
+          "title": "Smarte Ambilight-Beleuchtung für TV mit 4K-HDMI-Sync-Box und RGBIC-Streifen",
+          "description": "Beleuchtungsset, das die Farben des Streifens über eine 4K-fähige HDMI-Box mit dem Bild synchronisiert, mit WS2812B-RGBIC-Streifen, geeignet für Bildschirme von 24 bis 65 Zoll und Geräte wie PS4 und Xbox.",
+          "tags": [
+            "4K HDMI",
+            "RGBIC",
+            "24–65 Zoll",
+            "Sync"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-zigbee-ir-remote-temp-humidity",
+      "category": "control",
+      "price": 9.66,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S72c99e23cb17468da035c7e811a3b78br.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4KfRFKmEjD6cVZnfMlkTTHqJrZF56ocLw4Erj43NX1kevsqkTYnpqgabsz4rkcRRek510nPaZ8RH2WXnUdPGoFTA2PGWyuXyo6e4uYqiLUoYIE4yWub6xEBX9rSMi73rXnxNc1WHeGMIhIOnPQHlTlI0xNNJSP9GhQe0x7RQikY4KXBWmR1Oad7PLZ6GW3heZoQRNuez8Za7OWOVUqbelCo2rilEjMLyS09Vw1wxHnmtI1FiySa6AffkRs7VtbADRooSsmsCxuDheBs1IUJsT4T3GCSLYOcW5IIhp7x1z0QWhDCj37L3eHWlKhvXzpOCEKpcz5d1ItDbrKqG6OfNafR6ZBE7lVgqjXAdkBaM9431HObnD81oJMKF37vVUeeXTs6lbMzbq1kBKi2CD1ILRBMoSqf03lJvCBkUgEUCnwTGWuXz7C3yEOriXhiseOE0u5kv4qAoQBM59KcQQ388gDnFlOEo6uhdjhvzLShvMRpvOPzqYrKNqYEhscmkRZXO8DiYCsVPmt0GVEtxPLpEpdAWU5MJl7BCfLctg3inKp5r18cV8pmqrUZ6r3A0DqokfSitVkGhaPvbmmD3vnOHbGtKZ5jWf6yQIuhgP9NmH6rIrBdWRYoiszOM5UsPgpSj9GQeh79qRQZ9Ag515zd6h0BK3pcUHDzkxLBWxtYw4PoH0bPaLN7rzvs45UUHjcr5XSQoas7fSlLIS",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "جهاز تحكم IR ذكي Tuya Zigbee بحساس حرارة ورطوبة للتلفاز والمكيّف",
+          "description": "جهاز تحكم عن بُعد بالأشعة تحت الحمراء 38 كيلوهرتز يضم حساس حرارة ورطوبة، ويحاكي أجهزة التلفاز وDVD والمكيّف ويعمل مع Alexa وGoogle Home. نسخة Zigbee تحتاج بوابة Zigbee تُشترى منفصلة.",
+          "tags": [
+            "Zigbee",
+            "IR 38kHz",
+            "حرارة ورطوبة",
+            "تلفاز ومكيّف"
+          ]
+        },
+        "en": {
+          "title": "Tuya Zigbee IR Remote with Temperature and Humidity Sensor for TV and AC",
+          "description": "38 kHz infrared remote with a built-in temperature and humidity sensor, able to control TVs, DVD players and air conditioners and working with Alexa and Google Home. As a Zigbee device it needs a Zigbee gateway, sold separately.",
+          "tags": [
+            "Zigbee",
+            "IR 38kHz",
+            "Temp & humidity",
+            "TV & AC"
+          ]
+        },
+        "fr": {
+          "title": "Télécommande IR Tuya Zigbee avec capteur de température et d'humidité pour TV et climatiseur",
+          "description": "Télécommande infrarouge 38 kHz avec capteur de température et d'humidité intégré, pour téléviseurs, lecteurs DVD et climatiseurs, compatible Alexa et Google Home. Étant en Zigbee, elle nécessite une passerelle Zigbee vendue séparément.",
+          "tags": [
+            "Zigbee",
+            "IR 38kHz",
+            "Temp. et humidité",
+            "TV et clim"
+          ]
+        },
+        "es": {
+          "title": "Mando IR Tuya Zigbee con sensor de temperatura y humedad para TV y aire acondicionado",
+          "description": "Mando infrarrojo de 38 kHz con sensor de temperatura y humedad integrado, para televisores, reproductores de DVD y aire acondicionado, compatible con Alexa y Google Home. Al ser Zigbee, requiere una pasarela Zigbee que se vende por separado.",
+          "tags": [
+            "Zigbee",
+            "IR 38kHz",
+            "Temp. y humedad",
+            "TV y aire"
+          ]
+        },
+        "de": {
+          "title": "Tuya Zigbee-IR-Fernbedienung mit Temperatur- und Feuchtesensor für TV und Klimaanlage",
+          "description": "38-kHz-Infrarot-Fernbedienung mit integriertem Temperatur- und Feuchtesensor für Fernseher, DVD-Player und Klimaanlagen, kompatibel mit Alexa und Google Home. Als Zigbee-Gerät benötigt sie ein separat erhältliches Zigbee-Gateway.",
+          "tags": [
+            "Zigbee",
+            "IR 38kHz",
+            "Temp. & Feuchte",
+            "TV & Klima"
           ]
         }
       }
