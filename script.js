@@ -334,9 +334,9 @@ function imgFallback(img) {
 const GUIDE_RULES = [
   [/zigbee/, 'zigbee'],
   [/camera|doorbell/, 'cameras'],
-  [/bulb/, 'bulbs'],
+  [/bulb|lamp-holder/, 'bulbs'],
   [/plug|power-strip/, 'plugs'],
-  [/din-rail|switch|curtain|dimmer|gigabit|breaker|boiler|relay/, 'electrical'],
+  [/din-rail|switch|curtain|dimmer|gigabit|breaker|boiler|relay|ups|ceiling-fan/, 'electrical'],
   [/sensor|detector|thermometer/, 'sensors'],
   [/garden|watering|soil|grow/, 'garden'],
 ];

@@ -3458,6 +3458,786 @@
           "TV & Klima"
         ]
       }
+    },
+    "naierdi-tuya-fingerprint-lock-cylinder": {
+      "ar": {
+        "title": "أسطوانة قفل ذكية NAIERDI بالبصمة وكلمة المرور وتطبيق Tuya",
+        "description": "أسطوانة قفل إلكترونية تفتح بالبصمة أو كلمة المرور وتعمل مع تطبيق Tuya، مقدَّمة لترقية أقفال الأبواب الميكانيكية. قبل الشراء قِس أسطوانة بابك وتأكد من مطابقة المقاس والنوع.",
+        "tags": [
+          "بصمة",
+          "كلمة مرور",
+          "Tuya",
+          "للأبواب الميكانيكية"
+        ]
+      },
+      "en": {
+        "title": "NAIERDI Smart Lock Cylinder with Fingerprint, Password and Tuya App",
+        "description": "Electronic lock cylinder that opens by fingerprint or password and works with the Tuya app, offered as an upgrade for mechanical door locks. Before buying, measure your door's cylinder and make sure the size and type match.",
+        "tags": [
+          "Fingerprint",
+          "Password",
+          "Tuya",
+          "For mechanical locks"
+        ]
+      },
+      "fr": {
+        "title": "Cylindre de serrure connecté NAIERDI avec empreinte, code et application Tuya",
+        "description": "Cylindre de serrure électronique qui s'ouvre par empreinte ou code et fonctionne avec l'application Tuya, proposé pour moderniser les serrures mécaniques. Avant l'achat, mesurez le cylindre de votre porte et vérifiez que taille et type correspondent.",
+        "tags": [
+          "Empreinte",
+          "Code",
+          "Tuya",
+          "Serrures mécaniques"
+        ]
+      },
+      "es": {
+        "title": "Cilindro de cerradura inteligente NAIERDI con huella, contraseña y app Tuya",
+        "description": "Cilindro de cerradura electrónico que se abre con huella o contraseña y funciona con la app Tuya, ofrecido para actualizar cerraduras mecánicas. Antes de comprar, mide el cilindro de tu puerta y comprueba que el tamaño y el tipo coincidan.",
+        "tags": [
+          "Huella",
+          "Contraseña",
+          "Tuya",
+          "Cerraduras mecánicas"
+        ]
+      },
+      "de": {
+        "title": "NAIERDI Smart-Schließzylinder mit Fingerabdruck, Passwort und Tuya-App",
+        "description": "Elektronischer Schließzylinder, der per Fingerabdruck oder Passwort öffnet und mit der Tuya-App funktioniert, als Nachrüstung für mechanische Türschlösser angeboten. Messen Sie vor dem Kauf den Zylinder Ihrer Tür und prüfen Sie, ob Größe und Typ passen.",
+        "tags": [
+          "Fingerabdruck",
+          "Passwort",
+          "Tuya",
+          "Mechanische Schlösser"
+        ]
+      }
+    },
+    "kak-digital-door-peephole-camera-3-5": {
+      "ar": {
+        "title": "كاميرا عين الباب الرقمية KAK بشاشة 3.5 بوصة وزاوية 120°",
+        "description": "عين باب رقمية بشاشة HD مقاس 3.5 بوصة وزاوية 120° مع وظيفة جرس، تحلّ محل العين السحرية التقليدية. العنوان لا يذكر التحكم بالتطبيق، فراجع صفحة المنتج، وتأكد أن سماكة بابك تناسب الجهاز.",
+        "tags": [
+          "شاشة 3.5 بوصة",
+          "120°",
+          "جرس",
+          "عين الباب"
+        ]
+      },
+      "en": {
+        "title": "KAK 3.5-Inch Digital Door Peephole Camera, 120° Wide Angle",
+        "description": "Digital door viewer with a 3.5-inch HD screen, a 120° wide angle and a bell function, replacing a traditional peephole. The title does not mention app control, so check the product page, and make sure your door's thickness fits the device.",
+        "tags": [
+          "3.5-inch screen",
+          "120°",
+          "Bell",
+          "Door viewer"
+        ]
+      },
+      "fr": {
+        "title": "Judas de porte numérique KAK avec écran 3,5 pouces et angle de 120°",
+        "description": "Judas numérique avec écran HD de 3,5 pouces, angle de 120° et fonction sonnette, qui remplace un judas classique. Le titre ne mentionne pas de contrôle par application : consultez la page produit et vérifiez que l'épaisseur de votre porte convient.",
+        "tags": [
+          "Écran 3,5 po",
+          "120°",
+          "Sonnette",
+          "Judas"
+        ]
+      },
+      "es": {
+        "title": "Mirilla digital KAK con pantalla de 3,5 pulgadas y ángulo de 120°",
+        "description": "Mirilla digital con pantalla HD de 3,5 pulgadas, ángulo de 120° y función de timbre, que sustituye a la mirilla tradicional. El título no menciona control por app, así que revisa la página del producto y comprueba que el grosor de tu puerta sea adecuado.",
+        "tags": [
+          "Pantalla 3,5 pulg.",
+          "120°",
+          "Timbre",
+          "Mirilla"
+        ]
+      },
+      "de": {
+        "title": "KAK digitaler Türspion mit 3,5-Zoll-Display und 120° Weitwinkel",
+        "description": "Digitaler Türspion mit 3,5-Zoll-HD-Display, 120° Weitwinkel und Klingelfunktion, als Ersatz für einen klassischen Türspion. Der Titel nennt keine App-Steuerung, prüfen Sie daher die Produktseite und ob die Türdicke zum Gerät passt.",
+        "tags": [
+          "3,5-Zoll-Display",
+          "120°",
+          "Klingel",
+          "Türspion"
+        ]
+      }
+    },
+    "sonoff-mini-r4-matter-relay": {
+      "ar": {
+        "title": "ريلاي SONOFF MINI R4 بتقنية Matter عبر Wi-Fi",
+        "description": "ريلاي صغير يعمل عبر Wi-Fi بمعيار Matter ويتوافق مع Alexa وGoogle Home وHomeKit. للاستفادة من Matter تحتاج متحكّمًا يدعمه، ويُركَّب خلف المفتاح الحالي مع الأسلاك فيُفضَّل أن يتولاه كهربائي.",
+        "tags": [
+          "Matter",
+          "Wi-Fi",
+          "HomeKit",
+          "Alexa / Google"
+        ]
+      },
+      "en": {
+        "title": "SONOFF MINI R4 Matter Wi-Fi Smart Relay",
+        "description": "Compact Wi-Fi relay with Matter support, compatible with Alexa, Google Home and HomeKit. To use Matter you need a Matter-capable controller, and it is installed behind the existing switch with wiring, so an electrician should do it.",
+        "tags": [
+          "Matter",
+          "Wi-Fi",
+          "HomeKit",
+          "Alexa / Google"
+        ]
+      },
+      "fr": {
+        "title": "Relais connecté SONOFF MINI R4 Matter en Wi-Fi",
+        "description": "Petit relais Wi-Fi avec prise en charge de Matter, compatible avec Alexa, Google Home et HomeKit. Pour utiliser Matter, il faut un contrôleur compatible, et il se pose derrière l'interrupteur existant avec raccordement : confiez-le à un électricien.",
+        "tags": [
+          "Matter",
+          "Wi-Fi",
+          "HomeKit",
+          "Alexa / Google"
+        ]
+      },
+      "es": {
+        "title": "Relé inteligente SONOFF MINI R4 Matter por Wi-Fi",
+        "description": "Relé compacto por Wi-Fi con compatibilidad Matter, compatible con Alexa, Google Home y HomeKit. Para usar Matter necesitas un controlador compatible, y se instala detrás del interruptor existente con cableado, por lo que debe encargarse un electricista.",
+        "tags": [
+          "Matter",
+          "Wi-Fi",
+          "HomeKit",
+          "Alexa / Google"
+        ]
+      },
+      "de": {
+        "title": "SONOFF MINI R4 Matter WLAN-Smart-Relais",
+        "description": "Kompaktes WLAN-Relais mit Matter-Unterstützung, kompatibel mit Alexa, Google Home und HomeKit. Für Matter brauchen Sie einen Matter-fähigen Controller, und es wird hinter dem vorhandenen Schalter verdrahtet, ein Elektriker sollte es installieren.",
+        "tags": [
+          "Matter",
+          "WLAN",
+          "HomeKit",
+          "Alexa / Google"
+        ]
+      }
+    },
+    "tuya-wifi-4ch-relay-rf433-module": {
+      "ar": {
+        "title": "وحدة ريلاي Wi-Fi بأربع قنوات مع تحكم RF433 تعمل مع Tuya",
+        "description": "وحدة ريلاي بأربع قنوات تعمل بـWi-Fi وتتحكم أيضًا بجهاز RF433، تدعم تغذية 7–32 فولت مستمر و85–250 فولت متناوب، وتصلح لتشغيل الأضواء والمحركات. تُركَّب مع الأسلاك فيُفضَّل أن يتولاه كهربائي.",
+        "tags": [
+          "4 قنوات",
+          "RF433",
+          "Tuya",
+          "Wi-Fi"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi 4-Channel Relay Module with RF433 Remote",
+        "description": "Four-channel relay module working over Wi-Fi and also by an RF433 remote, supporting 7–32V DC and 85–250V AC supply, suited to switching lights and motors. It is wired in, so an electrician should install it.",
+        "tags": [
+          "4 channels",
+          "RF433",
+          "Tuya",
+          "Wi-Fi"
+        ]
+      },
+      "fr": {
+        "title": "Module relais Wi-Fi 4 canaux avec télécommande RF433, compatible Tuya",
+        "description": "Module relais à quatre canaux fonctionnant en Wi-Fi et aussi avec une télécommande RF433, alimenté en 7–32 V continu ou 85–250 V alternatif, adapté à la commande de lumières et de moteurs. Il se raccorde au câblage : confiez-le à un électricien.",
+        "tags": [
+          "4 canaux",
+          "RF433",
+          "Tuya",
+          "Wi-Fi"
+        ]
+      },
+      "es": {
+        "title": "Módulo de relé Wi-Fi de 4 canales con mando RF433, compatible con Tuya",
+        "description": "Módulo de relé de cuatro canales que funciona por Wi-Fi y también con un mando RF433, con alimentación de 7–32 V CC o 85–250 V CA, apto para encender luces y motores. Se conecta al cableado, por lo que debe encargarse un electricista.",
+        "tags": [
+          "4 canales",
+          "RF433",
+          "Tuya",
+          "Wi-Fi"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-4-Kanal-Relaismodul mit RF433-Fernbedienung",
+        "description": "Vier-Kanal-Relaismodul für WLAN und auch per RF433-Fernbedienung, mit Versorgung von 7–32 V DC oder 85–250 V AC, geeignet zum Schalten von Licht und Motoren. Es wird fest verdrahtet, ein Elektriker sollte es installieren.",
+        "tags": [
+          "4 Kanäle",
+          "RF433",
+          "Tuya",
+          "WLAN"
+        ]
+      }
+    },
+    "loratap-zigbee-6-button-scene-remote": {
+      "ar": {
+        "title": "ريموت LoraTap Zigbee 3.0 بستة أزرار لتشغيل مشاهد Tuya",
+        "description": "ريموت لاسلكي بستة أزرار بتقنية Zigbee 3.0 لتشغيل المشاهد والأتمتة في تطبيق Smart Life، فيصلح لزر واحد يطفئ الأضواء ويشغّل أجهزة عدة. يحتاج بوابة Zigbee تُشترى منفصلة.",
+        "tags": [
+          "6 أزرار",
+          "Zigbee 3.0",
+          "مشاهد",
+          "Smart Life"
+        ]
+      },
+      "en": {
+        "title": "LoraTap ZigBee 3.0 Wireless 6-Button Scene Remote for Tuya",
+        "description": "Wireless six-button remote using Zigbee 3.0 to trigger scenes and automations in the Smart Life app, so one press can switch off lights and run several devices. Requires a Zigbee gateway, sold separately.",
+        "tags": [
+          "6 buttons",
+          "Zigbee 3.0",
+          "Scenes",
+          "Smart Life"
+        ]
+      },
+      "fr": {
+        "title": "Télécommande LoraTap ZigBee 3.0 à 6 boutons pour scènes Tuya",
+        "description": "Télécommande sans fil à six boutons en Zigbee 3.0 pour déclencher des scènes et automatisations dans l'application Smart Life : un seul appui peut éteindre les lumières et lancer plusieurs appareils. Nécessite une passerelle Zigbee vendue séparément.",
+        "tags": [
+          "6 boutons",
+          "Zigbee 3.0",
+          "Scènes",
+          "Smart Life"
+        ]
+      },
+      "es": {
+        "title": "Mando LoraTap ZigBee 3.0 de 6 botones para escenas Tuya",
+        "description": "Mando inalámbrico de seis botones con Zigbee 3.0 para lanzar escenas y automatizaciones en la app Smart Life, de modo que una sola pulsación apague las luces y active varios dispositivos. Requiere una pasarela Zigbee que se vende por separado.",
+        "tags": [
+          "6 botones",
+          "Zigbee 3.0",
+          "Escenas",
+          "Smart Life"
+        ]
+      },
+      "de": {
+        "title": "LoraTap ZigBee-3.0-Funkfernbedienung mit 6 Tasten für Tuya-Szenen",
+        "description": "Funkfernbedienung mit sechs Tasten über Zigbee 3.0, um Szenen und Automationen in der Smart-Life-App auszulösen, sodass ein Tastendruck Licht ausschaltet und mehrere Geräte startet. Erfordert ein separat erhältliches Zigbee-Gateway.",
+        "tags": [
+          "6 Tasten",
+          "Zigbee 3.0",
+          "Szenen",
+          "Smart Life"
+        ]
+      }
+    },
+    "tuya-zigbee-knob-switch-dimmer": {
+      "ar": {
+        "title": "مفتاح Tuya Zigbee دوّار لاسلكي لتعتيم الإضاءة وتشغيل المشاهد",
+        "description": "مقبض لاسلكي دوّار بتقنية Zigbee يعمل كزر مشاهد ويُستخدم لتعتيم الإضاءة وربط الأجهزة بالأتمتة. يحتاج بوابة Zigbee تُشترى منفصلة.",
+        "tags": [
+          "Zigbee",
+          "مقبض دوّار",
+          "تعتيم",
+          "مشاهد"
+        ]
+      },
+      "en": {
+        "title": "Tuya Zigbee Wireless Rotary Knob Switch for Dimming and Scenes",
+        "description": "Wireless rotary knob using Zigbee that works as a scene button and can dim lights and link devices into automations. Requires a Zigbee gateway, sold separately.",
+        "tags": [
+          "Zigbee",
+          "Rotary knob",
+          "Dimming",
+          "Scenes"
+        ]
+      },
+      "fr": {
+        "title": "Interrupteur rotatif sans fil Tuya Zigbee pour variation et scènes",
+        "description": "Bouton rotatif sans fil en Zigbee qui sert de bouton de scène et permet de varier la lumière et de lier des appareils à des automatisations. Nécessite une passerelle Zigbee vendue séparément.",
+        "tags": [
+          "Zigbee",
+          "Bouton rotatif",
+          "Variation",
+          "Scènes"
+        ]
+      },
+      "es": {
+        "title": "Interruptor giratorio inalámbrico Tuya Zigbee para regular y activar escenas",
+        "description": "Mando giratorio inalámbrico con Zigbee que funciona como botón de escenas y permite regular la luz y vincular dispositivos a automatizaciones. Requiere una pasarela Zigbee que se vende por separado.",
+        "tags": [
+          "Zigbee",
+          "Mando giratorio",
+          "Regulación",
+          "Escenas"
+        ]
+      },
+      "de": {
+        "title": "Tuya Zigbee-Drehknopf-Schalter kabellos zum Dimmen und für Szenen",
+        "description": "Kabelloser Drehknopf mit Zigbee, der als Szenentaster dient, Licht dimmt und Geräte mit Automationen verknüpft. Erfordert ein separat erhältliches Zigbee-Gateway.",
+        "tags": [
+          "Zigbee",
+          "Drehknopf",
+          "Dimmen",
+          "Szenen"
+        ]
+      }
+    },
+    "smart-rgb-corner-floor-lamp-app": {
+      "ar": {
+        "title": "مصباح أرضي ذكي RGB للزاوية بتحكم بالتطبيق والريموت ومزامنة الموسيقى",
+        "description": "مصباح أرضي للزوايا بألوان RGB يُتحكَّم به بالتطبيق أو الريموت، مع مزامنة مع الموسيقى ومؤقّت، لإضاءة أجواء غرف الجلوس والألعاب.",
+        "tags": [
+          "RGB",
+          "تطبيق وريموت",
+          "مزامنة موسيقى",
+          "مؤقّت"
+        ]
+      },
+      "en": {
+        "title": "Smart RGB Corner Floor Lamp with App and Remote Control, Music Sync",
+        "description": "Corner floor lamp with RGB colors controlled by app or remote, with music sync and a timer, for setting the mood in living rooms and gaming spaces.",
+        "tags": [
+          "RGB",
+          "App + remote",
+          "Music sync",
+          "Timer"
+        ]
+      },
+      "fr": {
+        "title": "Lampadaire d'angle RGB connecté avec application, télécommande et synchro musique",
+        "description": "Lampadaire d'angle aux couleurs RGB commandé par application ou télécommande, avec synchro musique et minuterie, pour créer une ambiance au salon ou dans un espace de jeu.",
+        "tags": [
+          "RVB",
+          "App + télécommande",
+          "Synchro musique",
+          "Minuterie"
+        ]
+      },
+      "es": {
+        "title": "Lámpara de pie de esquina RGB inteligente con app, mando y sincronía con música",
+        "description": "Lámpara de pie de esquina con colores RGB controlada por app o mando, con sincronía con música y temporizador, para crear ambiente en salones y zonas de juego.",
+        "tags": [
+          "RGB",
+          "App + mando",
+          "Sincronía musical",
+          "Temporizador"
+        ]
+      },
+      "de": {
+        "title": "Smarte RGB-Eckstehlampe mit App, Fernbedienung und Musiksynchronisation",
+        "description": "Eckstehlampe mit RGB-Farben, per App oder Fernbedienung steuerbar, mit Musiksynchronisation und Timer, für Stimmung im Wohnzimmer und im Gaming-Bereich.",
+        "tags": [
+          "RGB",
+          "App + Fernbedienung",
+          "Musiksync",
+          "Timer"
+        ]
+      }
+    },
+    "geekmagic-wifi-weather-clock-station": {
+      "ar": {
+        "title": "ساعة ومحطة طقس صغيرة GeekMagic عبر Wi-Fi بشاشة IPS للمكتب",
+        "description": "جهاز مكتبي صغير بشاشة IPS LCD يتصل بالـWi-Fi ويعرض الطقس والساعة، ويصلح كقطعة ديكور في الغرفة أو المكتب.",
+        "tags": [
+          "Wi-Fi",
+          "طقس",
+          "ساعة",
+          "شاشة IPS"
+        ]
+      },
+      "en": {
+        "title": "GeekMagic Mini Wi-Fi Desktop Weather and Clock Station with IPS Screen",
+        "description": "Small desktop gadget with an IPS LCD screen that connects over Wi-Fi to show the weather and the time, and doubles as decoration for a room or desk.",
+        "tags": [
+          "Wi-Fi",
+          "Weather",
+          "Clock",
+          "IPS screen"
+        ]
+      },
+      "fr": {
+        "title": "Mini station météo et horloge de bureau GeekMagic en Wi-Fi avec écran IPS",
+        "description": "Petit gadget de bureau avec écran LCD IPS qui se connecte en Wi-Fi pour afficher la météo et l'heure, et sert aussi de décoration pour une pièce ou un bureau.",
+        "tags": [
+          "Wi-Fi",
+          "Météo",
+          "Horloge",
+          "Écran IPS"
+        ]
+      },
+      "es": {
+        "title": "Mini estación meteorológica y reloj de escritorio GeekMagic por Wi-Fi con pantalla IPS",
+        "description": "Pequeño gadget de escritorio con pantalla LCD IPS que se conecta por Wi-Fi para mostrar el tiempo y la hora, y sirve también de decoración para una habitación o un escritorio.",
+        "tags": [
+          "Wi-Fi",
+          "Tiempo",
+          "Reloj",
+          "Pantalla IPS"
+        ]
+      },
+      "de": {
+        "title": "GeekMagic Mini-WLAN-Wetterstation und Tischuhr mit IPS-Display",
+        "description": "Kleines Tischgerät mit IPS-LCD-Display, das sich per WLAN verbindet und Wetter und Uhrzeit anzeigt und zugleich als Dekoration für Zimmer oder Schreibtisch dient.",
+        "tags": [
+          "WLAN",
+          "Wetter",
+          "Uhr",
+          "IPS-Display"
+        ]
+      }
+    },
+    "mini-dc-ups-router-backup-no-battery": {
+      "ar": {
+        "title": "UPS صغير بتيار مستمر لتشغيل الراوتر والمودم عند انقطاع الكهرباء (بدون بطارية)",
+        "description": "مزوّد طاقة احتياطي صغير بمخارج 5 و9 و12 فولت يبقي الراوتر والمودم يعملان عند انقطاع الكهرباء، بقابس أوروبي وبطارية قابلة للاستبدال. هذه النسخة تُباع بدون بطارية، فاشترِ بطارية مناسبة، وتأكد أن جهد المخرج يطابق جهد جهازك.",
+        "tags": [
+          "UPS",
+          "5 / 9 / 12 فولت",
+          "للراوتر",
+          "بدون بطارية"
+        ]
+      },
+      "en": {
+        "title": "Mini DC UPS for Router and Modem Backup, Without Battery",
+        "description": "Compact backup power supply with 5V, 9V and 12V outputs that keeps a router and modem running during a power cut, with an EU plug and a replaceable battery. This version is sold without a battery, so buy a suitable one, and make sure the output voltage matches your device.",
+        "tags": [
+          "UPS",
+          "5 / 9 / 12 V",
+          "For routers",
+          "No battery"
+        ]
+      },
+      "fr": {
+        "title": "Mini onduleur DC pour routeur et modem, sans batterie",
+        "description": "Petite alimentation de secours avec sorties 5 V, 9 V et 12 V qui maintient routeur et modem en marche lors d'une coupure, avec prise européenne et batterie remplaçable. Cette version est vendue sans batterie : achetez-en une adaptée et vérifiez que la tension de sortie correspond à votre appareil.",
+        "tags": [
+          "Onduleur",
+          "5 / 9 / 12 V",
+          "Pour routeur",
+          "Sans batterie"
+        ]
+      },
+      "es": {
+        "title": "Mini SAI DC para respaldo de router y módem, sin batería",
+        "description": "Pequeña fuente de respaldo con salidas de 5, 9 y 12 V que mantiene el router y el módem funcionando durante un corte de luz, con enchufe europeo y batería reemplazable. Esta versión se vende sin batería, así que compra una adecuada y comprueba que el voltaje de salida coincida con tu dispositivo.",
+        "tags": [
+          "SAI",
+          "5 / 9 / 12 V",
+          "Para routers",
+          "Sin batería"
+        ]
+      },
+      "de": {
+        "title": "Mini-DC-USV für Router und Modem, ohne Batterie",
+        "description": "Kompakte Notstromversorgung mit Ausgängen von 5, 9 und 12 V, die Router und Modem bei Stromausfall weiterlaufen lässt, mit EU-Stecker und austauschbarem Akku. Diese Version wird ohne Akku verkauft, kaufen Sie einen passenden und prüfen Sie, ob die Ausgangsspannung zu Ihrem Gerät passt.",
+        "tags": [
+          "USV",
+          "5 / 9 / 12 V",
+          "Für Router",
+          "Ohne Akku"
+        ]
+      }
+    },
+    "sonoff-swv-zigbee-water-valve-ip55": {
+      "ar": {
+        "title": "صمّام مياه ذكي SONOFF SWV بتقنية Zigbee 3.0 ومقاومة IP55 للري",
+        "description": "صمّام مياه ذكي بتقنية Zigbee 3.0 ومقاومة IP55 لأتمتة الري، ويعمل مع eWeLink وAlexa وGoogle. يحتاج بوابة Zigbee تُشترى منفصلة، وراجع قطر وصلة أنبوبك قبل الشراء.",
+        "tags": [
+          "Zigbee 3.0",
+          "IP55",
+          "ري",
+          "eWeLink"
+        ]
+      },
+      "en": {
+        "title": "SONOFF SWV Zigbee 3.0 Smart Water Valve, IP55, Sprinkler Controller",
+        "description": "Smart water valve using Zigbee 3.0 with IP55 protection for automating irrigation, working with eWeLink, Alexa and Google. Requires a Zigbee gateway, sold separately, and check your pipe connector size before buying.",
+        "tags": [
+          "Zigbee 3.0",
+          "IP55",
+          "Irrigation",
+          "eWeLink"
+        ]
+      },
+      "fr": {
+        "title": "Vanne d'eau connectée SONOFF SWV Zigbee 3.0, IP55, contrôleur d'arrosage",
+        "description": "Vanne d'eau connectée en Zigbee 3.0 avec protection IP55 pour automatiser l'irrigation, compatible eWeLink, Alexa et Google. Nécessite une passerelle Zigbee vendue séparément ; vérifiez le diamètre de votre raccord avant l'achat.",
+        "tags": [
+          "Zigbee 3.0",
+          "IP55",
+          "Irrigation",
+          "eWeLink"
+        ]
+      },
+      "es": {
+        "title": "Válvula de agua inteligente SONOFF SWV Zigbee 3.0, IP55, controlador de riego",
+        "description": "Válvula de agua inteligente con Zigbee 3.0 y protección IP55 para automatizar el riego, compatible con eWeLink, Alexa y Google. Requiere una pasarela Zigbee que se vende por separado, y comprueba el tamaño del conector de tu tubería antes de comprar.",
+        "tags": [
+          "Zigbee 3.0",
+          "IP55",
+          "Riego",
+          "eWeLink"
+        ]
+      },
+      "de": {
+        "title": "SONOFF SWV Zigbee-3.0-Smart-Wasserventil, IP55, Bewässerungssteuerung",
+        "description": "Smartes Wasserventil mit Zigbee 3.0 und Schutzart IP55 zur Automatisierung der Bewässerung, kompatibel mit eWeLink, Alexa und Google. Erfordert ein separat erhältliches Zigbee-Gateway, und prüfen Sie vor dem Kauf die Anschlussgröße Ihres Rohrs.",
+        "tags": [
+          "Zigbee 3.0",
+          "IP55",
+          "Bewässerung",
+          "eWeLink"
+        ]
+      }
+    },
+    "tuya-wifi-ceiling-fan-light-control-kit": {
+      "ar": {
+        "title": "طقم تحكم ذكي Tuya Wi-Fi لمروحة السقف مع الإضاءة وضبط سرعة الهواء",
+        "description": "طقم تحكم عن بُعد بالتطبيق لمراوح السقف ذات الإضاءة، يضبط سرعة الهواء ويعمل مع Alexa. هو طقم تحكم وليس مروحة، فتأكد من توافقه مع مروحتك، ويُركَّب مع الأسلاك فيُفضَّل أن يتولاه كهربائي.",
+        "tags": [
+          "مروحة سقف",
+          "Wi-Fi",
+          "Alexa",
+          "طقم تحكم"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi Smart Ceiling Fan and Light Control Kit with Speed Adjustment",
+        "description": "App-controlled remote kit for ceiling fans with lights that adjusts wind speed and works with Alexa. It is a control kit, not a fan, so check it is compatible with your fan, and it is wired in, so an electrician should install it.",
+        "tags": [
+          "Ceiling fan",
+          "Wi-Fi",
+          "Alexa",
+          "Control kit"
+        ]
+      },
+      "fr": {
+        "title": "Kit de commande Tuya Wi-Fi pour ventilateur de plafond et lumière, avec réglage de vitesse",
+        "description": "Kit de commande à distance par application pour ventilateurs de plafond avec lumière, qui règle la vitesse de l'air et fonctionne avec Alexa. C'est un kit de commande, pas un ventilateur : vérifiez la compatibilité avec le vôtre, et confiez le raccordement à un électricien.",
+        "tags": [
+          "Ventilateur de plafond",
+          "Wi-Fi",
+          "Alexa",
+          "Kit de commande"
+        ]
+      },
+      "es": {
+        "title": "Kit de control Tuya Wi-Fi para ventilador de techo y luz con ajuste de velocidad",
+        "description": "Kit de control remoto por app para ventiladores de techo con luz que ajusta la velocidad del aire y funciona con Alexa. Es un kit de control, no un ventilador, así que comprueba que sea compatible con el tuyo, y se conecta al cableado, por lo que debe encargarse un electricista.",
+        "tags": [
+          "Ventilador de techo",
+          "Wi-Fi",
+          "Alexa",
+          "Kit de control"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-Steuerset für Deckenventilator und Licht mit Geschwindigkeitsregelung",
+        "description": "Per App steuerbares Fernbedienungsset für Deckenventilatoren mit Licht, das die Luftgeschwindigkeit regelt und mit Alexa funktioniert. Es ist ein Steuerset und kein Ventilator, prüfen Sie die Kompatibilität mit Ihrem, und es wird fest verdrahtet, ein Elektriker sollte es installieren.",
+        "tags": [
+          "Deckenventilator",
+          "WLAN",
+          "Alexa",
+          "Steuerset"
+        ]
+      }
+    },
+    "tuya-wifi-diy-mini-switch-module-2way": {
+      "ar": {
+        "title": "وحدة مفتاح Tuya Wi-Fi صغيرة DIY بقناة إلى 4 ومفتاح ثنائي الاتجاه",
+        "description": "وحدة مفتاح صغيرة من 1 إلى 4 قنوات تدعم التحكم ثنائي الاتجاه وتعمل مع Alexa وGoogle وتطبيق Smart Life، وتُركَّب خلف المفتاح الحالي. تُركَّب مع الأسلاك فيُفضَّل أن يتولاه كهربائي.",
+        "tags": [
+          "1–4 قنوات",
+          "ثنائي الاتجاه",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi DIY Mini Switch Module, 1 to 4 Gang, 2-Way Control",
+        "description": "Mini switch module with 1 to 4 gangs supporting 2-way control and working with Alexa, Google and the Smart Life app, installed behind the existing switch. It is wired in, so an electrician should install it.",
+        "tags": [
+          "1–4 gang",
+          "2-way",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "fr": {
+        "title": "Mini module interrupteur Tuya Wi-Fi DIY, 1 à 4 canaux, commande va-et-vient",
+        "description": "Mini module interrupteur de 1 à 4 canaux, compatible avec la commande va-et-vient, Alexa, Google et l'application Smart Life, installé derrière l'interrupteur existant. Il se raccorde au câblage : confiez-le à un électricien.",
+        "tags": [
+          "1–4 canaux",
+          "Va-et-vient",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "es": {
+        "title": "Mini módulo interruptor Tuya Wi-Fi DIY, de 1 a 4 canales, control de doble vía",
+        "description": "Mini módulo interruptor de 1 a 4 canales que admite control de doble vía y funciona con Alexa, Google y la app Smart Life, instalado detrás del interruptor existente. Se conecta al cableado, por lo que debe encargarse un electricista.",
+        "tags": [
+          "1–4 canales",
+          "Doble vía",
+          "Wi-Fi",
+          "Smart Life"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-DIY-Mini-Schaltermodul, 1 bis 4 Kanäle, Wechselschaltung",
+        "description": "Mini-Schaltermodul mit 1 bis 4 Kanälen, das Wechselschaltung unterstützt und mit Alexa, Google und der Smart-Life-App funktioniert, hinter dem vorhandenen Schalter montiert. Es wird fest verdrahtet, ein Elektriker sollte es installieren.",
+        "tags": [
+          "1–4 Kanäle",
+          "Wechselschaltung",
+          "WLAN",
+          "Smart Life"
+        ]
+      }
+    },
+    "tuya-wifi-ceiling-fan-speed-switch-eu": {
+      "ar": {
+        "title": "مفتاح Tuya Wi-Fi لسرعة مروحة السقف بجهد 220 فولت (معيار أوروبي)",
+        "description": "وحدة مفتاح صغيرة للتحكم بتشغيل مروحة السقف وسرعتها عن بُعد عبر Wi-Fi، بمعيار أوروبي وجهد 220 فولت، وتعمل مع Alexa وGoogle Home. تُركَّب مع الأسلاك فيُفضَّل أن يتولاه كهربائي.",
+        "tags": [
+          "سرعة المروحة",
+          "220 فولت",
+          "Wi-Fi",
+          "Alexa / Google"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi Ceiling Fan Speed Switch Module, EU 220V",
+        "description": "Mini switch module for turning a ceiling fan on and off and changing its speed remotely over Wi-Fi, in an EU standard for 220V, working with Alexa and Google Home. It is wired in, so an electrician should install it.",
+        "tags": [
+          "Fan speed",
+          "220V",
+          "Wi-Fi",
+          "Alexa / Google"
+        ]
+      },
+      "fr": {
+        "title": "Module interrupteur Tuya Wi-Fi pour vitesse de ventilateur de plafond, EU 220 V",
+        "description": "Mini module interrupteur pour allumer et éteindre un ventilateur de plafond et régler sa vitesse à distance en Wi-Fi, aux normes européennes en 220 V, compatible avec Alexa et Google Home. Il se raccorde au câblage : confiez-le à un électricien.",
+        "tags": [
+          "Vitesse du ventilateur",
+          "220 V",
+          "Wi-Fi",
+          "Alexa / Google"
+        ]
+      },
+      "es": {
+        "title": "Módulo interruptor Tuya Wi-Fi para velocidad de ventilador de techo, EU 220 V",
+        "description": "Mini módulo interruptor para encender y apagar un ventilador de techo y cambiar su velocidad a distancia por Wi-Fi, en estándar europeo de 220 V, compatible con Alexa y Google Home. Se conecta al cableado, por lo que debe encargarse un electricista.",
+        "tags": [
+          "Velocidad del ventilador",
+          "220 V",
+          "Wi-Fi",
+          "Alexa / Google"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-Modul für die Geschwindigkeit von Deckenventilatoren, EU 220 V",
+        "description": "Mini-Schaltermodul zum Ein- und Ausschalten eines Deckenventilators und zur Änderung der Geschwindigkeit aus der Ferne per WLAN, im EU-Standard für 220 V, kompatibel mit Alexa und Google Home. Es wird fest verdrahtet, ein Elektriker sollte es installieren.",
+        "tags": [
+          "Ventilatorgeschwindigkeit",
+          "220 V",
+          "WLAN",
+          "Alexa / Google"
+        ]
+      }
+    },
+    "girier-zigbee-no-neutral-switch-module": {
+      "ar": {
+        "title": "وحدة مفتاح GIRIER Zigbee 3.0 لا تحتاج سلكًا محايدًا",
+        "description": "وحدة مفتاح بتقنية Zigbee 3.0 لا تتطلب سلكًا محايدًا، وهذا يناسب التركيبات القديمة، وتعمل مع Alexa وGoogle Home. تحتاج بوابة Zigbee تُشترى منفصلة، وتُركَّب مع الأسلاك فيُفضَّل أن يتولاه كهربائي.",
+        "tags": [
+          "Zigbee 3.0",
+          "بلا سلك محايد",
+          "Alexa / Google",
+          "DIY"
+        ]
+      },
+      "en": {
+        "title": "GIRIER Zigbee 3.0 Smart Switch Module, No Neutral Wire Required",
+        "description": "Zigbee 3.0 switch module that needs no neutral wire, which suits older installations, working with Alexa and Google Home. Requires a Zigbee gateway, sold separately, and it is wired in, so an electrician should install it.",
+        "tags": [
+          "Zigbee 3.0",
+          "No neutral",
+          "Alexa / Google",
+          "DIY"
+        ]
+      },
+      "fr": {
+        "title": "Module interrupteur GIRIER Zigbee 3.0, sans fil neutre",
+        "description": "Module interrupteur Zigbee 3.0 qui ne nécessite pas de fil neutre, ce qui convient aux installations anciennes, compatible avec Alexa et Google Home. Nécessite une passerelle Zigbee vendue séparément et se raccorde au câblage : confiez-le à un électricien.",
+        "tags": [
+          "Zigbee 3.0",
+          "Sans neutre",
+          "Alexa / Google",
+          "DIY"
+        ]
+      },
+      "es": {
+        "title": "Módulo interruptor GIRIER Zigbee 3.0, sin cable neutro",
+        "description": "Módulo interruptor Zigbee 3.0 que no necesita cable neutro, lo que encaja en instalaciones antiguas, compatible con Alexa y Google Home. Requiere una pasarela Zigbee que se vende por separado y se conecta al cableado, por lo que debe encargarse un electricista.",
+        "tags": [
+          "Zigbee 3.0",
+          "Sin neutro",
+          "Alexa / Google",
+          "DIY"
+        ]
+      },
+      "de": {
+        "title": "GIRIER Zigbee-3.0-Schaltermodul ohne Neutralleiter",
+        "description": "Zigbee-3.0-Schaltermodul, das keinen Neutralleiter braucht, was zu älteren Installationen passt, kompatibel mit Alexa und Google Home. Erfordert ein separat erhältliches Zigbee-Gateway und wird fest verdrahtet, ein Elektriker sollte es installieren.",
+        "tags": [
+          "Zigbee 3.0",
+          "Ohne Neutralleiter",
+          "Alexa / Google",
+          "DIY"
+        ]
+      }
+    },
+    "tuya-wifi-e27-smart-lamp-holder-adapter": {
+      "ar": {
+        "title": "محوّل قاعدة مصباح E27 ذكي Tuya بـWi-Fi وبلوتوث يحوّل أي مصباح إلى ذكي",
+        "description": "محوّل قاعدة E27 يتحكم بالإضاءة بالصوت (Alexa وGoogle Home) فيجعل المصباح العادي قابلًا للتشغيل والإطفاء من التطبيق دون تغيير المصباح، وصالح للمطبخ وغرفة النوم. راجع قدرة المصباح المسموحة في صفحة المنتج.",
+        "tags": [
+          "E27",
+          "Wi-Fi + بلوتوث",
+          "تحكم صوتي",
+          "أي مصباح"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi/Bluetooth E27 Smart Lamp Holder Adapter for Any Bulb",
+        "description": "E27 socket adapter that controls the light by voice (Alexa and Google Home), making an ordinary bulb switchable from the app without replacing it, suited to a kitchen or bedroom. Check the allowed bulb wattage on the product page.",
+        "tags": [
+          "E27",
+          "Wi-Fi + Bluetooth",
+          "Voice control",
+          "Any bulb"
+        ]
+      },
+      "fr": {
+        "title": "Douille E27 connectée Tuya Wi-Fi/Bluetooth, transforme n'importe quelle ampoule",
+        "description": "Adaptateur de douille E27 qui commande l'éclairage à la voix (Alexa et Google Home) et rend une ampoule ordinaire pilotable depuis l'application sans la remplacer, adapté à la cuisine ou à la chambre. Vérifiez la puissance d'ampoule autorisée sur la page produit.",
+        "tags": [
+          "E27",
+          "Wi-Fi + Bluetooth",
+          "Commande vocale",
+          "Toute ampoule"
+        ]
+      },
+      "es": {
+        "title": "Portalámparas E27 inteligente Tuya Wi-Fi/Bluetooth para cualquier bombilla",
+        "description": "Adaptador de portalámparas E27 que controla la luz por voz (Alexa y Google Home) y permite encender y apagar una bombilla normal desde la app sin cambiarla, apto para cocina o dormitorio. Comprueba la potencia de bombilla admitida en la página del producto.",
+        "tags": [
+          "E27",
+          "Wi-Fi + Bluetooth",
+          "Control por voz",
+          "Cualquier bombilla"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN/Bluetooth-E27-Smart-Lampenfassung für jede Glühbirne",
+        "description": "E27-Fassungsadapter, der das Licht per Sprache (Alexa und Google Home) steuert und eine gewöhnliche Glühbirne ohne Austausch per App schaltbar macht, geeignet für Küche oder Schlafzimmer. Prüfen Sie die zulässige Lampenleistung auf der Produktseite.",
+        "tags": [
+          "E27",
+          "WLAN + Bluetooth",
+          "Sprachsteuerung",
+          "Jede Glühbirne"
+        ]
+      }
     }
   }
 }
