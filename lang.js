@@ -7,28 +7,39 @@ const LANG_ORDER = ['ar', 'en', 'fr', 'es', 'de'];
 (function () {
   var LANG = 'ar';
   try { LANG = localStorage.getItem('site_lang') || 'ar'; } catch (e) {}
-  var contentLang = (LANG === 'ar') ? 'ar' : 'en'; // محتوى الصفحات الثابتة متوفر بالعربي والإنجليزي فقط حاليًا
+
+  // اللغة الفعلية لكل مجموعة عناصر: لغة المستخدم إن وُجد لها نص، وإلا العربية أو الإنجليزية
+  function effLang(el) {
+    var p = el.parentElement;
+    if (p && p.querySelector(':scope > [data-l="' + LANG + '"]')) return LANG;
+    return LANG === 'ar' ? 'ar' : 'en';
+  }
 
   function apply() {
     var root = document.documentElement;
     root.lang = LANG;
     root.dir = LANGS_META[LANG].dir;
     document.querySelectorAll('[data-l]').forEach(function (el) {
-      el.hidden = el.dataset.l !== contentLang;
+      el.hidden = el.dataset.l !== effLang(el);
     });
     var select = document.getElementById('langSelect');
     if (select) select.value = LANG;
-    var t = document.body.dataset[contentLang === 'ar' ? 'titleAr' : 'titleEn'];
+    var ds = document.body.dataset;
+    var key = 'title' + LANG.charAt(0).toUpperCase() + LANG.slice(1);
+    var t = ds[key] || ds[LANG === 'ar' ? 'titleAr' : 'titleEn'];
     if (t) document.title = t;
     jumpToHash();
   }
 
-  // الروابط تشير إلى #zigbee مثلًا؛ نقفز إلى النسخة الظاهرة (العربية أو الإنجليزية -en)
+  // الروابط تشير إلى #zigbee مثلًا؛ نقفز إلى النسخة الظاهرة (zigbee أو zigbee-en أو zigbee-fr ...)
   function jumpToHash() {
-    var h = (location.hash || '').slice(1).replace(/-en$/, '');
+    var h = (location.hash || '').slice(1).replace(/-(en|fr|es|de)$/, '');
     if (!h) return;
-    var el = document.getElementById(contentLang === 'ar' ? h : h + '-en');
-    if (el && !el.closest('[hidden]')) setTimeout(function () { el.scrollIntoView(); }, 0);
+    var cands = LANG === 'ar' ? [h] : [h + '-' + LANG, h + '-en'];
+    for (var i = 0; i < cands.length; i++) {
+      var el = document.getElementById(cands[i]);
+      if (el && !el.closest('[hidden]')) { setTimeout(function () { el.scrollIntoView(); }, 0); return; }
+    }
   }
 
   function buildLangSwitch() {
@@ -47,7 +58,6 @@ const LANG_ORDER = ['ar', 'en', 'fr', 'es', 'de'];
     select.value = LANG;
     select.addEventListener('change', function () {
       LANG = select.value;
-      contentLang = (LANG === 'ar') ? 'ar' : 'en';
       try { localStorage.setItem('site_lang', LANG); } catch (e) {}
       apply();
     });
