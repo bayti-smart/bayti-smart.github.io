@@ -137,7 +137,7 @@ def http(req, timeout=60):
 def download_image(url):
     req = urllib.request.Request(url, headers={
         "User-Agent": "Mozilla/5.0 (compatible; SmartCasaBot/1.0)",
-        "Accept": "image/jpeg,image/png,image/*;q=0.8"})
+        "Accept": "image/jpeg,image/png;q=0.9,*/*;q=0.1"})
     status, data, headers = http(req, 30)
     ctype = (headers.get("Content-Type") or "").split(";")[0].strip().lower()
     if status != 200 or ctype not in ("image/jpeg", "image/png", "image/gif") or not (1000 < len(data) < 8_000_000):
@@ -193,8 +193,15 @@ def main():
     print(post["message"])
     print(f"image: {post['image']}")
     if args.dry_run:
-        print("DRY RUN: nothing was posted.")
-        log(f"{stamp} DRY {post['kind']} {post['id']}")
+        check = "no-image"
+        if post["image"]:
+            try:
+                data, ctype = download_image(post["image"])
+                check = f"image-ok {ctype} {len(data)}B"
+            except Exception as e:
+                check = f"image-FAIL {e}"
+        print("DRY RUN: nothing was posted.", check)
+        log(f"{stamp} DRY {post['kind']} {post['id']} {check}")
         return 0
 
     page_id, token = os.environ.get("FB_PAGE_ID", ""), os.environ.get("FB_PAGE_TOKEN", "")
@@ -204,21 +211,35 @@ def main():
         return 1
 
     fields = {"message": post["message"], "access_token": token}
-    image = None
-    if post["image"]:
-        try:
-            image = download_image(post["image"])
-        except Exception as e:  # fall back to a text post
-            print(f"WARN: {e}; posting text only")
-    if image:
-        status, payload = graph_post(f"{page_id}/photos", {**fields, "published": "true"}, image)
-    else:
-        status, payload = graph_post(f"{page_id}/feed", fields)
+    status, payload, mode, notes = 0, {}, "text", []
 
-    if status == 200 and ("post_id" in payload or "id" in payload):
+    def done(st, pl):
+        return st == 200 and ("post_id" in pl or "id" in pl)
+
+    if post["image"]:
+        try:  # 1) download the image ourselves and upload the bytes
+            image = download_image(post["image"])
+            status, payload = graph_post(f"{page_id}/photos", {**fields, "published": "true"}, image)
+            mode = "photo-upload"
+            if not done(status, payload):
+                notes.append(f"upload HTTP {status}")
+        except Exception as e:
+            notes.append(f"download: {e}")
+        if not done(status, payload):  # 2) let Facebook fetch the image URL itself
+            status, payload = graph_post(f"{page_id}/photos",
+                                         {**fields, "url": post["image"], "published": "true"})
+            mode = "photo-url"
+            if not done(status, payload):
+                notes.append(f"url HTTP {status}")
+    if not done(status, payload):  # 3) text only
+        status, payload = graph_post(f"{page_id}/feed", fields)
+        mode = "text"
+    note = (" [" + "; ".join(notes) + "]") if notes else ""
+
+    if done(status, payload):
         pid = payload.get("post_id") or payload.get("id")
-        print(f"OK post_id={pid}")
-        log(f"{stamp} OK {post['kind']} {post['id']} post_id={pid} {'photo' if image else 'text'}")
+        print(f"OK post_id={pid} mode={mode}{note}")
+        log(f"{stamp} OK {post['kind']} {post['id']} post_id={pid} {mode}{note}"[:600])
         return 0
 
     err = json.dumps(payload.get("error", payload), ensure_ascii=False)[:300]
