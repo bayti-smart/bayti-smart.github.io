@@ -1,3 +1,4 @@
 2026-10-26 21:39 UTC DRY product tuya-zigbee-gateway-hub
 2026-10-26 21:42 UTC OK product tuya-zigbee-gateway-hub post_id=106960665121517_1140604561836984 text
 2026-10-26 21:43 UTC DRY product tuya-zigbee-gateway-hub image-FAIL image not usable (status=200, type=image/webp, bytes=25930)
+2026-10-26 21:44 UTC DRY product tuya-zigbee-gateway-hub image-ok image/jpeg 64855B
