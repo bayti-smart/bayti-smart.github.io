@@ -1,0 +1,61 @@
+name: نشر يومي على صفحة فيسبوك
+
+on:
+  schedule:
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "تجربة بدون نشر فعلي"
+        type: boolean
+        default: true
+      kind:
+        description: "نوع المنشور"
+        type: choice
+        options: [auto, product, guide]
+        default: auto
+
+permissions:
+  contents: write
+
+concurrency:
+  group: facebook-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: سحب الكود
+        uses: actions/checkout@v4
+
+      - name: تجهيز بايثون
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: النشر على الصفحة
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          KIND: ${{ inputs.kind || 'auto' }}
+        run: |
+          args=""
+          if [ "$DRY_RUN" = "true" ]; then args="--dry-run"; fi
+          python scripts/post_facebook.py --kind "$KIND" $args
+
+      - name: حفظ سجل النشر
+        if: always()
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/fb_post_log.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "سجل نشر فيسبوك [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              sleep 5
+            done
+          fi

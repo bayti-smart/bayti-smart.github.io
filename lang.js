@@ -7,6 +7,11 @@ const LANG_ORDER = ['ar', 'en', 'fr', 'es', 'de'];
 (function () {
   var LANG = 'ar';
   try { LANG = localStorage.getItem('site_lang') || 'ar'; } catch (e) {}
+  // رابط مثل guides.html?lang=en يفرض اللغة ويحفظها
+  try {
+    var q = new URLSearchParams(location.search).get('lang');
+    if (q && LANGS_META[q]) { LANG = q; localStorage.setItem('site_lang', q); }
+  } catch (e) {}
 
   // اللغة الفعلية لكل مجموعة عناصر: لغة المستخدم إن وُجد لها نص، وإلا العربية أو الإنجليزية
   function effLang(el) {

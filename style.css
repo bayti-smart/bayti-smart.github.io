@@ -216,3 +216,5 @@ html.eye-comfort .hero{background:#2B2318}
 
 .guide-link{display:block;text-align:center;margin-top:8px;font-size:0.85rem;color:var(--teal);text-decoration:none;border-bottom:1px dotted var(--teal);align-self:center}
 .guide-link:hover{border-bottom-style:solid}
+
+.card-highlight { outline: 3px solid #1d6d77; outline-offset: 3px; }

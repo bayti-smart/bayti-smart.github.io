@@ -97,6 +97,10 @@ let ALL_PRODUCTS = [];
 let ALL_CATEGORIES = [];
 let ACTIVE_CATEGORY = 'all';
 let LANG = localStorage.getItem('site_lang') || 'ar';
+try {
+  const q = new URLSearchParams(location.search).get('lang');
+  if (q && UI[q]) { LANG = q; localStorage.setItem('site_lang', q); }
+} catch (e) {}
 let LAST_UPDATED = null;
 
 function t(key) {
@@ -213,6 +217,16 @@ function updateShareLinks() {
 }
 
 /* ---------- المنتجات ---------- */
+// رابط مثل /?lang=en#p-<product-id> ينزل إلى بطاقة المنتج ويبرزها
+function jumpToProduct() {
+  const m = (location.hash || '').match(/^#p-(.+)$/);
+  if (!m) return;
+  let id = m[1];
+  try { id = decodeURIComponent(id); } catch (e) {}
+  const el = document.getElementById('p-' + id);
+  if (el) { el.scrollIntoView({ block: 'center' }); el.classList.add('card-highlight'); }
+}
+
 async function loadProducts() {
   try {
     const res = await fetch('products.json?_=' + Date.now());
@@ -222,6 +236,7 @@ async function loadProducts() {
     LAST_UPDATED = data.updated_at || null;
     renderCategoryButtons();
     applyLanguage();
+    jumpToProduct();
   } catch (err) {
     console.error('فشل تحميل المنتجات / Failed to load products:', err);
     document.getElementById('productGrid').innerHTML =
@@ -350,7 +365,7 @@ function renderCard(p) {
   const tags = (text.tags || []).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
   const stars = '★'.repeat(Math.round(p.rating || 0));
   return `
-    <article class="card">
+    <article class="card" id="p-${escapeHtml(p.id)}">
       <img class="card-img" src="${escapeHtml(p.image)}" alt="${escapeHtml(text.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="imgFallback(this)">
       <div class="card-body">
         <div class="card-tags">${tags}</div>
