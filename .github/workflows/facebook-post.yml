@@ -34,6 +34,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: تثبيت Pillow (لتحويل صور WebP إلى JPEG)
+        run: pip install pillow
+
       - name: النشر على الصفحة
         env:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}

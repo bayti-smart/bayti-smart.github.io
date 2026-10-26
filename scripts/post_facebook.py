@@ -140,8 +140,15 @@ def download_image(url):
         "Accept": "image/jpeg,image/png;q=0.9,*/*;q=0.1"})
     status, data, headers = http(req, 30)
     ctype = (headers.get("Content-Type") or "").split(";")[0].strip().lower()
-    if status != 200 or ctype not in ("image/jpeg", "image/png", "image/gif") or not (1000 < len(data) < 8_000_000):
+    if status != 200 or ctype not in ("image/jpeg", "image/png", "image/gif", "image/webp") \
+            or not (1000 < len(data) < 8_000_000):
         raise RuntimeError(f"image not usable (status={status}, type={ctype}, bytes={len(data)})")
+    if ctype == "image/webp":  # AliExpress serves WebP; Facebook needs JPEG/PNG
+        import io
+        from PIL import Image
+        out = io.BytesIO()
+        Image.open(io.BytesIO(data)).convert("RGB").save(out, "JPEG", quality=90)
+        data, ctype = out.getvalue(), "image/jpeg"
     return data, ctype
 
 
