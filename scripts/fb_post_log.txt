@@ -9,3 +9,6 @@
 2026-10-26 22:13 UTC CHECK post 106960665121517_567095989187847 created=2024-10-20T09:55:37+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/567095989187847 msg='🔴 #حقيبة_يد_نسائية 🔥📣 🔸المنتج : حقيبة يد نسائية 🔹 '
 2026-10-26 22:13 UTC CHECK post 106960665121517_521245147106265 created=2024-08-15T22:41:59+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/521245147106265 msg='🔴 #Mini_massager_body 📣📣🔥 🔸#مسدس تدليك صغير عالي ا'
 2026-10-26 22:13 UTC CHECK post 106960665121517_474903101740470 created=2024-05-30T21:15:25+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/videos/473106385282487 msg='🔴 #جهاز_تسخين_الشمع_لازالة_الشعر_بسهولة #جهاز_تسخي'
+2026-10-26 22:26 UTC CLEANUP found 62 old posts (before 2026-10-26T00:00:00+0000); will try 1
+2026-10-26 22:26 UTC CLEANUP deleted 106960665121517_725439510020160 (2025-05-31)
+2026-10-26 22:26 UTC CLEANUP summary deleted=1 failed=0 remaining_old=61
