@@ -13,6 +13,10 @@ on:
         description: "فحص آخر منشورات الصفحة فقط (بدون نشر)"
         type: boolean
         default: false
+      cleanup_limit:
+        description: "حذف منشورات قديمة (قبل 2026-10-26) - اترك 0 لعدم الحذف"
+        type: string
+        default: "0"
       kind:
         description: "نوع المنشور"
         type: choice
@@ -29,6 +33,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: سحب الكود
         uses: actions/checkout@v4
@@ -48,7 +53,9 @@ jobs:
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
           KIND: ${{ inputs.kind || 'auto' }}
           CHECK: ${{ github.event_name == 'workflow_dispatch' && inputs.check || 'false' }}
+          CLEANUP_LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.cleanup_limit || '0' }}
         run: |
+          if [ "$CLEANUP_LIMIT" != "0" ]; then python scripts/fb_cleanup.py --before 2026-10-26T00:00:00+0000 --limit "$CLEANUP_LIMIT"; exit 0; fi
           if [ "$CHECK" = "true" ]; then python scripts/fb_check.py; exit 0; fi
           args=""
           if [ "$DRY_RUN" = "true" ]; then args="--dry-run"; fi
