@@ -2,3 +2,10 @@
 2026-10-26 21:42 UTC OK product tuya-zigbee-gateway-hub post_id=106960665121517_1140604561836984 text
 2026-10-26 21:43 UTC DRY product tuya-zigbee-gateway-hub image-FAIL image not usable (status=200, type=image/webp, bytes=25930)
 2026-10-26 21:44 UTC DRY product tuya-zigbee-gateway-hub image-ok image/jpeg 64855B
+2026-10-26 22:13 UTC CHECK page HTTP 200 {"name": "Smart Casa", "link": "https://www.facebook.com/106960665121517", "is_published": true, "id": "106960665121517"}
+2026-10-26 22:13 UTC CHECK posts count=5
+2026-10-26 22:13 UTC CHECK post 106960665121517_1140604561836984 created=2026-10-26T21:42:03+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/1140604561836984 msg='🏠 Tuya Zigbee 3.0 Gateway Hub for the Smart Life A'
+2026-10-26 22:13 UTC CHECK post 106960665121517_725439510020160 created=2025-05-31T11:21:56+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/725439510020160 msg='🔸Karcher de Nettoyage 1600W ✅ غسالة ضغط عالية من م'
+2026-10-26 22:13 UTC CHECK post 106960665121517_567095989187847 created=2024-10-20T09:55:37+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/567095989187847 msg='🔴 #حقيبة_يد_نسائية 🔥📣 🔸المنتج : حقيبة يد نسائية 🔹 '
+2026-10-26 22:13 UTC CHECK post 106960665121517_521245147106265 created=2024-08-15T22:41:59+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/521245147106265 msg='🔴 #Mini_massager_body 📣📣🔥 🔸#مسدس تدليك صغير عالي ا'
+2026-10-26 22:13 UTC CHECK post 106960665121517_474903101740470 created=2024-05-30T21:15:25+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/videos/473106385282487 msg='🔴 #جهاز_تسخين_الشمع_لازالة_الشعر_بسهولة #جهاز_تسخي'
