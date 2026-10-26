@@ -9,6 +9,10 @@ on:
         description: "تجربة بدون نشر فعلي"
         type: boolean
         default: true
+      check:
+        description: "فحص آخر منشورات الصفحة فقط (بدون نشر)"
+        type: boolean
+        default: false
       kind:
         description: "نوع المنشور"
         type: choice
@@ -43,7 +47,9 @@ jobs:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
           KIND: ${{ inputs.kind || 'auto' }}
+          CHECK: ${{ github.event_name == 'workflow_dispatch' && inputs.check || 'false' }}
         run: |
+          if [ "$CHECK" = "true" ]; then python scripts/fb_check.py; exit 0; fi
           args=""
           if [ "$DRY_RUN" = "true" ]; then args="--dry-run"; fi
           python scripts/post_facebook.py --kind "$KIND" $args
