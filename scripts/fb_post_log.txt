@@ -104,3 +104,9 @@
 2026-10-27 10:41 UTC CLEANUP deleted 140125739090826 (2023-08-09)
 2026-10-27 10:41 UTC CLEANUP deleted 314844040989963 (2023-07-31)
 2026-10-27 10:41 UTC CLEANUP summary deleted=13 failed=0 remaining_old=0
+2026-10-27 10:43 UTC CLEANUP skip protected photo 311842361379879 album='profile pictures' (2023-08-15)
+2026-10-27 10:43 UTC CLEANUP skip protected photo 211928834704566 album='cover photos' (2023-01-28)
+2026-10-27 10:43 UTC CLEANUP skip protected photo 210079681556148 album='profile pictures' (2023-01-19)
+2026-10-27 10:43 UTC CLEANUP skip protected photo 189086083655508 album='cover photos' (2022-10-31)
+2026-10-27 10:43 UTC CLEANUP found 0 old photos (before 2026-10-26T00:00:00+0000), protected skipped=4; will try 0
+2026-10-27 10:43 UTC CLEANUP summary deleted=0 failed=0 remaining_old=0
