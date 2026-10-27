@@ -75,3 +75,8 @@
 2026-10-26 22:26 UTC CLEANUP deleted 106960665121517_210085051555611 (2023-01-19)
 2026-10-26 22:26 UTC CLEANUP FAIL 106960665121517_210079681556148 HTTP 403 {"message": "(#200) This post wasn't created by the application", "type": "OAuthException", "code": 200, "fbtrace_id": "AcmK06CHvl9dwpHGyL_CYsO"}
 2026-10-26 22:26 UTC CLEANUP summary deleted=59 failed=2 remaining_old=2
+2026-10-27 10:31 UTC CHECK page HTTP 200 {"name": "Smart Casa", "link": "https://www.facebook.com/106960665121517", "is_published": true, "id": "106960665121517"}
+2026-10-27 10:31 UTC CHECK posts count=3
+2026-10-27 10:31 UTC CHECK post 106960665121517_1140604561836984 created=2026-10-26T21:42:03+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/1140604561836984 msg='🏠 Tuya Zigbee 3.0 Gateway Hub for the Smart Life A'
+2026-10-27 10:31 UTC CHECK post 106960665121517_311842361379879 created=2023-08-15T17:51:24+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/311842361379879?substory_index=278036061610916 msg=''
+2026-10-27 10:31 UTC CHECK post 106960665121517_210079681556148 created=2023-01-19T15:02:29+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/210079681556148?substory_index=936993140804142 msg=''
