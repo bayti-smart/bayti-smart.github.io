@@ -17,6 +17,11 @@ on:
         description: "حذف منشورات قديمة (قبل 2026-10-26) - اترك 0 لعدم الحذف"
         type: string
         default: "0"
+      cleanup_what:
+        description: "ما الذي يُحذف: posts أو videos أو photos"
+        type: choice
+        options: [posts, videos, photos]
+        default: posts
       kind:
         description: "نوع المنشور"
         type: choice
@@ -54,8 +59,9 @@ jobs:
           KIND: ${{ inputs.kind || 'auto' }}
           CHECK: ${{ github.event_name == 'workflow_dispatch' && inputs.check || 'false' }}
           CLEANUP_LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.cleanup_limit || '0' }}
+          CLEANUP_WHAT: ${{ inputs.cleanup_what || 'posts' }}
         run: |
-          if [ "$CLEANUP_LIMIT" != "0" ]; then python scripts/fb_cleanup.py --before 2026-10-26T00:00:00+0000 --limit "$CLEANUP_LIMIT"; exit 0; fi
+          if [ "$CLEANUP_LIMIT" != "0" ]; then python scripts/fb_cleanup.py --what "$CLEANUP_WHAT" --before 2026-10-26T00:00:00+0000 --limit "$CLEANUP_LIMIT"; exit 0; fi
           if [ "$CHECK" = "true" ]; then python scripts/fb_check.py; exit 0; fi
           args=""
           if [ "$DRY_RUN" = "true" ]; then args="--dry-run"; fi

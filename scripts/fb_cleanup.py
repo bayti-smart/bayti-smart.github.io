@@ -37,19 +37,37 @@ def parse_time(s):
 ap = argparse.ArgumentParser()
 ap.add_argument("--before", required=True)
 ap.add_argument("--limit", type=int, default=1)
+ap.add_argument("--what", default="posts", choices=["posts", "videos", "photos"])
 args = ap.parse_args()
 cutoff = parse_time(args.before)
 
-old, url = [], f"{GRAPH}/{page_id}/posts?" + urllib.parse.urlencode(
-    {"fields": "id,created_time", "limit": 100, "access_token": token})
+# photos in these albums are the Page's profile/cover pictures: never touched
+PROTECTED_ALBUMS = {"profile pictures", "cover photos", "timeline photos"}
+LISTING = {
+    "posts": (f"{page_id}/posts", "id,created_time", {}),
+    "videos": (f"{page_id}/videos", "id,created_time", {}),
+    "photos": (f"{page_id}/photos", "id,created_time,album{name}", {"type": "uploaded"}),
+}
+path, fields, extra = LISTING[args.what]
+old, skipped, url = [], 0, f"{GRAPH}/{path}?" + urllib.parse.urlencode(
+    {"fields": fields, "limit": 100, "access_token": token, **extra})
 while url:
     st, d = call("GET", url)
     if st != 200:
-        log(f"{stamp} CLEANUP list HTTP {st} " + json.dumps(d.get("error", d), ensure_ascii=False)[:300])
+        log(f"{stamp} CLEANUP list {args.what} HTTP {st} " + json.dumps(d.get("error", d), ensure_ascii=False)[:300])
         sys.exit(0)
-    old += [p for p in d.get("data", []) if parse_time(p["created_time"]) < cutoff]
+    for p in d.get("data", []):
+        if parse_time(p["created_time"]) >= cutoff:
+            continue
+        album = ((p.get("album") or {}).get("name") or "").lower()
+        if args.what == "photos" and album in PROTECTED_ALBUMS:
+            skipped += 1
+            log(f"{stamp} CLEANUP skip protected photo {p['id']} album={album!r} ({p['created_time'][:10]})")
+            continue
+        old.append(p)
     url = d.get("paging", {}).get("next")
-log(f"{stamp} CLEANUP found {len(old)} old posts (before {args.before}); will try {min(args.limit, len(old))}")
+log(f"{stamp} CLEANUP found {len(old)} old {args.what} (before {args.before}), protected skipped={skipped}; "
+    f"will try {min(args.limit, len(old))}")
 
 ok = failed = 0
 for p in old[: args.limit]:
