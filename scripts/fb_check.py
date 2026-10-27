@@ -40,3 +40,23 @@ for p in rows:
     msg = " ".join((p.get("message") or "").split())[:50]
     log(f"{stamp} CHECK post {p.get('id')} created={p.get('created_time')} published={p.get('is_published')} "
         f"hidden={p.get('is_hidden')} url={p.get('permalink_url')} msg={msg!r}")
+
+
+# --- other content types that can outlive a deleted post ---
+for label, path, fields in [
+    ("photos", f"{page_id}/photos", "id,created_time"),
+    ("videos", f"{page_id}/videos", "id,created_time,description"),
+    ("reels", f"{page_id}/video_reels", "id,created_time,description"),
+    ("albums", f"{page_id}/albums", "id,name,count,created_time"),
+]:
+    extra = {"type": "uploaded"} if label == "photos" else {}
+    st, d = get(path, fields=fields, limit=100, **extra)
+    if st != 200:
+        log(f"{stamp} CHECK {label} HTTP {st} " + json.dumps(d.get("error", d), ensure_ascii=False)[:250])
+        continue
+    rows = d.get("data", [])
+    more = " (+more pages)" if d.get("paging", {}).get("next") else ""
+    dates = sorted((r.get("created_time") or "")[:10] for r in rows)
+    span = f" {dates[0]}..{dates[-1]}" if dates else ""
+    names = ", ".join(f"{r.get('name')}({r.get('count')})" for r in rows[:6]) if label == "albums" else ""
+    log(f"{stamp} CHECK {label} count={len(rows)}{more}{span} {names}")
