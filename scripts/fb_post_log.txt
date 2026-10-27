@@ -110,3 +110,10 @@
 2026-10-27 10:43 UTC CLEANUP skip protected photo 189086083655508 album='cover photos' (2022-10-31)
 2026-10-27 10:43 UTC CLEANUP found 0 old photos (before 2026-10-26T00:00:00+0000), protected skipped=4; will try 0
 2026-10-27 10:43 UTC CLEANUP summary deleted=0 failed=0 remaining_old=0
+2026-10-27 10:44 UTC CHECK page HTTP 200 {"name": "Smart Casa", "link": "https://www.facebook.com/106960665121517", "is_published": true, "id": "106960665121517"}
+2026-10-27 10:44 UTC CHECK posts count=1
+2026-10-27 10:44 UTC CHECK post 106960665121517_1140604561836984 created=2026-10-26T21:42:03+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/1140604561836984 msg='🏠 Tuya Zigbee 3.0 Gateway Hub for the Smart Life A'
+2026-10-27 10:44 UTC CHECK photos count=2 2022-10-31..2023-01-28 
+2026-10-27 10:44 UTC CHECK videos count=0 
+2026-10-27 10:44 UTC CHECK reels count=0 
+2026-10-27 10:44 UTC CHECK albums count=3 2022-09-08..2022-09-08 Mobile uploads(14), Profile pictures(0), Cover photos(2)
