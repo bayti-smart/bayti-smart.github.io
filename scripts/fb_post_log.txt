@@ -80,3 +80,12 @@
 2026-10-27 10:31 UTC CHECK post 106960665121517_1140604561836984 created=2026-10-26T21:42:03+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/1140604561836984 msg='🏠 Tuya Zigbee 3.0 Gateway Hub for the Smart Life A'
 2026-10-27 10:31 UTC CHECK post 106960665121517_311842361379879 created=2023-08-15T17:51:24+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/311842361379879?substory_index=278036061610916 msg=''
 2026-10-27 10:31 UTC CHECK post 106960665121517_210079681556148 created=2023-01-19T15:02:29+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/210079681556148?substory_index=936993140804142 msg=''
+2026-10-27 10:40 UTC CHECK page HTTP 200 {"name": "Smart Casa", "link": "https://www.facebook.com/106960665121517", "is_published": true, "id": "106960665121517"}
+2026-10-27 10:40 UTC CHECK posts count=3
+2026-10-27 10:40 UTC CHECK post 106960665121517_1140604561836984 created=2026-10-26T21:42:03+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/1140604561836984 msg='🏠 Tuya Zigbee 3.0 Gateway Hub for the Smart Life A'
+2026-10-27 10:40 UTC CHECK post 106960665121517_311842361379879 created=2023-08-15T17:51:24+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/311842361379879?substory_index=278036061610916 msg=''
+2026-10-27 10:40 UTC CHECK post 106960665121517_210079681556148 created=2023-01-19T15:02:29+0000 published=True hidden=False url=https://www.facebook.com/1140621665168607/posts/210079681556148?substory_index=936993140804142 msg=''
+2026-10-27 10:40 UTC CHECK photos count=4 2022-10-31..2023-08-15 
+2026-10-27 10:40 UTC CHECK videos count=15 2023-07-31..2024-05-30 
+2026-10-27 10:40 UTC CHECK reels count=15 2023-07-31..2024-05-30 
+2026-10-27 10:40 UTC CHECK albums count=3 2022-09-08..2022-09-08 Mobile uploads(18), Profile pictures(2), Cover photos(2)
