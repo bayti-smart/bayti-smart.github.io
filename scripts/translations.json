@@ -4758,6 +4758,1098 @@
           "Alarm"
         ]
       }
+    },
+    "zigbee-smoke-detector-fire-alarm": {
+      "ar": {
+        "title": "كاشف دخان Zigbee ذكي مع إنذار حريق",
+        "description": "كاشف دخان بتقنية Zigbee ينبّه بصوت إنذار ويرسل تنبيهًا عبر بوابة Zigbee إلى التطبيق عند اكتشاف دخان. يحتاج بوابة Zigbee تُشترى منفصلة. هو طبقة أمان إضافية وليس بديلًا عن جهاز إنذار حريق معتمد، فراجع في صفحة المنتج الشهادات ومصدر الطاقة.",
+        "tags": [
+          "Zigbee",
+          "كاشف دخان",
+          "إنذار حريق",
+          "أمان"
+        ]
+      },
+      "en": {
+        "title": "Zigbee Smart Smoke Detector with Fire Alarm",
+        "description": "Zigbee smoke detector that sounds an alarm and sends an alert to the app through your Zigbee gateway when it detects smoke. Needs a Zigbee gateway, sold separately. It is an extra layer of safety, not a replacement for a certified fire alarm, so check the product page for certifications and the power source.",
+        "tags": [
+          "Zigbee",
+          "Smoke detector",
+          "Fire alarm",
+          "Safety"
+        ]
+      },
+      "fr": {
+        "title": "Détecteur de fumée connecté Zigbee avec alarme incendie",
+        "description": "Détecteur de fumée Zigbee qui déclenche une alarme et envoie une alerte à l'application via votre passerelle Zigbee en cas de détection de fumée. Nécessite une passerelle Zigbee vendue séparément. C'est une protection supplémentaire, pas un remplaçant d'un détecteur certifié : consultez la page du produit pour les certifications et l'alimentation.",
+        "tags": [
+          "Zigbee",
+          "Détecteur de fumée",
+          "Alarme incendie",
+          "Sécurité"
+        ]
+      },
+      "es": {
+        "title": "Detector de humo inteligente Zigbee con alarma de incendio",
+        "description": "Detector de humo Zigbee que hace sonar una alarma y envía un aviso a la app a través de tu pasarela Zigbee cuando detecta humo. Necesita una pasarela Zigbee que se vende aparte. Es una capa extra de seguridad, no un sustituto de una alarma de incendios certificada: consulta en la página del producto las certificaciones y la alimentación.",
+        "tags": [
+          "Zigbee",
+          "Detector de humo",
+          "Alarma de incendio",
+          "Seguridad"
+        ]
+      },
+      "de": {
+        "title": "Zigbee-Rauchmelder mit Feueralarm",
+        "description": "Zigbee-Rauchmelder, der Alarm schlägt und bei Rauch über dein Zigbee-Gateway eine Meldung an die App sendet. Benötigt ein separat erhältliches Zigbee-Gateway. Er ist eine zusätzliche Sicherheitsebene und kein Ersatz für einen zertifizierten Brandmelder, prüfe auf der Produktseite Zertifizierungen und Stromversorgung.",
+        "tags": [
+          "Zigbee",
+          "Rauchmelder",
+          "Feueralarm",
+          "Sicherheit"
+        ]
+      }
+    },
+    "smart-fingerprint-cabinet-lock-no-drill": {
+      "ar": {
+        "title": "قفل بصمة ذكي للخزائن والأدراج بدون ثقب",
+        "description": "قفل بصمة ذكي لخزائن الملفات والأدراج والخزائن الشخصية وصناديق البريد، يُتحكَّم به عبر تطبيق ويُركَّب دون ثقب الباب. ليس قفل حماية عالية، فهو مناسب للأثاث والتخزين وليس لباب المنزل الرئيسي. راجع في صفحة المنتج مصدر طاقته وسماكة الخزانة التي يناسبها.",
+        "tags": [
+          "بصمة الإصبع",
+          "قفل خزانة",
+          "بدون ثقب",
+          "تطبيق"
+        ]
+      },
+      "en": {
+        "title": "Smart Fingerprint Cabinet and Drawer Lock, No Drilling",
+        "description": "Smart fingerprint cam lock for filing cabinets, drawers, lockers and mailboxes, controlled with an app and installed without drilling through the door. It is not a high-security lock: it suits furniture and storage, not a front door. Check on the product page how it is powered and which panel thickness it fits.",
+        "tags": [
+          "Fingerprint",
+          "Cabinet lock",
+          "No drilling",
+          "App"
+        ]
+      },
+      "fr": {
+        "title": "Serrure à empreinte digitale connectée pour meubles et tiroirs, sans perçage",
+        "description": "Serrure à came connectée à empreinte digitale pour classeurs, tiroirs, casiers et boîtes aux lettres, pilotée par application et posée sans percer la porte. Ce n'est pas une serrure haute sécurité : elle convient aux meubles et au rangement, pas à une porte d'entrée. Consultez la page du produit pour l'alimentation et l'épaisseur de panneau compatible.",
+        "tags": [
+          "Empreinte digitale",
+          "Serrure de meuble",
+          "Sans perçage",
+          "Application"
+        ]
+      },
+      "es": {
+        "title": "Cerradura inteligente de huella para armarios y cajones, sin taladrar",
+        "description": "Cerradura de leva inteligente con huella dactilar para archivadores, cajones, taquillas y buzones, controlada con una app y que se instala sin taladrar la puerta. No es una cerradura de alta seguridad: sirve para muebles y almacenaje, no para una puerta de entrada. Consulta en la página del producto cómo se alimenta y qué grosor de panel admite.",
+        "tags": [
+          "Huella dactilar",
+          "Cerradura de mueble",
+          "Sin taladrar",
+          "App"
+        ]
+      },
+      "de": {
+        "title": "Smartes Fingerabdruck-Schloss für Schränke und Schubladen, ohne Bohren",
+        "description": "Smartes Fingerabdruck-Zylinderschloss für Aktenschränke, Schubladen, Spinde und Briefkästen, per App steuerbar und ohne Durchbohren der Tür montierbar. Es ist kein Hochsicherheitsschloss: Es eignet sich für Möbel und Aufbewahrung, nicht für eine Haustür. Prüfe auf der Produktseite die Stromversorgung und die passende Materialstärke.",
+        "tags": [
+          "Fingerabdruck",
+          "Möbelschloss",
+          "Ohne Bohren",
+          "App"
+        ]
+      }
+    },
+    "tuya-zigbee-pir-motion-sensor-120deg": {
+      "ar": {
+        "title": "حساس حركة Tuya Zigbee 3.0 بمدى 5 أمتار وزاوية 120°",
+        "description": "حساس حركة بتقنية Zigbee 3.0 يكشف الأشخاص حتى 5 أمتار بزاوية 120° ويعمل مع تطبيق Tuya / Smart Life. مفيد لتشغيل الإضاءة أو إرسال تنبيهات. يحتاج بوابة Zigbee تُشترى منفصلة. راجع صفحة المنتج لمعرفة مصدر طاقته.",
+        "tags": [
+          "Zigbee 3.0",
+          "حساس حركة",
+          "PIR",
+          "120°"
+        ]
+      },
+      "en": {
+        "title": "Tuya Zigbee 3.0 PIR Motion Sensor, 5 m Range, 120° Angle",
+        "description": "Zigbee 3.0 motion sensor that detects people up to 5 m away over a 120° angle and works with the Tuya / Smart Life app. Useful to trigger lights or alerts. Requires a Zigbee gateway, sold separately. Check the product page for how it is powered.",
+        "tags": [
+          "Zigbee 3.0",
+          "Motion sensor",
+          "PIR",
+          "120°"
+        ]
+      },
+      "fr": {
+        "title": "Détecteur de mouvement PIR Tuya Zigbee 3.0, portée 5 m, angle 120°",
+        "description": "Détecteur de mouvement Zigbee 3.0 qui repère les personnes jusqu'à 5 m sur un angle de 120° et fonctionne avec l'application Tuya / Smart Life. Utile pour déclencher l'éclairage ou des alertes. Nécessite une passerelle Zigbee vendue séparément. Consultez la page du produit pour l'alimentation.",
+        "tags": [
+          "Zigbee 3.0",
+          "Détecteur de mouvement",
+          "PIR",
+          "120°"
+        ]
+      },
+      "es": {
+        "title": "Sensor de movimiento PIR Tuya Zigbee 3.0, alcance 5 m, ángulo 120°",
+        "description": "Sensor de movimiento Zigbee 3.0 que detecta personas hasta 5 m con un ángulo de 120° y funciona con la app Tuya / Smart Life. Útil para activar luces o avisos. Requiere una pasarela Zigbee que se vende aparte. Consulta la página del producto para saber cómo se alimenta.",
+        "tags": [
+          "Zigbee 3.0",
+          "Sensor de movimiento",
+          "PIR",
+          "120°"
+        ]
+      },
+      "de": {
+        "title": "Tuya Zigbee-3.0-PIR-Bewegungsmelder, 5 m Reichweite, 120° Winkel",
+        "description": "Zigbee-3.0-Bewegungsmelder, der Personen bis 5 m Entfernung in einem Winkel von 120° erkennt und mit der Tuya / Smart Life App arbeitet. Praktisch, um Licht oder Meldungen auszulösen. Erfordert ein separat erhältliches Zigbee-Gateway. Wie er mit Strom versorgt wird, steht auf der Produktseite.",
+        "tags": [
+          "Zigbee 3.0",
+          "Bewegungsmelder",
+          "PIR",
+          "120°"
+        ]
+      }
+    },
+    "zigbee-light-lux-sensor-z2m": {
+      "ar": {
+        "title": "حساس إضاءة Zigbee ذكي يقيس شدة الضوء (لوكس)",
+        "description": "حساس Zigbee يقيس سطوع الغرفة بوحدة اللوكس لحظيًا، فتستجيب الإضاءة أو الستائر لضوء النهار. يعمل مع Tuya / Smart Life وZigbee2MQTT بحسب وصف المنتج. يحتاج بوابة Zigbee تُشترى منفصلة.",
+        "tags": [
+          "Zigbee",
+          "حساس إضاءة",
+          "لوكس",
+          "Zigbee2MQTT"
+        ]
+      },
+      "en": {
+        "title": "Zigbee Smart Light Sensor, Real-Time Lux Brightness",
+        "description": "Zigbee light sensor that reports a room's brightness in lux in real time, so lights or blinds can react to daylight. Works with Tuya / Smart Life and Zigbee2MQTT according to the listing. Requires a Zigbee gateway, sold separately.",
+        "tags": [
+          "Zigbee",
+          "Light sensor",
+          "Lux",
+          "Zigbee2MQTT"
+        ]
+      },
+      "fr": {
+        "title": "Capteur de luminosité Zigbee connecté, mesure en lux en temps réel",
+        "description": "Capteur de lumière Zigbee qui indique en temps réel la luminosité d'une pièce en lux, pour que l'éclairage ou les stores réagissent à la lumière du jour. Fonctionne avec Tuya / Smart Life et Zigbee2MQTT selon l'annonce. Nécessite une passerelle Zigbee vendue séparément.",
+        "tags": [
+          "Zigbee",
+          "Capteur de lumière",
+          "Lux",
+          "Zigbee2MQTT"
+        ]
+      },
+      "es": {
+        "title": "Sensor de luz inteligente Zigbee, brillo en lux en tiempo real",
+        "description": "Sensor de luz Zigbee que indica en tiempo real el brillo de una habitación en lux, para que las luces o las persianas reaccionen a la luz del día. Funciona con Tuya / Smart Life y Zigbee2MQTT según el anuncio. Requiere una pasarela Zigbee que se vende aparte.",
+        "tags": [
+          "Zigbee",
+          "Sensor de luz",
+          "Lux",
+          "Zigbee2MQTT"
+        ]
+      },
+      "de": {
+        "title": "Zigbee-Lichtsensor mit Lux-Messung in Echtzeit",
+        "description": "Zigbee-Lichtsensor, der die Helligkeit eines Raums in Echtzeit in Lux meldet, damit Licht oder Jalousien auf das Tageslicht reagieren können. Laut Angebot kompatibel mit Tuya / Smart Life und Zigbee2MQTT. Erfordert ein separat erhältliches Zigbee-Gateway.",
+        "tags": [
+          "Zigbee",
+          "Lichtsensor",
+          "Lux",
+          "Zigbee2MQTT"
+        ]
+      }
+    },
+    "sonoff-snzb-04pr2-zigbee-door-window-sensor": {
+      "ar": {
+        "title": "حساس باب ونافذة SONOFF SNZB-04PR2 بتقنية Zigbee",
+        "description": "حساس باب ونافذة من SONOFF بتقنية Zigbee مع تنبيه عند العبث به، تتابعه في تطبيق eWeLink عبر جسر Zigbee مثل ZBBridge-P المذكور في الإعلان. مفيد لمعرفة فتح الأبواب والنوافذ. يحتاج بوابة Zigbee متوافقة تُشترى منفصلة، فراجع صفحة المنتج لمعرفة المدعوم.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "حساس باب ونافذة",
+          "تنبيه العبث"
+        ]
+      },
+      "en": {
+        "title": "SONOFF SNZB-04PR2 Zigbee Door and Window Sensor",
+        "description": "SONOFF Zigbee door and window sensor with tamper alerts, monitored in the eWeLink app through a Zigbee bridge such as the ZBBridge-P named in the listing. Good for knowing when a door or window opens. Needs a compatible Zigbee gateway, sold separately: check the product page for the supported ones.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "Door sensor",
+          "Tamper alert"
+        ]
+      },
+      "fr": {
+        "title": "Capteur d'ouverture porte/fenêtre Zigbee SONOFF SNZB-04PR2",
+        "description": "Capteur d'ouverture Zigbee SONOFF avec alerte anti-sabotage, suivi dans l'application eWeLink via un pont Zigbee comme le ZBBridge-P cité dans l'annonce. Pratique pour savoir quand une porte ou une fenêtre s'ouvre. Nécessite une passerelle Zigbee compatible vendue séparément : consultez la page du produit pour connaître les modèles pris en charge.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "Capteur d'ouverture",
+          "Alerte sabotage"
+        ]
+      },
+      "es": {
+        "title": "Sensor de puerta y ventana Zigbee SONOFF SNZB-04PR2",
+        "description": "Sensor de puerta y ventana Zigbee de SONOFF con aviso de manipulación, que se supervisa en la app eWeLink mediante un puente Zigbee como el ZBBridge-P citado en el anuncio. Útil para saber cuándo se abre una puerta o ventana. Necesita una pasarela Zigbee compatible que se vende aparte: consulta la página del producto para ver las admitidas.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "Sensor de puerta",
+          "Aviso de manipulación"
+        ]
+      },
+      "de": {
+        "title": "SONOFF SNZB-04PR2 Zigbee-Tür- und Fenstersensor",
+        "description": "SONOFF-Zigbee-Tür- und Fenstersensor mit Manipulationsalarm, der in der eWeLink-App über eine Zigbee-Bridge wie die im Angebot genannte ZBBridge-P überwacht wird. Gut, um zu wissen, wann eine Tür oder ein Fenster geöffnet wird. Benötigt ein separat erhältliches kompatibles Zigbee-Gateway, die unterstützten Modelle stehen auf der Produktseite.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "Türsensor",
+          "Manipulationsalarm"
+        ]
+      }
+    },
+    "sonoff-snzb-02b-zigbee-temp-humidity-sensor": {
+      "ar": {
+        "title": "حساس حرارة ورطوبة SONOFF SNZB-02B بتقنية Zigbee",
+        "description": "حساس SONOFF صغير بتقنية Zigbee يرسل درجة الحرارة والرطوبة إلى تطبيق eWeLink، ويدعم أليكسا وGoogle Home بحسب الإعلان. يحتاج بوابة Zigbee متوافقة تُشترى منفصلة. مناسب للغرف أو أماكن التخزين.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "حرارة ورطوبة",
+          "eWeLink"
+        ]
+      },
+      "en": {
+        "title": "SONOFF SNZB-02B Zigbee Temperature and Humidity Sensor",
+        "description": "Compact SONOFF Zigbee sensor that reports temperature and humidity to the eWeLink app, with Alexa and Google Home support according to the listing. Needs a compatible Zigbee gateway, sold separately. Handy for rooms or storage spaces.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "Temp & humidity",
+          "eWeLink"
+        ]
+      },
+      "fr": {
+        "title": "Capteur de température et d'humidité Zigbee SONOFF SNZB-02B",
+        "description": "Petit capteur Zigbee SONOFF qui envoie la température et l'humidité à l'application eWeLink, avec prise en charge d'Alexa et de Google Home selon l'annonce. Nécessite une passerelle Zigbee compatible vendue séparément. Pratique pour les pièces ou les espaces de stockage.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "Température et humidité",
+          "eWeLink"
+        ]
+      },
+      "es": {
+        "title": "Sensor de temperatura y humedad Zigbee SONOFF SNZB-02B",
+        "description": "Sensor Zigbee compacto de SONOFF que envía la temperatura y la humedad a la app eWeLink, con compatibilidad con Alexa y Google Home según el anuncio. Necesita una pasarela Zigbee compatible que se vende aparte. Práctico para habitaciones o espacios de almacenaje.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "Temperatura y humedad",
+          "eWeLink"
+        ]
+      },
+      "de": {
+        "title": "SONOFF SNZB-02B Zigbee-Temperatur- und Feuchtigkeitssensor",
+        "description": "Kompakter SONOFF-Zigbee-Sensor, der Temperatur und Luftfeuchtigkeit an die eWeLink-App meldet, laut Angebot mit Alexa- und Google-Home-Unterstützung. Benötigt ein separat erhältliches kompatibles Zigbee-Gateway. Praktisch für Räume oder Lagerbereiche.",
+        "tags": [
+          "Zigbee",
+          "SONOFF",
+          "Temp. & Feuchte",
+          "eWeLink"
+        ]
+      }
+    },
+    "tuya-wifi-temp-humidity-sensor-external-probe": {
+      "ar": {
+        "title": "حساس حرارة ورطوبة Tuya عبر Wi-Fi مع مسبار خارجي",
+        "description": "حساس Wi-Fi للحرارة والرطوبة بمسبار خارجي على سلك، يتيح مراقبة أماكن مثل الثلاجة أو القبو أو الدفيئة من التطبيق، ويعمل مع أليكسا وYandex بحسب الإعلان. راجع صفحة المنتج لمعرفة طول المسبار ومصدر الطاقة.",
+        "tags": [
+          "Wi-Fi",
+          "مسبار خارجي",
+          "حرارة ورطوبة",
+          "Tuya"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi Temperature and Humidity Sensor with External Probe",
+        "description": "Wi-Fi temperature and humidity sensor with an external probe on a cable, so you can monitor places such as a fridge, cellar or greenhouse from the app. Works with Alexa and Yandex according to the listing. Check the product page for the probe length and power source.",
+        "tags": [
+          "Wi-Fi",
+          "External probe",
+          "Temp & humidity",
+          "Tuya"
+        ]
+      },
+      "fr": {
+        "title": "Capteur de température et d'humidité Wi-Fi Tuya avec sonde externe",
+        "description": "Capteur Wi-Fi de température et d'humidité avec sonde externe sur câble, pour surveiller depuis l'application des endroits comme un réfrigérateur, une cave ou une serre. Fonctionne avec Alexa et Yandex selon l'annonce. Consultez la page du produit pour la longueur de la sonde et l'alimentation.",
+        "tags": [
+          "Wi-Fi",
+          "Sonde externe",
+          "Température et humidité",
+          "Tuya"
+        ]
+      },
+      "es": {
+        "title": "Sensor de temperatura y humedad Wi-Fi Tuya con sonda externa",
+        "description": "Sensor Wi-Fi de temperatura y humedad con sonda externa con cable, para vigilar desde la app lugares como un frigorífico, un sótano o un invernadero. Funciona con Alexa y Yandex según el anuncio. Consulta la página del producto para la longitud de la sonda y la alimentación.",
+        "tags": [
+          "Wi-Fi",
+          "Sonda externa",
+          "Temperatura y humedad",
+          "Tuya"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-Temperatur- und Feuchtigkeitssensor mit externem Fühler",
+        "description": "WLAN-Sensor für Temperatur und Luftfeuchtigkeit mit externem Fühler am Kabel, mit dem sich Orte wie Kühlschrank, Keller oder Gewächshaus per App überwachen lassen. Laut Angebot kompatibel mit Alexa und Yandex. Fühlerlänge und Stromversorgung stehen auf der Produktseite.",
+        "tags": [
+          "WLAN",
+          "Externer Fühler",
+          "Temp. & Feuchte",
+          "Tuya"
+        ]
+      }
+    },
+    "tuya-zigbee-water-leak-sensor-flood": {
+      "ar": {
+        "title": "حساس تسرّب مياه Tuya Zigbee يُنبّه عند الفيضان",
+        "description": "حساس Zigbee لتسرّب المياه ينبّهك في التطبيق عند اكتشاف تسرّب، ومفيد تحت المغسلة أو قرب الغسالة أو في الحمام. يحتاج بوابة Zigbee تُشترى منفصلة. راجع صفحة المنتج لمعرفة مصدر طاقته.",
+        "tags": [
+          "Zigbee",
+          "تسرّب مياه",
+          "فيضان",
+          "تنبيه"
+        ]
+      },
+      "en": {
+        "title": "Tuya Zigbee Water Leak Sensor with Flood Alerts",
+        "description": "Zigbee water leak sensor that alerts you in the app when it detects a leak, useful under a sink, near a washing machine or in a bathroom. Requires a Zigbee gateway, sold separately. Check the product page for how it is powered.",
+        "tags": [
+          "Zigbee",
+          "Water leak",
+          "Flood",
+          "Alert"
+        ]
+      },
+      "fr": {
+        "title": "Détecteur de fuite d'eau Zigbee Tuya avec alertes d'inondation",
+        "description": "Détecteur de fuite d'eau Zigbee qui vous alerte dans l'application en cas de fuite, utile sous un évier, près d'un lave-linge ou dans une salle de bains. Nécessite une passerelle Zigbee vendue séparément. Consultez la page du produit pour l'alimentation.",
+        "tags": [
+          "Zigbee",
+          "Fuite d'eau",
+          "Inondation",
+          "Alerte"
+        ]
+      },
+      "es": {
+        "title": "Sensor de fugas de agua Zigbee Tuya con avisos de inundación",
+        "description": "Sensor Zigbee de fugas de agua que te avisa en la app cuando detecta una fuga, útil bajo un fregadero, junto a la lavadora o en un baño. Requiere una pasarela Zigbee que se vende aparte. Consulta la página del producto para saber cómo se alimenta.",
+        "tags": [
+          "Zigbee",
+          "Fuga de agua",
+          "Inundación",
+          "Aviso"
+        ]
+      },
+      "de": {
+        "title": "Tuya Zigbee-Wassersensor mit Überschwemmungsalarm",
+        "description": "Zigbee-Wassersensor, der dich in der App warnt, wenn er ein Leck erkennt, praktisch unter einer Spüle, neben der Waschmaschine oder im Bad. Erfordert ein separat erhältliches Zigbee-Gateway. Wie er mit Strom versorgt wird, steht auf der Produktseite.",
+        "tags": [
+          "Zigbee",
+          "Wasserleck",
+          "Überschwemmung",
+          "Alarm"
+        ]
+      }
+    },
+    "tuya-wifi-co-detector-85db-lcd": {
+      "ar": {
+        "title": "كاشف أول أكسيد الكربون ذكي Tuya عبر Wi-Fi بإنذار 85 ديسيبل وشاشة LCD",
+        "description": "كاشف أول أكسيد الكربون عبر Wi-Fi بصفارة 85 ديسيبل وشاشة LCD، يرسل تنبيهات إلى تطبيق Tuya / Smart Life. مفيد في الغرف التي فيها أجهزة غاز أو مدافئ. هو طبقة أمان إضافية وليس بديلًا عن كاشف معتمد، فراجع في صفحة المنتج الشهادات ومصدر الطاقة.",
+        "tags": [
+          "Wi-Fi",
+          "أول أكسيد الكربون",
+          "إنذار 85dB",
+          "شاشة LCD"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi Smart Carbon Monoxide Detector, 85 dB Alarm and LCD",
+        "description": "Wi-Fi carbon monoxide detector with an 85 dB siren and an LCD display, sending alerts to the Tuya / Smart Life app. Useful in rooms with gas appliances or heaters. It is an extra layer of safety, not a replacement for a certified detector, so check the product page for certifications and the power source.",
+        "tags": [
+          "Wi-Fi",
+          "Carbon monoxide",
+          "85 dB alarm",
+          "LCD"
+        ]
+      },
+      "fr": {
+        "title": "Détecteur de monoxyde de carbone Wi-Fi Tuya, alarme 85 dB et écran LCD",
+        "description": "Détecteur de monoxyde de carbone Wi-Fi avec sirène de 85 dB et écran LCD, qui envoie des alertes à l'application Tuya / Smart Life. Utile dans les pièces avec des appareils à gaz ou des chauffages. C'est une protection supplémentaire, pas un remplaçant d'un détecteur certifié : consultez la page du produit pour les certifications et l'alimentation.",
+        "tags": [
+          "Wi-Fi",
+          "Monoxyde de carbone",
+          "Alarme 85 dB",
+          "Écran LCD"
+        ]
+      },
+      "es": {
+        "title": "Detector de monóxido de carbono Wi-Fi Tuya, alarma de 85 dB y pantalla LCD",
+        "description": "Detector de monóxido de carbono Wi-Fi con sirena de 85 dB y pantalla LCD, que envía avisos a la app Tuya / Smart Life. Útil en habitaciones con aparatos de gas o estufas. Es una capa extra de seguridad, no un sustituto de un detector certificado: consulta en la página del producto las certificaciones y la alimentación.",
+        "tags": [
+          "Wi-Fi",
+          "Monóxido de carbono",
+          "Alarma 85 dB",
+          "Pantalla LCD"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-Kohlenmonoxidmelder mit 85-dB-Alarm und LCD-Display",
+        "description": "WLAN-Kohlenmonoxidmelder mit 85-dB-Sirene und LCD-Anzeige, der Meldungen an die Tuya / Smart Life App sendet. Nützlich in Räumen mit Gasgeräten oder Heizungen. Er ist eine zusätzliche Sicherheitsebene und kein Ersatz für einen zertifizierten Melder, prüfe auf der Produktseite Zertifizierungen und Stromversorgung.",
+        "tags": [
+          "WLAN",
+          "Kohlenmonoxid",
+          "85-dB-Alarm",
+          "LCD"
+        ]
+      }
+    },
+    "moes-matter-wifi-gu10-smart-bulb-rgbcw": {
+      "ar": {
+        "title": "لمبة GU10 ذكية MOES بتقنية Matter عبر Wi-Fi بألوان RGB وأبيض دافئ وبارد",
+        "description": "لمبة سبوت بقاعدة GU10 تدعم Matter عبر Wi-Fi، قابلة للتعتيم بـ16 مليون لون مع أبيض دافئ وبارد، وتعمل بالأوامر الصوتية مع أليكسا وGoogle Home بحسب الإعلان. تحقق من جهد الكهرباء ومن أن تجهيزاتك بقاعدة GU10 كما في دليل المصابيح.",
+        "tags": [
+          "Matter",
+          "GU10",
+          "RGB+CCT",
+          "قابلة للتعتيم"
+        ]
+      },
+      "en": {
+        "title": "MOES Matter Wi-Fi GU10 Smart Bulb, RGB plus Warm/Cool White",
+        "description": "GU10 spotlight bulb with Matter over Wi-Fi, dimmable, with 16 million colours plus warm and cool white, and voice control with Alexa and Google Home according to the listing. Check your mains voltage and that your fixtures use the GU10 fitting before ordering, as explained in our bulbs guide.",
+        "tags": [
+          "Matter",
+          "GU10",
+          "RGB+CCT",
+          "Dimmable"
+        ]
+      },
+      "fr": {
+        "title": "Ampoule connectée MOES GU10 Matter Wi-Fi, RGB et blanc chaud/froid",
+        "description": "Ampoule spot à culot GU10 compatible Matter via Wi-Fi, variable, avec 16 millions de couleurs plus blanc chaud et froid, et commande vocale avec Alexa et Google Home selon l'annonce. Vérifiez la tension du secteur et que vos luminaires utilisent bien le culot GU10 avant de commander, comme expliqué dans notre guide des ampoules.",
+        "tags": [
+          "Matter",
+          "GU10",
+          "RGB+CCT",
+          "Variable"
+        ]
+      },
+      "es": {
+        "title": "Bombilla inteligente MOES GU10 Matter Wi-Fi, RGB y blanco cálido/frío",
+        "description": "Bombilla de foco con casquillo GU10 compatible con Matter por Wi-Fi, regulable, con 16 millones de colores más blanco cálido y frío, y control por voz con Alexa y Google Home según el anuncio. Comprueba la tensión de red y que tus luminarias usen casquillo GU10 antes de pedir, como explica nuestra guía de bombillas.",
+        "tags": [
+          "Matter",
+          "GU10",
+          "RGB+CCT",
+          "Regulable"
+        ]
+      },
+      "de": {
+        "title": "MOES Matter WLAN GU10 Smart-Lampe, RGB plus Warm-/Kaltweiß",
+        "description": "GU10-Spotlampe mit Matter über WLAN, dimmbar, mit 16 Millionen Farben plus Warm- und Kaltweiß und Sprachsteuerung mit Alexa und Google Home laut Angebot. Prüfe vor der Bestellung Netzspannung und ob deine Leuchten den GU10-Sockel nutzen, wie in unserem Lampen-Ratgeber erklärt.",
+        "tags": [
+          "Matter",
+          "GU10",
+          "RGB+CCT",
+          "Dimmbar"
+        ]
+      }
+    },
+    "htmck-mini-solar-fountain-pump-kit": {
+      "ar": {
+        "title": "مضخة نافورة شمسية صغيرة HTMCK بقدرة 1.5 واط مع لوح شمسي",
+        "description": "طقم مضخة نافورة شمسية صغيرة بقدرة 1.5 واط مع لوح شمسي خاص، لحوض الحديقة أو حوض الطيور أو بركة صغيرة. لا يحتاج أسلاكًا ولا مقبس كهرباء، لكنه يعمل بضوء الشمس فضع اللوح في مكان معرَّض لها. راجع صفحة المنتج لمعرفة عدد الفوهات وتدفق المضخة.",
+        "tags": [
+          "طاقة شمسية",
+          "نافورة",
+          "1.5W",
+          "حديقة"
+        ]
+      },
+      "en": {
+        "title": "HTMCK 1.5W Mini Solar Fountain Pump Kit with Solar Panel",
+        "description": "Mini 1.5 W solar fountain pump kit with its own solar panel, for a garden pool, bird bath or small pond. It needs no wiring or power socket, but it runs on sunlight, so place the panel where it gets direct sun. Check the product page for the number of nozzles and the pump's flow.",
+        "tags": [
+          "Solar",
+          "Fountain",
+          "1.5W",
+          "Garden"
+        ]
+      },
+      "fr": {
+        "title": "Kit mini pompe de fontaine solaire HTMCK 1,5 W avec panneau solaire",
+        "description": "Mini kit de pompe de fontaine solaire de 1,5 W avec son propre panneau solaire, pour un bassin de jardin, un bain d'oiseaux ou un petit étang. Sans câblage ni prise de courant, mais il fonctionne à la lumière du soleil : placez le panneau en plein soleil. Consultez la page du produit pour le nombre de buses et le débit de la pompe.",
+        "tags": [
+          "Solaire",
+          "Fontaine",
+          "1,5 W",
+          "Jardin"
+        ]
+      },
+      "es": {
+        "title": "Kit de mini bomba de fuente solar HTMCK de 1,5 W con panel solar",
+        "description": "Mini kit de bomba de fuente solar de 1,5 W con su propio panel solar, para un estanque de jardín, un bebedero de pájaros o una pequeña charca. No necesita cableado ni enchufe, pero funciona con la luz del sol, así que coloca el panel donde le dé el sol directo. Consulta la página del producto para ver el número de boquillas y el caudal de la bomba.",
+        "tags": [
+          "Solar",
+          "Fuente",
+          "1,5 W",
+          "Jardín"
+        ]
+      },
+      "de": {
+        "title": "HTMCK 1,5-W-Mini-Solar-Springbrunnenpumpe mit Solarpanel",
+        "description": "Mini-Solarbrunnenpumpe mit 1,5 W und eigenem Solarpanel für Gartenteich, Vogeltränke oder kleinen Teich. Sie braucht weder Verkabelung noch Steckdose, läuft aber mit Sonnenlicht, platziere das Panel also in der direkten Sonne. Düsenanzahl und Förderleistung der Pumpe stehen auf der Produktseite.",
+        "tags": [
+          "Solar",
+          "Springbrunnen",
+          "1,5 W",
+          "Garten"
+        ]
+      }
+    },
+    "moes-zigbee-4-gang-12-scene-switch": {
+      "ar": {
+        "title": "مفتاح مشاهد MOES لاسلكي Zigbee بأربعة أزرار و12 مشهدًا",
+        "description": "مفتاح مشاهد لاسلكي يعمل بالبطارية بتقنية Zigbee، بأربعة أزرار و12 وضع مشهد لتشغيل الإضاءة أو المشاهد أو أجهزة Tuya الأخرى. يمكن لصقه على الجدار أو استخدامه كجهاز تحكم. يحتاج بوابة Zigbee تُشترى منفصلة.",
+        "tags": [
+          "Zigbee",
+          "12 مشهدًا",
+          "4 أزرار",
+          "يعمل بالبطارية"
+        ]
+      },
+      "en": {
+        "title": "MOES 4-Gang Zigbee Wireless Scene Switch, 12 Scenes",
+        "description": "Battery-powered Zigbee wireless scene switch with four buttons and 12 scene modes to trigger lights, scenes or other Tuya devices. Stick it on a wall or use it as a remote. Requires a Zigbee gateway, sold separately.",
+        "tags": [
+          "Zigbee",
+          "12 scenes",
+          "4 buttons",
+          "Battery powered"
+        ]
+      },
+      "fr": {
+        "title": "Interrupteur de scènes sans fil MOES Zigbee 4 touches, 12 scènes",
+        "description": "Interrupteur de scènes sans fil Zigbee fonctionnant sur pile, avec quatre touches et 12 modes de scène pour déclencher l'éclairage, des scènes ou d'autres appareils Tuya. À coller au mur ou à utiliser comme télécommande. Nécessite une passerelle Zigbee vendue séparément.",
+        "tags": [
+          "Zigbee",
+          "12 scènes",
+          "4 touches",
+          "Sur pile"
+        ]
+      },
+      "es": {
+        "title": "Interruptor de escenas inalámbrico MOES Zigbee de 4 botones y 12 escenas",
+        "description": "Interruptor de escenas inalámbrico Zigbee a pilas, con cuatro botones y 12 modos de escena para activar luces, escenas u otros dispositivos Tuya. Se pega en la pared o se usa como mando. Requiere una pasarela Zigbee que se vende aparte.",
+        "tags": [
+          "Zigbee",
+          "12 escenas",
+          "4 botones",
+          "A pilas"
+        ]
+      },
+      "de": {
+        "title": "MOES Zigbee-Funk-Szenenschalter mit 4 Tasten und 12 Szenen",
+        "description": "Batteriebetriebener Zigbee-Funk-Szenenschalter mit vier Tasten und 12 Szenenmodi, um Licht, Szenen oder andere Tuya-Geräte auszulösen. An die Wand kleben oder als Fernbedienung nutzen. Erfordert ein separat erhältliches Zigbee-Gateway.",
+        "tags": [
+          "Zigbee",
+          "12 Szenen",
+          "4 Tasten",
+          "Batteriebetrieb"
+        ]
+      }
+    },
+    "tuya-wifi-cob-cct-led-strip-24v": {
+      "ar": {
+        "title": "شريط LED من نوع COB بإضاءة بيضاء قابلة للضبط عبر Wi-Fi بجهد 24 فولت (3 أو 5 أمتار)",
+        "description": "شريط LED من نوع COB بطول 3 أو 5 أمتار بإضاءة بيضاء قابلة للضبط من الدافئ إلى البارد، يُعتَّم من تطبيق Tuya / Smart Life، مع محوّل طاقة 24 فولت بقابس أوروبي أو أمريكي. إضاءة متصلة بلا نقاط ظاهرة للمطابخ والرفوف والديكور. اختر الطول ونوع القابس في صفحة المنتج.",
+        "tags": [
+          "Wi-Fi",
+          "COB",
+          "24V",
+          "أبيض قابل للضبط"
+        ]
+      },
+      "en": {
+        "title": "Tuya Wi-Fi COB LED Strip with Adjustable White, 24V (3 m or 5 m)",
+        "description": "COB LED strip in 3 m or 5 m with adjustable warm to cool white, dimmable from the Tuya / Smart Life app, with a 24 V power adapter in an EU or US plug. Continuous light without visible dots, good for kitchens, shelves and decor. Choose the length and plug type on the product page.",
+        "tags": [
+          "Wi-Fi",
+          "COB",
+          "24V",
+          "Adjustable white"
+        ]
+      },
+      "fr": {
+        "title": "Ruban LED COB Wi-Fi Tuya à blanc réglable, 24 V (3 m ou 5 m)",
+        "description": "Ruban LED COB de 3 m ou 5 m à blanc réglable du chaud au froid, variable depuis l'application Tuya / Smart Life, avec adaptateur secteur 24 V à prise EU ou US. Éclairage continu sans points visibles, idéal pour cuisines, étagères et décoration. Choisissez la longueur et le type de prise sur la page du produit.",
+        "tags": [
+          "Wi-Fi",
+          "COB",
+          "24 V",
+          "Blanc réglable"
+        ]
+      },
+      "es": {
+        "title": "Tira LED COB Wi-Fi Tuya con blanco ajustable, 24 V (3 m o 5 m)",
+        "description": "Tira LED COB de 3 m o 5 m con blanco ajustable de cálido a frío, regulable desde la app Tuya / Smart Life, con adaptador de corriente de 24 V con enchufe UE o EE. UU. Luz continua sin puntos visibles, ideal para cocinas, estantes y decoración. Elige la longitud y el tipo de enchufe en la página del producto.",
+        "tags": [
+          "Wi-Fi",
+          "COB",
+          "24 V",
+          "Blanco ajustable"
+        ]
+      },
+      "de": {
+        "title": "Tuya WLAN-COB-LED-Streifen mit einstellbarem Weiß, 24 V (3 m oder 5 m)",
+        "description": "COB-LED-Streifen mit 3 m oder 5 m und einstellbarem Weiß von warm bis kalt, per Tuya / Smart Life App dimmbar, mit 24-V-Netzteil mit EU- oder US-Stecker. Durchgehendes Licht ohne sichtbare Punkte, gut für Küchen, Regale und Dekoration. Länge und Steckertyp wählst du auf der Produktseite.",
+        "tags": [
+          "WLAN",
+          "COB",
+          "24 V",
+          "Einstellbares Weiß"
+        ]
+      }
+    },
+    "broadlink-rm4-pro-ir-rf-universal-remote": {
+      "ar": {
+        "title": "جهاز تحكم عام ذكي Broadlink RM4 Pro بالأشعة تحت الحمراء والراديو RF عبر Wi-Fi",
+        "description": "جهاز تحكم عام ذكي يتعلم أوامر الأشعة تحت الحمراء والترددات الراديوية (RF)، فتتحكم من هاتفك عبر Wi-Fi بالتلفزيون والمكيّف وكثير من أجهزة RF. يعمل مع أليكسا وGoogle Home بحسب الإعلان. اختر نسخة القابس المناسبة لبلدك (EU وAU وUK وUS) في صفحة المنتج.",
+        "tags": [
+          "Broadlink",
+          "IR + RF",
+          "Wi-Fi",
+          "تحكم عام"
+        ]
+      },
+      "en": {
+        "title": "Broadlink RM4 Pro Wi-Fi Universal Smart Remote, IR and RF",
+        "description": "Universal smart remote that learns infrared and radio-frequency (RF) commands, so you can control TVs, air conditioners and many RF devices from your phone over Wi-Fi. Works with Alexa and Google Home according to the listing. Pick the plug version for your country (EU, AU, UK or US) on the product page.",
+        "tags": [
+          "Broadlink",
+          "IR + RF",
+          "Wi-Fi",
+          "Universal remote"
+        ]
+      },
+      "fr": {
+        "title": "Télécommande universelle connectée Broadlink RM4 Pro Wi-Fi, IR et RF",
+        "description": "Télécommande universelle connectée qui apprend les commandes infrarouges et radiofréquences (RF), pour piloter depuis votre téléphone via le Wi-Fi téléviseurs, climatiseurs et de nombreux appareils RF. Fonctionne avec Alexa et Google Home selon l'annonce. Choisissez la version de prise adaptée à votre pays (EU, AU, UK ou US) sur la page du produit.",
+        "tags": [
+          "Broadlink",
+          "IR + RF",
+          "Wi-Fi",
+          "Télécommande universelle"
+        ]
+      },
+      "es": {
+        "title": "Mando universal inteligente Broadlink RM4 Pro Wi-Fi, IR y RF",
+        "description": "Mando universal inteligente que aprende órdenes de infrarrojos y radiofrecuencia (RF), para controlar desde el móvil por Wi-Fi televisores, aires acondicionados y muchos dispositivos RF. Funciona con Alexa y Google Home según el anuncio. Elige en la página del producto la versión de enchufe de tu país (UE, AU, UK o EE. UU.).",
+        "tags": [
+          "Broadlink",
+          "IR + RF",
+          "Wi-Fi",
+          "Mando universal"
+        ]
+      },
+      "de": {
+        "title": "Broadlink RM4 Pro WLAN-Universalfernbedienung, IR und RF",
+        "description": "Smarte Universalfernbedienung, die Infrarot- und Funkbefehle (RF) lernt, sodass du Fernseher, Klimaanlagen und viele RF-Geräte per WLAN vom Handy steuern kannst. Laut Angebot kompatibel mit Alexa und Google Home. Wähle auf der Produktseite die Steckerversion für dein Land (EU, AU, UK oder US).",
+        "tags": [
+          "Broadlink",
+          "IR + RF",
+          "WLAN",
+          "Universalfernbedienung"
+        ]
+      }
+    },
+    "bseed-zigbee-wall-socket-usb-c-power-monitor": {
+      "ar": {
+        "title": "وحدة مقبس جدار ذكي Zigbee من BSEED مع منفذ USB-C وقياس الطاقة",
+        "description": "وحدة مقبس جدار بتقنية Zigbee مع قياس استهلاك الطاقة ومنفذ USB Type-C مدمج بشحن سريع 20 واط، تُتحكَّم من Tuya / Smart Life. تُباع كقطعة للتركيب الذاتي، فراجع صفحة المنتج لمعرفة الإطار أو اللوحة اللازمة، ويُفضَّل أن يركّبها كهربائي داخل الجدار. تحتاج بوابة Zigbee.",
+        "tags": [
+          "Zigbee",
+          "USB-C 20W",
+          "قياس الطاقة",
+          "مقبس جدار"
+        ]
+      },
+      "en": {
+        "title": "BSEED Zigbee Smart Wall Socket Module with USB-C and Power Monitoring",
+        "description": "Zigbee wall socket module with power monitoring and a built-in USB Type-C port with 20 W fast charging, controlled from Tuya / Smart Life. It is sold as a DIY part, so check the product page for the frame or faceplate you need, and have an electrician install it in the wall. Requires a Zigbee gateway.",
+        "tags": [
+          "Zigbee",
+          "USB-C 20W",
+          "Power monitor",
+          "Wall socket"
+        ]
+      },
+      "fr": {
+        "title": "Module de prise murale connectée Zigbee BSEED avec USB-C et suivi de consommation",
+        "description": "Module de prise murale Zigbee avec suivi de la consommation et port USB Type-C intégré à charge rapide 20 W, piloté depuis Tuya / Smart Life. Vendu comme pièce à monter soi-même : consultez la page du produit pour le cadre ou la plaque nécessaire, et faites-le installer dans le mur par un électricien. Nécessite une passerelle Zigbee.",
+        "tags": [
+          "Zigbee",
+          "USB-C 20 W",
+          "Suivi conso",
+          "Prise murale"
+        ]
+      },
+      "es": {
+        "title": "Módulo de enchufe de pared inteligente Zigbee BSEED con USB-C y medición de energía",
+        "description": "Módulo de enchufe de pared Zigbee con medición de consumo y puerto USB Type-C integrado con carga rápida de 20 W, controlado desde Tuya / Smart Life. Se vende como pieza para montar, así que consulta en la página del producto el marco o la placa que necesitas, y que lo instale un electricista en la pared. Requiere una pasarela Zigbee.",
+        "tags": [
+          "Zigbee",
+          "USB-C 20 W",
+          "Medición de energía",
+          "Enchufe de pared"
+        ]
+      },
+      "de": {
+        "title": "BSEED Zigbee-Smart-Wandsteckdosenmodul mit USB-C und Energiemessung",
+        "description": "Zigbee-Wandsteckdosenmodul mit Verbrauchsmessung und integriertem USB-Type-C-Anschluss mit 20 W Schnellladung, gesteuert über Tuya / Smart Life. Es wird als Einbauteil verkauft, prüfe auf der Produktseite, welchen Rahmen oder welche Blende du brauchst, und lass es von einem Elektriker in der Wand installieren. Benötigt ein Zigbee-Gateway.",
+        "tags": [
+          "Zigbee",
+          "USB-C 20 W",
+          "Energiemessung",
+          "Wandsteckdose"
+        ]
+      }
+    },
+    "solar-motion-floodlight-2000lm-77led": {
+      "ar": {
+        "title": "كشاف شمسي خارجي بحساس حركة و77 ثنائيًا ضوئيًا وإضاءة معلنة 2000 لومن",
+        "description": "كشاف خارجي يعمل بالطاقة الشمسية مع حساس حركة و77 ثنائيًا ضوئيًا وإضاءة معلنة 2000 لومن، للحديقة أو باب المرآب أو الممر دون أسلاك. رقم السطوع من ادعاء البائع، ويحتاج مكانًا تصله فيه الشمس ليشحن لوحه المدمج. راجع صفحة المنتج لمعرفة سعة البطارية وطريقة التركيب.",
+        "tags": [
+          "طاقة شمسية",
+          "حساس حركة",
+          "77 LED",
+          "خارجي"
+        ]
+      },
+      "en": {
+        "title": "Outdoor Solar Motion Floodlight, 77 LEDs, Claimed 2000 Lumens",
+        "description": "Solar-powered outdoor floodlight with a motion sensor, 77 LEDs and a claimed 2000 lumens, for a garden, garage door or path with no wiring. The brightness figure is the seller's claim, and it needs a spot that gets sun to charge its built-in panel. Check the product page for the battery capacity and mounting.",
+        "tags": [
+          "Solar",
+          "Motion sensor",
+          "77 LED",
+          "Outdoor"
+        ]
+      },
+      "fr": {
+        "title": "Projecteur solaire extérieur à détecteur de mouvement, 77 LED, 2000 lumens annoncés",
+        "description": "Projecteur extérieur solaire avec détecteur de mouvement, 77 LED et 2000 lumens annoncés, pour un jardin, une porte de garage ou une allée sans câblage. La valeur de luminosité est celle du vendeur, et il faut un endroit ensoleillé pour charger son panneau intégré. Consultez la page du produit pour la capacité de la batterie et la fixation.",
+        "tags": [
+          "Solaire",
+          "Détecteur de mouvement",
+          "77 LED",
+          "Extérieur"
+        ]
+      },
+      "es": {
+        "title": "Foco solar exterior con sensor de movimiento, 77 LED, 2000 lúmenes anunciados",
+        "description": "Foco exterior solar con sensor de movimiento, 77 LED y 2000 lúmenes anunciados, para un jardín, una puerta de garaje o un camino sin cableado. La cifra de brillo es la que declara el vendedor, y necesita un lugar con sol para cargar su panel integrado. Consulta la página del producto para ver la capacidad de la batería y el montaje.",
+        "tags": [
+          "Solar",
+          "Sensor de movimiento",
+          "77 LED",
+          "Exterior"
+        ]
+      },
+      "de": {
+        "title": "Solar-Außenstrahler mit Bewegungsmelder, 77 LEDs, angegebene 2000 Lumen",
+        "description": "Solarbetriebener Außenstrahler mit Bewegungsmelder, 77 LEDs und angegebenen 2000 Lumen, für Garten, Garagentor oder Weg ohne Verkabelung. Die Helligkeitsangabe stammt vom Verkäufer, und er braucht einen sonnigen Platz, damit sein integriertes Panel lädt. Akkukapazität und Montage stehen auf der Produktseite.",
+        "tags": [
+          "Solar",
+          "Bewegungsmelder",
+          "77 LED",
+          "Außen"
+        ]
+      }
+    },
+    "solar-fairy-string-lights-outdoor": {
+      "ar": {
+        "title": "سلسلة إضاءة LED شمسية خارجية مقاومة للماء للحدائق والمناسبات",
+        "description": "سلسلة إضاءة LED شمسية لطيفة للشرفات والأشجار والحفلات والتخييم، مقاومة للماء بحسب الإعلان. تشحن نهارًا وتضيء ليلًا دون أسلاك. اختر الطول واللون في صفحة المنتج، وضع اللوح الصغير في مكان تصله فيه الشمس مباشرة.",
+        "tags": [
+          "طاقة شمسية",
+          "إضاءة زينة",
+          "مقاومة للماء",
+          "حديقة"
+        ]
+      },
+      "en": {
+        "title": "Outdoor Waterproof Solar LED Fairy String Lights",
+        "description": "Solar-powered LED fairy string lights for patios, trees, parties or camping, waterproof according to the listing. They charge by day and light up at night with no wiring. Choose the length and colour on the product page, and place the small panel in direct sun.",
+        "tags": [
+          "Solar",
+          "Fairy lights",
+          "Waterproof",
+          "Garden"
+        ]
+      },
+      "fr": {
+        "title": "Guirlande lumineuse LED solaire d'extérieur étanche",
+        "description": "Guirlande LED solaire pour terrasses, arbres, fêtes ou camping, étanche selon l'annonce. Elle se recharge le jour et s'allume la nuit sans câblage. Choisissez la longueur et la couleur sur la page du produit, et placez le petit panneau en plein soleil.",
+        "tags": [
+          "Solaire",
+          "Guirlande",
+          "Étanche",
+          "Jardin"
+        ]
+      },
+      "es": {
+        "title": "Guirnalda de luces LED solar para exterior, resistente al agua",
+        "description": "Guirnalda de luces LED solar para patios, árboles, fiestas o camping, resistente al agua según el anuncio. Se carga de día y se enciende de noche sin cableado. Elige la longitud y el color en la página del producto, y coloca el pequeño panel a pleno sol.",
+        "tags": [
+          "Solar",
+          "Guirnalda",
+          "Resistente al agua",
+          "Jardín"
+        ]
+      },
+      "de": {
+        "title": "Wasserdichte Solar-LED-Lichterkette für den Außenbereich",
+        "description": "Solarbetriebene LED-Lichterkette für Terrassen, Bäume, Feiern oder Camping, laut Angebot wasserdicht. Sie lädt tagsüber und leuchtet nachts ohne Verkabelung. Länge und Farbe wählst du auf der Produktseite, das kleine Panel gehört in die direkte Sonne.",
+        "tags": [
+          "Solar",
+          "Lichterkette",
+          "Wasserdicht",
+          "Garten"
+        ]
+      }
+    },
+    "tuya-dry-contact-smart-relay-module-12-24v": {
+      "ar": {
+        "title": "وحدة ريليه ذكية Tuya بتلامس جاف 12/24 فولت DC و100–240 فولت AC (Zigbee أو Wi-Fi)",
+        "description": "وحدة ريليه ذكية بتلامس جاف تعمل بجهد 12/24 فولت DC أو 100–240 فولت AC، تفتح الدارة وتغلقها لبوابة أو باب مرآب أو صمام أو جهاز منخفض الجهد من Tuya / Smart Life. اختر نسخة Zigbee أو Wi-Fi في صفحة المنتج. التلامس الجاف لا يقطع كهرباء الشبكة بنفسه، والتركيب يتضمن توصيل أسلاك، فاستعن بكهربائي إن لم تكن متأكدًا.",
+        "tags": [
+          "Zigbee / Wi-Fi",
+          "تلامس جاف",
+          "12/24V",
+          "ريليه"
+        ]
+      },
+      "en": {
+        "title": "Tuya Dry-Contact Smart Relay Module, 12/24V DC or 100-240V AC (Zigbee or Wi-Fi)",
+        "description": "Smart relay module with a dry contact, powered by 12/24 V DC or 100–240 V AC, that opens and closes a circuit such as a gate, garage door, valve or low-voltage device from Tuya / Smart Life. Choose the Zigbee or Wi-Fi version on the product page. A dry contact does not switch mains power by itself, and installation involves wiring, so use an electrician if you are unsure.",
+        "tags": [
+          "Zigbee / Wi-Fi",
+          "Dry contact",
+          "12/24V",
+          "Relay"
+        ]
+      },
+      "fr": {
+        "title": "Module relais connecté Tuya à contact sec, 12/24 V DC ou 100-240 V AC (Zigbee ou Wi-Fi)",
+        "description": "Module relais connecté à contact sec, alimenté en 12/24 V DC ou 100–240 V AC, qui ouvre et ferme un circuit comme un portail, une porte de garage, une vanne ou un appareil basse tension depuis Tuya / Smart Life. Choisissez la version Zigbee ou Wi-Fi sur la page du produit. Un contact sec ne commute pas le courant du secteur à lui seul, et l'installation implique du câblage : faites appel à un électricien en cas de doute.",
+        "tags": [
+          "Zigbee / Wi-Fi",
+          "Contact sec",
+          "12/24 V",
+          "Relais"
+        ]
+      },
+      "es": {
+        "title": "Módulo de relé inteligente Tuya de contacto seco, 12/24 V CC o 100-240 V CA (Zigbee o Wi-Fi)",
+        "description": "Módulo de relé inteligente de contacto seco, alimentado con 12/24 V CC o 100–240 V CA, que abre y cierra un circuito como el de una cancela, una puerta de garaje, una válvula o un dispositivo de baja tensión desde Tuya / Smart Life. Elige la versión Zigbee o Wi-Fi en la página del producto. Un contacto seco no conmuta por sí solo la corriente de red, y la instalación implica cableado, así que recurre a un electricista si no estás seguro.",
+        "tags": [
+          "Zigbee / Wi-Fi",
+          "Contacto seco",
+          "12/24 V",
+          "Relé"
+        ]
+      },
+      "de": {
+        "title": "Tuya Smart-Relaismodul mit potenzialfreiem Kontakt, 12/24 V DC oder 100–240 V AC (Zigbee oder WLAN)",
+        "description": "Smartes Relaismodul mit potenzialfreiem Kontakt, betrieben mit 12/24 V DC oder 100–240 V AC, das einen Stromkreis wie bei einem Tor, Garagentor, Ventil oder Niederspannungsgerät über Tuya / Smart Life öffnet und schließt. Wähle auf der Produktseite die Zigbee- oder WLAN-Version. Ein potenzialfreier Kontakt schaltet die Netzspannung nicht selbst, und die Installation erfordert Verdrahtung, ziehe im Zweifel einen Elektriker hinzu.",
+        "tags": [
+          "Zigbee / WLAN",
+          "Potenzialfrei",
+          "12/24 V",
+          "Relais"
+        ]
+      }
+    },
+    "pir-motion-sensor-light-switch-110-220v": {
+      "ar": {
+        "title": "مفتاح إضاءة بحساس حركة PIR بجهد 110–220 فولت",
+        "description": "مفتاح بحساس حركة بالأشعة تحت الحمراء بجهد 110–220 فولت يشغّل الإضاءة الموصولة به عند اكتشاف شخص ويطفئها تلقائيًا، لمصابيح LED وإضاءة السقف والألواح الضوئية. يُوصَّل بدارة الإضاءة فيُفضَّل أن يركّبه كهربائي، وراجع الحمل الأقصى في صفحة المنتج.",
+        "tags": [
+          "PIR",
+          "حساس حركة",
+          "110–220V",
+          "إضاءة تلقائية"
+        ]
+      },
+      "en": {
+        "title": "PIR Motion Sensor Light Switch, 110-220V",
+        "description": "Wired infrared motion sensor switch for 110–220 V that turns a connected light on when it detects a person and switches it off automatically, for LED lamps, ceiling lights and panel lights. It is wired into the lighting circuit, so have an electrician install it and check the maximum load on the product page.",
+        "tags": [
+          "PIR",
+          "Motion sensor",
+          "110–220V",
+          "Auto light"
+        ]
+      },
+      "fr": {
+        "title": "Interrupteur d'éclairage à détecteur de mouvement PIR, 110-220 V",
+        "description": "Interrupteur filaire à détecteur de mouvement infrarouge pour 110–220 V qui allume l'éclairage raccordé quand il détecte une personne et l'éteint automatiquement, pour lampes LED, plafonniers et dalles lumineuses. Il se raccorde au circuit d'éclairage : confiez l'installation à un électricien et vérifiez la charge maximale sur la page du produit.",
+        "tags": [
+          "PIR",
+          "Détecteur de mouvement",
+          "110–220 V",
+          "Éclairage auto"
+        ]
+      },
+      "es": {
+        "title": "Interruptor de luz con sensor de movimiento PIR, 110-220 V",
+        "description": "Interruptor cableado con sensor de movimiento por infrarrojos para 110–220 V que enciende la luz conectada cuando detecta a una persona y la apaga automáticamente, para lámparas LED, luces de techo y paneles de luz. Se conecta al circuito de iluminación, así que conviene que lo instale un electricista y revisa la carga máxima en la página del producto.",
+        "tags": [
+          "PIR",
+          "Sensor de movimiento",
+          "110–220 V",
+          "Luz automática"
+        ]
+      },
+      "de": {
+        "title": "PIR-Bewegungsmelder-Lichtschalter, 110–220 V",
+        "description": "Fest verdrahteter Infrarot-Bewegungsmelderschalter für 110–220 V, der das angeschlossene Licht einschaltet, wenn er eine Person erkennt, und automatisch wieder ausschaltet, für LED-Lampen, Deckenleuchten und Panel-Leuchten. Er wird in den Lichtstromkreis eingebunden, daher sollte ein Elektriker ihn installieren, und die maximale Last steht auf der Produktseite.",
+        "tags": [
+          "PIR",
+          "Bewegungsmelder",
+          "110–220 V",
+          "Automatisches Licht"
+        ]
+      }
+    },
+    "automatic-plant-watering-pump-drip-kit": {
+      "ar": {
+        "title": "طقم ري بالتنقيط تلقائي بمضخة ومؤقت للنباتات (2/4/8/16 رأسًا)",
+        "description": "طقم ري بالتنقيط تلقائي بمضخة ومؤقت يسقي النباتات والزهور في الأصص عبر 2 أو 4 أو 8 أو 16 رأس تنقيط بحسب النسخة التي تختارها. مفيد في الإجازات أو للشرفات. اختر عدد الرؤوس في صفحة المنتج، وراجع مصدر طاقة المضخة وكمية الماء المطلوبة.",
+        "tags": [
+          "ري تلقائي",
+          "مضخة",
+          "مؤقت",
+          "نباتات"
+        ]
+      },
+      "en": {
+        "title": "Automatic Plant Watering Pump and Timer Drip Kit (2/4/8/16 Heads)",
+        "description": "Automatic drip-irrigation kit with a timer pump that waters potted plants and flowers through 2, 4, 8 or 16 drip heads, depending on the version you choose. Useful during holidays or for balconies. Choose the number of heads on the product page, and check how the pump is powered and how much water it needs.",
+        "tags": [
+          "Auto watering",
+          "Pump",
+          "Timer",
+          "Plants"
+        ]
+      },
+      "fr": {
+        "title": "Kit d'arrosage goutte à goutte automatique avec pompe et minuterie (2/4/8/16 têtes)",
+        "description": "Kit d'irrigation goutte à goutte automatique avec pompe à minuterie qui arrose plantes en pot et fleurs via 2, 4, 8 ou 16 têtes selon la version choisie. Utile pendant les vacances ou pour un balcon. Choisissez le nombre de têtes sur la page du produit, et vérifiez l'alimentation de la pompe et la quantité d'eau nécessaire.",
+        "tags": [
+          "Arrosage auto",
+          "Pompe",
+          "Minuterie",
+          "Plantes"
+        ]
+      },
+      "es": {
+        "title": "Kit de riego por goteo automático con bomba y temporizador (2/4/8/16 cabezales)",
+        "description": "Kit de riego por goteo automático con bomba y temporizador que riega plantas y flores en maceta mediante 2, 4, 8 o 16 cabezales según la versión que elijas. Útil en vacaciones o para balcones. Elige el número de cabezales en la página del producto, y comprueba cómo se alimenta la bomba y cuánta agua necesita.",
+        "tags": [
+          "Riego automático",
+          "Bomba",
+          "Temporizador",
+          "Plantas"
+        ]
+      },
+      "de": {
+        "title": "Automatisches Tropfbewässerungs-Set mit Pumpe und Timer (2/4/8/16 Köpfe)",
+        "description": "Automatisches Tropfbewässerungs-Set mit Zeitschaltpumpe, das Topfpflanzen und Blumen über 2, 4, 8 oder 16 Tropfköpfe gießt, je nach gewählter Version. Praktisch im Urlaub oder für Balkone. Die Anzahl der Köpfe wählst du auf der Produktseite, und prüfe, wie die Pumpe mit Strom versorgt wird und wie viel Wasser sie braucht.",
+        "tags": [
+          "Automatisch gießen",
+          "Pumpe",
+          "Timer",
+          "Pflanzen"
+        ]
+      }
+    },
+    "bluetooth-6-aux-audio-transmitter-receiver": {
+      "ar": {
+        "title": "محوّل صوت Bluetooth 6.0 مرسل ومستقبل 2 في 1 بمنفذ AUX 3.5 ملم",
+        "description": "محوّل Bluetooth 6.0 بمنفذ 3.5 ملم يعمل 2 في 1: مستقبلًا لإضافة Bluetooth إلى سماعة أو مسجل سيارة، أو مرسلًا لبث صوت التلفزيون أو الحاسوب إلى سماعات لاسلكية، مع ميكروفون مدمج. راجع صفحة المنتج لمعرفة عمر البطارية وطريقة تبديل الوضع.",
+        "tags": [
+          "Bluetooth 6.0",
+          "AUX 3.5mm",
+          "مرسل ومستقبل",
+          "ميكروفون"
+        ]
+      },
+      "en": {
+        "title": "Bluetooth 6.0 AUX Audio Transmitter and Receiver, 2-in-1 with 3.5 mm Jack",
+        "description": "2-in-1 Bluetooth 6.0 adapter with a 3.5 mm jack that works as a receiver (to add Bluetooth to a speaker or car stereo) or as a transmitter (to send TV or PC audio to wireless headphones or speakers), with a built-in microphone. Check the product page for battery life and how to switch modes.",
+        "tags": [
+          "Bluetooth 6.0",
+          "AUX 3.5mm",
+          "Transmitter & receiver",
+          "Microphone"
+        ]
+      },
+      "fr": {
+        "title": "Adaptateur audio Bluetooth 6.0 émetteur et récepteur 2 en 1, prise jack 3,5 mm",
+        "description": "Adaptateur Bluetooth 6.0 2 en 1 avec prise jack 3,5 mm qui fonctionne comme récepteur (pour ajouter le Bluetooth à une enceinte ou à un autoradio) ou comme émetteur (pour envoyer le son de la télévision ou du PC vers un casque ou des enceintes sans fil), avec microphone intégré. Consultez la page du produit pour l'autonomie et le changement de mode.",
+        "tags": [
+          "Bluetooth 6.0",
+          "AUX 3,5 mm",
+          "Émetteur et récepteur",
+          "Microphone"
+        ]
+      },
+      "es": {
+        "title": "Adaptador de audio Bluetooth 6.0 transmisor y receptor 2 en 1 con jack de 3,5 mm",
+        "description": "Adaptador Bluetooth 6.0 2 en 1 con jack de 3,5 mm que funciona como receptor (para añadir Bluetooth a un altavoz o a un autorradio) o como transmisor (para enviar el sonido de la tele o del PC a auriculares o altavoces inalámbricos), con micrófono integrado. Consulta la página del producto para la duración de la batería y el cambio de modo.",
+        "tags": [
+          "Bluetooth 6.0",
+          "AUX 3,5 mm",
+          "Transmisor y receptor",
+          "Micrófono"
+        ]
+      },
+      "de": {
+        "title": "Bluetooth-6.0-AUX-Audio-Sender und -Empfänger 2-in-1 mit 3,5-mm-Klinke",
+        "description": "2-in-1-Bluetooth-6.0-Adapter mit 3,5-mm-Klinke, der als Empfänger (um Lautsprecher oder Autoradio Bluetooth zu verleihen) oder als Sender (um TV- oder PC-Ton an kabellose Kopfhörer oder Lautsprecher zu senden) arbeitet, mit eingebautem Mikrofon. Akkulaufzeit und Moduswechsel stehen auf der Produktseite.",
+        "tags": [
+          "Bluetooth 6.0",
+          "AUX 3,5 mm",
+          "Sender & Empfänger",
+          "Mikrofon"
+        ]
+      }
     }
   }
 }
