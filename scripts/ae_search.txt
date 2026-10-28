@@ -1,10 +1,8 @@
-tuya wifi air quality detector formaldehyde
-CO2 detector monitor
-outdoor wifi socket IP44
-smart essential oil diffuser
-tuya wifi thermostat relay controller
-zigbee touch wall switch
-zigbee signal repeater
-solar floodlight motion sensor
-wifi smart wall socket
-smart door lock keypad tuya
+light bulb camera wifi E27
+glass break sensor tuya
+water level controller pump wifi
+curtain robot rechargeable
+digital temperature controller wifi
+garden timer socket outdoor
+wake up light sunrise alarm
+tuya wifi smart dimmer switch EU
