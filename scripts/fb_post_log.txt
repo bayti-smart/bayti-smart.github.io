@@ -118,3 +118,4 @@
 2026-10-27 10:44 UTC CHECK reels count=0 
 2026-10-27 10:44 UTC CHECK albums count=3 2022-09-08..2022-09-08 Mobile uploads(14), Profile pictures(0), Cover photos(2)
 2026-10-27 15:43 UTC OK guide bulbs post_id=106960665121517_1141314988432608 photo-upload
+2026-10-28 00:31 UTC DRY product ampcom-gigabit-switch-5-8-port image-ok image/jpeg 161775B
