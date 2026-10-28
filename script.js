@@ -351,7 +351,7 @@ const GUIDE_RULES = [
   [/camera|doorbell/, 'cameras'],
   [/bulb|lamp-holder/, 'bulbs'],
   [/plug|power-strip/, 'plugs'],
-  [/din-rail|switch|curtain|dimmer|gigabit|breaker|boiler|relay|ups|ceiling-fan/, 'electrical'],
+  [/din-rail|energy-meter|switch|curtain|dimmer|gigabit|breaker|boiler|relay|ups|ceiling-fan/, 'electrical'],
   [/sensor|detector|thermometer/, 'sensors'],
   [/garden|watering|soil|grow/, 'garden'],
 ];

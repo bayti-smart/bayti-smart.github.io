@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:22:15.065259+00:00",
+  "updated_at": "2026-10-28T08:26:41.692736+00:00",
   "languages": [
     "ar",
     "en",
@@ -5126,6 +5126,636 @@
             "WLAN + Bluetooth",
             "Sprachsteuerung",
             "Jede Glühbirne"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sonoff-s60zb-zigbee-smart-plug-energy-monitor",
+      "category": "power",
+      "price": 12.69,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scaa65bcfaeee4f8ba333f2f5ddcc21b1I.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnD6sO9BNF3Bu9tXg2KbNBMamJvxuWAPpxKmEebHgC00U4N66Xzvi9KDIqxJtUgsZILufXqNGBEnqggpwwYfDL8c6dOHvtopfEYE3RaD2PzB3xIpwv769XH9Jlv43XM2q0EvA2yq7uTnwfnbBCNUVW3aFOCIaCxMLxtQSY6DwNQzRu8AyY6V4YyA90vH36zE6W08jlwIBQsq23aaYLbci2Y8s07AGVilByEL6ALlcoO7ZhP7OQWoc0t6V1WUoTwwDxWTA5nXG8WXcC18HWOdDFQ7XJNv2GCHRbIXa7okXze4IQAOGxXiI6C9qhVgrfon66r2ZFlHSAOtS54ypLMX3WVJmLnzX4KUokPJRZia7oitqKQZqe6KrO6W91RDD50vYLVHgSq1XSa6xKuN2ug2vQEazoH7FL7ZudLXBdqTtjGqR0WN31VFhQNW9NB8hSBOTDY39xUzCyliiNmG3RhxPeHMM81HppehMBxcYyZCfbGwTOBJXTrk0utqRvRJXaNEctXXdMUyFIRlDMi35JYxinoI5MMGzchKCAudGnJal0DBICsiIYJbxwzjhtKskfOANZH5C2vCQoDLBmGG3fg151Ap4TtXix6QfGu3zT8YLcQawORSGqoEetT2lG1VgfHMLHagPPJlvLl234vqYmqjOOMiTJskBKVtEvxRlS2lQgNJXFUIvXk2DCO26NSJaU97rNaxxoz4NLOi4C",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس SONOFF S60ZB ذكي Zigbee مع قياس استهلاك الطاقة (قياس أوروبي)",
+          "description": "مقبس ذكي بتقنية Zigbee لمقابس الجدار الأوروبية، يقيس استهلاك الجهاز ويتيح مؤقتات وتشغيله من الهاتف. يحتاج بوابة Zigbee تُشترى منفصلة. راجع الحمل الأقصى في صفحة المنتج قبل توصيل أجهزة قوية.",
+          "tags": [
+            "Zigbee",
+            "قياس الطاقة",
+            "قابس أوروبي",
+            "مؤقت"
+          ]
+        },
+        "en": {
+          "title": "SONOFF S60ZB Zigbee Smart Plug with Energy Monitoring (EU)",
+          "description": "Zigbee smart plug for EU sockets with energy monitoring and timers, controlled from your phone. Requires a Zigbee gateway, sold separately. Check the maximum load on the product page before plugging in powerful appliances.",
+          "tags": [
+            "Zigbee",
+            "Energy monitor",
+            "EU plug",
+            "Timer"
+          ]
+        },
+        "fr": {
+          "title": "Prise connectée Zigbee SONOFF S60ZB avec suivi de consommation (EU)",
+          "description": "Prise connectée Zigbee pour prises EU, avec suivi de la consommation et minuteries, pilotable depuis le téléphone. Nécessite une passerelle Zigbee vendue séparément. Vérifiez la charge maximale sur la page du produit avant d'y brancher un appareil puissant.",
+          "tags": [
+            "Zigbee",
+            "Suivi conso",
+            "Prise EU",
+            "Minuterie"
+          ]
+        },
+        "es": {
+          "title": "Enchufe inteligente Zigbee SONOFF S60ZB con medición de energía (UE)",
+          "description": "Enchufe inteligente Zigbee para tomas UE, con medición de consumo y temporizadores, controlable desde el móvil. Requiere una pasarela Zigbee que se vende aparte. Comprueba la carga máxima en la página del producto antes de conectar aparatos potentes.",
+          "tags": [
+            "Zigbee",
+            "Medición de energía",
+            "Enchufe UE",
+            "Temporizador"
+          ]
+        },
+        "de": {
+          "title": "SONOFF S60ZB Zigbee-Smart-Steckdose mit Energiemessung (EU)",
+          "description": "Zigbee-Steckdose für EU-Steckdosen mit Verbrauchsmessung und Zeitschaltuhren, per Handy steuerbar. Erfordert ein separat erhältliches Zigbee-Gateway. Prüfe vor dem Anschluss leistungsstarker Geräte die maximale Last auf der Produktseite.",
+          "tags": [
+            "Zigbee",
+            "Energiemessung",
+            "EU-Stecker",
+            "Timer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-energy-meter-ct-clamp-80a",
+      "category": "power",
+      "price": 14.69,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S737930af4a804a238393875f84a51406Y.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CohwvUb7eHV1heN3C6wnqERWtS94LTPqw1oKjdsCJCwOjrgdjLKHyLdi1QvdplrPZJvCFuxFOO3m0fAIqSAYBsbVeU7X9JuX16huqE8Bgg8CgKM7kwztFTJIRxPVfEjzMgF1HeQUqPhS9vFuFLVyfoYAhlGq7zny2Fej5sAqPyQUi0Cdxiz8HR4rkTZoNpTeHTiqmCXpxxdVYiXMtYiA5bTbeEDz0JdAWvaP1AdcPHlXjIDZOg79J8vyzIKFV7EsdBxoG0B30gKuoKSNHFgNdTZJKTdCNUTByL6Mi0fM9Bxox7wRscDsT9fjCa9YhSZAxKV47pTZzm4UhbeTVcIaaoimrnBfrzeraI9Jz1hxKbuI88mRAREll3i4njdyrxZwMmmYsik3y0sXGAcsWjbDafPsB3QYfYZDqDF9w3wiGKqPAdjVwIYicTLVcVgMsvktAybNN7HZ0lknetGRBSN8UJzLNqaZosWDJw1gJLkoEZOD7Ne03nKp58KGYEZjUZuCagnmNWFLgrdLDMu0IYAyqlQEYGn77Fc2EhEpNOo3LiZNAsZmzsQYHzBmUVbhspuNxdz9SACp8z43UfvvGadbtS9pvLWXWmCyEnE87o7qpGKJxuwZb5YxzL78ZmWwl9qdPYy1qtWKMfyCm0J8lz335D4TGxgRpaJYl3mkPM4TvCCs4shbesGy1gMKpNKpeDN1d9gcGbVwEGTY8O",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "عدّاد طاقة ذكي Wi-Fi من Tuya بملقط CT حتى 80 أمبير",
+          "description": "عدّاد طاقة Wi-Fi بجهد 100–240 فولت يقيس الاستهلاك بملقط CT واحد أو اثنين ويعرضه في تطبيق Tuya / Smart Life. تُوضع الملاقط حول الأسلاك الحية داخل لوحة الكهرباء، فيُفضَّل أن يركّبه كهربائي.",
+          "tags": [
+            "Wi-Fi",
+            "ملقط CT",
+            "80A",
+            "Tuya / Smart Life"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Smart Energy Meter with CT Clamp, up to 80A",
+          "description": "Wi-Fi energy meter for 100–240 V AC that measures consumption with one or two CT clamps and shows it in the Tuya / Smart Life app. The clamps go around live wires inside the electrical panel, so an electrician should install it.",
+          "tags": [
+            "Wi-Fi",
+            "CT clamp",
+            "80A",
+            "Tuya / Smart Life"
+          ]
+        },
+        "fr": {
+          "title": "Compteur d'énergie Wi-Fi Tuya avec pince CT, jusqu'à 80 A",
+          "description": "Compteur d'énergie Wi-Fi 100–240 V AC qui mesure la consommation avec une ou deux pinces CT et l'affiche dans l'application Tuya / Smart Life. Les pinces se placent autour des fils sous tension dans le tableau électrique : confiez l'installation à un électricien.",
+          "tags": [
+            "Wi-Fi",
+            "Pince CT",
+            "80 A",
+            "Tuya / Smart Life"
+          ]
+        },
+        "es": {
+          "title": "Medidor de energía Wi-Fi Tuya con pinza CT, hasta 80 A",
+          "description": "Medidor de energía Wi-Fi de 100–240 V CA que mide el consumo con una o dos pinzas CT y lo muestra en la app Tuya / Smart Life. Las pinzas se colocan alrededor de los cables con corriente dentro del cuadro eléctrico, así que conviene que lo instale un electricista.",
+          "tags": [
+            "Wi-Fi",
+            "Pinza CT",
+            "80 A",
+            "Tuya / Smart Life"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Energiezähler mit CT-Klemme, bis 80 A",
+          "description": "WLAN-Energiezähler für 100–240 V AC, der den Verbrauch mit einer oder zwei CT-Klemmen misst und in der Tuya / Smart Life App anzeigt. Die Klemmen werden im Sicherungskasten um stromführende Leitungen gelegt, daher sollte ein Elektriker die Installation übernehmen.",
+          "tags": [
+            "WLAN",
+            "CT-Klemme",
+            "80 A",
+            "Tuya / Smart Life"
+          ]
+        }
+      }
+    },
+    {
+      "id": "zigbee-e27-rgbcw-smart-bulb",
+      "category": "lighting",
+      "price": 10.72,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf0e280c9851d4efda8c13c6d440605f0I.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2fjyKSqHtSrEaAhqXP7Z6XB3cY6XBYBg4J9fr2MEEHWbUlg3exvz9RRjnDCktBIKPEDvxvXaNq0W11gzjTZgZMCrjqtcSOJpqsh5OvU20bZAsOf6co58tvIJ8r4KnK1LnH2TGjS7Tms1wLcTx8hwwNKaMm6HsGXPR1x7dZwB4RY0U9xn7HeublJ3g7yV06DjJYMGqlc7pvT9ydy8mm4HpUey4ySbBgpwIjRvLm7MyAMnPxpRA73FFDcOQfMkjtHdRTemRCg0y2ZRG6SGXWJvoBf8hrsSpG8e8ceuiSCYTdAyxISHMRAveLg9CSQAUHtOD277qVfPRQDHRG0DoID90WrLBdcL6YUopW9o8JKyPnKpnaomXCBS9y9EvuoTPJn1XcCGeBDvFaeUrUmARfL4wwjnG6GBvolld4BkSqRjbTBm4mTQXju1hfPevogUjYNMcfUmhLNNeExkNUCdXvLObCsFDwLeJpVjTWlWEo0hD7Vi2y9HwT9dPwiIfDtIIh5OPAG7f0DamHugoxxouKIQ6zCjpPPj1n8BpeLg1AMzImnIodemJB16WdpKot9LbnMB5zlQDHW5bxS1D01Tx5nT2tfJ13Yby3pETsjuBjpfFP3nrrZCQMAjb3aGlvg2i0dc0FWm7IbokNmOoUbXzfaI22aO1HTKdSG8Mh7JoTED6QrkIlA91NuPTPEpS0iXpuHcs1e4h1FiGFcR4",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "لمبة LED ذكية Zigbee 3.0 بقاعدة E27، ألوان RGBCW وإضاءة 2700–6500K قابلة للتعتيم",
+          "description": "لمبة ذكية بقاعدة E27 بألوان وإضاءة بيضاء قابلة للضبط من 2700 إلى 6500 كلفن، وتُعتَّم من التطبيق. تعمل بتقنية Zigbee 3.0 فتحتاج بوابة أو محورًا متوافقًا. تحقق أولًا من جهد الكهرباء ونوع القاعدة كما في دليل المصابيح.",
+          "tags": [
+            "Zigbee 3.0",
+            "E27",
+            "RGBCW",
+            "قابلة للتعتيم"
+          ]
+        },
+        "en": {
+          "title": "Zigbee 3.0 Smart LED Bulb E27, RGBCW Dimmable 2700-6500K",
+          "description": "E27 smart bulb with colour and adjustable white from 2700 to 6500 K, dimmable from the app. It uses Zigbee 3.0, so it needs a compatible gateway or hub. Check your mains voltage and base type first, as explained in our bulbs guide.",
+          "tags": [
+            "Zigbee 3.0",
+            "E27",
+            "RGBCW",
+            "Dimmable"
+          ]
+        },
+        "fr": {
+          "title": "Ampoule LED connectée Zigbee 3.0 E27, RGBCW variable 2700-6500 K",
+          "description": "Ampoule connectée à culot E27 avec couleurs et blanc réglable de 2700 à 6500 K, variable depuis l'application. Elle utilise Zigbee 3.0 et nécessite donc une passerelle ou un hub compatible. Vérifiez d'abord la tension du secteur et le type de culot, comme expliqué dans notre guide des ampoules.",
+          "tags": [
+            "Zigbee 3.0",
+            "E27",
+            "RGBCW",
+            "Variable"
+          ]
+        },
+        "es": {
+          "title": "Bombilla LED inteligente Zigbee 3.0 E27, RGBCW regulable 2700-6500 K",
+          "description": "Bombilla inteligente con casquillo E27, con color y blanco ajustable de 2700 a 6500 K, regulable desde la app. Usa Zigbee 3.0, por lo que necesita una pasarela o hub compatible. Comprueba antes la tensión de red y el tipo de casquillo, como explica nuestra guía de bombillas.",
+          "tags": [
+            "Zigbee 3.0",
+            "E27",
+            "RGBCW",
+            "Regulable"
+          ]
+        },
+        "de": {
+          "title": "Zigbee 3.0 Smart-LED-Lampe E27, RGBCW dimmbar 2700-6500 K",
+          "description": "Smarte Lampe mit E27-Sockel, mit Farben und einstellbarem Weiß von 2700 bis 6500 K, per App dimmbar. Sie nutzt Zigbee 3.0 und benötigt daher ein kompatibles Gateway oder einen Hub. Prüfe vorab Netzspannung und Sockeltyp, wie in unserem Lampen-Ratgeber erklärt.",
+          "tags": [
+            "Zigbee 3.0",
+            "E27",
+            "RGBCW",
+            "Dimmbar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "matter-wifi-smart-plug-16a-power-meter",
+      "category": "power",
+      "price": 14.69,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S09fd853210144a5cad1b36a4afcaf48cp.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2KgbGgcAhnxmeNq32E4EjBJBh6inVo20fTCBbBHZ4d9ZjHjYiFcbBeEij1eHqZ2nEGkWM14MBbgJNNL1BjFLCu2TXG9YtYEZShpi4Uu9ALDXVRdCvzRfSWiW0vfQiaWHkxoFHfKUaUFxheOPo4fcNGlGY6ounik1WSC8687yg585K9N9ze8XQqBH5qRjFbBtBgUl663W87hKlkEXqYi7dBYUk2gwIafsB4ur3ChhZd8vRNVtHWksq09Ly3dondR0FyIYEn1aJT6kz1Jpk8Hmq6SsITwPMZdfhSCGUJ6wNcGF1DvlFVmdNHCENoxmT6TwgrW69mYI9yAT8HvU2737KlGfs4KWwFNAtkQv59LYeY9eowPw1uS3Y8MhbkVvOBPoputRhpWSgPROgDUK6LBomv6tUwGKjVtpE9SQm8topccClSbxOCupzehVkKIxda8VCXBFnKiDxaSC79O4uKiDsqbWHbetDMvRwI7PHJbsSRnO3ol8dtJOBEc3IOY9stC8F3N76GavMxW0n5vuaUpMXI2tSUzAZepkgz5K8aOZMJ0GE9nhZhp31vjAIzzOrBNwTCXgcEsRLzMWt1wN1UmLckm4QzEKLpTfffPrBZjpMvgun0URzs70Q3nC1oUJ5ywZAmitDd83UWDje3XlVw6LMeKFc572XmH63PF4XOz3rC1Xj2knVfOOvaPZdrM3aS4QPbcwyZzjLxHNy",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس ذكي Matter عبر Wi-Fi بقدرة 16 أمبير مع عدّاد طاقة (قياس أوروبي)",
+          "description": "مقبس ذكي عبر Wi-Fi للمقابس الأوروبية يدعم Matter ويضم عدّاد طاقة وتحكمًا عن بُعد من تطبيق Tuya. يتيح Matter العمل مع عدة منصات للمنزل الذكي، لكن راجع صفحة المنتج لمعرفة المنصات المدعومة بدقة. التزم بحد 16 أمبير.",
+          "tags": [
+            "Matter",
+            "Wi-Fi",
+            "16A",
+            "عدّاد طاقة"
+          ]
+        },
+        "en": {
+          "title": "Matter Wi-Fi Smart Plug 16A with Power Meter (EU)",
+          "description": "Wi-Fi smart plug for EU sockets with Matter support, a power meter and remote control from the Tuya app. Matter lets it work with several smart home platforms, but check the product page for exactly which ones are supported. Stay within the 16A rating.",
+          "tags": [
+            "Matter",
+            "Wi-Fi",
+            "16A",
+            "Power meter"
+          ]
+        },
+        "fr": {
+          "title": "Prise connectée Matter Wi-Fi 16 A avec compteur d'énergie (EU)",
+          "description": "Prise connectée Wi-Fi pour prises EU, compatible Matter, avec compteur d'énergie et contrôle à distance depuis l'application Tuya. Matter permet de l'utiliser avec plusieurs plateformes de maison connectée, mais consultez la page du produit pour connaître celles réellement prises en charge. Respectez la limite de 16 A.",
+          "tags": [
+            "Matter",
+            "Wi-Fi",
+            "16 A",
+            "Compteur d'énergie"
+          ]
+        },
+        "es": {
+          "title": "Enchufe inteligente Matter Wi-Fi de 16 A con medidor de energía (UE)",
+          "description": "Enchufe inteligente Wi-Fi para tomas UE, compatible con Matter, con medidor de energía y control remoto desde la app Tuya. Matter permite usarlo con varias plataformas de hogar inteligente, pero consulta la página del producto para saber cuáles admite exactamente. Respeta el límite de 16 A.",
+          "tags": [
+            "Matter",
+            "Wi-Fi",
+            "16 A",
+            "Medidor de energía"
+          ]
+        },
+        "de": {
+          "title": "Matter WLAN-Smart-Steckdose 16 A mit Energiemessung (EU)",
+          "description": "WLAN-Steckdose für EU-Steckdosen mit Matter-Unterstützung, Energiemessung und Fernsteuerung über die Tuya-App. Matter ermöglicht den Betrieb mit mehreren Smart-Home-Plattformen, doch die genau unterstützten Plattformen stehen auf der Produktseite. Halte die Grenze von 16 A ein.",
+          "tags": [
+            "Matter",
+            "WLAN",
+            "16 A",
+            "Energiemessung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "domraem-zigbee-5in1-led-strip-controller",
+      "category": "lighting",
+      "price": 14.97,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0f743c4764fb47f3a404c5984254f759n.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4K2FVvkyiXIBscBZrNvv5qyc2leH2gDniePqg5mNjipLm9Td2aRJ5hkNFmHPKw9NvMO9b1Eov3kmKt3aBDXOQJtu7uURFDZhjB6s2gXNPTwLeAD4brEVFBkeoNuFoMqUEWwafCfL9jzVDVPQXDAh5EVl2xiDPEJ5BciGNu9e2LdOPteTEhh9v5iHjxo1ssTANIHQ2SoaK5fC6q4lE8YBlWjUjYGx4lhNUBtwcLEnBQUVH7jAcME9ZHN9oriHqwrYUrlWU8yZqFW0zdJ6yESIVso4yhDRUgSPaPt7KGSz8PlcEIpWkAs8aMUVS3ptqNDGnCmLoSiHsdTtai4WH93z6GX4GAflyYSwDll1lneBnUMf5IVq79zWpSRW3JOlYARXjYGwjWRucAPWZdnmTbz2mlQY0KkXEJI8PYTpgWXlVqGhYnfWMHwyrgnb8iR8bgGBySye3iPDO3MJxzvWG1UkTvCTpgXgtZnERfT5suRRMMF0MXnhmcxjBA64XBFAEj0cLzSf6wc6Kce7Bjjovt8ifUCLojYyZf6Mq69FybIXDoPIiSwAQeY0bZR3gi0pip3L6OeoKPcBuVrb2Qy4HPPkM5qz3dGn2Zl4u3VBRoYSpTkfjMfMiZoTfHzeAl5HIRfyutZrtOmeaqfGteQh3OY6YkGtkXjs1qBfHn8CVWtB4C0ph0CqF3X53WcIPd3RKqecCOW8R40pLrfu6",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "متحكم شرائط LED من DOMRAEM بتقنية Zigbee 3.0 (5 في 1)",
+          "description": "متحكم Zigbee 3.0 يعتّم الشرائط أحادية اللون ويشغّل شرائط CCT وRGB وRGBW وRGBCCT بجهاز واحد. يحتاج بوابة Zigbee، والشريط ومصدر الطاقة غير مشمولين. اختر متحكمًا يناسب جهد شريطك.",
+          "tags": [
+            "Zigbee 3.0",
+            "شريط LED",
+            "RGBCCT",
+            "تعتيم"
+          ]
+        },
+        "en": {
+          "title": "DOMRAEM Zigbee 3.0 5-in-1 LED Strip Controller",
+          "description": "Zigbee 3.0 controller that dims single-colour strips and drives CCT, RGB, RGBW and RGBCCT strips from one device. Needs a Zigbee gateway, and the LED strip and power supply are not included. Match the controller's voltage range to your strip.",
+          "tags": [
+            "Zigbee 3.0",
+            "LED strip",
+            "RGBCCT",
+            "Dimmer"
+          ]
+        },
+        "fr": {
+          "title": "Contrôleur de ruban LED DOMRAEM Zigbee 3.0, 5 en 1",
+          "description": "Contrôleur Zigbee 3.0 qui fait varier les rubans monochromes et pilote les rubans CCT, RGB, RGBW et RGBCCT avec un seul appareil. Nécessite une passerelle Zigbee ; le ruban LED et l'alimentation ne sont pas inclus. Choisissez un contrôleur dont la plage de tension correspond à votre ruban.",
+          "tags": [
+            "Zigbee 3.0",
+            "Ruban LED",
+            "RGBCCT",
+            "Variateur"
+          ]
+        },
+        "es": {
+          "title": "Controlador de tira LED DOMRAEM Zigbee 3.0, 5 en 1",
+          "description": "Controlador Zigbee 3.0 que regula tiras monocolor y controla tiras CCT, RGB, RGBW y RGBCCT con un solo dispositivo. Necesita una pasarela Zigbee y no incluye la tira LED ni la fuente de alimentación. Elige un controlador cuyo rango de tensión coincida con tu tira.",
+          "tags": [
+            "Zigbee 3.0",
+            "Tira LED",
+            "RGBCCT",
+            "Regulador"
+          ]
+        },
+        "de": {
+          "title": "DOMRAEM Zigbee 3.0 LED-Streifen-Controller, 5 in 1",
+          "description": "Zigbee-3.0-Controller, der einfarbige Streifen dimmt und CCT-, RGB-, RGBW- und RGBCCT-Streifen mit einem einzigen Gerät steuert. Benötigt ein Zigbee-Gateway; LED-Streifen und Netzteil sind nicht enthalten. Wähle einen Controller, dessen Spannungsbereich zu deinem Streifen passt.",
+          "tags": [
+            "Zigbee 3.0",
+            "LED-Streifen",
+            "RGBCCT",
+            "Dimmer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-zigbee-signal-repeater-usb",
+      "category": "misc",
+      "price": 8.15,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd5d4de8052ea4ee996f6c5daaba8c6c59.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4tv2FhursSaavJOvc71ihjbzVYL3les5WaqMFOplBVVlgLk2SupnZETEpbloqgp90yRjdKjAZvLJBpMHipbXCEaHb91hR8qdf9QzTVB9rMnSDzzJkBAhdx7QVzWgx6ArbnIK8lnuneTMlXwCkyIegtoGUrlMD1w8C8O2M8Z2qO2MXKUm7awjjjc2s9IF23Z0Wm7tTR3L7XdNBNbu8LhTlUp7c1DgCfyiJzw4pG5CvsZlBlpRiq86FyGqk7G8Mrl3B4r1S1u0RGDwsQHNlovxSrQ5aQcmxCBfapAvClHI6sNcD3Gewfwz3eB2lwwyWMqoiYbbozbUwL2Mxaaz5G4ezd9gh1T3XvjnavbkztTaYvfhLA6j4zuwBXcZWnAqpjhLpM6wWSRAhJ5DjSnwmM0qgrJotMeJMOHRf52ZPYQOa7XcFQoMudneN0Mo4F8vi4Y78IjS0oOoiwdVVxH1iCe33ymkIq8YzvPxt4LmtyFF2AIRuVRglbWWoxWbsHVHxBmDsTepxQoLc81f6DFAP7wDj4inbcb4XSXtV4q4ldVEgkapOaIG0lAbZYe4FHQaMVhJvemqmAZxLbDNrzN1W2WLPmcBUgG4WtZgRJ4MPr1b06EHtbUNls4HtfcBfqqbRKoZaxrLw7jZY9kM0Ci1qXkvOUmPqqJ9hMqLhLtghHOWlb6kdORrfvcx05vtB7Y4RQU28mVkqGnoh5IiO",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مكرّر إشارة Tuya Zigbee 3.0 صغير يعمل عبر USB",
+          "description": "مكرّر صغير يعمل بمنفذ USB يوسّع شبكة Zigbee، مفيد حين يبعد حساس أو مفتاح عن البوابة. ليس بوابة بحد ذاته فتحتاج بوابة. ضعه في منتصف المسافة بين البوابة والجهاز البعيد.",
+          "tags": [
+            "Zigbee 3.0",
+            "مكرّر",
+            "USB",
+            "المدى"
+          ]
+        },
+        "en": {
+          "title": "Tuya Mini Zigbee 3.0 Signal Repeater, USB Powered",
+          "description": "Small USB-powered repeater that extends your Zigbee network, useful when a sensor or switch is too far from the gateway. It is not a gateway itself, so you still need one. Plug it in halfway between the gateway and the distant device.",
+          "tags": [
+            "Zigbee 3.0",
+            "Repeater",
+            "USB",
+            "Range"
+          ]
+        },
+        "fr": {
+          "title": "Répéteur de signal Tuya Zigbee 3.0 mini, alimenté par USB",
+          "description": "Petit répéteur alimenté en USB qui étend votre réseau Zigbee, utile quand un capteur ou un interrupteur est trop loin de la passerelle. Ce n'est pas une passerelle : il vous en faut une. Placez-le à mi-chemin entre la passerelle et l'appareil éloigné.",
+          "tags": [
+            "Zigbee 3.0",
+            "Répéteur",
+            "USB",
+            "Portée"
+          ]
+        },
+        "es": {
+          "title": "Repetidor de señal Tuya Zigbee 3.0 mini, alimentado por USB",
+          "description": "Pequeño repetidor alimentado por USB que amplía tu red Zigbee, útil cuando un sensor o interruptor queda lejos de la pasarela. No es una pasarela, así que sigues necesitando una. Colócalo a mitad de camino entre la pasarela y el dispositivo lejano.",
+          "tags": [
+            "Zigbee 3.0",
+            "Repetidor",
+            "USB",
+            "Alcance"
+          ]
+        },
+        "de": {
+          "title": "Tuya Mini Zigbee-3.0-Signalverstärker, USB-betrieben",
+          "description": "Kleiner USB-betriebener Repeater, der dein Zigbee-Netz erweitert, nützlich wenn ein Sensor oder Schalter zu weit vom Gateway entfernt ist. Er ist selbst kein Gateway, du brauchst also weiterhin eines. Platziere ihn auf halber Strecke zwischen Gateway und entferntem Gerät.",
+          "tags": [
+            "Zigbee 3.0",
+            "Repeater",
+            "USB",
+            "Reichweite"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-usb-power-adapter-5v-mini",
+      "category": "power",
+      "price": 6.99,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7a38e2eddc9649adb69d17b4dff75880b.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Co8q7eRuT96iKoVPxm0XclhpbM6D6pRdpODMImdTB1IM9XSkhdAdlr5zcmkQ5d1hkK35VIETa9MGwsiGw8Obdd3pveqpi7h6RUbtSeBKsbJsgYEj7M1cOsPt2VgrwDuAQLxvVfYqRg2D2EER2OrDg3NRIBx7toGtpkjxs9E1A9W8aDNp4OTdRHO67EfL43ZlZ2hzbjSNsZMR2XkQY0mHaZunAqzuT7ZGaL78BZXc2NhNsNOdlkt6yvWQ2MteovIaFa1OxfbjUrCXJ25V9iSfl9JLCBABj8MsXw2yTeJPWvo1BxKMcbPoFK2NVucKwIbURvhQ7vtPbiWRpcVh97uC1jpiGTvh86py68CBBeFz2FE26CMhG0GnHnTMR0rewyTLWCWODmIpRtXOt9YJcddPjK0aWO9CAfmKZqV2k9F5uY2yhqAfoUjwBFga97LQXTTT6rYgYbiw1fJF1bQNHoiOXDhDQ4ga6mfhA5ztUfQQ5DYwyzUEVCm0DuCBrzc7tKl3eXhBpFtQFqruUAsqBlWYdabszhpuEi9PmWz0fPBqFQHKKjyMgDB2SBbeGvHmbcZvoDqAyB0pRaPE8Giwj6or3HIqzsvQXOKbyaOcw1GVuKUVkLVaIyKIcVyMdSQKj0cOY2i7HdZpdZaDh53oZQmeL7v6fQvmWIrDiBGiNsL49iWEwuMAUWPAzONRSofJaBD2GdKV9sY9wvLVCk",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "محوّل طاقة USB ذكي صغير 5 فولت (Wi-Fi أو Zigbee)",
+          "description": "محوّل صغير 5 فولت يتيح تشغيل الأجهزة العاملة بمنفذ USB وإيقافها من التطبيق أو بجدول زمني، كإضاءة USB أو مراوح صغيرة. يتوفر بنسختي Wi-Fi وZigbee فاختر المناسب في صفحة المنتج. للأجهزة منخفضة الجهد 5 فولت فقط، وليس لأجهزة الكهرباء المنزلية.",
+          "tags": [
+            "USB 5V",
+            "Wi-Fi / Zigbee",
+            "مؤقت",
+            "جهد منخفض"
+          ]
+        },
+        "en": {
+          "title": "Smart Wi-Fi / Zigbee Micro USB Power Adapter Switch, 5V",
+          "description": "Tiny 5V adapter that lets you switch USB-powered devices on and off from the app or on a schedule, such as USB lights or small fans. It comes in Wi-Fi and Zigbee versions, so choose the right one on the product page. For low-voltage 5V devices only, never for mains appliances.",
+          "tags": [
+            "USB 5V",
+            "Wi-Fi / Zigbee",
+            "Timer",
+            "Low voltage"
+          ]
+        },
+        "fr": {
+          "title": "Adaptateur d'alimentation USB connecté 5 V (Wi-Fi ou Zigbee)",
+          "description": "Petit adaptateur 5 V qui permet d'allumer et d'éteindre des appareils alimentés en USB depuis l'application ou selon un horaire, comme un éclairage USB ou un petit ventilateur. Disponible en versions Wi-Fi et Zigbee : choisissez la bonne sur la page du produit. Réservé aux appareils basse tension 5 V, jamais aux appareils du secteur.",
+          "tags": [
+            "USB 5 V",
+            "Wi-Fi / Zigbee",
+            "Minuterie",
+            "Basse tension"
+          ]
+        },
+        "es": {
+          "title": "Adaptador de alimentación USB inteligente de 5 V (Wi-Fi o Zigbee)",
+          "description": "Pequeño adaptador de 5 V que permite encender y apagar dispositivos alimentados por USB desde la app o con horarios, como luces USB o ventiladores pequeños. Existe en versiones Wi-Fi y Zigbee, así que elige la correcta en la página del producto. Solo para dispositivos de baja tensión de 5 V, nunca para aparatos de red eléctrica.",
+          "tags": [
+            "USB 5 V",
+            "Wi-Fi / Zigbee",
+            "Temporizador",
+            "Baja tensión"
+          ]
+        },
+        "de": {
+          "title": "Smarter USB-Netzadapter 5 V (WLAN oder Zigbee)",
+          "description": "Kleiner 5-V-Adapter, mit dem sich USB-betriebene Geräte per App oder nach Zeitplan ein- und ausschalten lassen, etwa USB-Lichter oder kleine Ventilatoren. Es gibt WLAN- und Zigbee-Versionen, wähle auf der Produktseite die passende. Nur für Niederspannungsgeräte mit 5 V, niemals für Netzgeräte.",
+          "tags": [
+            "USB 5 V",
+            "WLAN / Zigbee",
+            "Timer",
+            "Niederspannung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bseed-eu-touch-light-switch-1-3-gang",
+      "category": "control",
+      "price": 12.59,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sedaec096bcbb4ae491b516dfe0b25282k.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4LSp0UUG3phbrZI7Sc6YIeNdh3p475jpWyOrugT8C4JTnbZ8u1ppygKgfiyEZuzPO8WMEZoNe6QqbXkPqlEyduTQtmKsXbRcVbm6abDw5DnX39If5KoGmPzIpi4BqT4t9ZLfpgT1g64Fs9RZqEMNUfer4XZhVCiXeYYhsVMGsMtKMgk6lkrAvms0yvsDJaL6QVSWAiHcI5ygN4Gydyn3WP4iowZmcmyYstGbYnOsvQhkCt88AVbqXB3gfurrFkCEavWQ8UPJ1A5BSekRnRY3dejweFtLXSFB7BoIXHHJPptEKw9YykORCyYhblVUUWKB4FiAI6O6IeCC68RcCUq7o3qZLyfGSaHM6CBAMKUejvqEvV4d9rnTpYwRiLe6YejHvTcovMVIMgXNIUARGc8krYbvtviVnnQfelyiigc3oLtJMpzlj3Rr1zMvRvpPRFDg2AoJLVgsJvYb1HfZi0O8pPsRYgfcVOzEYZQzyQ6GMGCTw5dL84NyAm2S9EJBV6U1Tm9hOsVVh3iSP1RbqvZhGKXrh927HnFD3lgqEycG82JTTFcgOke18JTDJbhoKGqLaTFu9nL96cQK1d4Cw8wMnAaLNQFQ1pfEFx901DXGwizlswA5XxF8YUGmp35NGfThTGHOMg5I9CWMxPm0vipNMZr5O3fxpxa2TSL8pbMycza02aEcKD2ORwmI6pOezhOfZEcX8WVp4atyk",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح حائط لمس Zigbee من Bseed (1–3 مفاتيح)، قياس أوروبي بلا سلك محايد",
+          "description": "مفتاح حائط لمس بتقنية Zigbee بمفتاح أو مفتاحين أو ثلاثة لعلب الجدار الأوروبية، مصمم ليعمل بسلك حي واحد دون سلك محايد، وهذا يناسب كثيرًا من التركيبات القديمة. يحتاج بوابة Zigbee. يُركَّب داخل الجدار فيُفضَّل أن يتولاه كهربائي.",
+          "tags": [
+            "Zigbee",
+            "لمس",
+            "قياس أوروبي",
+            "بلا محايد"
+          ]
+        },
+        "en": {
+          "title": "Bseed Zigbee Touch Wall Switch, 1-3 Gang, EU Standard, No Neutral",
+          "description": "Zigbee touch wall switch in 1, 2 or 3 gangs for EU wall boxes, designed to work with a single live wire (no neutral), which suits many older installations. Needs a Zigbee gateway. It is wired into the wall, so an electrician should install it.",
+          "tags": [
+            "Zigbee",
+            "Touch",
+            "EU standard",
+            "No neutral"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur mural tactile Zigbee Bseed, 1 à 3 touches, norme EU, sans neutre",
+          "description": "Interrupteur mural tactile Zigbee à 1, 2 ou 3 touches pour boîtiers muraux EU, conçu pour fonctionner avec un seul fil de phase (sans neutre), ce qui convient à de nombreuses installations anciennes. Nécessite une passerelle Zigbee. Il se raccorde au câblage mural : confiez-le à un électricien.",
+          "tags": [
+            "Zigbee",
+            "Tactile",
+            "Norme EU",
+            "Sans neutre"
+          ]
+        },
+        "es": {
+          "title": "Interruptor de pared táctil Zigbee Bseed, 1 a 3 teclas, estándar UE, sin neutro",
+          "description": "Interruptor de pared táctil Zigbee de 1, 2 o 3 teclas para cajas de pared UE, diseñado para funcionar con un solo cable de fase (sin neutro), lo que encaja en muchas instalaciones antiguas. Necesita una pasarela Zigbee. Se conecta a la instalación de la pared, así que conviene que lo instale un electricista.",
+          "tags": [
+            "Zigbee",
+            "Táctil",
+            "Estándar UE",
+            "Sin neutro"
+          ]
+        },
+        "de": {
+          "title": "Bseed Zigbee-Touch-Wandschalter, 1–3 fach, EU-Standard, ohne Neutralleiter",
+          "description": "Zigbee-Touch-Wandschalter mit 1, 2 oder 3 Tasten für EU-Unterputzdosen, ausgelegt für den Betrieb mit nur einem Außenleiter (ohne Neutralleiter), was zu vielen älteren Installationen passt. Benötigt ein Zigbee-Gateway. Er wird in die Wandverkabelung eingebaut, daher sollte ein Elektriker ihn installieren.",
+          "tags": [
+            "Zigbee",
+            "Touch",
+            "EU-Standard",
+            "Ohne Neutralleiter"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-thermostat-socket-16a",
+      "category": "misc",
+      "price": 28.76,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sff68a7b344744f2bbde44b49a305231bH.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CndyeGmdapFYea4y462cWTeePPToBpjw7qIXFnlvbkpdyYzBLdHxijbdFTwgcncb9Fljy78Ydy5FwLQT3eNyLnHsozh6HeLU6fx4YJYGaRf7dTwa9uFy9xK8VXVSywZtDNE6Rc1vOT52V5hteYwrN5qrZMAZE6e7nj0WOhEuDgsib8hKAsAE8lNSNvhUvjHdHA2nN00niZZ071sB4AkLi4sZnLXyhK1OPDgeyJVJF0FV7CRjlvMvZkM7qN9c8mbzSKs01jePYn0A7VvrTxLO1o6V9XFBzytA5jOSa092ZGNi2RrPlympM04RAG1nJmilpz83e8azUTggd2cY4xYDSMxFsA1wrnt9CEYItpUp97tQdi6ARVBFj0pOKNvsjjeuT9xsnlqZm8KwsVFIROPTasp4WUtzJ8dsyCK8wuVPBifzPTof6I7zlmrdkjVk8Zi3pmpj10EcrBm9NKGo3ODaWtKhVEvkYiFNY2CUxOo0PY3z2DzCLBotdUNAZe5h63eMmrzQiuen84Ss8c4jy7POChKgwQbTJy5SgKHftUIbvoqW2zSYOokiY9sxZDneyCUnxTjosA4SfByhRYnaICiO6wblBaqy0MfXHsyIKxlt1QGqeKc2uvh9R3FZHMxXtOuJ1X2s4PxshzqicPTZtpogNpLD6VoXLtgEsvoBaBXl2wmFZamzUB7KfsDom5s0DkDv5cSV9LYhYxet5m",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس ثرموستات رقمي Tuya عبر Wi-Fi بقدرة 16 أمبير مع مؤقت",
+          "description": "مقبس يشغّل الجهاز الموصول به أو يوقفه بحسب درجة الحرارة ومؤقت، ويُتحكَّم به عن بُعد من التطبيق. مفيد مثلًا لإبقاء غرفة أو دفيئة عند حرارة محددة عبر مدفأة أو مروحة. التزم بحد 16 أمبير واستخدمه مع أجهزة مصنَّفة لذلك فقط.",
+          "tags": [
+            "Wi-Fi",
+            "ثرموستات",
+            "16A",
+            "مؤقت"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Digital Thermostat Socket 16A with Timer",
+          "description": "Socket that switches the connected device on or off according to temperature and a timer, controlled remotely from the app. Useful, for example, to keep a room or a greenhouse at a set temperature with a heater or fan. Stay within the 16A rating and use it only with devices rated for it.",
+          "tags": [
+            "Wi-Fi",
+            "Thermostat",
+            "16A",
+            "Timer"
+          ]
+        },
+        "fr": {
+          "title": "Prise thermostat numérique Wi-Fi Tuya 16 A avec minuterie",
+          "description": "Prise qui allume ou éteint l'appareil branché selon la température et une minuterie, pilotée à distance depuis l'application. Utile par exemple pour maintenir une pièce ou une serre à une température donnée avec un chauffage ou un ventilateur. Respectez la limite de 16 A et ne l'utilisez qu'avec des appareils prévus pour cela.",
+          "tags": [
+            "Wi-Fi",
+            "Thermostat",
+            "16 A",
+            "Minuterie"
+          ]
+        },
+        "es": {
+          "title": "Enchufe termostato digital Wi-Fi Tuya de 16 A con temporizador",
+          "description": "Enchufe que enciende o apaga el aparato conectado según la temperatura y un temporizador, con control remoto desde la app. Útil, por ejemplo, para mantener una habitación o un invernadero a una temperatura determinada con una estufa o un ventilador. Respeta el límite de 16 A y úsalo solo con aparatos preparados para ello.",
+          "tags": [
+            "Wi-Fi",
+            "Termostato",
+            "16 A",
+            "Temporizador"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Digital-Thermostat-Steckdose 16 A mit Timer",
+          "description": "Steckdose, die das angeschlossene Gerät nach Temperatur und Zeitschaltuhr ein- oder ausschaltet und per App aus der Ferne steuerbar ist. Praktisch zum Beispiel, um einen Raum oder ein Gewächshaus mit Heizung oder Lüfter auf einer bestimmten Temperatur zu halten. Halte die Grenze von 16 A ein und nutze sie nur mit dafür geeigneten Geräten.",
+          "tags": [
+            "WLAN",
+            "Thermostat",
+            "16 A",
+            "Timer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-zigbee-vibration-sensor-xyz-tilt",
+      "category": "sensors",
+      "price": 7.97,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc498f20d221d4fa9b8f3b9838a0d5509t.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4MbGmqqnHPS9Skr4aMP6E2KrdGtjApmUfPrQCfVr88Xa9MNRld4Ib78G6dNLUMhZUmyWOKXBGa2d87VfJmnaUm8jDG9t06GTYEjbxFL8F3Ekefjg6i9KXvEss9AV4mm1mL4ZkG54mfjlae1qlatgBKrzV7lOrGka8yu6SANDx4cO3IpJTkAt1Dek5ZwgVcW0uOOYykQIeK1sD5qwpnZHPiRTXuqwVy9CUB4tibZXTu6DMFEdKAL6toCPuniaTEgRmi125WA2G1pnpSKvK3HLR3wu0Lb4Olm2P3Ou2P2VjJBq3lK46P4oQHktFoS1zqAs9wFAETCfwbhCAk9S5ITOZmktO5qf8gJr6YeLo9GXST8IgSjNa5jqDDb707H0Z8IJb3pBTL4Bm2PUuCm6temqDJz1uYe9xfGZAjt83mSU8U9W0ogskVSiejfeeZnWKohYlnHZMKaO9mP3jTkSCyMMXrjrnAJHwMzdXGHLMn598Q6BMOqhJu26eKS1jRuVDPXU41btWrFUU9HFSwRb4PZ5KJNCym7I1NtrTS3SlaeujHOWWULM7ugwYIx09NCaCqPGqUuox4MDL5AX3fyUsmWhOqfyRgsBCaFdLJD6buLXi6bH5MNNFXYmyelmu5tHhsbrkg8dty4MiqjVBCceFu4aUzNSsZoZvp2daXfmR2jkvydVXdac6cEmXnGtYyerBAPnPySgo6nr9rTuW",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "حساس اهتزاز Tuya Zigbee يكشف الميلان على 3 محاور",
+          "description": "حساس Zigbee صغير يكشف الاهتزاز والصدمات والميلان على ثلاثة محاور ويرسل تنبيهًا إلى التطبيق، مثلًا للأبواب أو النوافذ أو صناديق التخزين. يحتاج بوابة Zigbee تُشترى منفصلة. راجع صفحة المنتج لمعرفة مصدر طاقته.",
+          "tags": [
+            "Zigbee",
+            "اهتزاز",
+            "ميلان",
+            "تنبيه"
+          ]
+        },
+        "en": {
+          "title": "Tuya Zigbee Vibration Sensor with XYZ-Axis Tilt Detection",
+          "description": "Small Zigbee sensor that detects vibration, shocks and tilt on three axes and sends an alert to the app, for example for doors, windows or storage boxes. Requires a Zigbee gateway, sold separately. Check the product page for how it is powered.",
+          "tags": [
+            "Zigbee",
+            "Vibration",
+            "Tilt",
+            "Alert"
+          ]
+        },
+        "fr": {
+          "title": "Capteur de vibration Tuya Zigbee avec détection d'inclinaison sur 3 axes",
+          "description": "Petit capteur Zigbee qui détecte les vibrations, les chocs et l'inclinaison sur trois axes et envoie une alerte dans l'application, par exemple pour des portes, des fenêtres ou des coffres de rangement. Nécessite une passerelle Zigbee vendue séparément. Consultez la page du produit pour savoir comment il est alimenté.",
+          "tags": [
+            "Zigbee",
+            "Vibration",
+            "Inclinaison",
+            "Alerte"
+          ]
+        },
+        "es": {
+          "title": "Sensor de vibración Tuya Zigbee con detección de inclinación en 3 ejes",
+          "description": "Pequeño sensor Zigbee que detecta vibraciones, golpes e inclinación en tres ejes y envía una alerta a la app, por ejemplo para puertas, ventanas o cajas de almacenaje. Requiere una pasarela Zigbee que se vende aparte. Consulta la página del producto para saber cómo se alimenta.",
+          "tags": [
+            "Zigbee",
+            "Vibración",
+            "Inclinación",
+            "Alerta"
+          ]
+        },
+        "de": {
+          "title": "Tuya Zigbee-Vibrationssensor mit Neigungserkennung auf 3 Achsen",
+          "description": "Kleiner Zigbee-Sensor, der Vibrationen, Stöße und Neigung auf drei Achsen erkennt und eine Meldung an die App sendet, zum Beispiel für Türen, Fenster oder Aufbewahrungskisten. Erfordert ein separat erhältliches Zigbee-Gateway. Wie er mit Strom versorgt wird, steht auf der Produktseite.",
+          "tags": [
+            "Zigbee",
+            "Vibration",
+            "Neigung",
+            "Alarm"
           ]
         }
       }
