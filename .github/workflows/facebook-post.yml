@@ -55,6 +55,7 @@ jobs:
         env:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
           KIND: ${{ inputs.kind || 'auto' }}
           CHECK: ${{ github.event_name == 'workflow_dispatch' && inputs.check || 'false' }}

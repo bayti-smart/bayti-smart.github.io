@@ -15,6 +15,7 @@ import os
 import random
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -114,7 +115,10 @@ def pick(kind, today, products):
             f"👉 See it on Smart Casa: {SITE}/?lang=en#p-{p['id']}\n\n"
             f"{DISCLOSURE}\n\n#SmartHome #HomeAutomation"
         )
-        return {"kind": "product", "id": p["id"], "message": msg, "image": p["image"]}
+        ig = (f"{trim(en['title'], 110)}\n\n{trim(en.get('description', ''), 300)}\n\n"
+              f"🔗 Find it on Smart Casa: link in bio.\n\n{DISCLOSURE}\n\n"
+              f"#smarthome #homeautomation #smartdevices #gadgets #aliexpressfinds")
+        return {"kind": "product", "id": p["id"], "message": msg, "image": p["image"], "ig_caption": ig}
     gid, headline, body = GUIDES[k % len(GUIDES)]
     related = [p for p in products if guide_for(p["id"]) == gid]
     image = related[k % len(related)]["image"] if related else None
@@ -123,7 +127,9 @@ def pick(kind, today, products):
         f"📖 Read the full guide: {SITE}/guides.html?lang=en#{gid}\n\n"
         f"{DISCLOSURE}\n\n#SmartHome #HomeAutomation"
     )
-    return {"kind": "guide", "id": gid, "message": msg, "image": image}
+    ig = (f"{headline}\n\n{body}\n\n📖 Full guide on Smart Casa: link in bio.\n\n{DISCLOSURE}\n\n"
+          f"#smarthome #homeautomation #smarthometips #diyhome #homegadgets")
+    return {"kind": "guide", "id": gid, "message": msg, "image": image, "ig_caption": ig}
 
 
 def http(req, timeout=60):
@@ -180,6 +186,42 @@ def graph_post(path, fields, image=None):
     return status, payload
 
 
+def graph_get(path, **params):
+    url = f"{GRAPH}/{path}?" + urllib.parse.urlencode(params)
+    status, raw, _ = http(urllib.request.Request(url))
+    try:
+        return status, json.loads(raw)
+    except ValueError:
+        return status, {}
+
+
+def post_instagram(post, photo_id, ig_id, token):
+    """Publish the same photo to Instagram. Reuses the image already uploaded to the
+    Facebook Page (a public Facebook CDN JPEG), so no extra hosting is needed.
+    Returns a short result string for the log."""
+    st, d = graph_get(photo_id, fields="images", access_token=token)
+    images = d.get("images") or []
+    if st != 200 or not images:
+        return f"IG ERROR no image url (HTTP {st}) " + json.dumps(d.get("error", d), ensure_ascii=False)[:200]
+    url = images[0]["source"]  # largest first
+    st, c = graph_post(f"{ig_id}/media", {"image_url": url, "caption": post["ig_caption"], "access_token": token})
+    if st != 200 or "id" not in c:
+        return f"IG ERROR container HTTP {st} " + json.dumps(c.get("error", c), ensure_ascii=False)[:250]
+    cid = c["id"]
+    for _ in range(12):  # wait until Instagram has processed the image
+        st, s = graph_get(cid, fields="status_code", access_token=token)
+        code = s.get("status_code")
+        if code == "FINISHED":
+            break
+        if code in ("ERROR", "EXPIRED"):
+            return f"IG ERROR processing status={code}"
+        time.sleep(3)
+    st, p = graph_post(f"{ig_id}/media_publish", {"creation_id": cid, "access_token": token})
+    if st == 200 and "id" in p:
+        return f"IG OK media_id={p['id']}"
+    return f"IG ERROR publish HTTP {st} " + json.dumps(p.get("error", p), ensure_ascii=False)[:250]
+
+
 def log(line):
     with open(LOG_PATH, "a", encoding="utf-8") as f:
         f.write(line + "\n")
@@ -199,6 +241,7 @@ def main():
     print(f"[{post['kind']}] {post['id']}")
     print(post["message"])
     print(f"image: {post['image']}")
+    print("--- Instagram caption:\n" + post["ig_caption"])
     if args.dry_run:
         check = "no-image"
         if post["image"]:
@@ -247,6 +290,17 @@ def main():
         pid = payload.get("post_id") or payload.get("id")
         print(f"OK post_id={pid} mode={mode}{note}")
         log(f"{stamp} OK {post['kind']} {post['id']} post_id={pid} {mode}{note}"[:600])
+        ig_id = os.environ.get("IG_USER_ID", "")
+        if ig_id and mode.startswith("photo") and payload.get("id"):
+            try:
+                res = post_instagram(post, payload["id"], ig_id, token)
+            except Exception as e:  # Instagram must never break the Facebook post
+                res = f"IG ERROR {e}"
+            res = res.replace(token, "***")
+            print(res)
+            log(f"{stamp} {res} {post['kind']} {post['id']}"[:600])
+        elif ig_id:
+            log(f"{stamp} IG skipped (no photo in the Facebook post) {post['kind']} {post['id']}")
         return 0
 
     err = json.dumps(payload.get("error", payload), ensure_ascii=False)[:300]

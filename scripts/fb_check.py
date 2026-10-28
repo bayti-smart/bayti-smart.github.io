@@ -60,3 +60,17 @@ for label, path, fields in [
     span = f" {dates[0]}..{dates[-1]}" if dates else ""
     names = ", ".join(f"{r.get('name')}({r.get('count')})" for r in rows[:6]) if label == "albums" else ""
     log(f"{stamp} CHECK {label} count={len(rows)}{more}{span} {names}")
+
+
+# --- Instagram account (only when IG_USER_ID is set) ---
+ig_id = os.environ.get("IG_USER_ID", "")
+if ig_id:
+    st, d = get(ig_id, fields="username,media_count")
+    log(f"{stamp} CHECK ig HTTP {st} " + json.dumps(d.get("error", d), ensure_ascii=False)[:300])
+    st, d = get(f"{ig_id}/media", fields="id,timestamp,permalink,caption", limit=5)
+    if st == 200:
+        for m in d.get("data", []):
+            cap = " ".join((m.get("caption") or "").split())[:45]
+            log(f"{stamp} CHECK ig-media {m.get('id')} {m.get('timestamp')} {m.get('permalink')} {cap!r}")
+    else:
+        log(f"{stamp} CHECK ig-media HTTP {st} " + json.dumps(d.get("error", d), ensure_ascii=False)[:250])
