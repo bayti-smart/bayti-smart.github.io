@@ -1,14 +1,14 @@
-carbon monoxide detector wifi
-zigbee smoke detector
-zigbee pir motion sensor
-zigbee water leak sensor
-light sensor lux zigbee
-water tank level sensor wifi
-outdoor solar string lights
-gu10 smart bulb wifi
-smart led panel light
-smart plug 20A air conditioner wifi
-zigbee dimmer switch module
-zigbee 4 gang scene switch wireless
-wifi video intercom doorbell
-smart sprinkler controller wifi
+smart speaker alexa built in
+wifi audio receiver amplifier
+smart humidifier wifi
+baby monitor camera wifi
+outdoor floodlight camera
+automatic plant watering kit timer
+wifi weather station
+solar fountain pump
+smart power strip zigbee
+smart wall socket usb type c
+mesh wifi router system
+tuya gas valve shutoff
+touch dimmer switch wifi
+smart desk lamp wireless charger
