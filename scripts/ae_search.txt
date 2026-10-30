@@ -1,14 +1,13 @@
-wifi humidifier tuya
-mini air purifier hepa
-smart desk fan wifi
-tuya wifi heater
-automatic fish feeder
-pet gps tracker
-wireless pet fountain
-pet camera treat dispenser
-wifi 6 router AX1800
-usb wifi 6 adapter
-poe switch 8 port
-4g lte router sim
-wireless meat thermometer
-bluetooth key finder tracker
+humidifier
+air purifier
+dehumidifier
+tower fan remote
+automatic cat laser toy
+aquarium led light app
+aquarium thermostat controller
+powerline adapter
+mini travel router
+usb ethernet adapter gigabit
+smart electric kettle wifi
+smart body scale bluetooth
+mini electric heater fan
