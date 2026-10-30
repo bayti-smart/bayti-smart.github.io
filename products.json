@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T19:50:27.278327+00:00",
+  "updated_at": "2026-10-30T19:54:12.764546+00:00",
   "languages": [
     "ar",
     "en",
@@ -76,6 +76,36 @@
         "fr": "Jardin",
         "es": "Jardín",
         "de": "Garten"
+      }
+    },
+    {
+      "id": "climate",
+      "name": {
+        "ar": "التدفئة والمناخ",
+        "en": "Climate",
+        "fr": "Climat",
+        "es": "Clima",
+        "de": "Klima"
+      }
+    },
+    {
+      "id": "pets",
+      "name": {
+        "ar": "الحيوانات الأليفة",
+        "en": "Pets",
+        "fr": "Animaux",
+        "es": "Mascotas",
+        "de": "Haustiere"
+      }
+    },
+    {
+      "id": "network",
+      "name": {
+        "ar": "الشبكة",
+        "en": "Network",
+        "fr": "Réseau",
+        "es": "Red",
+        "de": "Netzwerk"
       }
     },
     {
@@ -1541,7 +1571,7 @@
     },
     {
       "id": "tuya-wifi-zigbee-radiator-valve",
-      "category": "misc",
+      "category": "climate",
       "price": 35.95,
       "currency": "USD",
       "rating": 0.0,
@@ -1667,7 +1697,7 @@
     },
     {
       "id": "wifi-automatic-pet-feeder",
-      "category": "misc",
+      "category": "pets",
       "price": 66.42,
       "currency": "USD",
       "rating": 0.0,
@@ -2045,7 +2075,7 @@
     },
     {
       "id": "avatto-wifi-smart-thermostat",
-      "category": "misc",
+      "category": "climate",
       "price": 25.56,
       "currency": "USD",
       "rating": 0.0,
@@ -2423,7 +2453,7 @@
     },
     {
       "id": "fenvi-ac1200-wifi-repeater",
-      "category": "misc",
+      "category": "network",
       "price": 21.36,
       "currency": "USD",
       "rating": 0.0,
@@ -2864,7 +2894,7 @@
     },
     {
       "id": "cat-water-fountain-3-2l-stainless",
-      "category": "misc",
+      "category": "pets",
       "price": 10.91,
       "currency": "USD",
       "rating": 0.0,
@@ -3242,7 +3272,7 @@
     },
     {
       "id": "ampcom-gigabit-switch-5-8-port",
-      "category": "misc",
+      "category": "network",
       "price": 19.0,
       "currency": "USD",
       "rating": 0.0,
@@ -3557,7 +3587,7 @@
     },
     {
       "id": "sonoff-zb-dongle-e-zigbee-usb",
-      "category": "misc",
+      "category": "network",
       "price": 18.49,
       "currency": "USD",
       "rating": 0.0,
@@ -5447,7 +5477,7 @@
     },
     {
       "id": "tuya-zigbee-signal-repeater-usb",
-      "category": "misc",
+      "category": "network",
       "price": 8.15,
       "currency": "USD",
       "rating": 0.0,
@@ -5636,7 +5666,7 @@
     },
     {
       "id": "tuya-wifi-thermostat-socket-16a",
-      "category": "misc",
+      "category": "climate",
       "price": 28.76,
       "currency": "USD",
       "rating": 0.0,
@@ -7079,6 +7109,636 @@
             "AUX 3,5 mm",
             "Sender & Empfänger",
             "Mikrofon"
+          ]
+        }
+      }
+    },
+    {
+      "id": "android-find-my-tag-bluetooth-tracker",
+      "category": "misc",
+      "price": 8.84,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se647f9c4ca544567a1f049e2b74781ef0.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4K4Y5WJWfbFEiS9bBpQvDeKmiISr4sOGqQfga2ZUv6G7dCWe1fR4YYzDGbut14rgeyxwcGIYFyXAsap7wV2WQUc9tCOOS2p3aMSUvVm4bADAYgQBJdUJFrLaHWjZw95i8ysyQLgtNpt2y085dAvvh7uxtPIQW6HMlUfcxi7CpIYr8T8UT0VmR3cp7jlIaZuSv1FqEfjeISocnOL3YbDph9ww7z3wspBWSiulBHJ5C2hn2kqeVHOqaKTWJehIT3YgzZ5fjJPxF8VLe5GQdWBoT2B5BDCrbynxz0rLkvrgdpUvFOolXkokJEFoX3aUo6TAobFh3Ep9XA9kz89s3MZww92CWwTgimtwxzLw5b7J6MuG7rdhBDLchKnbRBa0AWJXgrbrCLfwH5C3NDLrQIwJ4rr03AzIo7LdrtIax7chgRUSLjframmh2eU0pKgX81iO3FQoNHqN4X6SQn3pUucWlWoD7MXd67eWuVnEIceCsHhVUUnIjWwWvRHhlpzTffI23bBGwJEfebLtVv4Q8WDJvZxiVT4bTAFl4LEKnSwLV40IqaaDZMVXyr50LQZPkhhc54srTvV1Yr91ixtU94C7QAOtt1iSl5OS7W4OpEBmzw1ARlbOZ071nDPyET308Ztl0BvmoFD7KZfU7G7BHiOdnVqvDhaKqln3lRsyszBy9ikJ5zewUeOEzKey0gk3LDMRBwjbb5XIpcn7U",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "علامة تتبع Bluetooth لأندرويد (Find My Tag) لمفاتيح الأمتعة والدراجات والحيوانات",
+          "description": "علامة صغيرة مضادة للضياع لهواتف أندرويد مع جرس تنبيه، تُوضع على المفاتيح أو الحقيبة أو الدراجة أو طوق حيوان أليف. كلمة GPS في عنوان الإعلان تسويقية، وهذه العلامات تعتمد عادةً على Bluetooth وعلى هواتف قريبة لتحديد مكانها، فلا تعطي تتبعًا لحظيًا كأجهزة GPS الحقيقية. راجع صفحة المنتج لمعرفة التوافق الدقيق ونوع البطارية.",
+          "tags": [
+            "Bluetooth",
+            "مضاد للضياع",
+            "أندرويد",
+            "تنبيه"
+          ]
+        },
+        "en": {
+          "title": "Android Find My Tag Bluetooth Tracker for Keys, Bags, Bikes and Pets",
+          "description": "Small anti-loss tag for Android phones with an alert sound, to attach to keys, a bag, a bicycle or a pet's collar. The word GPS in the listing is marketing: tags like this usually rely on Bluetooth and nearby phones to locate items, so they do not give live tracking like a real GPS tracker. Check the product page for exact compatibility and the battery type.",
+          "tags": [
+            "Bluetooth",
+            "Anti-loss",
+            "Android",
+            "Alert"
+          ]
+        },
+        "fr": {
+          "title": "Traceur Bluetooth Find My Tag pour Android, pour clés, sacs, vélos et animaux",
+          "description": "Petit traceur antiperte pour téléphones Android avec signal sonore, à fixer sur des clés, un sac, un vélo ou le collier d'un animal. Le mot GPS dans l'annonce relève du marketing : ce type de balise s'appuie généralement sur le Bluetooth et sur les téléphones proches pour localiser un objet, et n'offre donc pas un suivi en direct comme un vrai traceur GPS. Consultez la page du produit pour la compatibilité exacte et le type de pile.",
+          "tags": [
+            "Bluetooth",
+            "Antiperte",
+            "Android",
+            "Alerte"
+          ]
+        },
+        "es": {
+          "title": "Localizador Bluetooth Find My Tag para Android, para llaves, bolsos, bicicletas y mascotas",
+          "description": "Pequeña etiqueta antipérdida para móviles Android con aviso sonoro, para poner en llaves, un bolso, una bicicleta o el collar de una mascota. La palabra GPS del anuncio es marketing: etiquetas como esta suelen apoyarse en Bluetooth y en móviles cercanos para localizar objetos, así que no ofrecen seguimiento en directo como un localizador GPS real. Consulta la página del producto para la compatibilidad exacta y el tipo de pila.",
+          "tags": [
+            "Bluetooth",
+            "Antipérdida",
+            "Android",
+            "Aviso"
+          ]
+        },
+        "de": {
+          "title": "Bluetooth-Tracker Find My Tag für Android, für Schlüssel, Taschen, Fahrräder und Haustiere",
+          "description": "Kleiner Anti-Verlust-Anhänger für Android-Handys mit Signalton, zum Befestigen an Schlüsseln, Tasche, Fahrrad oder Halsband eines Haustiers. Das Wort GPS im Angebot ist Marketing: Anhänger dieser Art nutzen meist Bluetooth und Handys in der Nähe zur Ortung und bieten daher keine Live-Verfolgung wie ein echter GPS-Tracker. Genaue Kompatibilität und Batterietyp stehen auf der Produktseite.",
+          "tags": [
+            "Bluetooth",
+            "Anti-Verlust",
+            "Android",
+            "Signal"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tuya-wifi-floor-heating-thermostat-boiler",
+      "category": "climate",
+      "price": 22.0,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1a14f93083164fb2ab31700c66e76fcd9.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cow2rJHTiMGTpH2d04dfYRo0TfOOz4vh1Z9unc8lz9gbcFDCkAm2lWX19WdkYLpXiFlFCWaU1GiXaj3ZyN5eLO1BRfr51bc1npx5vTxp8GCZNCPCD5hiKJ0nK2QdvKUW5IjBvN76AW5DX0W9cqw3EICMDHXX6IumFHFKp03coXkDkbzju2YhbCsLDci61B7U8LmBR6PL4QLMbMhxPbHbW1JjA8w79O1WTnLf4mbkhNJM2GzLaCeC53k42tCMt2BpaQ7bLuzWUT8kkC5ZAWPEpnTCW6WWOaT4tMeLQHjlMcG2dcBUKSHCVHfllPMVVsz3p6yu7ch3oCz1wM71Fhc81kGYN0PnIVFWoo0nXrGnPoh1RpoXcEbvgVjWJ1CLCwMOmrpqIuZmapBm2hndhkO2bqNuGuNxBW9RFUJ41pdncvXdKU9oNywoZajGMNFkLf452OygABT6u0GAsoURzQtFEc95Y5CsoOdS9CmCKVL3ETr094u83auMh4ewOizpGBUiCSJaxeQlOkQH74RZtrAPRhMLh2mvNWqbSrc9NLBHXSHAW26okRSFdt2T0aHIdiRFK2ZUcaCMRal2c37fMkWkFVGBOIDnd8kkzWazXmQi85Wk3DBK2OYO5YOYA8tDnKIvn4g30TViMKolcQQK6uCqRQeTclw47MkdPkQJuO9Wt0rsuGLhwq314iNvKLysZDotfvLwQ6kzCDL4z8",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "ثرموستات Tuya ذكي عبر Wi-Fi للتدفئة الأرضية المائية أو الكهربائية ولمراجل الغاز",
+          "description": "ثرموستات Wi-Fi للتدفئة الأرضية المائية أو الكهربائية أو لمرجل الغاز، يضبط الحرارة عن بُعد من تطبيق Tuya / Smart Life ويعمل بالأوامر الصوتية مع أليكسا وGoogle. راجع في صفحة المنتج نوع التدفئة الذي تدعمه كل نسخة والحمل الأقصى، ويُفضَّل أن يوصله كهربائي.",
+          "tags": [
+            "Wi-Fi",
+            "ثرموستات",
+            "تدفئة أرضية",
+            "مرجل غاز"
+          ]
+        },
+        "en": {
+          "title": "Tuya Wi-Fi Smart Thermostat for Water or Electric Floor Heating and Gas Boilers",
+          "description": "Wi-Fi thermostat for water or electric underfloor heating or a gas boiler, with remote temperature control from the Tuya / Smart Life app and voice control with Alexa and Google. Check on the product page which heating type each version supports and the maximum load, and have an electrician wire it in.",
+          "tags": [
+            "Wi-Fi",
+            "Thermostat",
+            "Floor heating",
+            "Gas boiler"
+          ]
+        },
+        "fr": {
+          "title": "Thermostat connecté Wi-Fi Tuya pour plancher chauffant hydraulique ou électrique et chaudière gaz",
+          "description": "Thermostat Wi-Fi pour plancher chauffant hydraulique ou électrique ou pour chaudière à gaz, avec réglage de la température à distance depuis l'application Tuya / Smart Life et commande vocale avec Alexa et Google. Consultez la page du produit pour savoir quel type de chauffage chaque version prend en charge et la charge maximale, et faites-le raccorder par un électricien.",
+          "tags": [
+            "Wi-Fi",
+            "Thermostat",
+            "Plancher chauffant",
+            "Chaudière gaz"
+          ]
+        },
+        "es": {
+          "title": "Termostato inteligente Wi-Fi Tuya para suelo radiante de agua o eléctrico y calderas de gas",
+          "description": "Termostato Wi-Fi para suelo radiante de agua o eléctrico o para caldera de gas, con control remoto de la temperatura desde la app Tuya / Smart Life y control por voz con Alexa y Google. Consulta en la página del producto qué tipo de calefacción admite cada versión y la carga máxima, y que lo conecte un electricista.",
+          "tags": [
+            "Wi-Fi",
+            "Termostato",
+            "Suelo radiante",
+            "Caldera de gas"
+          ]
+        },
+        "de": {
+          "title": "Tuya WLAN-Smart-Thermostat für Wasser- oder Elektro-Fußbodenheizung und Gaskessel",
+          "description": "WLAN-Thermostat für Wasser- oder Elektro-Fußbodenheizung oder einen Gaskessel, mit Fernsteuerung der Temperatur über die Tuya / Smart Life App und Sprachsteuerung mit Alexa und Google. Auf der Produktseite steht, welche Heizungsart jede Version unterstützt und welche Last maximal erlaubt ist, und ein Elektriker sollte ihn anschließen.",
+          "tags": [
+            "WLAN",
+            "Thermostat",
+            "Fußbodenheizung",
+            "Gaskessel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "4g-lte-wifi-6-sim-router-32-devices",
+      "category": "network",
+      "price": 30.55,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9a3bebdd55e8482fb009a19e17d42668z.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4P4vZGBXVMCGvOz7xMcZQMXYpcDu5rpNSQOkzjkqpQVnjwRs0gTRIpUXkbBXkFePChTFSxPsVzlORsrm6xmagzQXLgXBXdiFnRMtgfMjb2SIeFTati4LSfQilG9vsKBvfBR3EwEXxVALI1Vv2YQzrQjUhMQwrutHvfxgqCNjev0zhoX8B59wYJ63BO3jhWNPzgPa5YGvbvTKkdcE0MXS0lFKzTWiEGmJ0JsuyIqgUzAlhF20VszZoXkhwrm3Znw9N7nHEs6RUsOnAuPkIaiFjYHRtvTAi9mBFaT1EM9HziorZS5mRmL493RlpoAiQpJvTEwV2KtUYUB5lC6kt2uY6XLLNAv6cpbWq9mjjZMi7wsaBbu653YGXKjjpyqgPfNBxP85rXDVkSY52FZc2SnGhnvaRt5hHB5FfB9qwPgYbpy9fHIxePR8szHHVTBsIFhft7pGcnUTN4lJrYmc7P2X9MxVmFOrNyL0lFcHjBrZKLDuhgp8PgOeiD301sKLBiYOxE2KMCi2oB4PZbInbKjj7aMLqZsPaE2HRvuxs5Wlprlyn0atnHp8byjFgAsDJ7qaxXqX23Se5dJXkpexKtVb9TeVN3zMPApeVv3BpXZrntilXTG18qzipUIUdE1CHrpuLxfl8Bmk3vdMPwiI91rhGIwq1g1dgglgidqhnItkg1fklCJLrRjGXH1QpQhgIurXB8iSPxn2iIGk0",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "راوتر 4G LTE بتقنية Wi-Fi 6 بفتحة شريحة SIM يدعم 32 جهازًا",
+          "description": "راوتر 4G LTE بفتحة شريحة SIM يشارك اتصال بيانات الجوال عبر Wi-Fi 6 مع ما يصل إلى 32 جهازًا، ويعمل عبر منفذ Type-C. مفيد حيث لا يوجد خط إنترنت ثابت أو كاحتياط. يعمل فقط بشريحة وباقة بيانات من مشغّلك، فراجع صفحة المنتج للتأكد من نطاقات 4G المدعومة في بلدك.",
+          "tags": [
+            "4G LTE",
+            "Wi-Fi 6",
+            "شريحة SIM",
+            "32 جهازًا"
+          ]
+        },
+        "en": {
+          "title": "4G LTE Wi-Fi 6 Router with SIM Slot, Supports 32 Devices",
+          "description": "4G LTE router with a SIM card slot that shares a mobile data connection over Wi-Fi 6 with up to 32 devices, powered through a Type-C port. Useful where there is no fixed internet line, or as a backup. It only works with a SIM and a data plan from your operator, so check the product page for the 4G bands supported in your country.",
+          "tags": [
+            "4G LTE",
+            "Wi-Fi 6",
+            "SIM slot",
+            "32 devices"
+          ]
+        },
+        "fr": {
+          "title": "Routeur 4G LTE Wi-Fi 6 avec fente SIM, jusqu'à 32 appareils",
+          "description": "Routeur 4G LTE avec fente pour carte SIM qui partage une connexion de données mobiles en Wi-Fi 6 avec jusqu'à 32 appareils, alimenté par un port USB-C. Utile là où il n'y a pas de ligne internet fixe, ou en secours. Il ne fonctionne qu'avec une carte SIM et un forfait de données de votre opérateur : consultez la page du produit pour les bandes 4G prises en charge dans votre pays.",
+          "tags": [
+            "4G LTE",
+            "Wi-Fi 6",
+            "Fente SIM",
+            "32 appareils"
+          ]
+        },
+        "es": {
+          "title": "Router 4G LTE Wi-Fi 6 con ranura SIM, compatible con 32 dispositivos",
+          "description": "Router 4G LTE con ranura para tarjeta SIM que comparte una conexión de datos móviles por Wi-Fi 6 con hasta 32 dispositivos, alimentado por un puerto USB-C. Útil donde no hay línea de internet fija, o como respaldo. Solo funciona con una SIM y un plan de datos de tu operador, así que consulta en la página del producto las bandas 4G compatibles en tu país.",
+          "tags": [
+            "4G LTE",
+            "Wi-Fi 6",
+            "Ranura SIM",
+            "32 dispositivos"
+          ]
+        },
+        "de": {
+          "title": "4G-LTE-WLAN-6-Router mit SIM-Slot, bis zu 32 Geräte",
+          "description": "4G-LTE-Router mit SIM-Kartenslot, der eine mobile Datenverbindung per WLAN 6 mit bis zu 32 Geräten teilt und über einen USB-C-Anschluss mit Strom versorgt wird. Praktisch, wo es keinen Festnetz-Internetanschluss gibt, oder als Notlösung. Er funktioniert nur mit SIM-Karte und Datentarif deines Anbieters, die in deinem Land unterstützten 4G-Bänder stehen auf der Produktseite.",
+          "tags": [
+            "4G LTE",
+            "WLAN 6",
+            "SIM-Slot",
+            "32 Geräte"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bluetooth-smart-body-fat-scale-app",
+      "category": "misc",
+      "price": 33.39,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S71ac816420a04bfdafcc185f1d0c9538O.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnkYIpkD61VvWkWT6tsMRNqUEXqLywOnuudjVv4154NXhSmSGlq2jEO8KIR0tGUmjN68u6MJbHixAkfNParJoyVjmUtkWAC4PLWKe8HGr9bb8mTXJMoMzaVZMbLprCl3woweA5156hVua7oniHM2Qg49DRtbYMjq1wmhByj8mtpxTdQyu9uGjJ4fdGTfR9PX2U5TIUAJ1V7Qb7sps9wbo8WjHQnBZRXx5eRXHCevUhrar8LTO1DgwOdRhIU9CWfeEolNnynS07sRPLVCaaz4f0wp939rLaym2YtEwRcR0EuD3vvgOuu1mJNGyhu9X6tT2IBGrSimwJLwT2oMIbI9IeoZ1ds69pkHdhpHATCymEgw8aBYhUpMxHCJCUYZ1jrWSPRrlzBKBWVzUPi3UPrsLfIaUMDqU1aSbk2nXHKXzheMa8jG3mHtWaibnTJFB96i50CUUx58qBnd4VT92kQL3AZEeeilGBosmHKhCTdmgvu3tfr5kX1gwz2G9FV3JGgud7vTaGt5p2dRKfLJapo2VpYr8ULozavX7bwP7w5Qrqxp8gy50QyBxUE09Yu9TsbD4k8OE8MBJ3CXsFr0FagiVcbhBBGuHADwG9A5bbfGwGdJTvIrom1OytTuM89BO69BNaGBX522mV8TD3Y7Q3fCb8QLpcPGu7k33feb74SawoAf2T5pXNbyuFtx7ELp1tZROcySmkvX1QdShE",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "ميزان حمام ذكي بتحليل دهون الجسم ويتصل بتطبيق عبر Bluetooth",
+          "description": "ميزان حمام يتصل بتطبيق على الهاتف عبر Bluetooth لمتابعة الوزن وتقديرات تركيب الجسم مثل نسبة الدهون. أرقام تركيب الجسم في هذه الموازين تقديرات تقريبية وليست قياسات طبية، فاستخدمها لمتابعة اتجاهك الشخصي مع الوقت. راجع صفحة المنتج لمعرفة التطبيق والوزن الأقصى.",
+          "tags": [
+            "Bluetooth",
+            "ميزان ذكي",
+            "دهون الجسم",
+            "تطبيق"
+          ]
+        },
+        "en": {
+          "title": "Smart Bluetooth Body Fat Bathroom Scale with App",
+          "description": "Bathroom scale that connects over Bluetooth to a phone app to track weight and body composition estimates such as body fat. The body-composition numbers from scales like this are rough estimates, not medical measurements, so use them to follow your own trend over time. Check the product page for the app and the maximum weight.",
+          "tags": [
+            "Bluetooth",
+            "Smart scale",
+            "Body fat",
+            "App"
+          ]
+        },
+        "fr": {
+          "title": "Pèse-personne connecté Bluetooth avec analyse de masse grasse et application",
+          "description": "Pèse-personne qui se connecte en Bluetooth à une application mobile pour suivre le poids et des estimations de composition corporelle comme la masse grasse. Les valeurs de composition corporelle de ce type de balance sont des estimations approximatives, pas des mesures médicales : servez-vous-en pour suivre votre propre tendance dans le temps. Consultez la page du produit pour l'application et le poids maximal.",
+          "tags": [
+            "Bluetooth",
+            "Balance connectée",
+            "Masse grasse",
+            "Application"
+          ]
+        },
+        "es": {
+          "title": "Báscula de baño inteligente Bluetooth con análisis de grasa corporal y app",
+          "description": "Báscula de baño que se conecta por Bluetooth a una app del móvil para seguir el peso y estimaciones de composición corporal como la grasa. Las cifras de composición corporal de estas básculas son estimaciones aproximadas, no mediciones médicas, así que úsalas para seguir tu propia tendencia con el tiempo. Consulta la página del producto para la app y el peso máximo.",
+          "tags": [
+            "Bluetooth",
+            "Báscula inteligente",
+            "Grasa corporal",
+            "App"
+          ]
+        },
+        "de": {
+          "title": "Smarte Bluetooth-Körperfettwaage mit App",
+          "description": "Personenwaage, die sich per Bluetooth mit einer Handy-App verbindet, um Gewicht und Schätzwerte zur Körperzusammensetzung wie den Körperfettanteil zu verfolgen. Die Werte zur Körperzusammensetzung solcher Waagen sind grobe Schätzungen und keine medizinischen Messungen, nutze sie also, um deinen eigenen Verlauf über die Zeit zu beobachten. App und maximales Gewicht stehen auf der Produktseite.",
+          "tags": [
+            "Bluetooth",
+            "Smarte Waage",
+            "Körperfett",
+            "App"
+          ]
+        }
+      }
+    },
+    {
+      "id": "laser-cat-teaser-collar-toy",
+      "category": "pets",
+      "price": 8.08,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se7741a999f954dda8dd28ba32f4f7594Z.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4OSEfCQ36UpkxbAnuA2ziGjYhNkLGs7aythcyJIhigWUdOycJYXCqHAmzhPv0sMPzqCYQs7PyGA0XWGBkl0t8EGjpLWRqy5m5R79rLHp6S38vNCOhdp3hd1HdN2g946kHW2lw5FrV0EwndqpynvGH0QyfWa4mZF43WcKDpdZ78PKluF0vubauD7ZvH1QoYdns70eCHX0omBTkRvHmM8xgh3q7ypeWDuN4EO2WH9zVm9mCZAIcE76u6uKCnPNxONOyFRt8VfIpak1kqPqhmwkjlMWL9VGuKcB7nYFAUFkIVgqhz5wjLpHgA8v0h6PGQXonEzzBniTkrYy4Zq0jBoJALYl7G8XScWkMyqMskpb0OU6eNVI2jBzTA3XoOTPQNYWl22jrFhYYnIMDrTuEQfTUfHYrgUjkjnamBY9WSNQMefg53dK7svIeSXUHXIchgWWq3nO3l1zFB5RlGRrqyDaX3B8S54C3quB1kVEXptl0nkmikK30GorQuLbI0tGKqo7VxXoqR3ExhsOVeMdgKPshpOXNT78tkIb395m8okpUmoHfNqWQIuKNIC3sIm1yH9Mf5isbO9wUu6qwMmqwDy4LR8Yiirwu15rn1afWeZHxKxX4ENuJEGdcXMdwM7WzQf9BG1E4FnOe2m3kxQqSy5sDHhWymNBabn2O4mXtD7zccmrUy9JBT7qgiyRFL9sYpPetJ3oz06FVMvyQ",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "لعبة قطط ليزر أوتوماتيكية بتصميم طوق للعب الذاتي",
+          "description": "لعبة قطط أوتوماتيكية بليزر، معروضة بتصميم يشبه الطوق للعب الذاتي. راجع صور صفحة المنتج لتعرف كيف تُلبَس وكيف تعمل، ولا توجّه الليزر إلى عيني القط أبدًا، وأنهِ اللعب بلعبة حقيقية يمسكها.",
+          "tags": [
+            "لعبة قطط",
+            "ليزر",
+            "طوق",
+            "لعب ذاتي"
+          ]
+        },
+        "en": {
+          "title": "Automatic Laser Cat Teaser Toy, Collar Style for Self-Play",
+          "description": "Automatic cat teaser toy with a laser, listed as a collar-style accessory for self-entertainment. Check the product page photos to see how it is worn and how it works, never shine a laser into a cat's eyes, and end play with a real toy the cat can catch.",
+          "tags": [
+            "Cat toy",
+            "Laser",
+            "Collar",
+            "Self-play"
+          ]
+        },
+        "fr": {
+          "title": "Jouet laser automatique pour chat, format collier, pour jouer seul",
+          "description": "Jouet teaser automatique avec laser pour chat, présenté comme un accessoire de type collier pour s'occuper seul. Regardez les photos de la page du produit pour voir comment il se porte et fonctionne, ne dirigez jamais un laser vers les yeux d'un chat, et terminez le jeu avec un vrai jouet que le chat peut attraper.",
+          "tags": [
+            "Jouet pour chat",
+            "Laser",
+            "Collier",
+            "Jeu solo"
+          ]
+        },
+        "es": {
+          "title": "Juguete láser automático para gatos, tipo collar, para jugar solos",
+          "description": "Juguete teaser automático con láser para gatos, presentado como un accesorio tipo collar para entretenerse solos. Mira las fotos de la página del producto para ver cómo se lleva y cómo funciona, no dirijas nunca un láser a los ojos de un gato, y termina el juego con un juguete real que pueda atrapar.",
+          "tags": [
+            "Juguete para gatos",
+            "Láser",
+            "Collar",
+            "Juego solitario"
+          ]
+        },
+        "de": {
+          "title": "Automatisches Laser-Katzenspielzeug im Halsband-Stil zum Alleinspielen",
+          "description": "Automatisches Katzen-Teaser-Spielzeug mit Laser, angeboten als halsbandartiges Zubehör zur Selbstbeschäftigung. Auf den Fotos der Produktseite siehst du, wie es getragen wird und funktioniert. Richte einen Laser niemals auf die Augen einer Katze und beende das Spiel mit einem echten Spielzeug, das die Katze fangen kann.",
+          "tags": [
+            "Katzenspielzeug",
+            "Laser",
+            "Halsband",
+            "Alleinspielen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "automatic-rolling-ball-cat-toy-rechargeable",
+      "category": "pets",
+      "price": 8.58,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa4972f8f41cb48098d5c4dbc007b56a6v.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmzEyXnWl3wcs4xJsqmPHax9yEkkbmQ5peX1qk14Ms9FDF5GR0Ax3hBNnLH1TSbUObNxoOVQx8XvtSk7kCRAau25v0iZO9I9mq1sEsY01C5SJevKeiQxocf2BiRYycD0wjTxayjPZ6CYzYXeWcNYPv9xM4VcbkM7BMsZEwIJyXF8w8Ld26F9aAsqcdSRunPoEMZYSRETlhORppK8U8hWtD8DjJS6kHtJzAnJqgfo7ovlovU2w2aC1mcG3I8XrPl3lp4SkYdEbNUtNDkoKz8rRHes9VstLLiWeklNTbstzAM03cRSWYWxQpAtJCHrZVKWXHufYpNR6PQHLLMj4jbCXjbYQuyXnMdCXbSOIa1X8xlSryvD14JLsSdmYytm6KOjtjI4lw5tVyIvZetnFvFNMIixvQfvp0Q5U1UZROEwEHemtzVUy2ZXmenUywidIdxjGXVdB8aUnApf2eeyIfoZoHlSsbprr5umKq8dPu4hzP4xmm8DhzbM8jYA8o33VFpE3kbhFXNqf7sw7Ze3KUYOQ4Y1e8CybpSfbjx08Kk57XUWuyRQwnkWfdxUUVY1149neXcfwouCaI18eYio5pzNq1Q9LZV1qjLt246lCzD0ekrZ7Wdx54txPM4HFaDOwnMm1601fH38vTtPxtdAnYHADNoDvm5Em0Tw4AJUWGGN13kQmoucQJbvlIsqVsaHl0knF2Yfn2gbxXOjq0",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كرة قطط ذكية تتدحرج تلقائيًا وقابلة للشحن",
+          "description": "كرة قابلة للشحن تتدحرج بنفسها لإبقاء القطط والقطط الصغيرة مشغولة، وهي طريقة بسيطة لتحريك قط البيت. راقب اللعب في البداية، وراجع صفحة المنتج لمعرفة مدة التشغيل وكابل الشحن.",
+          "tags": [
+            "لعبة قطط",
+            "كرة ذكية",
+            "قابلة للشحن",
+            "تفاعلية"
+          ]
+        },
+        "en": {
+          "title": "Rechargeable Smart Automatic Rolling Ball Cat Toy",
+          "description": "Rechargeable ball that rolls by itself to keep cats and kittens busy, a simple way to give an indoor cat some exercise. Supervise play at first, and check the product page for run time and the charging cable.",
+          "tags": [
+            "Cat toy",
+            "Smart ball",
+            "Rechargeable",
+            "Interactive"
+          ]
+        },
+        "fr": {
+          "title": "Balle roulante automatique rechargeable pour chat",
+          "description": "Balle rechargeable qui roule toute seule pour occuper chats et chatons, un moyen simple de faire bouger un chat d'intérieur. Surveillez le jeu au début et consultez la page du produit pour l'autonomie et le câble de charge.",
+          "tags": [
+            "Jouet pour chat",
+            "Balle intelligente",
+            "Rechargeable",
+            "Interactif"
+          ]
+        },
+        "es": {
+          "title": "Pelota rodante automática recargable para gatos",
+          "description": "Pelota recargable que rueda sola para entretener a gatos y gatitos, una forma sencilla de hacer ejercicio con un gato de interior. Supervisa el juego al principio y consulta la página del producto para ver la autonomía y el cable de carga.",
+          "tags": [
+            "Juguete para gatos",
+            "Pelota inteligente",
+            "Recargable",
+            "Interactivo"
+          ]
+        },
+        "de": {
+          "title": "Wiederaufladbarer automatischer Rollball für Katzen",
+          "description": "Wiederaufladbarer Ball, der von selbst rollt und Katzen und Kätzchen beschäftigt, eine einfache Möglichkeit, einer Wohnungskatze Bewegung zu verschaffen. Beaufsichtige das Spiel anfangs, Laufzeit und Ladekabel stehen auf der Produktseite.",
+          "tags": [
+            "Katzenspielzeug",
+            "Smarter Ball",
+            "Wiederaufladbar",
+            "Interaktiv"
+          ]
+        }
+      }
+    },
+    {
+      "id": "automatic-fish-feeder-100ml-programmable",
+      "category": "pets",
+      "price": 18.18,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8330c55924c24d57b116dd7047f91e27c.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2ANM4qw48nAiVcIL8anTWJmiv5Y8Fa8Ox62Gx4Ig4K3hVr9BiVc30eSzaiq6tSpTZYE2AQ8Qb3eIck5p7S7mXQB6C2UmBpfcHqSqFsBeCHF9mSlR2pGxwne7Xdd24rR8JG08dVcL5nrRt204cI8VATHHBAvXFmm4Bn4iZpsdvypwR4AcdttJ2JFlV54C1tgQImJojlyj56PzqH6TyfLSHqr8eMJN5EjrtWxUDse9KVA1nUHeLrIIxJXDy20fsYyoVMMUjQ4vMDIZKSqXtGsXitMtLTtBjCKSI8g6Jli1d0yus07q4oglY5JNgbTi6AGm1t85Q7FZWDVOuvItma3uT9ACzMZOlw9UDL0NyNMr8IAqjCXRtTSmYPk7fzzgyfcsjvu4dwlU3VNnZwxjXXdX9YeEv0FkIgqS4b6Ckw6bonoUVzD2eYZKvBKMUtrIreRjf3O0CaM77h0E4kiEIsGIENbwwyOnhpB0Snr3TV1JuMqgqeZHKwfdSoc4HBzM3thms5nJZtQ2eKo1ailJsuXADjU1C16NYPPp8umapkfkAWXiXJrlIU29gQT72PdL9jJDUBhLfKOnT5MWIHXm6YH7boVe10RWvOufKsVFWbBvd2E9ddqFhuOZ1stwakhdMvTgoAMYy3rHdG6A356Pc8A7jOHGd3JZWHqgVsj7UUvLswnIQ5UB8uDKbOJmAtnZAGYLAn6bWaGKB2Ocu",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مغذّي أسماك أوتوماتيكي سعة 100 مل بمؤقت قابل للبرمجة يعمل بالبطارية",
+          "description": "مغذّي أسماك أوتوماتيكي يعمل بالبطارية بخزان طعام سعة 100 مل ومؤقت قابل للبرمجة، مفيد في الإجازات وعطل نهاية الأسبوع. جرّبه عدة أيام قبل السفر، وراجع صفحة المنتج لمعرفة البطاريات وطريقة تركيبه على الحوض.",
+          "tags": [
+            "مغذّي أسماك",
+            "حوض أسماك",
+            "مؤقت",
+            "بالبطارية"
+          ]
+        },
+        "en": {
+          "title": "Automatic Fish Feeder, 100 ml, Battery Operated with Programmable Timer",
+          "description": "Battery-powered automatic fish feeder with a 100 ml food container and a programmable timer, useful for holidays and weekends away. Test it for a few days before you travel, and check the product page for the batteries and how it mounts on the tank.",
+          "tags": [
+            "Fish feeder",
+            "Aquarium",
+            "Timer",
+            "Battery powered"
+          ]
+        },
+        "fr": {
+          "title": "Distributeur de nourriture automatique pour poissons, 100 ml, à piles, minuterie programmable",
+          "description": "Distributeur de nourriture automatique pour poissons fonctionnant sur piles, avec réservoir de 100 ml et minuterie programmable, utile pendant les vacances et les week-ends. Testez-le quelques jours avant de partir et consultez la page du produit pour les piles et la fixation sur l'aquarium.",
+          "tags": [
+            "Distributeur poissons",
+            "Aquarium",
+            "Minuterie",
+            "Sur piles"
+          ]
+        },
+        "es": {
+          "title": "Alimentador automático para peces, 100 ml, a pilas, con temporizador programable",
+          "description": "Alimentador automático para peces a pilas, con depósito de comida de 100 ml y temporizador programable, útil en vacaciones y fines de semana fuera. Pruébalo unos días antes de viajar y consulta la página del producto para ver las pilas y cómo se fija al acuario.",
+          "tags": [
+            "Alimentador de peces",
+            "Acuario",
+            "Temporizador",
+            "A pilas"
+          ]
+        },
+        "de": {
+          "title": "Automatischer Fischfutterautomat, 100 ml, batteriebetrieben mit programmierbarem Timer",
+          "description": "Batteriebetriebener automatischer Futterautomat für Fische mit 100-ml-Futterbehälter und programmierbarem Timer, praktisch für Urlaub und Wochenenden. Teste ihn einige Tage vor der Reise, Batterien und Befestigung am Aquarium stehen auf der Produktseite.",
+          "tags": [
+            "Fischfutterautomat",
+            "Aquarium",
+            "Timer",
+            "Batteriebetrieb"
+          ]
+        }
+      }
+    },
+    {
+      "id": "usb-c-ethernet-adapter-1000mbps",
+      "category": "network",
+      "price": 6.13,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c1a30f643294014ab758e3de186fb63N.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4mVNVR7mMy37oeaeYMC2ICdtEnS6X6c27XxWksBpvPHWa5QS788OwmTWYujOAeb8g6fehW49plWLgm9w3MOsz0cqWd8Vc27cotoETR1S5JTnJidTzeUomDE9FtrqCq0I5bmsINWFqDwxcBvnwssxicqmRnLlkkQyJedo0l2AKHN1ywl9p3bp3u2FbznKNfCURxngemTEulIKlgzbMhlvrQUC0HTslFkViHfW37lmaHiGJlMV2Edk4aHW9DFXknoTThJelKXGlEGmFcfvFX5bV476LAczMkhWIFdr98qImvLQPTR0coxyhxy2nrWq0iaISBg4SBhFe0QS3XuOuyrslz4CEybR51la5XLSDqO55A9gErWs3vbfblmblsrGNUO6haUCbyzdGPL3EzFO66GNSxBMMOLk2VyLbHV585mFi5CnAxdkdHGB5HMtCtjhRwJL0osQ61izMFHk8b0Blrbxvp4sGyZ5qrAqatNqmFXlUtyVtKuQ2KFvyhFXNXsSIcxwjuaoqlvWfXEypyjzlDAhZtiG2vEqdTElzK9sHBWtlIUlEK2l3NUt61OlrmXiJkArfKoqa6imASNmMhn14c8UGptB462BSHukrWisRbCRQoMptpRFS3zJ0rV6TzIYjN6VdshQ921Ezy6Nxg5OtmCngiUbQVqRiEtWTCuUAwZnopAHRyQwp3I3t5nDF0CoO3bq1rEbJLKxLuZHQ",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "محوّل USB-C إلى إيثرنت بسرعة 1000 ميغابت (RJ45)",
+          "description": "محوّل شبكة بمنفذ RJ45 وسرعة تصل إلى 1000 ميغابت في الثانية، للحواسيب المحمولة والحواسيب التي بلا منفذ شبكة. راجع صفحة المنتج لنوع الموصل (USB-C أو USB-A) قبل الطلب. وللوصول إلى سرعة جيجابت تحتاج منفذ USB 3.0 وكابل Cat5e أو أفضل.",
+          "tags": [
+            "إيثرنت",
+            "USB-C",
+            "1000Mbps",
+            "RJ45"
+          ]
+        },
+        "en": {
+          "title": "USB-C Ethernet Adapter, 1000 Mbps (RJ45)",
+          "description": "USB network adapter with an RJ45 port and up to 1000 Mbps (gigabit) speed, for laptops and computers without a network port. Check the product page for the connector type (USB-C or USB-A) before ordering. For gigabit speed you need a USB 3.0 port and a Cat5e or better cable.",
+          "tags": [
+            "Ethernet",
+            "USB-C",
+            "1000Mbps",
+            "RJ45"
+          ]
+        },
+        "fr": {
+          "title": "Adaptateur USB-C vers Ethernet 1000 Mbit/s (RJ45)",
+          "description": "Adaptateur réseau USB avec port RJ45 et débit jusqu'à 1000 Mbit/s (gigabit), pour les portables et ordinateurs sans port réseau. Consultez la page du produit pour le type de connecteur (USB-C ou USB-A) avant de commander. Pour atteindre le gigabit, il faut un port USB 3.0 et un câble Cat5e ou supérieur.",
+          "tags": [
+            "Ethernet",
+            "USB-C",
+            "1000 Mbit/s",
+            "RJ45"
+          ]
+        },
+        "es": {
+          "title": "Adaptador USB-C a Ethernet de 1000 Mbps (RJ45)",
+          "description": "Adaptador de red USB con puerto RJ45 y velocidad de hasta 1000 Mbps (gigabit), para portátiles y ordenadores sin puerto de red. Consulta la página del producto para ver el tipo de conector (USB-C o USB-A) antes de pedir. Para alcanzar velocidad gigabit necesitas un puerto USB 3.0 y un cable Cat5e o superior.",
+          "tags": [
+            "Ethernet",
+            "USB-C",
+            "1000 Mbps",
+            "RJ45"
+          ]
+        },
+        "de": {
+          "title": "USB-C-Ethernet-Adapter, 1000 Mbit/s (RJ45)",
+          "description": "USB-Netzwerkadapter mit RJ45-Anschluss und bis zu 1000 Mbit/s (Gigabit), für Laptops und Computer ohne Netzwerkanschluss. Prüfe vor der Bestellung auf der Produktseite den Steckertyp (USB-C oder USB-A). Für Gigabit-Geschwindigkeit brauchst du einen USB-3.0-Anschluss und ein Kabel der Kategorie Cat5e oder besser.",
+          "tags": [
+            "Ethernet",
+            "USB-C",
+            "1000 Mbit/s",
+            "RJ45"
+          ]
+        }
+      }
+    },
+    {
+      "id": "universal-ac-remote-control-25-in-1",
+      "category": "climate",
+      "price": 7.85,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S62a474eae3fc4370bbdcffdb990afdeeM.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CouQfpp1cVZTJjDOUryanRO4vzJptBiSpUQXS0qiTF2DNM9XRqKB34LHRyosmXzkItPlZVg13jr78E4YyShDagDJf3V5GuWmZs36hh7o9u7y22Un5LOpPSTuiq4rWJ0w0IXYUtxBZasvR1ZPUqpqvw5CE7peSLfKxZL5Is335OWcQ53mg8El40PtL4ldtUdIcJxV9ESLelKkERlKY60vJ3yGitalVAaPIJGxPs8Il7YKBB1qmp8yyYZEGUpiEXXR3V2wYVa1R5iqX1GL5mN96tIZ4SRy9F4BPuwyfXv9E8dOw9zecrYE7mke6LLfXftrJasyNymy8QGmfFWDR6tGVIvC4zmonqz5ZvMZM3iiKqrmK150pgd2rTuLAerpDr2qE8DOOTx7FUEmtejIlwgg6w90EqEOcNGrE0RDr5Mx16CwzxPfT98j6MxmRlMOEC2ORg36GS1h4T8i9ssD97ZVL250RXtkXVyK8MdnfAc4sd1ja5BRftw3Le2liwYrbFPGmjQYn8SpEcnU3MCHy1nq45rhBhzO9E2FvsGIR7trzGj0fvFouHOlKiMAgMyRs4ZNg5neX0y8qspUjqN3nLNpBI95qPGhDQtEw2AY2ZeEKY8v2brhtPIBl4NAZHJat9qp9Y3bXwtpsKSnKHn58KMoOVlZ2zo7EoRHkrfbA5UVs1TsIdBNpbSHaliNOzCipSWydaQTE4XvslOjau",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "جهاز تحكم عام بديل للمكيّفات 25 في 1 (Electra وAirwell وElco وغيرها)",
+          "description": "جهاز تحكم بديل للمكيّفات، معروض بأنه يغطي عدة علامات منها Electra وAirwell وEmailair وElco، بأوضاع التبريد وإزالة الرطوبة والمروحة ومؤقت. هو جهاز تحكم بالأشعة تحت الحمراء عادي وليس جهازًا ذكيًا ولا يعمل عبر Wi-Fi. تأكد أن موديل مكيّفك مدعوم قبل الاعتماد عليه، وراجع صفحة المنتج لمعرفة هل البطاريات مشمولة.",
+          "tags": [
+            "ريموت مكيّف",
+            "25 في 1",
+            "أشعة تحت الحمراء",
+            "بديل"
+          ]
+        },
+        "en": {
+          "title": "25-in-1 Universal Replacement Air Conditioner Remote (Electra, Airwell, Elco and More)",
+          "description": "Replacement remote for air conditioners, listed as covering several brands including Electra, Airwell, Emailair and Elco, with cool, dehumidify and fan modes and a timer. It is a plain infrared remote, not a smart or Wi-Fi device. Make sure your air conditioner model is covered before relying on it, and check the product page for whether batteries are included.",
+          "tags": [
+            "AC remote",
+            "25-in-1",
+            "Infrared",
+            "Replacement"
+          ]
+        },
+        "fr": {
+          "title": "Télécommande universelle de remplacement pour climatiseur 25 en 1 (Electra, Airwell, Elco, etc.)",
+          "description": "Télécommande de remplacement pour climatiseurs, annoncée comme compatible avec plusieurs marques dont Electra, Airwell, Emailair et Elco, avec modes refroidissement, déshumidification et ventilation et minuterie. C'est une télécommande infrarouge classique, pas un appareil connecté ni Wi-Fi. Vérifiez que votre modèle de climatiseur est couvert avant de compter dessus, et consultez la page du produit pour savoir si les piles sont fournies.",
+          "tags": [
+            "Télécommande clim",
+            "25 en 1",
+            "Infrarouge",
+            "Remplacement"
+          ]
+        },
+        "es": {
+          "title": "Mando universal de repuesto para aire acondicionado 25 en 1 (Electra, Airwell, Elco y más)",
+          "description": "Mando de repuesto para aires acondicionados, anunciado para varias marcas como Electra, Airwell, Emailair y Elco, con modos frío, deshumidificación y ventilador y temporizador. Es un mando de infrarrojos corriente, no un dispositivo inteligente ni Wi-Fi. Comprueba que el modelo de tu aire acondicionado esté cubierto antes de confiar en él, y consulta en la página del producto si incluye pilas.",
+          "tags": [
+            "Mando de aire",
+            "25 en 1",
+            "Infrarrojos",
+            "Repuesto"
+          ]
+        },
+        "de": {
+          "title": "25-in-1-Universal-Ersatzfernbedienung für Klimaanlagen (Electra, Airwell, Elco und mehr)",
+          "description": "Ersatzfernbedienung für Klimaanlagen, laut Angebot für mehrere Marken wie Electra, Airwell, Emailair und Elco, mit Kühl-, Entfeuchtungs- und Lüfterbetrieb sowie Timer. Es ist eine gewöhnliche Infrarot-Fernbedienung, kein smartes oder WLAN-Gerät. Prüfe, ob dein Klimaanlagenmodell abgedeckt ist, bevor du dich darauf verlässt, und ob Batterien dabei sind, steht auf der Produktseite.",
+          "tags": [
+            "Klima-Fernbedienung",
+            "25-in-1",
+            "Infrarot",
+            "Ersatz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "wifi-6-usb3-adapter-1800mbps",
+      "category": "network",
+      "price": 8.39,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfdddb20b6373476fa0f2f7fe953b58588.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4l3b3LohIzzQP1loHmxZe0RttJX2unMzavRzaPM8IT3dI4BZ32PpolAangJ6e4pN3qwzb6afoHBLCVCxtjCbOAgkECaUdZl2t8EBVAZRgcGFXi1vhmXJxEC52SEWJ982eb1UhQfsqgmlNpdc0fKqc1UdvmeHOcNul8Ieboo0VRzSTizOUae6mCL8tVsdNPDWoZbGXbbrbPwhlqbvyrBTdFLIyQjwdzgPrbs0B9Oxl69TXFM4MxxMEh7zBYnJpfsQruxyLZjoAsE8kvKL5FVRCr75bohYXMWJ8dVEPZHkIqV2jkPJkP0vYm6Kj6d9AY8R20FJcmZinTNIjQPhlujqnvXWgVSqjbC43KmFchE3G9ooTHcsZhL8T0Nqsxu7fE6gElqobnSjqKwv3j5d8WzpBhzg2JMizasOLr3ypvbb588aSgMOCiZMpo1mLFO6ZsRH5IlA1ZBcgAME9xG8NnZ7oDiH0RVwiQgibG0PonMGE4QnujKYGmZxKLufEfnkXNbuWOVsHjs3EpDEjszbsEQeJ5EQ6cM1WaWtQI87F4zP7flSRD0c0cYZuSs2vX1lRn887D02Z8yaSrVSYEdiqnpYmPzgLE7nCg5qzB82WKn2wkZEZFykxY4kpPbrYnKs2P6ZiKex8WzE39Plph5vXk1Go9rz6brgv9qptHH7uxv5L1DiwNJJXnOxge1beBUq5yt2C0CQze3RUeRIw",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "محوّل Wi-Fi 6 عبر USB 3.0 بسرعة معلنة 1800 ميغابت مع هوائي عالي الكسب",
+          "description": "محوّل Wi-Fi 6 (802.11ax) عبر USB 3.0 معروض بسرعة تصل إلى 1800 ميغابت على نطاقي 2.4 و5 جيجاهرتز مع هوائي عالي الكسب، للحواسيب المكتبية والمحمولة ذات الواي فاي الضعيف أو المعدوم. معروض لنظامي ويندوز 10 و11. السرعة الفعلية تعتمد على الراوتر والمسافة، ورقم 1800 ميغابت حد نظري أقصى.",
+          "tags": [
+            "Wi-Fi 6",
+            "USB 3.0",
+            "1800Mbps",
+            "ويندوز"
+          ]
+        },
+        "en": {
+          "title": "Wi-Fi 6 USB 3.0 Adapter, Listed 1800 Mbps with High-Gain Antenna",
+          "description": "Wi-Fi 6 (802.11ax) USB 3.0 adapter listed at up to 1800 Mbps on 2.4 and 5 GHz with a high-gain antenna, for desktop PCs and laptops with weak or no Wi-Fi. Listed for Windows 10 and 11. Real speeds depend on your router and distance, and 1800 Mbps is a theoretical maximum.",
+          "tags": [
+            "Wi-Fi 6",
+            "USB 3.0",
+            "1800Mbps",
+            "Windows"
+          ]
+        },
+        "fr": {
+          "title": "Adaptateur Wi-Fi 6 USB 3.0, 1800 Mbit/s annoncés, antenne à gain élevé",
+          "description": "Adaptateur Wi-Fi 6 (802.11ax) USB 3.0 annoncé jusqu'à 1800 Mbit/s en 2,4 et 5 GHz avec une antenne à gain élevé, pour PC de bureau et portables au Wi-Fi faible ou absent. Annoncé pour Windows 10 et 11. Les débits réels dépendent de votre routeur et de la distance, et 1800 Mbit/s est un maximum théorique.",
+          "tags": [
+            "Wi-Fi 6",
+            "USB 3.0",
+            "1800 Mbit/s",
+            "Windows"
+          ]
+        },
+        "es": {
+          "title": "Adaptador Wi-Fi 6 USB 3.0, 1800 Mbps anunciados, antena de alta ganancia",
+          "description": "Adaptador Wi-Fi 6 (802.11ax) USB 3.0 anunciado hasta 1800 Mbps en 2,4 y 5 GHz con antena de alta ganancia, para ordenadores de sobremesa y portátiles con Wi-Fi débil o inexistente. Anunciado para Windows 10 y 11. La velocidad real depende de tu router y de la distancia, y 1800 Mbps es un máximo teórico.",
+          "tags": [
+            "Wi-Fi 6",
+            "USB 3.0",
+            "1800 Mbps",
+            "Windows"
+          ]
+        },
+        "de": {
+          "title": "Wi-Fi-6-USB-3.0-Adapter, angegebene 1800 Mbit/s, Antenne mit hohem Gewinn",
+          "description": "Wi-Fi-6-Adapter (802.11ax) mit USB 3.0, angegeben mit bis zu 1800 Mbit/s auf 2,4 und 5 GHz und einer Antenne mit hohem Gewinn, für Desktop-PCs und Laptops mit schwachem oder fehlendem WLAN. Angegeben für Windows 10 und 11. Die reale Geschwindigkeit hängt von Router und Entfernung ab, und 1800 Mbit/s ist ein theoretisches Maximum.",
+          "tags": [
+            "Wi-Fi 6",
+            "USB 3.0",
+            "1800 Mbit/s",
+            "Windows"
           ]
         }
       }
