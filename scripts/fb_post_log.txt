@@ -155,3 +155,5 @@
 2026-10-28 21:13 UTC CHECK ig-media 18416416372038594 2024-02-17T20:20:39+0000 https://www.instagram.com/reel/C3djg3yvsJF/ '🔴 #puma - Womens Jada Dboss Shoes🔥🔥 #puma_Jad'
 2026-10-29 20:07 UTC OK guide cameras post_id=106960665121517_1143483591549081 photo-upload
 2026-10-29 20:07 UTC IG ERROR publish HTTP 400 {"message": "Media ID is not available", "type": "OAuthException", "code": 9007, "error_subcode": 2207027, "is_transient": false, "error_user_title": "Cannot Publish", "error_user_msg": "The media is not ready for publishing, please wait for a moment guide cameras
+2026-10-30 19:53 UTC OK product tuya-wifi-smoke-detector post_id=106960665121517_1144465751450865 photo-upload
+2026-10-30 19:53 UTC IG OK media_id=18419714938087196 product tuya-wifi-smoke-detector
