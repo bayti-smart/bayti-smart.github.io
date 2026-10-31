@@ -208,7 +208,7 @@ def post_instagram(post, photo_id, ig_id, token):
     if st != 200 or "id" not in c:
         return f"IG ERROR container HTTP {st} " + json.dumps(c.get("error", c), ensure_ascii=False)[:250]
     cid = c["id"]
-    for _ in range(12):  # wait until Instagram has processed the image
+    for _ in range(20):  # wait (up to ~60 s) until Instagram has processed the image
         st, s = graph_get(cid, fields="status_code", access_token=token)
         code = s.get("status_code")
         if code == "FINISHED":
@@ -216,10 +216,17 @@ def post_instagram(post, photo_id, ig_id, token):
         if code in ("ERROR", "EXPIRED"):
             return f"IG ERROR processing status={code}"
         time.sleep(3)
-    st, p = graph_post(f"{ig_id}/media_publish", {"creation_id": cid, "access_token": token})
-    if st == 200 and "id" in p:
-        return f"IG OK media_id={p['id']}"
-    return f"IG ERROR publish HTTP {st} " + json.dumps(p.get("error", p), ensure_ascii=False)[:250]
+    err = {}
+    for _ in range(5):  # retry while Instagram still says the media is not ready (error 9007 / 2207027)
+        st, p = graph_post(f"{ig_id}/media_publish", {"creation_id": cid, "access_token": token})
+        if st == 200 and "id" in p:
+            return f"IG OK media_id={p['id']}"
+        err = p.get("error", p) if isinstance(p, dict) else {}
+        if isinstance(err, dict) and (err.get("code") == 9007 or err.get("error_subcode") == 2207027):
+            time.sleep(10)
+            continue
+        break
+    return f"IG ERROR publish HTTP {st} " + json.dumps(err, ensure_ascii=False)[:250]
 
 
 def log(line):
