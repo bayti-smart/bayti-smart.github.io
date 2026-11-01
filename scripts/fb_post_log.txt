@@ -159,3 +159,5 @@
 2026-10-30 19:53 UTC IG OK media_id=18419714938087196 product tuya-wifi-smoke-detector
 2026-10-31 19:10 UTC OK guide plugs post_id=106960665121517_1145417198022387 photo-upload
 2026-10-31 19:10 UTC IG OK media_id=18646412275063505 guide plugs
+2026-11-01 19:26 UTC OK product tuya-wifi-e27-smart-lamp-holder-adapter post_id=106960665121517_1146443874586386 photo-upload
+2026-11-01 19:26 UTC IG OK media_id=17961508167253341 product tuya-wifi-e27-smart-lamp-holder-adapter
