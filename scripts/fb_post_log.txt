@@ -163,3 +163,5 @@
 2026-11-01 19:26 UTC IG OK media_id=17961508167253341 product tuya-wifi-e27-smart-lamp-holder-adapter
 2026-11-02 23:02 UTC OK guide zigbee post_id=106960665121517_1147537584477015 photo-upload
 2026-11-02 23:02 UTC IG OK media_id=18076055711754480 guide zigbee
+2026-11-03 20:51 UTC OK product fenvi-ac1200-wifi-repeater post_id=106960665121517_1148435957720511 photo-upload
+2026-11-03 20:51 UTC IG OK media_id=17993392878100280 product fenvi-ac1200-wifi-repeater
