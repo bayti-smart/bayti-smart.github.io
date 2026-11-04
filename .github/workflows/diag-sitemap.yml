@@ -1,0 +1,18 @@
+name: فحص خريطة الموقع (يدوي)
+on: workflow_dispatch
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: جلب خريطة الموقع بهوية Googlebot
+        run: |
+          B=https://bayti-smart.github.io
+          UA="Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+          H=$(curl -sI -A "$UA" "$B/sitemap.xml" | tr -d '\r' | tr '\n' '|')
+          echo "::notice::HEADERS sitemap: $H"
+          curl -s -A "$UA" "$B/sitemap.xml" -o /tmp/sm.xml
+          echo "::notice::SIZE $(wc -c < /tmp/sm.xml) bytes, URLs: $(grep -c '<loc>' /tmp/sm.xml), first line: $(head -c 120 /tmp/sm.xml | tr '\n' ' ')"
+          python3 -c "import xml.dom.minidom as m; m.parse('/tmp/sm.xml'); print('xml well-formed')" && echo "::notice::XML OK" || echo "::error::XML INVALID"
+          echo "::notice::ROBOTS: $(curl -s -A "$UA" "$B/robots.txt" | tr '\n' '|')"
+          echo "::notice::HOME headers: $(curl -sI -A "$UA" "$B/" | tr -d '\r' | tr '\n' '|')"
+          echo "::notice::TRAILING-SLASH redirect /p/zigbee-smoke-detector-fire-alarm : $(curl -sI "$B/p/zigbee-smoke-detector-fire-alarm" | head -3 | tr -d '\r' | tr '\n' '|')"
