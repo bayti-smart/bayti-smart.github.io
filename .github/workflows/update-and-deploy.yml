@@ -105,7 +105,9 @@ jobs:
           check "/guides/zigbee/" "Zigbee or Wi-Fi"
           check "/products/" "All products"
           check "/guides.html" "location.replace"
-          check "/sitemap.xml" "hreflang"
+          check "/sitemap.xml" "sitemapindex"
+          check "/sitemap-en.xml" "hreflang"
+          check "/sitemap-ar.xml" "hreflang"
           check "/robots.txt" "Sitemap:"
           check "/products.json" "products"
           exit $fail

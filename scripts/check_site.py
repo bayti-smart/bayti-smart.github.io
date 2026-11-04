@@ -51,9 +51,17 @@ for f in pages:
         if not resolve(target):
             problems.append((rel, f'broken link {ref}'))
 
-# sitemap
-sm = (root / 'sitemap.xml').read_text(encoding='utf-8')
-locs = re.findall(r'<loc>([^<]+)</loc>', sm)
+# sitemaps (index -> one file per language)
+index = (root / 'sitemap.xml').read_text(encoding='utf-8')
+if '<sitemapindex' not in index:
+    problems.append(('sitemap', 'sitemap.xml is not an index'))
+files = re.findall(r'<loc>([^<]+)</loc>', index)
+locs = []
+for fu in files:
+    if not fu.startswith(BASE) or not resolve(fu[len(BASE):]):
+        problems.append(('sitemap', f'index points to missing file {fu}'))
+        continue
+    locs += re.findall(r'<loc>([^<]+)</loc>', (root / fu[len(BASE):].lstrip('/')).read_text(encoding='utf-8'))
 for loc in locs:
     if not loc.startswith(BASE) or not resolve(loc[len(BASE):]):
         problems.append(('sitemap', f'missing {loc}'))

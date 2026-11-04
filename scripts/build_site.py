@@ -273,19 +273,23 @@ def main():
     for fname, seg, guide in (('guides.html', '/guides/', 'true'), ('about.html', '/about/', 'false'), ('privacy.html', '/privacy/', 'false')):
         (out / fname).write_text(shim % {'base': base, 'en': seg, 'seg': seg, 'guide': guide, 'ids': json.dumps(GIDS)}, encoding='utf-8')
 
-    # ---------- sitemap + robots ----------
-    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
-    for kind, arg in unique:
-        for lang in LANGS:
-            loc = absu(path(lang, kind, arg))
-            lines.append(f'  <url><loc>{loc}</loc>')
+    # ---------- sitemaps: one file per language + an index (sitemap.xml) ----------
+    head = ['<?xml version="1.0" encoding="UTF-8"?>',
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+    for lang in LANGS:
+        lines = list(head)
+        for kind, arg in unique:
+            lines.append(f'  <url><loc>{absu(path(lang, kind, arg))}</loc>')
             for l in LANGS:
                 lines.append(f'    <xhtml:link rel="alternate" hreflang="{l}" href="{absu(path(l, kind, arg))}"/>')
             lines.append(f'    <xhtml:link rel="alternate" hreflang="x-default" href="{absu(path("en", kind, arg))}"/>')
             lines.append('  </url>')
-    lines.append('</urlset>')
-    (out / 'sitemap.xml').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+        lines.append('</urlset>')
+        (out / f'sitemap-{lang}.xml').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    idx = ['<?xml version="1.0" encoding="UTF-8"?>', '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    idx += [f'  <sitemap><loc>{base}/sitemap-{lang}.xml</loc></sitemap>' for lang in LANGS]
+    idx.append('</sitemapindex>')
+    (out / 'sitemap.xml').write_text('\n'.join(idx) + '\n', encoding='utf-8')
     (out / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\n', encoding='utf-8')
 
     # ---------- assets ----------
