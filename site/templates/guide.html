@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% from 'macros.html' import ico, card, guide_card %}
+{% from 'crumbs.html' import crumbs %}
+{% block content %}
+<div class="page-head"><div class="container">
+  {{ crumbs([(t('breadcrumb_home'), u('home')), (t('nav_guides'), u('guides')), (g.title, None)]) }}
+  <h1>{{ g.title }}</h1>
+</div></div>
+<div class="container prose-wrap"><article class="prose">{{ body|safe }}</article></div>
+{% if products %}<section class="section alt"><div class="container">
+  <div class="sec-head"><div><h2>{{ t('guide_products') }}</h2></div></div>
+  <div class="grid">{% for p in products %}{{ card(p, t, u) }}{% endfor %}</div>
+</div></section>{% endif %}
+<section class="section"><div class="container">
+  <div class="sec-head"><div><h2>{{ t('all_guides') }}</h2></div></div>
+  <div class="guide-grid">{% for o in others %}{{ guide_card(o, t, u) }}{% endfor %}</div>
+</div></section>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% from 'macros.html' import ico, guide_card %}
+{% from 'crumbs.html' import crumbs %}
+{% block content %}
+<div class="page-head"><div class="container">
+  {{ crumbs([(t('breadcrumb_home'), u('home')), (heading, None)]) }}
+  <h1>{{ heading }}</h1><p>{{ intro }}</p>
+</div></div>
+<section class="section" style="padding-top:28px"><div class="container"><div class="guide-grid">{% for g in guides %}{{ guide_card(g, t, u) }}{% endfor %}</div></div></section>
+{% endblock %}

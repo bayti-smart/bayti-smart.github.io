@@ -112,7 +112,7 @@ def pick(kind, today, products):
         msg = (
             f"🏠 {trim(en['title'], 110)}\n\n"
             f"{trim(en.get('description', ''), 300)}\n\n"
-            f"👉 See it on Smart Casa: {SITE}/?lang=en#p-{p['id']}\n\n"
+            f"👉 See it on Smart Casa: {SITE}/p/{p['id']}/\n\n"
             f"{DISCLOSURE}\n\n#SmartHome #HomeAutomation"
         )
         ig = (f"{trim(en['title'], 110)}\n\n{trim(en.get('description', ''), 300)}\n\n"
@@ -124,7 +124,7 @@ def pick(kind, today, products):
     image = related[k % len(related)]["image"] if related else None
     msg = (
         f"{headline}\n\n{body}\n\n"
-        f"📖 Read the full guide: {SITE}/guides.html?lang=en#{gid}\n\n"
+        f"📖 Read the full guide: {SITE}/guides/{gid}/\n\n"
         f"{DISCLOSURE}\n\n#SmartHome #HomeAutomation"
     )
     ig = (f"{headline}\n\n{body}\n\n📖 Full guide on Smart Casa: link in bio.\n\n{DISCLOSURE}\n\n"

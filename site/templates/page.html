@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% from 'crumbs.html' import crumbs %}
+{% block content %}
+<div class="page-head"><div class="container">
+  {{ crumbs([(t('breadcrumb_home'), u('home')), (heading, None)]) }}
+  <h1>{{ heading }}</h1>
+</div></div>
+<div class="container prose-wrap"><article class="prose">{{ body|safe }}</article></div>
+{% endblock %}

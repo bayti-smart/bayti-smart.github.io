@@ -1,3 +1,29 @@
+# Smart Casa (بيتي الذكي) — بنية الموقع الحالية
+
+> الأقسام التالية من هذا الملف تصف الإعداد الأول للمشروع وقد تكون قديمة. هذا القسم هو المرجع الحالي.
+
+الموقع ثابت (Static) يُبنى عند كل نشر بواسطة `scripts/build_site.py` من:
+
+- `products.json` — يُولَّد من `scripts/sources.csv` + `scripts/translations.json` عبر `scripts/fetch_products.py` (لا يُعدَّل يدويًا).
+- `site/` — القوالب (`templates/`)، الأنماط والسكربت والخطوط (`assets/`)، محتوى الأدلة وصفحات من نحن/الخصوصية بالخمس لغات (`content/`)، نصوص الواجهة (`i18n.json`، تُولَّد من `site/make_i18n.py`)، والإعدادات (`config.json`: الرابط وحسابات التواصل ومعرّف GoatCounter).
+
+**الروابط:** الإنجليزية في الجذر (`/`، `/p/<id>/`، `/c/<cat>/`، `/guides/<id>/`)، وباقي اللغات تحت `/ar/` `/fr/` `/es/` `/de/`. الروابط القديمة (`/?lang=..#p-..`، `guides.html`، `about.html`، `privacy.html`) تُحوَّل تلقائيًا.
+
+**محليًا:**
+```bash
+pip install jinja2 beautifulsoup4
+python scripts/fetch_products.py
+python scripts/build_site.py --out dist
+python scripts/check_site.py dist      # روابط، وسوم SEO، خريطة الموقع
+python -m http.server --directory dist
+```
+
+**النشر:** `.github/workflows/update-and-deploy.yml` يبني الموقع ويفحصه وينشره ثم يختبر الموقع الحي (`verify-live`). النشر اليومي على فيسبوك وإنستغرام في `.github/workflows/facebook-post.yml`.
+
+**إضافة منتجات:** أضف صفًا إلى `scripts/sources.csv` وترجمات الخمس لغات إلى `scripts/translations.json`، ثم شغّل `fetch_products.py`.
+
+---
+
 # بيتي الذكي — موقع أفيليت أوتوماتيكي (مجاني بالكامل)
 
 موقع ستاتيكي يعرض منتجات تسويق بالعمولة، مع تحديث تلقائي يومي عبر GitHub Actions

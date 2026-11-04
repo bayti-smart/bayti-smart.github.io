@@ -1,0 +1,111 @@
+{%- from 'macros.html' import ico, sprite, logo_mark -%}
+<!doctype html>
+<html lang="{{ lang }}" dir="{{ dir }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<meta name="google-site-verification" content="raH29vC-bBP7RB79A_HnaJtxSO3uh8426ZFTxGYd9pM">
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+<link rel="canonical" href="{{ canonical }}">
+{% for hl, href in alternates %}<link rel="alternate" hreflang="{{ hl }}" href="{{ href }}">
+{% endfor %}{% if x_default %}<link rel="alternate" hreflang="x-default" href="{{ x_default }}">{% endif %}
+<meta property="og:site_name" content="Smart Casa">
+<meta property="og:type" content="{{ og_type|default('website') }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ og_image }}">
+<meta property="og:locale" content="{{ og_locale }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#0F2233">
+<link rel="preload" href="{{ '/assets/fonts/tajawal-arabic-400.woff2' if dir == 'rtl' else '/assets/fonts/inter-latin.woff2' }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/main.css?v={{ ver }}">
+<script>try{var s=localStorage,f=parseFloat(s.getItem('sc_fs'));if(f)document.documentElement.style.setProperty('--fs',f);if(s.getItem('sc_comfort')==='1')document.documentElement.classList.add('comfort')}catch(e){}</script>
+{% for ld in jsonld %}<script type="application/ld+json">{{ ld|tojson }}</script>
+{% endfor %}
+{% if goatcounter %}<script data-goatcounter="https://{{ goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
+</head>
+<body class="{{ body_class|default('') }}">
+{{ sprite() }}
+<a class="skip" href="#main">{{ t('skip') }}</a>
+<header class="site-header">
+  <div class="container">
+    <div class="hdr">
+      <a class="logo" href="{{ u('home') }}" aria-label="Smart Casa">{{ logo_mark() }}<span>Smart Casa</span></a>
+      <nav class="nav" aria-label="{{ t('nav_products') }}">
+        <a href="{{ u('products') }}" {% if active == 'products' %}aria-current="page"{% endif %}>{{ t('nav_products') }}</a>
+        <details class="dd cats"><summary>{{ t('nav_categories') }} {{ ico('chev') }}</summary>
+          <div class="dd-panel cats-panel">{% for c in cats %}<a href="{{ u('cat', c.id) }}">{{ ico(c.id) }}<span>{{ c.name }}</span></a>{% endfor %}</div>
+        </details>
+        <a href="{{ u('guides') }}" {% if active == 'guides' %}aria-current="page"{% endif %}>{{ t('nav_guides') }}</a>
+        <a href="{{ u('about') }}" {% if active == 'about' %}aria-current="page"{% endif %}>{{ t('nav_about') }}</a>
+      </nav>
+      <span class="spacer"></span>
+      <form class="search" role="search" action="{{ u('products') }}" method="get">
+        {{ ico('search') }}<label class="vh" for="q-d">{{ t('search_label') }}</label>
+        <input id="q-d" type="search" name="q" placeholder="{{ t('search_placeholder') }}" autocomplete="off">
+      </form>
+      <details class="dd lang"><summary class="icon-btn" aria-label="{{ t('lang_label') }}">{{ ico('globe') }}<span>{{ lang|upper }}</span></summary>
+        <div class="dd-panel">{% for l, name in langs %}<a href="{{ alt_paths[l] }}" hreflang="{{ l }}" lang="{{ l }}" data-lang="{{ l }}" {% if l == lang %}aria-current="true"{% endif %}>{{ name }}</a>{% endfor %}</div>
+      </details>
+      <details class="dd a11y"><summary class="icon-btn" aria-label="{{ t('a11y_label') }}">{{ ico('a11y') }}</summary>
+        <div class="dd-panel">
+          <button type="button" data-a11y="dec">A− <span>{{ t('font_dec') }}</span></button>
+          <button type="button" data-a11y="inc">A+ <span>{{ t('font_inc') }}</span></button>
+          <button type="button" data-a11y="comfort" aria-pressed="false">{{ t('comfort') }}</button>
+        </div>
+      </details>
+      <button class="icon-btn burger" type="button" aria-label="{{ t('menu') }}" aria-expanded="false" aria-controls="mnav">{{ ico('menu') }}</button>
+    </div>
+    <div class="mnav" id="mnav">
+      <form class="search" role="search" action="{{ u('products') }}" method="get">
+        {{ ico('search') }}<label class="vh" for="q-m">{{ t('search_label') }}</label>
+        <input id="q-m" type="search" name="q" placeholder="{{ t('search_placeholder') }}" autocomplete="off">
+      </form>
+      <a href="{{ u('products') }}">{{ t('nav_products') }}</a>
+      <div class="mcats">{% for c in cats %}<a href="{{ u('cat', c.id) }}">{{ c.name }}</a>{% endfor %}</div>
+      <a href="{{ u('guides') }}">{{ t('nav_guides') }}</a>
+      <a href="{{ u('about') }}">{{ t('nav_about') }}</a>
+    </div>
+  </div>
+</header>
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="f-grid">
+      <div>
+        <a class="logo" href="{{ u('home') }}">{{ logo_mark() }}<span>Smart Casa</span></a>
+        <p class="f-tag">{{ t('footer_tag') }}</p>
+      </div>
+      <div><h4>{{ t('footer_explore') }}</h4><ul>
+        <li><a href="{{ u('products') }}">{{ t('nav_products') }}</a></li>
+        <li><a href="{{ u('guides') }}">{{ t('nav_guides') }}</a></li>
+        {% for c in cats[:4] %}<li><a href="{{ u('cat', c.id) }}">{{ c.name }}</a></li>{% endfor %}
+      </ul></div>
+      <div><h4>{{ t('footer_site') }}</h4><ul>
+        <li><a href="{{ u('about') }}">{{ t('nav_about') }}</a></li>
+        <li><a href="{{ u('privacy') }}">{{ t('nav_privacy') }}</a></li>
+        {% for l, name in langs %}<li><a href="{{ alt_paths[l] }}" hreflang="{{ l }}" lang="{{ l }}" data-lang="{{ l }}">{{ name }}</a></li>{% endfor %}
+      </ul></div>
+      <div><h4>{{ t('footer_follow') }}</h4><ul>
+        {% if social.facebook %}<li><a href="{{ social.facebook }}" rel="noopener me" target="_blank">Facebook</a></li>{% endif %}
+        {% if social.instagram %}<li><a href="{{ social.instagram }}" rel="noopener me" target="_blank">Instagram</a></li>{% endif %}
+        {% if social.tiktok %}<li><a href="{{ social.tiktok }}" rel="noopener me" target="_blank">TikTok</a></li>{% endif %}
+      </ul></div>
+    </div>
+    <p class="f-disc">{{ t('disclosure') }}</p>
+    <p class="f-copy">© {{ year }} Smart Casa</p>
+  </div>
+</footer>
+<button class="back-top" type="button" aria-label="{{ t('back_to_top') }}">{{ ico('up') }}</button>
+<div id="lang-banner" class="banner" role="region" aria-label="{{ t('lang_label') }}" data-banner='{{ banner_json }}'><span></span><a class="btn btn-primary btn-sm" href="#"></a><button class="x" type="button">✕</button></div>
+<script src="/assets/js/main.js?v={{ ver }}" defer></script>
+</body>
+</html>

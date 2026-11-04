@@ -49,12 +49,63 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: تجهيز بايثون
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: تثبيت أدوات البناء
+        run: pip install jinja2 beautifulsoup4
+
+      - name: توليد products.json من المصادر
+        run: python scripts/fetch_products.py
+
+      - name: بناء الموقع الثابت (5 لغات)
+        run: python scripts/build_site.py --out dist
+
+      - name: فحص الموقع (روابط، وسوم SEO، خريطة الموقع)
+        run: python scripts/check_site.py dist
+
       - name: تجهيز Pages
         uses: actions/configure-pages@v5
+
       - name: رفع الملفات
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
+
       - name: نشر على GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  verify-live:
+    needs: deploy-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: اختبار الموقع المنشور
+        run: |
+          B=https://bayti-smart.github.io
+          fail=0
+          check() {
+            for i in 1 2 3 4; do
+              code=$(curl -s -L -o /tmp/o -w "%{http_code}" "$B$1")
+              if [ "$code" = "200" ] && grep -q "$2" /tmp/o; then echo "::notice::OK $1"; return 0; fi
+              sleep 15
+            done
+            echo "::error::FAIL $1 (HTTP $code)"; fail=1
+          }
+          check "/" "Build a smarter home"
+          check "/ar/" 'dir="rtl"'
+          check "/fr/" 'lang="fr"'
+          check "/p/zigbee-smoke-detector-fire-alarm/" "Zigbee Smart Smoke Detector"
+          check "/c/pets/" "Pets"
+          check "/guides/zigbee/" "Zigbee or Wi-Fi"
+          check "/products/" "All products"
+          check "/guides.html" "location.replace"
+          check "/sitemap.xml" "hreflang"
+          check "/robots.txt" "Sitemap:"
+          check "/products.json" "products"
+          exit $fail

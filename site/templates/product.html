@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% from 'macros.html' import ico, card %}
+{% from 'crumbs.html' import crumbs %}
+{% block content %}
+<div class="container">
+  <div style="padding-top:22px">{{ crumbs([(t('breadcrumb_home'), u('home')), (p.cat_name, u('cat', p.category)), (p.title, None)]) }}</div>
+  <div class="pp">
+    <div class="pp-img"><img src="{{ p.image }}" alt="{{ p.title }}" width="800" height="800" decoding="async"></div>
+    <div>
+      <a class="cat-link" href="{{ u('cat', p.category) }}">{{ p.cat_name }}</a>
+      <h1>{{ p.title }}</h1>
+      <p class="desc">{{ p.description }}</p>
+      <div class="tags">{% for tg in p.tags %}<span>{{ tg }}</span>{% endfor %}</div>
+      <div class="buybox">
+        <div class="price"><small>{{ t('price_approx') }}</small><bdi dir="ltr">≈ ${{ '%.2f'|format(p.price) }}</bdi></div>
+        <p class="note">{{ t('price_note') }}</p>
+        <a class="btn btn-primary btn-lg" href="{{ p.affiliate_url }}" target="_blank" rel="sponsored nofollow noopener">{{ t('view_store') }} {{ ico('ext') }}</a>
+        <p class="aff">{{ t('affiliate_note') }}</p>
+      </div>
+      <div class="before">
+        <h2>{{ t('before_buy') }}</h2>
+        <ul><li>{{ ico('check') }}<span>{{ t('before1') }}</span></li><li>{{ ico('check') }}<span>{{ t('before2') }}</span></li><li>{{ ico('check') }}<span>{{ t('before3') }}</span></li></ul>
+      </div>
+      {% if guide %}<a class="rel-guide" href="{{ u('guide', guide.id) }}">{{ ico('book') }}<span><small>{{ t('related_guide') }}</small><b>{{ guide.title }}</b></span></a>{% endif %}
+    </div>
+  </div>
+</div>
+{% if related %}<section class="section alt"><div class="container">
+  <div class="sec-head"><div><h2>{{ t('related_products') }}</h2></div></div>
+  <div class="grid">{% for r in related %}{{ card(r, t, u) }}{% endfor %}</div>
+</div></section>{% endif %}
+<div class="sticky-cta"><div class="price"><bdi dir="ltr">≈ ${{ '%.2f'|format(p.price) }}</bdi></div><a class="btn btn-primary" href="{{ p.affiliate_url }}" target="_blank" rel="sponsored nofollow noopener">{{ t('view_store') }} {{ ico('ext') }}</a></div>
+{% endblock %}

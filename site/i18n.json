@@ -1,0 +1,614 @@
+{
+ "ui": {
+  "skip": {
+   "ar": "تخطَّ إلى المحتوى",
+   "en": "Skip to content",
+   "fr": "Aller au contenu",
+   "es": "Saltar al contenido",
+   "de": "Zum Inhalt springen"
+  },
+  "menu": {
+   "ar": "القائمة",
+   "en": "Menu",
+   "fr": "Menu",
+   "es": "Menú",
+   "de": "Menü"
+  },
+  "nav_products": {
+   "ar": "المنتجات",
+   "en": "Products",
+   "fr": "Produits",
+   "es": "Productos",
+   "de": "Produkte"
+  },
+  "nav_categories": {
+   "ar": "الفئات",
+   "en": "Categories",
+   "fr": "Catégories",
+   "es": "Categorías",
+   "de": "Kategorien"
+  },
+  "nav_guides": {
+   "ar": "أدلة الشراء",
+   "en": "Buying guides",
+   "fr": "Guides d'achat",
+   "es": "Guías de compra",
+   "de": "Kaufratgeber"
+  },
+  "nav_about": {
+   "ar": "من نحن",
+   "en": "About",
+   "fr": "À propos",
+   "es": "Quiénes somos",
+   "de": "Über uns"
+  },
+  "nav_privacy": {
+   "ar": "الخصوصية",
+   "en": "Privacy",
+   "fr": "Confidentialité",
+   "es": "Privacidad",
+   "de": "Datenschutz"
+  },
+  "search_placeholder": {
+   "ar": "ابحث عن جهاز…",
+   "en": "Search devices…",
+   "fr": "Rechercher un appareil…",
+   "es": "Buscar un dispositivo…",
+   "de": "Gerät suchen…"
+  },
+  "search_label": {
+   "ar": "بحث",
+   "en": "Search",
+   "fr": "Rechercher",
+   "es": "Buscar",
+   "de": "Suchen"
+  },
+  "lang_label": {
+   "ar": "اللغة",
+   "en": "Language",
+   "fr": "Langue",
+   "es": "Idioma",
+   "de": "Sprache"
+  },
+  "a11y_label": {
+   "ar": "إمكانية الوصول",
+   "en": "Accessibility",
+   "fr": "Accessibilité",
+   "es": "Accesibilidad",
+   "de": "Barrierefreiheit"
+  },
+  "font_dec": {
+   "ar": "تصغير الخط",
+   "en": "Smaller text",
+   "fr": "Texte plus petit",
+   "es": "Texto más pequeño",
+   "de": "Kleinerer Text"
+  },
+  "font_inc": {
+   "ar": "تكبير الخط",
+   "en": "Larger text",
+   "fr": "Texte plus grand",
+   "es": "Texto más grande",
+   "de": "Größerer Text"
+  },
+  "comfort": {
+   "ar": "وضع حماية العين",
+   "en": "Eye comfort mode",
+   "fr": "Mode confort visuel",
+   "es": "Modo protección visual",
+   "de": "Augenschonmodus"
+  },
+  "back_to_top": {
+   "ar": "العودة للأعلى",
+   "en": "Back to top",
+   "fr": "Haut de page",
+   "es": "Volver arriba",
+   "de": "Nach oben"
+  },
+  "hero_eyebrow": {
+   "ar": "اختيارات مستقلة للمنزل الذكي",
+   "en": "Independent smart home picks",
+   "fr": "Sélection indépendante de maison connectée",
+   "es": "Selección independiente de hogar inteligente",
+   "de": "Unabhängige Smart-Home-Empfehlungen"
+  },
+  "hero_title": {
+   "ar": "ابنِ منزلًا أذكى دون أن تهدر مالك",
+   "en": "Build a smarter home without wasting money",
+   "fr": "Construisez une maison plus intelligente sans gaspiller votre argent",
+   "es": "Crea un hogar más inteligente sin malgastar dinero",
+   "de": "Baue ein smarteres Zuhause, ohne Geld zu verschwenden"
+  },
+  "hero_sub": {
+   "ar": "أجهزة منزل ذكي مختارة بعناية من AliExpress مع أدلة شراء صريحة عن الجهد والقوابس والبوابات وما يعمل معًا فعلًا.",
+   "en": "Hand-picked smart home devices from AliExpress with honest buying guides on voltage, plugs, hubs and what actually works together.",
+   "fr": "Des appareils de maison connectée choisis avec soin sur AliExpress, avec des guides d'achat honnêtes sur la tension, les prises, les passerelles et ce qui fonctionne vraiment ensemble.",
+   "es": "Dispositivos de hogar inteligente seleccionados de AliExpress, con guías de compra sinceras sobre tensión, enchufes, pasarelas y qué funciona realmente junto.",
+   "de": "Handverlesene Smart-Home-Geräte von AliExpress mit ehrlichen Kaufratgebern zu Spannung, Steckern, Gateways und dem, was wirklich zusammenarbeitet."
+  },
+  "cta_browse": {
+   "ar": "تصفّح المنتجات",
+   "en": "Browse products",
+   "fr": "Parcourir les produits",
+   "es": "Explorar productos",
+   "de": "Produkte ansehen"
+  },
+  "cta_guides": {
+   "ar": "اقرأ أدلة الشراء",
+   "en": "Read buying guides",
+   "fr": "Lire les guides d'achat",
+   "es": "Leer las guías de compra",
+   "de": "Kaufratgeber lesen"
+  },
+  "trust1_t": {
+   "ar": "مستقلون",
+   "en": "Independent",
+   "fr": "Indépendant",
+   "es": "Independiente",
+   "de": "Unabhängig"
+  },
+  "trust1_d": {
+   "ar": "لا نبيع شيئًا. تشتري مباشرة من المتجر.",
+   "en": "We do not sell anything. You buy directly from the store.",
+   "fr": "Nous ne vendons rien. Vous achetez directement auprès de la boutique.",
+   "es": "No vendemos nada. Compras directamente en la tienda.",
+   "de": "Wir verkaufen nichts. Du kaufst direkt im Shop."
+  },
+  "trust2_t": {
+   "ar": "أدلة صريحة",
+   "en": "Honest guides",
+   "fr": "Guides honnêtes",
+   "es": "Guías sinceras",
+   "de": "Ehrliche Ratgeber"
+  },
+  "trust2_d": {
+   "ar": "نشرح الجهد والقوابس والبوابات قبل أن تطلب.",
+   "en": "Voltage, plugs, hubs and gateways explained before you order.",
+   "fr": "Tension, prises, hubs et passerelles expliqués avant de commander.",
+   "es": "Tensión, enchufes, hubs y pasarelas explicados antes de pedir.",
+   "de": "Spannung, Stecker, Hubs und Gateways erklärt, bevor du bestellst."
+  },
+  "trust3_t": {
+   "ar": "شفافية في العمولة",
+   "en": "Clear about money",
+   "fr": "Transparent sur l'argent",
+   "es": "Claros con el dinero",
+   "de": "Transparent bei Geld"
+  },
+  "trust3_d": {
+   "ar": "بعض الروابط تسويقية: قد نحصل على عمولة دون أي تكلفة إضافية عليك.",
+   "en": "Some links are affiliate links: we may earn a commission at no extra cost to you.",
+   "fr": "Certains liens sont des liens d'affiliation : nous pouvons percevoir une commission sans frais supplémentaires pour vous.",
+   "es": "Algunos enlaces son de afiliados: podemos recibir una comisión sin coste adicional para ti.",
+   "de": "Einige Links sind Affiliate-Links: Wir erhalten möglicherweise eine Provision ohne Mehrkosten für dich."
+  },
+  "trust4_t": {
+   "ar": "خمس لغات",
+   "en": "Five languages",
+   "fr": "Cinq langues",
+   "es": "Cinco idiomas",
+   "de": "Fünf Sprachen"
+  },
+  "trust4_d": {
+   "ar": "English · العربية · Français · Español · Deutsch",
+   "en": "English · العربية · Français · Español · Deutsch",
+   "fr": "English · العربية · Français · Español · Deutsch",
+   "es": "English · العربية · Français · Español · Deutsch",
+   "de": "English · العربية · Français · Español · Deutsch"
+  },
+  "sec_categories": {
+   "ar": "تسوّق حسب الفئة",
+   "en": "Shop by category",
+   "fr": "Parcourir par catégorie",
+   "es": "Compra por categoría",
+   "de": "Nach Kategorie stöbern"
+  },
+  "sec_categories_sub": {
+   "ar": "اعثر على الجهاز المناسب لكل غرفة.",
+   "en": "Find the right device for every room.",
+   "fr": "Trouvez l'appareil adapté à chaque pièce.",
+   "es": "Encuentra el dispositivo adecuado para cada habitación.",
+   "de": "Finde das passende Gerät für jeden Raum."
+  },
+  "sec_latest": {
+   "ar": "أحدث الاختيارات",
+   "en": "Latest picks",
+   "fr": "Dernières sélections",
+   "es": "Últimas selecciones",
+   "de": "Neueste Empfehlungen"
+  },
+  "sec_latest_sub": {
+   "ar": "أُضيفت حديثًا إلى الكتالوج.",
+   "en": "Recently added to the catalog.",
+   "fr": "Récemment ajoutés au catalogue.",
+   "es": "Añadidos recientemente al catálogo.",
+   "de": "Kürzlich zum Katalog hinzugefügt."
+  },
+  "sec_guides_sub": {
+   "ar": "نصائح عملية قبل أن تطلب.",
+   "en": "Practical advice before you order.",
+   "fr": "Des conseils pratiques avant de commander.",
+   "es": "Consejos prácticos antes de pedir.",
+   "de": "Praktische Tipps vor der Bestellung."
+  },
+  "sec_how": {
+   "ar": "كيف نختار",
+   "en": "How we choose",
+   "fr": "Comment nous choisissons",
+   "es": "Cómo elegimos",
+   "de": "So wählen wir aus"
+  },
+  "how1_t": {
+   "ar": "نختار ولا نعرض كل شيء",
+   "en": "We shortlist, not list everything",
+   "fr": "Nous sélectionnons, nous ne listons pas tout",
+   "es": "Seleccionamos, no listamos todo",
+   "de": "Wir wählen aus, statt alles aufzulisten"
+  },
+  "how1_d": {
+   "ar": "نبحث عن منتجات رائجة بتقييمات جيدة من المشترين، ثم نستبعد المكرر والعروض الضعيفة.",
+   "en": "We look for widely sold products with strong buyer ratings, then remove duplicates and weak listings.",
+   "fr": "Nous cherchons des produits très vendus et bien notés par les acheteurs, puis écartons les doublons et les annonces faibles.",
+   "es": "Buscamos productos muy vendidos y bien valorados por los compradores, y descartamos duplicados y anuncios flojos.",
+   "de": "Wir suchen viel verkaufte Produkte mit guten Käuferbewertungen und sortieren Duplikate und schwache Angebote aus."
+  },
+  "how2_t": {
+   "ar": "نقرأ إعلان المنتج بعناية",
+   "en": "We read the listing carefully",
+   "fr": "Nous lisons attentivement la fiche",
+   "es": "Leemos la ficha con atención",
+   "de": "Wir lesen das Angebot sorgfältig"
+  },
+  "how2_d": {
+   "ar": "الأوصاف مأخوذة من معلومات المتجر المعلنة. ولا نزعم أننا اختبرنا منتجًا ما لم نذكر ذلك.",
+   "en": "Descriptions come from the store's published information. We do not claim to have tested a product unless we say so.",
+   "fr": "Les descriptions viennent des informations publiées par la boutique. Nous ne prétendons pas avoir testé un produit sauf mention contraire.",
+   "es": "Las descripciones proceden de la información publicada por la tienda. No afirmamos haber probado un producto salvo que lo indiquemos.",
+   "de": "Die Beschreibungen stammen aus den veröffentlichten Angaben des Shops. Wir behaupten nicht, ein Produkt getestet zu haben, es sei denn, wir sagen es."
+  },
+  "how3_t": {
+   "ar": "ننبّه إلى ما يجب التحقق منه",
+   "en": "We flag what to check",
+   "fr": "Nous signalons ce qu’il faut vérifier",
+   "es": "Señalamos lo que conviene comprobar",
+   "de": "Wir weisen auf Prüfpunkte hin"
+  },
+  "how3_d": {
+   "ar": "نذكر الجهد ونوع القابس ومتطلبات البوابة ومخاطر التركيب حيث تهم.",
+   "en": "Voltage, plug type, hub requirements and installation risks are noted where they matter.",
+   "fr": "Tension, type de prise, besoin d'un hub et risques d'installation sont indiqués là où c'est important.",
+   "es": "Tensión, tipo de enchufe, necesidad de hub y riesgos de instalación se indican donde importan.",
+   "de": "Spannung, Steckertyp, Hub-Bedarf und Installationsrisiken werden dort genannt, wo sie wichtig sind."
+  },
+  "view_all": {
+   "ar": "عرض كل المنتجات",
+   "en": "View all products",
+   "fr": "Voir tous les produits",
+   "es": "Ver todos los productos",
+   "de": "Alle Produkte ansehen"
+  },
+  "read_guide": {
+   "ar": "اقرأ الدليل",
+   "en": "Read the guide",
+   "fr": "Lire le guide",
+   "es": "Leer la guía",
+   "de": "Ratgeber lesen"
+  },
+  "view_details": {
+   "ar": "التفاصيل",
+   "en": "View details",
+   "fr": "Voir les détails",
+   "es": "Ver detalles",
+   "de": "Details ansehen"
+  },
+  "view_store": {
+   "ar": "عرض على AliExpress",
+   "en": "View on AliExpress",
+   "fr": "Voir sur AliExpress",
+   "es": "Ver en AliExpress",
+   "de": "Auf AliExpress ansehen"
+  },
+  "price_approx": {
+   "ar": "السعر التقريبي",
+   "en": "Approx. price",
+   "fr": "Prix approximatif",
+   "es": "Precio aproximado",
+   "de": "Ca.-Preis"
+  },
+  "price_note": {
+   "ar": "سعر تقريبي وقت إضافتنا للمنتج. يتغير كثيرًا ويعتمد على بلدك والخيار الذي تختاره: تحقق من السعر الحالي على AliExpress.",
+   "en": "Approximate price when we added the product. It changes often and depends on your country and the option you choose: check the current price on AliExpress.",
+   "fr": "Prix approximatif au moment de l'ajout du produit. Il change souvent et dépend de votre pays et de l'option choisie : vérifiez le prix actuel sur AliExpress.",
+   "es": "Precio aproximado cuando añadimos el producto. Cambia a menudo y depende de tu país y de la opción elegida: comprueba el precio actual en AliExpress.",
+   "de": "Ungefährer Preis zum Zeitpunkt, als wir das Produkt hinzugefügt haben. Er ändert sich oft und hängt von deinem Land und der gewählten Variante ab: Prüfe den aktuellen Preis auf AliExpress."
+  },
+  "price_note_short": {
+   "ar": "الأسعار تقريبية وتتغير: تحقق منها على AliExpress.",
+   "en": "Prices are approximate and change often: check them on AliExpress.",
+   "fr": "Les prix sont approximatifs et changent souvent : vérifiez-les sur AliExpress.",
+   "es": "Los precios son aproximados y cambian a menudo: compruébalos en AliExpress.",
+   "de": "Preise sind ungefähr und ändern sich oft: Prüfe sie auf AliExpress."
+  },
+  "affiliate_note": {
+   "ar": "قد نحصل على عمولة إن اشتريت عبر هذا الرابط دون أي تكلفة إضافية عليك.",
+   "en": "We may earn a commission if you buy through this link, at no extra cost to you.",
+   "fr": "Nous pouvons percevoir une commission si vous achetez via ce lien, sans frais supplémentaires pour vous.",
+   "es": "Podemos recibir una comisión si compras a través de este enlace, sin coste adicional para ti.",
+   "de": "Wir erhalten möglicherweise eine Provision, wenn du über diesen Link kaufst, ohne Mehrkosten für dich."
+  },
+  "breadcrumb_home": {
+   "ar": "الرئيسية",
+   "en": "Home",
+   "fr": "Accueil",
+   "es": "Inicio",
+   "de": "Startseite"
+  },
+  "before_buy": {
+   "ar": "قبل أن تشتري",
+   "en": "Before you buy",
+   "fr": "Avant d'acheter",
+   "es": "Antes de comprar",
+   "de": "Bevor du kaufst"
+  },
+  "before1": {
+   "ar": "تحقق من جهد الكهرباء ونوع القابس في بلدك.",
+   "en": "Check the voltage and plug type for your country.",
+   "fr": "Vérifiez la tension et le type de prise de votre pays.",
+   "es": "Comprueba la tensión y el tipo de enchufe de tu país.",
+   "de": "Prüfe Spannung und Steckertyp für dein Land."
+  },
+  "before2": {
+   "ar": "اقرأ تقييمات المتجر والخيارات وتفاصيل الشحن.",
+   "en": "Read the store reviews, options and shipping details.",
+   "fr": "Lisez les avis, les options et les détails de livraison de la boutique.",
+   "es": "Lee las reseñas, las opciones y los detalles de envío de la tienda.",
+   "de": "Lies die Bewertungen, Varianten und Versandangaben im Shop."
+  },
+  "before3": {
+   "ar": "تأكد من السعر الحالي والتوفر في صفحة المتجر.",
+   "en": "Confirm the current price and availability on the store page.",
+   "fr": "Confirmez le prix et la disponibilité actuels sur la page de la boutique.",
+   "es": "Confirma el precio y la disponibilidad actuales en la página de la tienda.",
+   "de": "Bestätige aktuellen Preis und Verfügbarkeit auf der Shop-Seite."
+  },
+  "related_guide": {
+   "ar": "دليل ذو صلة",
+   "en": "Related guide",
+   "fr": "Guide associé",
+   "es": "Guía relacionada",
+   "de": "Passender Ratgeber"
+  },
+  "related_products": {
+   "ar": "منتجات ذات صلة",
+   "en": "Related products",
+   "fr": "Produits similaires",
+   "es": "Productos relacionados",
+   "de": "Ähnliche Produkte"
+  },
+  "guide_products": {
+   "ar": "منتجات ذات صلة بهذا الدليل",
+   "en": "Products related to this guide",
+   "fr": "Produits liés à ce guide",
+   "es": "Productos relacionados con esta guía",
+   "de": "Produkte zu diesem Ratgeber"
+  },
+  "all_guides": {
+   "ar": "كل الأدلة",
+   "en": "All guides",
+   "fr": "Tous les guides",
+   "es": "Todas las guías",
+   "de": "Alle Ratgeber"
+  },
+  "products_count": {
+   "ar": "{n} منتج",
+   "en": "{n} products",
+   "fr": "{n} produits",
+   "es": "{n} productos",
+   "de": "{n} Produkte"
+  },
+  "all_products": {
+   "ar": "كل المنتجات",
+   "en": "All products",
+   "fr": "Tous les produits",
+   "es": "Todos los productos",
+   "de": "Alle Produkte"
+  },
+  "filter_placeholder": {
+   "ar": "صفِّ المنتجات…",
+   "en": "Filter products…",
+   "fr": "Filtrer les produits…",
+   "es": "Filtrar productos…",
+   "de": "Produkte filtern…"
+  },
+  "no_results": {
+   "ar": "لا توجد منتجات مطابقة لبحثك. جرّب كلمة أخرى.",
+   "en": "No products match your search. Try another word.",
+   "fr": "Aucun produit ne correspond à votre recherche. Essayez un autre terme.",
+   "es": "Ningún producto coincide con tu búsqueda. Prueba con otro término.",
+   "de": "Keine Produkte gefunden. Versuche einen anderen Suchbegriff."
+  },
+  "chip_all": {
+   "ar": "الكل",
+   "en": "All",
+   "fr": "Tout",
+   "es": "Todo",
+   "de": "Alle"
+  },
+  "footer_tag": {
+   "ar": "اختيارات مستقلة للمنزل الذكي وأدلة شراء.",
+   "en": "Independent smart home picks and buying guides.",
+   "fr": "Sélection indépendante de maison connectée et guides d'achat.",
+   "es": "Selección independiente de hogar inteligente y guías de compra.",
+   "de": "Unabhängige Smart-Home-Empfehlungen und Kaufratgeber."
+  },
+  "footer_explore": {
+   "ar": "استكشف",
+   "en": "Explore",
+   "fr": "Explorer",
+   "es": "Explorar",
+   "de": "Entdecken"
+  },
+  "footer_site": {
+   "ar": "الموقع",
+   "en": "Site",
+   "fr": "Site",
+   "es": "Sitio",
+   "de": "Website"
+  },
+  "footer_follow": {
+   "ar": "تابعنا",
+   "en": "Follow us",
+   "fr": "Suivez-nous",
+   "es": "Síguenos",
+   "de": "Folge uns"
+  },
+  "disclosure": {
+   "ar": "إفصاح: هذا الموقع يشارك في برامج تسويق بالعمولة (مثل AliExpress Affiliate)، وقد نحصل على عمولة عند الشراء عبر روابطنا دون أي تكلفة إضافية عليك.",
+   "en": "Disclosure: this site participates in affiliate programs (such as the AliExpress Affiliate Program) and may earn a commission on purchases made through our links at no extra cost to you.",
+   "fr": "Divulgation : ce site participe à des programmes d'affiliation (comme AliExpress Affiliate) et peut percevoir une commission sur les achats effectués via nos liens, sans coût supplémentaire pour vous.",
+   "es": "Divulgación: este sitio participa en programas de afiliados (como AliExpress Affiliate) y puede recibir una comisión por las compras realizadas a través de nuestros enlaces, sin coste adicional para ti.",
+   "de": "Offenlegung: Diese Website nimmt an Partnerprogrammen teil (z. B. AliExpress Affiliate) und erhält ggf. eine Provision für Käufe über unsere Links, ohne Mehrkosten für dich."
+  },
+  "not_found_title": {
+   "ar": "الصفحة غير موجودة",
+   "en": "Page not found",
+   "fr": "Page introuvable",
+   "es": "Página no encontrada",
+   "de": "Seite nicht gefunden"
+  },
+  "not_found_text": {
+   "ar": "الصفحة التي تبحث عنها غير موجودة أو نُقلت.",
+   "en": "The page you are looking for does not exist or has moved.",
+   "fr": "La page que vous cherchez n'existe pas ou a été déplacée.",
+   "es": "La página que buscas no existe o se ha movido.",
+   "de": "Die gesuchte Seite existiert nicht oder wurde verschoben."
+  },
+  "go_home": {
+   "ar": "العودة إلى الرئيسية",
+   "en": "Back to home",
+   "fr": "Retour à l'accueil",
+   "es": "Volver al inicio",
+   "de": "Zurück zur Startseite"
+  },
+  "site_title": {
+   "ar": "Smart Casa (بيتي الذكي) — اختيارات المنزل الذكي وأدلة الشراء",
+   "en": "Smart Casa — Smart home picks and buying guides",
+   "fr": "Smart Casa — Sélection maison connectée et guides d'achat",
+   "es": "Smart Casa — Selección de hogar inteligente y guías de compra",
+   "de": "Smart Casa — Smart-Home-Empfehlungen und Kaufratgeber"
+  },
+  "site_desc": {
+   "ar": "أجهزة منزل ذكي مختارة من AliExpress مع أدلة شراء صريحة عن الجهد والقوابس والبوابات والتوافق.",
+   "en": "Hand-picked smart home devices from AliExpress with honest buying guides on voltage, plugs, hubs and compatibility.",
+   "fr": "Appareils de maison connectée choisis sur AliExpress, avec des guides d'achat honnêtes sur la tension, les prises, les passerelles et la compatibilité.",
+   "es": "Dispositivos de hogar inteligente seleccionados de AliExpress, con guías de compra sinceras sobre tensión, enchufes, pasarelas y compatibilidad.",
+   "de": "Handverlesene Smart-Home-Geräte von AliExpress mit ehrlichen Kaufratgebern zu Spannung, Steckern, Gateways und Kompatibilität."
+  }
+ },
+ "cat_intro": {
+  "lighting": {
+   "ar": "مصابيح وشرائط LED ولمبات ذكية تعتّمها وتجدولها وتلوّنها من هاتفك. تحقق من جهد الكهرباء ونوع القاعدة قبل الطلب.",
+   "en": "Smart bulbs, LED strips and lamps you can dim, schedule and colour from your phone. Check your voltage and bulb base before ordering.",
+   "fr": "Ampoules, rubans LED et lampes connectés que vous pouvez varier, programmer et colorer depuis votre téléphone. Vérifiez votre tension et votre culot avant de commander.",
+   "es": "Bombillas, tiras LED y lámparas inteligentes que puedes regular, programar y colorear desde el móvil. Comprueba tu tensión y el casquillo antes de pedir.",
+   "de": "Smarte Lampen, LED-Streifen und Leuchten, die du per Handy dimmen, zeitlich steuern und einfärben kannst. Prüfe vor der Bestellung Spannung und Sockel."
+  },
+  "security": {
+   "ar": "كاميرات وإنذارات وصفارات وكاشفات دخان وغاز وأقفال ذكية لمراقبة منزلك. الكاشفات طبقة أمان إضافية وليست بديلًا عن الأجهزة المعتمدة.",
+   "en": "Cameras, alarms, sirens, smoke and gas detectors and smart locks to keep an eye on your home. Detectors are an extra layer, not a replacement for certified alarms.",
+   "fr": "Caméras, alarmes, sirènes, détecteurs de fumée et de gaz et serrures connectées pour garder un œil sur votre maison. Les détecteurs sont une protection supplémentaire, pas un remplaçant d'alarmes certifiées.",
+   "es": "Cámaras, alarmas, sirenas, detectores de humo y gas y cerraduras inteligentes para vigilar tu casa. Los detectores son una capa extra, no un sustituto de alarmas certificadas.",
+   "de": "Kameras, Alarme, Sirenen, Rauch- und Gasmelder und smarte Schlösser, um dein Zuhause im Blick zu behalten. Melder sind eine zusätzliche Ebene und kein Ersatz für zertifizierte Alarme."
+  },
+  "power": {
+   "ar": "مقابس ذكية وعدادات طاقة ووحدات كهرباء لتشغيل الأجهزة ومعرفة استهلاكها. التزم بالحمل الأقصى لكل جهاز.",
+   "en": "Smart plugs, energy meters and power modules to switch appliances and see what they consume. Stay within each device's rated load.",
+   "fr": "Prises connectées, compteurs d'énergie et modules d'alimentation pour piloter vos appareils et suivre leur consommation. Respectez la charge nominale de chaque appareil.",
+   "es": "Enchufes inteligentes, medidores de energía y módulos de potencia para encender aparatos y ver cuánto consumen. Respeta la carga nominal de cada dispositivo.",
+   "de": "Smarte Steckdosen, Energiemessgeräte und Leistungsmodule, um Geräte zu schalten und ihren Verbrauch zu sehen. Halte die Nennlast jedes Geräts ein."
+  },
+  "control": {
+   "ar": "مفاتيح جدارية وريليهات وأجهزة تحكم ومحركات ستائر لأتمتة ما تملكه أصلًا. الأجهزة الموصولة بالأسلاك يُفضَّل أن يركّبها كهربائي.",
+   "en": "Wall switches, relays, remotes and curtain motors to automate what you already own. Wired devices should be installed by an electrician.",
+   "fr": "Interrupteurs muraux, relais, télécommandes et moteurs de rideaux pour automatiser ce que vous possédez déjà. Les appareils câblés doivent être installés par un électricien.",
+   "es": "Interruptores de pared, relés, mandos y motores de cortinas para automatizar lo que ya tienes. Los dispositivos cableados deben instalarlos un electricista.",
+   "de": "Wandschalter, Relais, Fernbedienungen und Vorhangmotoren, um Vorhandenes zu automatisieren. Fest verdrahtete Geräte sollte ein Elektriker installieren."
+  },
+  "sensors": {
+   "ar": "حساسات حركة وحرارة ورطوبة وتسرّب مياه وإضاءة تشغّل الأتمتة وترسل التنبيهات.",
+   "en": "Motion, temperature, humidity, water-leak and light sensors that trigger automations and send alerts.",
+   "fr": "Capteurs de mouvement, de température, d'humidité, de fuite d'eau et de lumière qui déclenchent des automatisations et envoient des alertes.",
+   "es": "Sensores de movimiento, temperatura, humedad, fugas de agua y luz que activan automatizaciones y envían avisos.",
+   "de": "Bewegungs-, Temperatur-, Feuchte-, Wasser- und Lichtsensoren, die Automatisierungen auslösen und Meldungen senden."
+  },
+  "audio": {
+   "ar": "سماعات ومحوّلات صوت للموسيقى في أرجاء المنزل.",
+   "en": "Speakers and audio adapters for music around the house.",
+   "fr": "Enceintes et adaptateurs audio pour la musique dans toute la maison.",
+   "es": "Altavoces y adaptadores de audio para la música por toda la casa.",
+   "de": "Lautsprecher und Audioadapter für Musik im ganzen Haus."
+  },
+  "garden": {
+   "ar": "ري وإضاءة شمسية ومستلزمات خارجية للحديقة والشرفة.",
+   "en": "Watering, solar lights and outdoor gear for the garden and balcony.",
+   "fr": "Arrosage, éclairage solaire et équipements d'extérieur pour le jardin et le balcon.",
+   "es": "Riego, luces solares y equipamiento exterior para el jardín y el balcón.",
+   "de": "Bewässerung, Solarleuchten und Outdoor-Zubehör für Garten und Balkon."
+  },
+  "climate": {
+   "ar": "ثرموستات وصمامات مشعات وأجهزة تحكم بالمكيّفات لراحة الغرف وتقليل الهدر.",
+   "en": "Thermostats, radiator valves and air-conditioner controls to keep rooms comfortable and cut waste.",
+   "fr": "Thermostats, vannes de radiateur et commandes de climatiseur pour garder les pièces confortables et limiter le gaspillage.",
+   "es": "Termostatos, válvulas de radiador y mandos de aire acondicionado para mantener las habitaciones confortables y reducir el desperdicio.",
+   "de": "Thermostate, Heizkörperventile und Klimaanlagen-Fernbedienungen für behagliche Räume und weniger Verschwendung."
+  },
+  "pets": {
+   "ar": "مغذّيات ونوافير وألعاب تُبقي حيواناتك الأليفة مُطعمة ومشغولة وأنت منشغل أو غائب.",
+   "en": "Feeders, fountains and toys that keep pets fed and entertained while you are busy or away.",
+   "fr": "Distributeurs, fontaines et jouets qui gardent vos animaux nourris et occupés quand vous êtes pris ou absent.",
+   "es": "Comederos, fuentes y juguetes que mantienen a tus mascotas alimentadas y entretenidas mientras estás ocupado o fuera.",
+   "de": "Futterautomaten, Brunnen und Spielzeug, die Haustiere versorgt und beschäftigt halten, wenn du beschäftigt oder unterwegs bist."
+  },
+  "network": {
+   "ar": "راوترات ومكرّرات ومحوّلات ومعدات Zigbee تُبقي شبكة منزلك وأجهزتك الذكية متصلة.",
+   "en": "Routers, repeaters, adapters and Zigbee gear that keep your home network and smart devices connected.",
+   "fr": "Routeurs, répéteurs, adaptateurs et équipements Zigbee qui maintiennent votre réseau domestique et vos appareils connectés.",
+   "es": "Routers, repetidores, adaptadores y equipos Zigbee que mantienen conectadas tu red doméstica y tus dispositivos inteligentes.",
+   "de": "Router, Repeater, Adapter und Zigbee-Zubehör, die dein Heimnetz und deine smarten Geräte verbunden halten."
+  },
+  "misc": {
+   "ar": "أجهزة مفيدة أخرى لم تجد لها فئة مناسبة.",
+   "en": "Other useful gadgets that did not fit anywhere else.",
+   "fr": "D'autres gadgets utiles qui ne rentraient dans aucune autre catégorie.",
+   "es": "Otros gadgets útiles que no encajaban en ninguna otra categoría.",
+   "de": "Weitere nützliche Gadgets, die in keine andere Kategorie passten."
+  }
+ },
+ "banner": {
+  "ar": {
+   "text": "هل تفضّل قراءة الموقع بالعربية؟",
+   "go": "العربية",
+   "close": "إغلاق"
+  },
+  "en": {
+   "text": "Prefer to read this site in English?",
+   "go": "English",
+   "close": "Close"
+  },
+  "fr": {
+   "text": "Préférez-vous lire ce site en français ?",
+   "go": "Français",
+   "close": "Fermer"
+  },
+  "es": {
+   "text": "¿Prefieres leer este sitio en español?",
+   "go": "Español",
+   "close": "Cerrar"
+  },
+  "de": {
+   "text": "Möchtest du diese Website auf Deutsch lesen?",
+   "go": "Deutsch",
+   "close": "Schließen"
+  }
+ }
+}

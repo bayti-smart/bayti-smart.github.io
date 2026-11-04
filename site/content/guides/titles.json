@@ -1,0 +1,51 @@
+{
+ "bulbs": {
+  "ar": "كيف تختار المصابيح الذكية",
+  "en": "How to choose smart bulbs",
+  "fr": "Comment choisir des ampoules connectées",
+  "es": "Cómo elegir bombillas inteligentes",
+  "de": "So wählen Sie smarte Glühbirnen"
+ },
+ "cameras": {
+  "ar": "كيف تختار كاميرا مراقبة",
+  "en": "How to choose a security camera",
+  "fr": "Comment choisir une caméra de surveillance",
+  "es": "Cómo elegir una cámara de seguridad",
+  "de": "So wählen Sie eine Überwachungskamera"
+ },
+ "plugs": {
+  "ar": "كيف تختار المقابس الذكية",
+  "en": "How to choose smart plugs",
+  "fr": "Comment choisir des prises connectées",
+  "es": "Cómo elegir enchufes inteligentes",
+  "de": "So wählen Sie smarte Steckdosen"
+ },
+ "zigbee": {
+  "ar": "Zigbee أم Wi-Fi؟ وما هي البوابة",
+  "en": "Zigbee or Wi-Fi? And what is a gateway",
+  "fr": "Zigbee ou Wi-Fi ? Et qu'est-ce qu'une passerelle",
+  "es": "¿Zigbee o Wi-Fi? Y qué es una pasarela",
+  "de": "Zigbee oder WLAN? Und was ist ein Gateway"
+ },
+ "sensors": {
+  "ar": "كيف تختار حساسات المنزل الذكي",
+  "en": "How to choose smart home sensors",
+  "fr": "Comment choisir des capteurs pour la maison connectée",
+  "es": "Cómo elegir sensores para el hogar inteligente",
+  "de": "So wählen Sie Smart-Home-Sensoren"
+ },
+ "garden": {
+  "ar": "الري الذكي والحديقة",
+  "en": "Smart watering and the garden",
+  "fr": "Arrosage connecté et jardin",
+  "es": "Riego inteligente y jardín",
+  "de": "Smarte Bewässerung und Garten"
+ },
+ "electrical": {
+  "ar": "التركيب الكهربائي: متى تستعين بكهربائي",
+  "en": "Electrical installation: when to call an electrician",
+  "fr": "Installation électrique : quand appeler un électricien",
+  "es": "Instalación eléctrica: cuándo llamar a un electricista",
+  "de": "Elektroinstallation: wann ein Elektriker gefragt ist"
+ }
+}

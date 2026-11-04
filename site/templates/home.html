@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% from 'macros.html' import ico, card, guide_card %}
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <div>
+      <span class="eyebrow">{{ t('hero_eyebrow') }}</span>
+      <h1>{{ t('hero_title') }}</h1>
+      <p class="lead">{{ t('hero_sub') }}</p>
+      <div class="cta">
+        <a class="btn btn-primary btn-lg" href="{{ u('products') }}">{{ t('cta_browse') }} {{ ico('arrow','flip') }}</a>
+        <a class="btn btn-ghost btn-lg" href="{{ u('guides') }}">{{ t('cta_guides') }}</a>
+      </div>
+      <div class="pills" aria-hidden="true"><span>Zigbee</span><span>Matter</span><span>Wi-Fi</span><span>Alexa</span><span>Google Home</span></div>
+    </div>
+    <svg class="hero-art" viewBox="0 0 400 320" role="img" aria-label="Smart Casa">
+      <defs><radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F0A83C" stop-opacity=".6"/><stop offset="1" stop-color="#F0A83C" stop-opacity="0"/></radialGradient></defs>
+      <g fill="#1b3f58"><polygon points="8,300 8,236 52,198 96,236 96,300"/><polygon points="304,300 304,226 352,184 400,226 400,300"/></g>
+      <g fill="#F0A83C" opacity=".85"><rect x="36" y="244" width="14" height="16" rx="3"/><rect x="334" y="236" width="14" height="16" rx="3"/></g>
+      <circle cx="200" cy="214" r="124" fill="url(#glow)"/>
+      <path d="M200 74 L322 182 V300 H78 V182 Z" fill="#12293d" stroke="#FAF9F5" stroke-width="10" stroke-linejoin="round"/>
+      <circle cx="200" cy="218" r="34" fill="#F0A83C"/>
+      <path d="M168 44a46 46 0 0 1 64 0M181 58a28 28 0 0 1 38 0" fill="none" stroke="#F0A83C" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="200" cy="73" r="5" fill="#F0A83C"/>
+    </svg>
+  </div>
+</section>
+
+<section class="trust" aria-label="Smart Casa">
+  <div class="container">
+    <div class="trust-item"><span class="ic">{{ ico('shield2') }}</span><div><b>{{ t('trust1_t') }}</b><span>{{ t('trust1_d') }}</span></div></div>
+    <div class="trust-item"><span class="ic">{{ ico('book') }}</span><div><b>{{ t('trust2_t') }}</b><span>{{ t('trust2_d') }}</span></div></div>
+    <div class="trust-item"><span class="ic">{{ ico('coin') }}</span><div><b>{{ t('trust3_t') }}</b><span>{{ t('trust3_d') }}</span></div></div>
+    <div class="trust-item"><span class="ic">{{ ico('lang') }}</span><div><b>{{ t('trust4_t') }}</b><span>{{ t('trust4_d') }}</span></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="sec-head"><div><h2>{{ t('sec_categories') }}</h2><p>{{ t('sec_categories_sub') }}</p></div></div>
+    <div class="cat-grid">
+      {% for c in cats %}<a class="cat-card" href="{{ u('cat', c.id) }}"><span class="ic">{{ ico(c.id) }}</span><b>{{ c.name }}</b><small>{{ t('products_count').replace('{n}', c.count|string) }}</small></a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="sec-head"><div><h2>{{ t('sec_latest') }}</h2><p>{{ t('sec_latest_sub') }}</p></div>
+      <a class="link-more" href="{{ u('products') }}">{{ t('view_all') }} {{ ico('arrow','flip') }}</a></div>
+    <div class="grid">{% for p in latest %}{{ card(p, t, u, eager=loop.index <= 4) }}{% endfor %}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="sec-head"><div><h2>{{ t('nav_guides') }}</h2><p>{{ t('sec_guides_sub') }}</p></div>
+      <a class="link-more" href="{{ u('guides') }}">{{ t('all_guides') }} {{ ico('arrow','flip') }}</a></div>
+    <div class="guide-grid g4">{% for g in guides[:4] %}{{ guide_card(g, t, u) }}{% endfor %}</div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="sec-head"><div><h2>{{ t('sec_how') }}</h2></div></div>
+    <div class="how">
+      <div><span class="n">1</span><h3>{{ t('how1_t') }}</h3><p>{{ t('how1_d') }}</p></div>
+      <div><span class="n">2</span><h3>{{ t('how2_t') }}</h3><p>{{ t('how2_d') }}</p></div>
+      <div><span class="n">3</span><h3>{{ t('how3_t') }}</h3><p>{{ t('how3_d') }}</p></div>
+    </div>
+  </div>
+</section>
+{% endblock %}
