@@ -165,3 +165,5 @@
 2026-11-02 23:02 UTC IG OK media_id=18076055711754480 guide zigbee
 2026-11-03 20:51 UTC OK product fenvi-ac1200-wifi-repeater post_id=106960665121517_1148435957720511 photo-upload
 2026-11-03 20:51 UTC IG OK media_id=17993392878100280 product fenvi-ac1200-wifi-repeater
+2026-11-04 21:11 UTC OK guide sensors post_id=106960665121517_1149438217620285 photo-upload
+2026-11-04 21:11 UTC IG OK media_id=18142194544730433 guide sensors
