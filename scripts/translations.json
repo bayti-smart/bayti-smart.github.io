@@ -6370,6 +6370,526 @@
           "Windows"
         ]
       }
+    },
+    "smart-bulb-wi-fi-tuya-92723": {
+      "en": {
+        "title": "Smart Bulb (Wi-Fi, Tuya, Smart Life, 220V)",
+        "description": "A bulb you can dim, schedule and, on some models, change colour from your phone or a voice assistant, depending on the model. From the listing: Wi-Fi, Tuya, Smart Life, 220V. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Smart Life",
+          "Smart Lighting"
+        ]
+      },
+      "ar": {
+        "title": "مصباح ذكي (Wi-Fi, Tuya, Smart Life, 220V)",
+        "description": "مصباح يمكن تعتيمه وجدولته، ويغيّر لونه في بعض الطرازات، من الهاتف، عبر تطبيق أو مساعد صوتي حسب الطراز. من عنوان العرض: Wi-Fi, Tuya, Smart Life, 220V. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Smart Life",
+          "إضاءة ذكية"
+        ]
+      },
+      "fr": {
+        "title": "Ampoule connectée (Wi-Fi, Tuya, Smart Life, 220V)",
+        "description": "Une ampoule que vous pouvez régler, programmer et, sur certains modèles, colorer depuis le téléphone, via une application ou un assistant vocal selon le modèle. D'après l'annonce : Wi-Fi, Tuya, Smart Life, 220V. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Smart Life",
+          "Éclairage intelligent"
+        ]
+      },
+      "es": {
+        "title": "Bombilla inteligente (Wi-Fi, Tuya, Smart Life, 220V)",
+        "description": "Una bombilla que puedes regular, programar y, en algunos modelos, cambiar de color desde el móvil, con una app o un asistente de voz según el modelo. Según el anuncio: Wi-Fi, Tuya, Smart Life, 220V. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Smart Life",
+          "Iluminación inteligente"
+        ]
+      },
+      "de": {
+        "title": "Smarte Glühbirne (Wi-Fi, Tuya, Smart Life, 220V)",
+        "description": "Eine Glühbirne, die du per Handy dimmen, zeitlich steuern und bei manchen Modellen umfärben kannst, über eine App oder einen Sprachassistenten. Laut Angebot: Wi-Fi, Tuya, Smart Life, 220V. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Smart Life",
+          "Intelligente Beleuchtung"
+        ]
+      }
+    },
+    "smart-bulb-wi-fi-bluetooth-61495": {
+      "en": {
+        "title": "Smart Bulb (Wi-Fi, Bluetooth, Tuya, 15W)",
+        "description": "A bulb you can dim, schedule and, on some models, change colour from your phone or a voice assistant, depending on the model. From the listing: Wi-Fi, Bluetooth, Tuya, 15W. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "Smart Lighting"
+        ]
+      },
+      "ar": {
+        "title": "مصباح ذكي (Wi-Fi, Bluetooth, Tuya, 15W)",
+        "description": "مصباح يمكن تعتيمه وجدولته، ويغيّر لونه في بعض الطرازات، من الهاتف، عبر تطبيق أو مساعد صوتي حسب الطراز. من عنوان العرض: Wi-Fi, Bluetooth, Tuya, 15W. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "إضاءة ذكية"
+        ]
+      },
+      "fr": {
+        "title": "Ampoule connectée (Wi-Fi, Bluetooth, Tuya, 15W)",
+        "description": "Une ampoule que vous pouvez régler, programmer et, sur certains modèles, colorer depuis le téléphone, via une application ou un assistant vocal selon le modèle. D'après l'annonce : Wi-Fi, Bluetooth, Tuya, 15W. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "Éclairage intelligent"
+        ]
+      },
+      "es": {
+        "title": "Bombilla inteligente (Wi-Fi, Bluetooth, Tuya, 15W)",
+        "description": "Una bombilla que puedes regular, programar y, en algunos modelos, cambiar de color desde el móvil, con una app o un asistente de voz según el modelo. Según el anuncio: Wi-Fi, Bluetooth, Tuya, 15W. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "Iluminación inteligente"
+        ]
+      },
+      "de": {
+        "title": "Smarte Glühbirne (Wi-Fi, Bluetooth, Tuya, 15W)",
+        "description": "Eine Glühbirne, die du per Handy dimmen, zeitlich steuern und bei manchen Modellen umfärben kannst, über eine App oder einen Sprachassistenten. Laut Angebot: Wi-Fi, Bluetooth, Tuya, 15W. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "Intelligente Beleuchtung"
+        ]
+      }
+    },
+    "smart-bulb-zigbee-alexa-08144": {
+      "en": {
+        "title": "Smart Bulb (Zigbee, Alexa, Google Home, 110V)",
+        "description": "A bulb you can dim, schedule and, on some models, change colour from your phone or a voice assistant, depending on the model. From the listing: Zigbee, Alexa, Google Home, 110V. Zigbee versions need a Zigbee gateway, sold separately. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "Google Home",
+          "Smart Lighting"
+        ]
+      },
+      "ar": {
+        "title": "مصباح ذكي (Zigbee, Alexa, Google Home, 110V)",
+        "description": "مصباح يمكن تعتيمه وجدولته، ويغيّر لونه في بعض الطرازات، من الهاتف، عبر تطبيق أو مساعد صوتي حسب الطراز. من عنوان العرض: Zigbee, Alexa, Google Home, 110V. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "Google Home",
+          "إضاءة ذكية"
+        ]
+      },
+      "fr": {
+        "title": "Ampoule connectée (Zigbee, Alexa, Google Home, 110V)",
+        "description": "Une ampoule que vous pouvez régler, programmer et, sur certains modèles, colorer depuis le téléphone, via une application ou un assistant vocal selon le modèle. D'après l'annonce : Zigbee, Alexa, Google Home, 110V. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "Google Home",
+          "Éclairage intelligent"
+        ]
+      },
+      "es": {
+        "title": "Bombilla inteligente (Zigbee, Alexa, Google Home, 110V)",
+        "description": "Una bombilla que puedes regular, programar y, en algunos modelos, cambiar de color desde el móvil, con una app o un asistente de voz según el modelo. Según el anuncio: Zigbee, Alexa, Google Home, 110V. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "Google Home",
+          "Iluminación inteligente"
+        ]
+      },
+      "de": {
+        "title": "Smarte Glühbirne (Zigbee, Alexa, Google Home, 110V)",
+        "description": "Eine Glühbirne, die du per Handy dimmen, zeitlich steuern und bei manchen Modellen umfärben kannst, über eine App oder einen Sprachassistenten. Laut Angebot: Zigbee, Alexa, Google Home, 110V. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "Google Home",
+          "Intelligente Beleuchtung"
+        ]
+      }
+    },
+    "smart-bulb-zigbee-alexa-51570": {
+      "en": {
+        "title": "Smart Bulb (Zigbee, Alexa, RGB, 15W)",
+        "description": "A bulb you can dim, schedule and, on some models, change colour from your phone or a voice assistant, depending on the model. From the listing: Zigbee, Alexa, RGB, 15W. Zigbee versions need a Zigbee gateway, sold separately. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "RGB",
+          "Smart Lighting"
+        ]
+      },
+      "ar": {
+        "title": "مصباح ذكي (Zigbee, Alexa, RGB, 15W)",
+        "description": "مصباح يمكن تعتيمه وجدولته، ويغيّر لونه في بعض الطرازات، من الهاتف، عبر تطبيق أو مساعد صوتي حسب الطراز. من عنوان العرض: Zigbee, Alexa, RGB, 15W. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "RGB",
+          "إضاءة ذكية"
+        ]
+      },
+      "fr": {
+        "title": "Ampoule connectée (Zigbee, Alexa, RGB, 15W)",
+        "description": "Une ampoule que vous pouvez régler, programmer et, sur certains modèles, colorer depuis le téléphone, via une application ou un assistant vocal selon le modèle. D'après l'annonce : Zigbee, Alexa, RGB, 15W. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "RGB",
+          "Éclairage intelligent"
+        ]
+      },
+      "es": {
+        "title": "Bombilla inteligente (Zigbee, Alexa, RGB, 15W)",
+        "description": "Una bombilla que puedes regular, programar y, en algunos modelos, cambiar de color desde el móvil, con una app o un asistente de voz según el modelo. Según el anuncio: Zigbee, Alexa, RGB, 15W. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "RGB",
+          "Iluminación inteligente"
+        ]
+      },
+      "de": {
+        "title": "Smarte Glühbirne (Zigbee, Alexa, RGB, 15W)",
+        "description": "Eine Glühbirne, die du per Handy dimmen, zeitlich steuern und bei manchen Modellen umfärben kannst, über eine App oder einen Sprachassistenten. Laut Angebot: Zigbee, Alexa, RGB, 15W. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Zigbee",
+          "Alexa",
+          "RGB",
+          "Intelligente Beleuchtung"
+        ]
+      }
+    },
+    "led-strip-lights-zigbee-wi-fi-78501": {
+      "en": {
+        "title": "Smart LED Strip (Zigbee, Wi-Fi, Tuya, 24V)",
+        "description": "A flexible LED strip for shelves, TVs, kitchens and decoration; length, voltage and control options depend on the version you choose. From the listing: Zigbee, Wi-Fi, Tuya, 24V. Zigbee versions need a Zigbee gateway, sold separately. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Zigbee",
+          "Wi-Fi",
+          "Tuya",
+          "Smart Lighting"
+        ]
+      },
+      "ar": {
+        "title": "شريط إضاءة LED ذكي (Zigbee, Wi-Fi, Tuya, 24V)",
+        "description": "شريط LED مرن للرفوف والتلفاز والمطابخ والديكور؛ الطول والجهد وطريقة التحكم تختلف حسب النسخة التي تختارها. من عنوان العرض: Zigbee, Wi-Fi, Tuya, 24V. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "Zigbee",
+          "Wi-Fi",
+          "Tuya",
+          "إضاءة ذكية"
+        ]
+      },
+      "fr": {
+        "title": "Ruban LED connecté (Zigbee, Wi-Fi, Tuya, 24V)",
+        "description": "Un ruban LED flexible pour étagères, téléviseurs, cuisines et décoration ; la longueur, la tension et le mode de commande dépendent de la version choisie. D'après l'annonce : Zigbee, Wi-Fi, Tuya, 24V. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Zigbee",
+          "Wi-Fi",
+          "Tuya",
+          "Éclairage intelligent"
+        ]
+      },
+      "es": {
+        "title": "Tira LED inteligente (Zigbee, Wi-Fi, Tuya, 24V)",
+        "description": "Una tira LED flexible para estantes, televisores, cocinas y decoración; la longitud, el voltaje y el control dependen de la versión que elijas. Según el anuncio: Zigbee, Wi-Fi, Tuya, 24V. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Zigbee",
+          "Wi-Fi",
+          "Tuya",
+          "Iluminación inteligente"
+        ]
+      },
+      "de": {
+        "title": "Smarter LED-Streifen (Zigbee, Wi-Fi, Tuya, 24V)",
+        "description": "Ein flexibler LED-Streifen für Regale, Fernseher, Küchen und Dekoration; Länge, Spannung und Steuerung hängen von der gewählten Version ab. Laut Angebot: Zigbee, Wi-Fi, Tuya, 24V. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Zigbee",
+          "Wi-Fi",
+          "Tuya",
+          "Intelligente Beleuchtung"
+        ]
+      }
+    },
+    "led-strip-lights-wi-fi-tuya-37449": {
+      "en": {
+        "title": "Smart LED Strip (Wi-Fi, Tuya, Alexa, 24V)",
+        "description": "A flexible LED strip for shelves, TVs, kitchens and decoration; length, voltage and control options depend on the version you choose. From the listing: Wi-Fi, Tuya, Alexa, 24V. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Alexa",
+          "Smart Lighting"
+        ]
+      },
+      "ar": {
+        "title": "شريط إضاءة LED ذكي (Wi-Fi, Tuya, Alexa, 24V)",
+        "description": "شريط LED مرن للرفوف والتلفاز والمطابخ والديكور؛ الطول والجهد وطريقة التحكم تختلف حسب النسخة التي تختارها. من عنوان العرض: Wi-Fi, Tuya, Alexa, 24V. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Alexa",
+          "إضاءة ذكية"
+        ]
+      },
+      "fr": {
+        "title": "Ruban LED connecté (Wi-Fi, Tuya, Alexa, 24V)",
+        "description": "Un ruban LED flexible pour étagères, téléviseurs, cuisines et décoration ; la longueur, la tension et le mode de commande dépendent de la version choisie. D'après l'annonce : Wi-Fi, Tuya, Alexa, 24V. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Alexa",
+          "Éclairage intelligent"
+        ]
+      },
+      "es": {
+        "title": "Tira LED inteligente (Wi-Fi, Tuya, Alexa, 24V)",
+        "description": "Una tira LED flexible para estantes, televisores, cocinas y decoración; la longitud, el voltaje y el control dependen de la versión que elijas. Según el anuncio: Wi-Fi, Tuya, Alexa, 24V. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Alexa",
+          "Iluminación inteligente"
+        ]
+      },
+      "de": {
+        "title": "Smarter LED-Streifen (Wi-Fi, Tuya, Alexa, 24V)",
+        "description": "Ein flexibler LED-Streifen für Regale, Fernseher, Küchen und Dekoration; Länge, Spannung und Steuerung hängen von der gewählten Version ab. Laut Angebot: Wi-Fi, Tuya, Alexa, 24V. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Wi-Fi",
+          "Tuya",
+          "Alexa",
+          "Intelligente Beleuchtung"
+        ]
+      }
+    },
+    "motion-night-light-55984": {
+      "en": {
+        "title": "Motion Sensor Night Light",
+        "description": "A small light that switches on when it detects motion, handy in hallways, on stairs and in bathrooms at night. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Smart Lighting",
+          "Motion Sensor Night Light",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "ar": {
+        "title": "ضوء ليلي بحساس حركة",
+        "description": "إضاءة صغيرة تعمل عند اكتشاف الحركة، مفيدة في الممرات والسلالم والحمامات ليلًا. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "إضاءة ذكية",
+          "ضوء ليلي بحساس حركة",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "fr": {
+        "title": "Veilleuse à détecteur de mouvement",
+        "description": "Une petite lampe qui s'allume lorsqu'elle détecte un mouvement, pratique dans les couloirs, les escaliers et les salles de bains la nuit. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Éclairage intelligent",
+          "Veilleuse à détecteur de mouvement",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "es": {
+        "title": "Luz nocturna con sensor de movimiento",
+        "description": "Una pequeña luz que se enciende al detectar movimiento, útil en pasillos, escaleras y baños por la noche. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Iluminación inteligente",
+          "Luz nocturna con sensor de movimiento",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "de": {
+        "title": "Nachtlicht mit Bewegungsmelder",
+        "description": "Ein kleines Licht, das bei Bewegung angeht, praktisch nachts in Fluren, auf Treppen und im Bad. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Intelligente Beleuchtung",
+          "Nachtlicht mit Bewegungsmelder",
+          "Smart Home",
+          "AliExpress"
+        ]
+      }
+    },
+    "motion-night-light-91021": {
+      "en": {
+        "title": "Motion Sensor Night Light · #1021",
+        "description": "A small light that switches on when it detects motion, handy in hallways, on stairs and in bathrooms at night. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Smart Lighting",
+          "Motion Sensor Night Light",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "ar": {
+        "title": "ضوء ليلي بحساس حركة · #1021",
+        "description": "إضاءة صغيرة تعمل عند اكتشاف الحركة، مفيدة في الممرات والسلالم والحمامات ليلًا. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "إضاءة ذكية",
+          "ضوء ليلي بحساس حركة",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "fr": {
+        "title": "Veilleuse à détecteur de mouvement · #1021",
+        "description": "Une petite lampe qui s'allume lorsqu'elle détecte un mouvement, pratique dans les couloirs, les escaliers et les salles de bains la nuit. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Éclairage intelligent",
+          "Veilleuse à détecteur de mouvement",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "es": {
+        "title": "Luz nocturna con sensor de movimiento · #1021",
+        "description": "Una pequeña luz que se enciende al detectar movimiento, útil en pasillos, escaleras y baños por la noche. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Iluminación inteligente",
+          "Luz nocturna con sensor de movimiento",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "de": {
+        "title": "Nachtlicht mit Bewegungsmelder · #1021",
+        "description": "Ein kleines Licht, das bei Bewegung angeht, praktisch nachts in Fluren, auf Treppen und im Bad. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Intelligente Beleuchtung",
+          "Nachtlicht mit Bewegungsmelder",
+          "Smart Home",
+          "AliExpress"
+        ]
+      }
+    },
+    "smart-ceiling-light-18591": {
+      "en": {
+        "title": "Smart Ceiling Light",
+        "description": "A ceiling light with remote or app control, usually with adjustable brightness and white tone, depending on the model. Installation involves mains wiring, so have a qualified electrician fit it. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Smart Lighting",
+          "Smart Ceiling Light",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "ar": {
+        "title": "إضاءة سقف ذكية",
+        "description": "إضاءة سقف بتحكم عن بعد أو عبر تطبيق، وغالبًا بسطوع ودرجة بياض قابلين للضبط حسب الطراز. التركيب يتضمن توصيلات كهرباء رئيسية، فيُفضَّل أن يقوم به كهربائي مؤهل. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "إضاءة ذكية",
+          "إضاءة سقف ذكية",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "fr": {
+        "title": "Plafonnier connecté",
+        "description": "Un plafonnier commandé par télécommande ou application, en général avec luminosité et teinte de blanc réglables selon le modèle. L'installation touche au câblage secteur : faites-la poser par un électricien qualifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Éclairage intelligent",
+          "Plafonnier connecté",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "es": {
+        "title": "Plafón inteligente",
+        "description": "Un plafón con control remoto o por app, normalmente con brillo y tono de blanco ajustables según el modelo. La instalación implica cableado de red eléctrica, así que que la haga un electricista cualificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Iluminación inteligente",
+          "Plafón inteligente",
+          "Smart Home",
+          "AliExpress"
+        ]
+      },
+      "de": {
+        "title": "Smarte Deckenleuchte",
+        "description": "Eine Deckenleuchte mit Fernbedienung oder App-Steuerung, je nach Modell meist mit einstellbarer Helligkeit und Lichtfarbe. Die Installation betrifft die Netzverkabelung, lass sie von einem Elektriker durchführen. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Intelligente Beleuchtung",
+          "Smarte Deckenleuchte",
+          "Smart Home",
+          "AliExpress"
+        ]
+      }
+    },
+    "smart-ceiling-light-wi-fi-bluetooth-86042": {
+      "en": {
+        "title": "Smart Ceiling Light (Wi-Fi, Bluetooth, Tuya, 30W)",
+        "description": "A ceiling light with remote or app control, usually with adjustable brightness and white tone, depending on the model. From the listing: Wi-Fi, Bluetooth, Tuya, 30W. Installation involves mains wiring, so have a qualified electrician fit it. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "Smart Lighting"
+        ]
+      },
+      "ar": {
+        "title": "إضاءة سقف ذكية (Wi-Fi, Bluetooth, Tuya, 30W)",
+        "description": "إضاءة سقف بتحكم عن بعد أو عبر تطبيق، وغالبًا بسطوع ودرجة بياض قابلين للضبط حسب الطراز. من عنوان العرض: Wi-Fi, Bluetooth, Tuya, 30W. التركيب يتضمن توصيلات كهرباء رئيسية، فيُفضَّل أن يقوم به كهربائي مؤهل. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "إضاءة ذكية"
+        ]
+      },
+      "fr": {
+        "title": "Plafonnier connecté (Wi-Fi, Bluetooth, Tuya, 30W)",
+        "description": "Un plafonnier commandé par télécommande ou application, en général avec luminosité et teinte de blanc réglables selon le modèle. D'après l'annonce : Wi-Fi, Bluetooth, Tuya, 30W. L'installation touche au câblage secteur : faites-la poser par un électricien qualifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "Éclairage intelligent"
+        ]
+      },
+      "es": {
+        "title": "Plafón inteligente (Wi-Fi, Bluetooth, Tuya, 30W)",
+        "description": "Un plafón con control remoto o por app, normalmente con brillo y tono de blanco ajustables según el modelo. Según el anuncio: Wi-Fi, Bluetooth, Tuya, 30W. La instalación implica cableado de red eléctrica, así que que la haga un electricista cualificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "Iluminación inteligente"
+        ]
+      },
+      "de": {
+        "title": "Smarte Deckenleuchte (Wi-Fi, Bluetooth, Tuya, 30W)",
+        "description": "Eine Deckenleuchte mit Fernbedienung oder App-Steuerung, je nach Modell meist mit einstellbarer Helligkeit und Lichtfarbe. Laut Angebot: Wi-Fi, Bluetooth, Tuya, 30W. Die Installation betrifft die Netzverkabelung, lass sie von einem Elektriker durchführen. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+        "tags": [
+          "Wi-Fi",
+          "Bluetooth",
+          "Tuya",
+          "Intelligente Beleuchtung"
+        ]
+      }
     }
   }
 }

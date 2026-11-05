@@ -120,7 +120,68 @@
   "1005012571302422",
   "1005012650169190",
   "1005012918320382",
-  "1005012977953468"
+  "1005012977953468",
+  "1005007856992723",
+  "1005008248061495",
+  "1005007987808144",
+  "1005007170851570",
+  "1005007987778501",
+  "1005004503637449",
+  "1005007345055984",
+  "1005006994791021",
+  "1005006701718591",
+  "1005007635886042"
  ],
- "added": {}
+ "added": {
+  "smart-bulb-wi-fi-tuya-92723": {
+   "ae_id": "1005007856992723",
+   "date": "2026-11-05",
+   "src_title": "Tuya RGB LED Light Bulbs Smart WiFi E27 Smart Lamp 220V 110V 10W 15W 20W Lamp Smart Life APP Google Assisatnt Voice Cont"
+  },
+  "smart-bulb-wi-fi-bluetooth-61495": {
+   "ae_id": "1005008248061495",
+   "date": "2026-11-05",
+   "src_title": "Tuya E27 Led Lamp App Control Bluetooth /WiFi Led Light Bulbs 15W RGB CW WW Smart Bulb Works With Amazon Alexa Google As"
+  },
+  "smart-bulb-zigbee-alexa-08144": {
+   "ae_id": "1005007987808144",
+   "date": "2026-11-05",
+   "src_title": "Zigbee 3.0 Smart Led Bulb 110V 220V E27 B22 Lamps RGBCW Works With Alexa Echo Plus Google Home Assistant APP Voice Contr"
+  },
+  "smart-bulb-zigbee-alexa-51570": {
+   "ae_id": "1005007170851570",
+   "date": "2026-11-05",
+   "src_title": "ZigBee E27 Led Bulb Smart Led Lamp RGBCW 15W 18W Led Light Bulb Works With Ewelink Zigbee Gateway Alexa Smartthings Alic"
+  },
+  "led-strip-lights-zigbee-wi-fi-78501": {
+   "ae_id": "1005007987778501",
+   "date": "2026-11-05",
+   "src_title": "WiFi LED Strip Lights Switch LED Controller Zigbee 3.0 DC5V-24V Tuya CCT RGB RGBW RGBCCT COB Neon Tape Dimmable Smart Di"
+  },
+  "led-strip-lights-wi-fi-tuya-37449": {
+   "ae_id": "1005004503637449",
+   "date": "2026-11-05",
+   "src_title": "Tuya WiFi LED Controller Alexa Google Home Voice Control RGB RGBW CCT LED Strip Smart Controller APP BT RF Remote 2.4G D"
+  },
+  "motion-night-light-55984": {
+   "ae_id": "1005007345055984",
+   "date": "2026-11-05",
+   "src_title": "1pc Motion Sensor Night Light - Wireless LED Detector Lamp for Bedroom, Staircase, Closet, and Room Decor-night"
+  },
+  "motion-night-light-91021": {
+   "ae_id": "1005006994791021",
+   "date": "2026-11-05",
+   "src_title": "Motion Sensor Light Wireless LED Night Light Type C Rechargeable Light Cabinet Wardrobe Lamp Staircase Backlight For Kit"
+  },
+  "smart-ceiling-light-18591": {
+   "ae_id": "1005006701718591",
+   "date": "2026-11-05",
+   "src_title": "MARPOU Smart Ceiling Lamp LED Lamp for Bedroom Large Ceiling Lamps LED Lights with Remote Control Dimmable LED Lights fo"
+  },
+  "smart-ceiling-light-wi-fi-bluetooth-86042": {
+   "ae_id": "1005007635886042",
+   "date": "2026-11-05",
+   "src_title": "30W 36W Smart LED Ceiling Light RGB Dimming APP TUYA Remote Control Timing Indoor Home Decor Bluetooth WIFI Bedroom Livi"
+  }
+ }
 }
