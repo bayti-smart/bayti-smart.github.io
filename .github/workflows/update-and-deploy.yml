@@ -3,7 +3,20 @@ name: تحديث المنتجات ونشر الموقع
 on:
   schedule:
     - cron: "0 3 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      auto_add:
+        description: "إضافة منتجات جديدة تلقائيًا"
+        type: boolean
+        default: true
+      dry_run:
+        description: "تجربة فقط: اكتب التقرير بلا تعديل المنتجات"
+        type: boolean
+        default: false
+      count:
+        description: "عدد المنتجات (اتركه فارغًا للعشوائي بين 5 و20)"
+        type: string
+        default: ""
   push:
     branches: [ "main" ]
 
@@ -32,6 +45,17 @@ jobs:
           ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
           ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
 
+      - name: إضافة منتجات جديدة تلقائيًا (5 إلى 20 يوميًا)
+        if: github.event_name != 'push' && github.event.inputs.auto_add != 'false'
+        run: python scripts/auto_add_products.py
+        continue-on-error: true
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+          AUTO_COUNT: ${{ github.event.inputs.count }}
+          AUTO_DRY_RUN: ${{ github.event.inputs.dry_run }}
+
       - name: تحديث products.json من sources.csv
         run: python scripts/fetch_products.py
 
@@ -39,10 +63,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add products.json scripts/ae_report.txt
-          git diff --cached --quiet || git commit -m "تحديث تلقائي للمنتجات"
-          git push
-        continue-on-error: true
+          git add products.json scripts/ae_report.txt scripts/sources.csv scripts/translations.json \
+                  scripts/ae_ids.json scripts/ae_state.json scripts/auto_report.txt
+          git diff --cached --quiet && exit 0
+          git commit -m "تحديث تلقائي للمنتجات"
+          for i in 1 2 3; do
+            if git pull -q --rebase origin main || { python scripts/fetch_products.py && git add products.json && GIT_EDITOR=true git rebase --continue; }; then
+              git push && exit 0
+            fi
+            sleep 5
+          done
+          exit 1
 
   deploy-pages:
     needs: update-products
