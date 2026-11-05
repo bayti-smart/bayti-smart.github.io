@@ -1,6 +1,17 @@
-AUTO 2026-11-05 dry=True target=8
+AUTO 2026-11-05 dry=True target=10
 search [tuya smart bulb wifi] p1: 40 results, 21 fresh, took 2
 search [zigbee smart bulb] p1: 40 results, 27 fresh, took 2
 search [smart led strip light wifi] p1: 40 results, 13 fresh, took 2
 search [motion sensor night light] p1: 40 results, 26 fresh, took 2
-FATAL AssertionError()
+search [smart ceiling light remote] p1: 40 results, 16 fresh, took 2
+ADD smart-bulb-wi-fi-tuya-92723 | lighting | $8.73 | Tuya RGB LED Light Bulbs Smart WiFi E27 Smart Lamp 220V 110V
+ADD smart-bulb-wi-fi-bluetooth-31602 | lighting | $6.72 | Tuya Led Light Bulbs 220V GU10 Wifi Bluetooth Smart Life RGB
+ADD smart-bulb-zigbee-alexa-08144 | lighting | $8.72 | Zigbee 3.0 Smart Led Bulb 110V 220V E27 B22 Lamps RGBCW Work
+ADD smart-bulb-zigbee-wi-fi-81827 | lighting | $34.13 | Tuya Wifi/Zigbee Ceiling Light RGBCW Led Ceiling Lamp Living
+ADD led-strip-lights-zigbee-wi-fi-78501 | lighting | $14.47 | WiFi LED Strip Lights Switch LED Controller Zigbee 3.0 DC5V-
+ADD led-strip-lights-wi-fi-tuya-37449 | lighting | $8.99 | Tuya WiFi LED Controller Alexa Google Home Voice Control RGB
+ADD motion-night-light-55984 | lighting | $6.50 | 1pc Motion Sensor Night Light - Wireless LED Detector Lamp f
+ADD motion-night-light-74836 | lighting | $6.01 | Motion Sensor Lamp Night Light Wireless LED USB Type C Recha
+ADD smart-ceiling-light-e27-20352 | lighting | $34.33 | Home E26 E27 LED Ceiling Fan Light Wireless Remote Control w
+ADD smart-ceiling-light-66768 | lighting | $40.38 | MARPOU Smart Ceiling Lamp LED Lamp for Bedroom Large Ceiling
+RESULT searches=5 pool=10 added=10
