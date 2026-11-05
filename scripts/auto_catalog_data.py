@@ -9,11 +9,11 @@ LANGS = ["en", "ar", "fr", "es", "de"]
 TYPES = {
  "bulb": ("smart-bulb",
   ["Smart Bulb", "مصباح ذكي", "Ampoule connectée", "Bombilla inteligente", "Smarte Glühbirne"],
-  ["A bulb you can dim, schedule and, on some models, change colour from your phone, through an app or a voice assistant, depending on the model.",
+  ["A bulb you can dim, schedule and, on some models, change colour from your phone or a voice assistant, depending on the model.",
    "مصباح يمكن تعتيمه وجدولته، ويغيّر لونه في بعض الطرازات، من الهاتف، عبر تطبيق أو مساعد صوتي حسب الطراز.",
    "Une ampoule que vous pouvez régler, programmer et, sur certains modèles, colorer depuis le téléphone, via une application ou un assistant vocal selon le modèle.",
    "Una bombilla que puedes regular, programar y, en algunos modelos, cambiar de color desde el móvil, con una app o un asistente de voz según el modelo.",
-   "Eine Glühbirne, die du per Handy dimmen, zeitlich steuern und bei manchen Modellen umfärben kannst, je nach Modell über eine App oder einen Sprachassistenten."], None),
+   "Eine Glühbirne, die du per Handy dimmen, zeitlich steuern und bei manchen Modellen umfärben kannst, über eine App oder einen Sprachassistenten."], None),
  "ledstrip": ("led-strip-lights",
   ["Smart LED Strip", "شريط إضاءة LED ذكي", "Ruban LED connecté", "Tira LED inteligente", "Smarter LED-Streifen"],
   ["A flexible LED strip for shelves, TVs, kitchens and decoration; length, voltage and control options depend on the version you choose.",
