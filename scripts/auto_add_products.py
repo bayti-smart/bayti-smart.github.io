@@ -174,12 +174,12 @@ def main():
             if tkey in NEG and re.search(NEG[tkey], low): continue
             prefix = re.sub(r"[^a-z0-9]", "", low)[:35]
             if prefix in seen_prefix: continue
+            seen_prefix.add(prefix)
             fresh.append({"pid": pid, "kw": kw, "tkey": tkey, "cat": cat, "title": title,
                           "sold": int(p.get("lastest_volume") or 0)})
         fresh.sort(key=lambda c: c["sold"], reverse=True)
         take = fresh[:MAX_PER_SPEC]
         for c in take:
-            seen_prefix.add(re.sub(r"[^a-z0-9]", "", c["title"].lower())[:35])
             pool.append(c)
         log(f"search [{kw}] p{page}: {len(res)} results, {len(fresh)} fresh, took {len(take)}")
         if not fresh:  # الصفحة مستنفدة: انتقل للتالية في المرة القادمة
