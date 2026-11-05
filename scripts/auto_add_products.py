@@ -90,7 +90,7 @@ def build_texts(tkey, cat, title_en, cat_names, pid="", used_titles=()):
             parts.append(MSG[warn][i])
         parts.append(MSG["check"][i])
         tags = list(toks[:3])
-        for extra in (cat_names.get(cat, {}).get(lang, cat), name, "Smart Home"):
+        for extra in (cat_names.get(cat, {}).get(lang, cat), name, "Smart Home", "AliExpress"):
             if len(tags) >= 4: break
             if extra not in tags: tags.append(extra)
         out[lang] = {"title": title, "description": " ".join(parts), "tags": tags[:4]}
