@@ -1,0 +1,6 @@
+AUTO 2026-11-05 dry=True target=8
+search [tuya smart bulb wifi] p1: 40 results, 21 fresh, took 2
+search [zigbee smart bulb] p1: 40 results, 27 fresh, took 2
+search [smart led strip light wifi] p1: 40 results, 13 fresh, took 2
+search [motion sensor night light] p1: 40 results, 26 fresh, took 2
+FATAL AssertionError()
