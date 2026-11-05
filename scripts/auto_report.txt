@@ -1,17 +1,20 @@
-AUTO 2026-11-05 dry=True target=10
-search [tuya smart bulb wifi] p1: 40 results, 21 fresh, took 2
-search [zigbee smart bulb] p1: 40 results, 27 fresh, took 2
+AUTO 2026-11-05 dry=True target=12
+search [tuya smart bulb wifi] p1: 40 results, 16 fresh, took 2
+search [zigbee smart bulb] p1: 40 results, 20 fresh, took 2
 search [smart led strip light wifi] p1: 40 results, 13 fresh, took 2
 search [motion sensor night light] p1: 40 results, 26 fresh, took 2
-search [smart ceiling light remote] p1: 40 results, 16 fresh, took 2
+search [smart ceiling light remote] p1: 40 results, 7 fresh, took 2
+search [wifi security camera indoor] p1: 40 results, 21 fresh, took 2
 ADD smart-bulb-wi-fi-tuya-92723 | lighting | $8.73 | Tuya RGB LED Light Bulbs Smart WiFi E27 Smart Lamp 220V 110V
-ADD smart-bulb-wi-fi-bluetooth-31602 | lighting | $6.72 | Tuya Led Light Bulbs 220V GU10 Wifi Bluetooth Smart Life RGB
+ADD smart-bulb-wi-fi-bluetooth-61495 | lighting | $7.02 | Tuya E27 Led Lamp App Control Bluetooth /WiFi Led Light Bulb
 ADD smart-bulb-zigbee-alexa-08144 | lighting | $8.72 | Zigbee 3.0 Smart Led Bulb 110V 220V E27 B22 Lamps RGBCW Work
-ADD smart-bulb-zigbee-wi-fi-81827 | lighting | $34.13 | Tuya Wifi/Zigbee Ceiling Light RGBCW Led Ceiling Lamp Living
+ADD smart-bulb-zigbee-alexa-51570 | lighting | $9.96 | ZigBee E27 Led Bulb Smart Led Lamp RGBCW 15W 18W Led Light B
 ADD led-strip-lights-zigbee-wi-fi-78501 | lighting | $14.47 | WiFi LED Strip Lights Switch LED Controller Zigbee 3.0 DC5V-
 ADD led-strip-lights-wi-fi-tuya-37449 | lighting | $8.99 | Tuya WiFi LED Controller Alexa Google Home Voice Control RGB
 ADD motion-night-light-55984 | lighting | $6.50 | 1pc Motion Sensor Night Light - Wireless LED Detector Lamp f
 ADD motion-night-light-74836 | lighting | $6.01 | Motion Sensor Lamp Night Light Wireless LED USB Type C Recha
-ADD smart-ceiling-light-e27-20352 | lighting | $34.33 | Home E26 E27 LED Ceiling Fan Light Wireless Remote Control w
 ADD smart-ceiling-light-66768 | lighting | $40.38 | MARPOU Smart Ceiling Lamp LED Lamp for Bedroom Large Ceiling
-RESULT searches=5 pool=10 added=10
+ADD smart-ceiling-light-18591 | lighting | $37.96 | MARPOU Smart Ceiling Lamp LED Lamp for Bedroom Large Ceiling
+ADD security-camera-wi-fi-66646 | security | $28.20 | Pet Dog Camera with Phone App, 5G/2.4GHz WiFi Indoor Securit
+ADD security-camera-wi-fi-4k-06751 | security | $43.35 | 4K 8MP WiFi Surveillance Camera, Dual Lens, 4X Digital Zoom,
+RESULT searches=6 pool=12 added=12
