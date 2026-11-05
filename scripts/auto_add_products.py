@@ -15,7 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ae_sync as ae
-from auto_catalog_data import TYPES, SPECS, MSG, TOKENS, BANNED, LANGS
+from auto_catalog_data import TYPES, SPECS, MSG, TOKENS, BANNED, LANGS, NEG
 
 ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "scripts" / "sources.csv"
@@ -171,6 +171,7 @@ def main():
             if pct(p.get("evaluate_rate")) < MIN_RATE or int(p.get("lastest_volume") or 0) < MIN_SOLD: continue
             if not (PRICE_MIN <= price <= PRICE_MAX): continue
             if banned.search(low) or not re.search(rx, low): continue
+            if tkey in NEG and re.search(NEG[tkey], low): continue
             prefix = re.sub(r"[^a-z0-9]", "", low)[:35]
             if prefix in seen_prefix: continue
             fresh.append({"pid": pid, "kw": kw, "tkey": tkey, "cat": cat, "title": title,

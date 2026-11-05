@@ -9,11 +9,11 @@ LANGS = ["en", "ar", "fr", "es", "de"]
 TYPES = {
  "bulb": ("smart-bulb",
   ["Smart Bulb", "مصباح ذكي", "Ampoule connectée", "Bombilla inteligente", "Smarte Glühbirne"],
-  ["A bulb you can dim, schedule and, on some models, change colour from your phone, usually through the Tuya / Smart Life app or a voice assistant.",
-   "مصباح يمكن تعتيمه وجدولته، ويغيّر لونه في بعض الطرازات، من الهاتف، عادةً عبر تطبيق Tuya / Smart Life أو مساعد صوتي.",
-   "Une ampoule que vous pouvez régler, programmer et, sur certains modèles, colorer depuis le téléphone, en général via l'application Tuya / Smart Life ou un assistant vocal.",
-   "Una bombilla que puedes regular, programar y, en algunos modelos, cambiar de color desde el móvil, normalmente con la app Tuya / Smart Life o un asistente de voz.",
-   "Eine Glühbirne, die du per Handy dimmen, zeitlich steuern und bei manchen Modellen umfärben kannst, meist über die Tuya / Smart Life App oder einen Sprachassistenten."], None),
+  ["A bulb you can dim, schedule and, on some models, change colour from your phone, through an app or a voice assistant, depending on the model.",
+   "مصباح يمكن تعتيمه وجدولته، ويغيّر لونه في بعض الطرازات، من الهاتف، عبر تطبيق أو مساعد صوتي حسب الطراز.",
+   "Une ampoule que vous pouvez régler, programmer et, sur certains modèles, colorer depuis le téléphone, via une application ou un assistant vocal selon le modèle.",
+   "Una bombilla que puedes regular, programar y, en algunos modelos, cambiar de color desde el móvil, con una app o un asistente de voz según el modelo.",
+   "Eine Glühbirne, die du per Handy dimmen, zeitlich steuern und bei manchen Modellen umfärben kannst, je nach Modell über eine App oder einen Sprachassistenten."], None),
  "ledstrip": ("led-strip-lights",
   ["Smart LED Strip", "شريط إضاءة LED ذكي", "Ruban LED connecté", "Tira LED inteligente", "Smarter LED-Streifen"],
   ["A flexible LED strip for shelves, TVs, kitchens and decoration; length, voltage and control options depend on the version you choose.",
@@ -321,9 +321,9 @@ MSG = {
 
 # (keyword, type, category, must-match regex on lowercase title)
 SPECS = [
- ("tuya smart bulb wifi", "bulb", "lighting", r"bulb|lamp|light"),
- ("zigbee smart bulb", "bulb", "lighting", r"bulb|lamp|light"),
- ("smart led strip light wifi", "ledstrip", "lighting", r"strip|tape|light"),
+ ("tuya smart bulb wifi", "bulb", "lighting", r"bulbs?\b"),
+ ("zigbee smart bulb", "bulb", "lighting", r"bulbs?\b"),
+ ("smart led strip light wifi", "ledstrip", "lighting", r"strips?\b|tape|ribbon"),
  ("motion sensor night light", "nightlight", "lighting", r"night|light|lamp"),
  ("smart ceiling light remote", "ceilinglight", "lighting", r"ceiling"),
  ("wifi security camera indoor", "camera", "security", r"camera|cam\b|cctv"),
@@ -380,3 +380,23 @@ TOKENS = [
  ("20A", r"\b20 ?a\b"), ("16A", r"\b16 ?a\b"), ("10A", r"\b10 ?a\b"), ("USB-C", r"usb-?c|type-?c"),
  ("EU Plug", r"\beu plug|eu standard"), ("US Plug", r"\bus plug|us standard"), ("UK Plug", r"\buk plug|uk standard"),
 ]
+
+# استبعاد عناوين لا تطابق النوع (تُطبَّق على عنوان القائمة بحروف صغيرة)
+NEG = {
+ "bulb": r"ceiling|strip|panel|fan\b|chandelier|string|solar|camera|downlight|projector|garden|street",
+ "ledstrip": r"bulb|ceiling|fan\b|camera|controller only",
+ "nightlight": r"camera|projector",
+ "ceilinglight": r"fan\b|camera|bulb only",
+ "camera": r"doorbell|lens only|baby monitor|dash ?cam|car dvr|bracket|mount only|trail|hunting|drone",
+ "solarcam": r"doorbell|bulb|trail|hunting|drone",
+ "plug": r"travel|converter|charger|lamp holder|bulb|\bled\b|adapter plug",
+ "wallswitch": r"cover|frame only|touch lamp|sticker",
+ "router": r"dongle|\busb\b|adapter|card|antenna|pci",
+ "mesh": r"\busb\b|adapter|dongle|card|antenna|pci",
+ "extender": r"antenna only|dongle|cable only",
+ "thermostat": r"radiator|valve|aquarium|reptile|incubator|cooler|fridge",
+ "feeder": r"bird|fish|aquarium|chicken|poultry|horse|cattle|hamster|livestock",
+ "fountain": r"garden|pond|bird|aquarium|fish tank|solar",
+ "growlight": r"aquarium|reptile|uv lamp",
+ "tracker": r"collar only",
+}
