@@ -1,0 +1,30 @@
+name: probe-courses
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: probe
+        run: |
+          mkdir -p scripts
+          {
+            for q in "smart%20home" "internet%20of%20things" "home%20automation"; do
+              echo "=== $q"
+              curl -s -m 30 -w "\nHTTP %{http_code}\n" -A "Mozilla/5.0" "https://api.coursera.org/api/courses.v1?q=search&query=$q&limit=3&fields=name,slug,photoUrl,description,primaryLanguages,workload,courseType,partnerIds,domainTypes,startDate" | cut -c1-2500
+            done
+            echo "=== ratings probe"
+            curl -s -m 30 -w "\nHTTP %{http_code}\n" -A "Mozilla/5.0" "https://api.coursera.org/api/courses.v1?q=search&query=arduino&limit=2&includes=partnerIds&fields=name,slug,photoUrl,partnerIds,averageFiveStarRating,ratingCount" | cut -c1-1500
+            echo "=== udemy public"
+            curl -s -m 30 -o /dev/null -w "udemy catalog HTTP %{http_code}\n" -A "Mozilla/5.0" "https://www.udemy.com/api-2.0/courses/?search=smart+home&page_size=2"
+          } > scripts/probe_courses.txt 2>&1
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/probe_courses.txt
+          git commit -m "probe courses api [skip ci]" || exit 0
+          git pull -q --rebase origin main && git push
