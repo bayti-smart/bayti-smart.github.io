@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T22:44:29.258137+00:00",
+  "updated_at": "2026-11-06T10:42:40.317248+00:00",
   "languages": [
     "ar",
     "en",
@@ -8369,6 +8369,1266 @@
             "Bluetooth",
             "Tuya",
             "Intelligente Beleuchtung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "security-camera-wi-fi-66646",
+      "category": "security",
+      "price": 28.2,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc7a91b5b5ff748f8a79084f349bf7965g.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmQbXKwknUxFdhqUzeOhOHwYUuuuiTksCRZpRk9SCOLOhNqPOs5WZCEYn1MKKtR9dnmWdGyXVpSsFXdnIgSyBu0kpQ4gtlZRawFFSyin63ViRRDKY2kaBvycDbAk7dlv9gqF1E6bL3EZlNyYpL9OnTM9PRwYkdEYfB6NWhkpPtFm3qRKHjnrkwXLEkaKtk08M9rda0nGPxViU4B1Wnachj58FYRjyrpKXUl3o1suXAOOE6sS2gCp1BHzmw2CXrtYnpKzhRRcCtJZ6oVQSz9V3NWRgtoJAYumgVVhgfkcNSveEBOm29hdc8YdE3bbuz6EXH8sJhifYpW9nH0sFgdvcuii5qrYiJif0OR2ledTHCSb5MTcIzoNkefkwgDZDEqZtlwFgOcJeZxuGpPXD5XXWuxFy28OWOlUYm90sNSlH3jQhlDAddXSKJvBAetiE0hXVyg6sHaokysghbbaUUPIKtLbr9oAZl6NotwVeil1bVKeTOyscaW8SE5ZS6jC2RvoMtsb0hkfVHWu1PcHQZ7HG5X85QWBPe10C30WiX4esaAa0PQ3hwzs8CzaZYsOb9KxlxlhKNTCccxebSaqS3KtesXF7nhydb19AH3bMvLgRYAN3N5fiOQHzFnCX2qFOIu42FYFrJpSgh7jCIB9vsCBhAvsgAxztn6oDK1u3RwfNgvpbZUSEghSEcLunq7CqELKioPMyBcKl46swk",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاميرا مراقبة (Wi-Fi)",
+          "description": "كاميرا Wi-Fi لمتابعة المنزل من الهاتف؛ الدقة والرؤية الليلية وخيارات التخزين تختلف حسب الطراز. من عنوان العرض: Wi-Fi. راجع قواعد الخصوصية في بلدك قبل توجيه كاميرا نحو أماكن مشتركة أو عامة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "أمان ومراقبة",
+            "كاميرا مراقبة",
+            "Smart Home"
+          ]
+        },
+        "en": {
+          "title": "Security Camera (Wi-Fi)",
+          "description": "A Wi-Fi camera for checking on your home from a phone; resolution, night vision and storage options vary by model. From the listing: Wi-Fi. Check the privacy rules where you live before pointing a camera at shared or public areas. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Security",
+            "Security Camera",
+            "Smart Home"
+          ]
+        },
+        "fr": {
+          "title": "Caméra de surveillance (Wi-Fi)",
+          "description": "Une caméra Wi-Fi pour surveiller votre domicile depuis un téléphone ; la résolution, la vision nocturne et le stockage varient selon le modèle. D'après l'annonce : Wi-Fi. Vérifiez les règles de confidentialité de votre pays avant de filmer des espaces partagés ou publics. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Sécurité",
+            "Caméra de surveillance",
+            "Smart Home"
+          ]
+        },
+        "es": {
+          "title": "Cámara de seguridad (Wi-Fi)",
+          "description": "Una cámara Wi-Fi para vigilar tu casa desde el móvil; la resolución, la visión nocturna y el almacenamiento varían según el modelo. Según el anuncio: Wi-Fi. Revisa las normas de privacidad de tu país antes de grabar zonas comunes o públicas. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Seguridad",
+            "Cámara de seguridad",
+            "Smart Home"
+          ]
+        },
+        "de": {
+          "title": "Überwachungskamera (Wi-Fi)",
+          "description": "Eine WLAN-Kamera, mit der du dein Zuhause per Handy im Blick hast; Auflösung, Nachtsicht und Speicherung unterscheiden sich je nach Modell. Laut Angebot: Wi-Fi. Informiere dich über die Datenschutzregeln vor Ort, bevor du eine Kamera auf gemeinsam genutzte oder öffentliche Bereiche richtest. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Sicherheit",
+            "Überwachungskamera",
+            "Smart Home"
+          ]
+        }
+      }
+    },
+    {
+      "id": "security-camera-wi-fi-4k-06751",
+      "category": "security",
+      "price": 43.35,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0277af8425904098b01d4539c45892a47.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C25fb76ExJfYxDtk0hccJNe39ucWMBsRZO3NQI4bDDfy8NTHQQ63fE12w4x7LJexnaYvJspEmLOoDUOPxdc4p9tbMJADKVmgaBowL5yU9tnsggRQ4QCCUmSB3xKyCvmKNGtbBPZd8JH9DaXW8xISF94uVFLGfqcZ6VCaTHWEBLsCfP7HkKhZiMd1KgkOXoPFKTok5ActfJuZdXVlUAVtsiXav6DGwUE4U7D0brEugJuojP54JoJSeRohOc6UM0DWLnncbhJotHzBOQUjmcyxY49QSau1z3XLINw3xKeNqdA2UTOSNHEPihvwHnRG2Y5K6e37w2F6B5GRXdLaFSJOQXalbCmnGk1aB1G8k3SKHScsGGUxuOkCsR52yynvrmT8wCw9zFVT4nXVXoWD3G2TI7XwKpe5SCLRUyKsyEvFI7aH5h6qOguHsbdyCcPlawP2MMqCFmMAVYgefaeQWXg6mI9ZUcrlCIH9n360dnUjPvHy2s32HqpnGOXIgf6pABUzApqDR94WcQPXCM9R2cSOrSuDthCkiw0lQjW73LUm9u4LmAyE7zybKLZgDVzVAaad6ZimtsDUIYPmApTEZ65UkZV600VN114QUzXmjtTB8ziwJThVcmWkgHRCMPJIvK8uFPDiaOlxJ92gkTn4kyv1mdXV6Ou8UqTQaihFLHPas6Zx80PkiS6IhQlPdGltrS63eLzSeuLiaBOX2o",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاميرا مراقبة (Wi-Fi, 4K, PTZ)",
+          "description": "كاميرا Wi-Fi لمتابعة المنزل من الهاتف؛ الدقة والرؤية الليلية وخيارات التخزين تختلف حسب الطراز. من عنوان العرض: Wi-Fi, 4K, PTZ. راجع قواعد الخصوصية في بلدك قبل توجيه كاميرا نحو أماكن مشتركة أو عامة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "PTZ",
+            "أمان ومراقبة"
+          ]
+        },
+        "en": {
+          "title": "Security Camera (Wi-Fi, 4K, PTZ)",
+          "description": "A Wi-Fi camera for checking on your home from a phone; resolution, night vision and storage options vary by model. From the listing: Wi-Fi, 4K, PTZ. Check the privacy rules where you live before pointing a camera at shared or public areas. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "PTZ",
+            "Security"
+          ]
+        },
+        "fr": {
+          "title": "Caméra de surveillance (Wi-Fi, 4K, PTZ)",
+          "description": "Une caméra Wi-Fi pour surveiller votre domicile depuis un téléphone ; la résolution, la vision nocturne et le stockage varient selon le modèle. D'après l'annonce : Wi-Fi, 4K, PTZ. Vérifiez les règles de confidentialité de votre pays avant de filmer des espaces partagés ou publics. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "PTZ",
+            "Sécurité"
+          ]
+        },
+        "es": {
+          "title": "Cámara de seguridad (Wi-Fi, 4K, PTZ)",
+          "description": "Una cámara Wi-Fi para vigilar tu casa desde el móvil; la resolución, la visión nocturna y el almacenamiento varían según el modelo. Según el anuncio: Wi-Fi, 4K, PTZ. Revisa las normas de privacidad de tu país antes de grabar zonas comunes o públicas. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "PTZ",
+            "Seguridad"
+          ]
+        },
+        "de": {
+          "title": "Überwachungskamera (Wi-Fi, 4K, PTZ)",
+          "description": "Eine WLAN-Kamera, mit der du dein Zuhause per Handy im Blick hast; Auflösung, Nachtsicht und Speicherung unterscheiden sich je nach Modell. Laut Angebot: Wi-Fi, 4K, PTZ. Informiere dich über die Datenschutzregeln vor Ort, bevor du eine Kamera auf gemeinsam genutzte oder öffentliche Bereiche richtest. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "PTZ",
+            "Sicherheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "security-camera-wi-fi-4k-55520",
+      "category": "security",
+      "price": 34.78,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb05e7d299e914c09b035d473d9b1aed1l.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2NmY4h9mNMmedqTKQz4Bk1aClUSCQWQSgBCqBaeYVwROm4T2xXkV8SxXpvjLfW97Z6DBHjBXDoIfmdLcRhAJafCnHz7uA4UVzGjGCQs87Z70CJ2MILTEXAQiNdyahWw3pNMaMJfaPj8fKEtGyBN36902R1PtDK8cZWeIFukxL9JtleRlCL9igxGjlQDPyvrrpdJR8PbOQSPbzunsMIAmtLlp9RXGbjA3MiL54qJEOtkbsbPCGEcVe0X73QY8QREgFdR8S7IaoDhw6NUtDQAICuucIqvnPLOvsZz3vq72evha6GBbmp4MNd2QYjvZOyH3moYcnBZxq1GU0LvvXij5w48NI8VDPnXwrK40lLmtww3CRqdQHJTojb7UVwzrixO1rWSEBEiJMb2T5zZsfqKgqT9L7qVlw25f0Ht0zlXKsnox1hMIIq3ifKkAwF3UEZjnkjwTyfU4Y1t4aTPuXYtBsLiUM0juxV5JJPgS4Nww0FZTwUNCVdLhNWRNDYbhsnndN5lNz0mFWiVocqTt3Yxbv7fqWA4jEx6VHvE3WGDTeugVsVjL7AoqfHF5hl637JwunNrhsijKVaxPP8wEp8hHtsOG8GdoSn059y62FHECVlSkulmpRVs9d45bhhiWBzXcWDdtvgYwxFoy0Ipc8niCjjuL2C7hblxrEWqGPGTBFenpTWUKS1ZJh1wh1FZOkV1f0geZihHoGovHm",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاميرا مراقبة (Wi-Fi, 4K, 5MP)",
+          "description": "كاميرا Wi-Fi لمتابعة المنزل من الهاتف؛ الدقة والرؤية الليلية وخيارات التخزين تختلف حسب الطراز. من عنوان العرض: Wi-Fi, 4K, 5MP. راجع قواعد الخصوصية في بلدك قبل توجيه كاميرا نحو أماكن مشتركة أو عامة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "5MP",
+            "أمان ومراقبة"
+          ]
+        },
+        "en": {
+          "title": "Security Camera (Wi-Fi, 4K, 5MP)",
+          "description": "A Wi-Fi camera for checking on your home from a phone; resolution, night vision and storage options vary by model. From the listing: Wi-Fi, 4K, 5MP. Check the privacy rules where you live before pointing a camera at shared or public areas. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "5MP",
+            "Security"
+          ]
+        },
+        "fr": {
+          "title": "Caméra de surveillance (Wi-Fi, 4K, 5MP)",
+          "description": "Une caméra Wi-Fi pour surveiller votre domicile depuis un téléphone ; la résolution, la vision nocturne et le stockage varient selon le modèle. D'après l'annonce : Wi-Fi, 4K, 5MP. Vérifiez les règles de confidentialité de votre pays avant de filmer des espaces partagés ou publics. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "5MP",
+            "Sécurité"
+          ]
+        },
+        "es": {
+          "title": "Cámara de seguridad (Wi-Fi, 4K, 5MP)",
+          "description": "Una cámara Wi-Fi para vigilar tu casa desde el móvil; la resolución, la visión nocturna y el almacenamiento varían según el modelo. Según el anuncio: Wi-Fi, 4K, 5MP. Revisa las normas de privacidad de tu país antes de grabar zonas comunes o públicas. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "5MP",
+            "Seguridad"
+          ]
+        },
+        "de": {
+          "title": "Überwachungskamera (Wi-Fi, 4K, 5MP)",
+          "description": "Eine WLAN-Kamera, mit der du dein Zuhause per Handy im Blick hast; Auflösung, Nachtsicht und Speicherung unterscheiden sich je nach Modell. Laut Angebot: Wi-Fi, 4K, 5MP. Informiere dich über die Datenschutzregeln vor Ort, bevor du eine Kamera auf gemeinsam genutzte oder öffentliche Bereiche richtest. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "4K",
+            "5MP",
+            "Sicherheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "security-camera-wi-fi-tuya-96593",
+      "category": "security",
+      "price": 52.9,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seeffe68c20574960bc47371273ba1b2f8.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmx0NBFcB6kk4CnqdM3SSIQz16FGYbN2doxssElGq7wdnjJ3lIcyg9r15VXzAg8DdaaLvC6Iyt7Ho6jnuUdbjRSm0LODPmUGMSiCRhGQQQNKMtEzZnhdy4upyYFP7zb4s6B6erFtyhRDMMpbVd2j8jsorGplMc7Emig9s9mw0asCWOYh2sM0M5wVel724qqMbwEc5DIVSq0HIDqdtKeFAxHczBLdpMB3GEhnEZXqV2u0GdvEtPT6nww8zWjToVpuUoJlUCrowAGBRBNLlfQc6mHHA1bYzY59LmmJUc3TNba8A9rDdmcszZgw9jet47ERADHIwsRPVq1Ud3qOs0g7R7VD9KtbVBeoN4GwmEZk9huQqSJrWqqRvof4yA0avv0SEZIaQjBHM6PzS7hYpNASyQDxVkoWbZSi0xJSYfxpjM7pZXRHkZyAmXxgint8lFsP4vOViVpFWExGKecasNPbEILdz3LW2UHxsiOP9BsBls95GMTgFUJNZ4VKs6naDaCmI1l8JJHEs6noWpYMgenspHJW6AbF9YEzOt1xMeJ06z4gsrx6x5RMcgyuTayggbDIZb1XoBMDZXpPXa5gDdkmV2jA7MHOA2DqZ5lpGmElB1hlBpdW6WbK3XT6UBxptZ2uOrpaUbormmyZDbrBHnQ9ZfawJyg0Dqyl4AFU8DT4OHhlozPDZWveh8DYwYW9gNisVt6zObjiVB1XM0",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاميرا مراقبة (Wi-Fi, Tuya, PTZ)",
+          "description": "كاميرا Wi-Fi لمتابعة المنزل من الهاتف؛ الدقة والرؤية الليلية وخيارات التخزين تختلف حسب الطراز. من عنوان العرض: Wi-Fi, Tuya, PTZ. راجع قواعد الخصوصية في بلدك قبل توجيه كاميرا نحو أماكن مشتركة أو عامة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "PTZ",
+            "أمان ومراقبة"
+          ]
+        },
+        "en": {
+          "title": "Security Camera (Wi-Fi, Tuya, PTZ)",
+          "description": "A Wi-Fi camera for checking on your home from a phone; resolution, night vision and storage options vary by model. From the listing: Wi-Fi, Tuya, PTZ. Check the privacy rules where you live before pointing a camera at shared or public areas. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "PTZ",
+            "Security"
+          ]
+        },
+        "fr": {
+          "title": "Caméra de surveillance (Wi-Fi, Tuya, PTZ)",
+          "description": "Une caméra Wi-Fi pour surveiller votre domicile depuis un téléphone ; la résolution, la vision nocturne et le stockage varient selon le modèle. D'après l'annonce : Wi-Fi, Tuya, PTZ. Vérifiez les règles de confidentialité de votre pays avant de filmer des espaces partagés ou publics. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "PTZ",
+            "Sécurité"
+          ]
+        },
+        "es": {
+          "title": "Cámara de seguridad (Wi-Fi, Tuya, PTZ)",
+          "description": "Una cámara Wi-Fi para vigilar tu casa desde el móvil; la resolución, la visión nocturna y el almacenamiento varían según el modelo. Según el anuncio: Wi-Fi, Tuya, PTZ. Revisa las normas de privacidad de tu país antes de grabar zonas comunes o públicas. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "PTZ",
+            "Seguridad"
+          ]
+        },
+        "de": {
+          "title": "Überwachungskamera (Wi-Fi, Tuya, PTZ)",
+          "description": "Eine WLAN-Kamera, mit der du dein Zuhause per Handy im Blick hast; Auflösung, Nachtsicht und Speicherung unterscheiden sich je nach Modell. Laut Angebot: Wi-Fi, Tuya, PTZ. Informiere dich über die Datenschutzregeln vor Ort, bevor du eine Kamera auf gemeinsam genutzte oder öffentliche Bereiche richtest. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "PTZ",
+            "Sicherheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "solar-security-camera-wi-fi-solar-30864",
+      "category": "security",
+      "price": 64.62,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8bf4beeceec948acb1cbf8365ee7d770k.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2LWEUmYKslQatTNLa4nFYnrOpNqKtywvLXiKHtJvNjWko3QaYLoeabXjUL32AqR7aRBwETXbiDhCYEzBsdcg7w4crve7VpVMi1Bd0eBzMzGCXReag4fuIvSM8hiT5dgDEkQ8oJdy7AttTOD4SNNiw867tLoW7HGie7mC14pB8yCN6eTYRh7rtue8TQTpC2PqNGfsEqRWuoXhnLgEFYpJOqGnI95MHy4oPZiMGzX8RoiQngTtMvkBiwFIdRbDg9TfTmKX0lTR3TwRnt8ZdVTti5aLZUXwySr2O9LuEFZTAbyP2DRe83YlxS9VhyqjqwpUT8dImc1o1xXaEiYZtqi59KxmVhvLwyVjJyHnyubYEGambM6F11NitjWHpAK7aTlUtFUdITquaHLLMyXCjnyVLBJMYJoDjkifZ9oXyKI9Y9oXsgY6YGHDFwQQPCvYHp8b3bbb9ZoIJMVz0r4ZOooSJl912Vxcvqt1YDapUW8psj508WGwJAwrcWWe3DRymKhtn7ZK1VdNJKiy2FOhLZSUecX622HO3DhOD6b0g9uI4s5NKkNjz5Zt6SWFTwmEDjMhav0359qaNXzvfmpHyMna4hMa3SataxHZWKU7MCwsFdQx6DHZ5bPx23JK31xZTbyGkQvo4nPilO7sACr6AYCGMioodpJutuqLZG5G4ALuHYw7MvDs7QrOUDPTn03zxlaGoo8xkCYxgiJK4",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاميرا خارجية تعمل بالطاقة الشمسية أو البطارية (Wi-Fi, Solar)",
+          "description": "كاميرا خارجية تعمل ببطارية أو لوح شمسي بلا حاجة إلى توصيل كهرباء، مفيدة حيث لا يوجد مقبس قريب؛ راجع عمر البطارية وخيارات التخزين. من عنوان العرض: Wi-Fi, Solar. راجع قواعد الخصوصية في بلدك قبل توجيه كاميرا نحو أماكن مشتركة أو عامة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "أمان ومراقبة",
+            "كاميرا خارجية تعمل بالطاقة الشمسية أو البطارية"
+          ]
+        },
+        "en": {
+          "title": "Solar / Battery Outdoor Camera (Wi-Fi, Solar)",
+          "description": "An outdoor camera that runs on a battery or solar panel and needs no mains wiring, useful where there is no nearby socket; check battery life and storage options. From the listing: Wi-Fi, Solar. Check the privacy rules where you live before pointing a camera at shared or public areas. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "Security",
+            "Solar / Battery Outdoor Camera"
+          ]
+        },
+        "fr": {
+          "title": "Caméra extérieure solaire / sur batterie (Wi-Fi, Solar)",
+          "description": "Une caméra extérieure sur batterie ou panneau solaire, sans câblage secteur, utile là où il n'y a pas de prise proche ; vérifiez l'autonomie et le stockage. D'après l'annonce : Wi-Fi, Solar. Vérifiez les règles de confidentialité de votre pays avant de filmer des espaces partagés ou publics. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "Sécurité",
+            "Caméra extérieure solaire / sur batterie"
+          ]
+        },
+        "es": {
+          "title": "Cámara exterior solar / de batería (Wi-Fi, Solar)",
+          "description": "Una cámara exterior con batería o panel solar que no necesita cableado, útil donde no hay enchufe cerca; revisa la autonomía y el almacenamiento. Según el anuncio: Wi-Fi, Solar. Revisa las normas de privacidad de tu país antes de grabar zonas comunes o públicas. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "Seguridad",
+            "Cámara exterior solar / de batería"
+          ]
+        },
+        "de": {
+          "title": "Outdoor-Kamera mit Solar / Akku (Wi-Fi, Solar)",
+          "description": "Eine Außenkamera mit Akku oder Solarpanel ohne Netzanschluss, nützlich wo keine Steckdose in der Nähe ist; prüfe Akkulaufzeit und Speicheroptionen. Laut Angebot: Wi-Fi, Solar. Informiere dich über die Datenschutzregeln vor Ort, bevor du eine Kamera auf gemeinsam genutzte oder öffentliche Bereiche richtest. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "Sicherheit",
+            "Outdoor-Kamera mit Solar / Akku"
+          ]
+        }
+      }
+    },
+    {
+      "id": "solar-security-camera-solar-usb-c-65297",
+      "category": "security",
+      "price": 16.52,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdba3138393944252bc8e921acec1440eu.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoUuiHgFujY4Czju1gIshKflfhdQRPrH2GHIs5fhC1eixcBw9keJmsVKrFDkhf5JEkspuZ1MsY8FU9ieWogVBrNHnyPJOpkOQpwYPgasoFyH0hfoIyFAAHQo8no8FukejttkBwCMJatkqhVMPfnatK9cj2iKOAvE1hHVXRJPWYnbkd0Z3knXYhHN6p24YrabDuskbO3V5DAfL8mJRmU0nlbGWe9dBCkOEUXBx3L5UCwgZvpUQJKO8QBxuupKRtvW99juYKyUutSGLH5DjQH2T7YYURZQ116V4EFqfHwUh7XBbSCtzShzgQMg0zEATB80G114xupD3A9t42VPjgdCEB8Ct8QXoryqDFxHiHtPu0OGvoHbMdGigj9k7vq941q9j02M9tW8kPwvSC7xRlIbO1T1gafLhiYCCzTVi2q6VYSNqaW4RmOUNpsmsBg27qRp1IWhoEFWuHExEaKn2M0RmVjxWe8xdWco5j4Cwxehg21dExKqVSYWI7v9aXOTRwL8wsia0SGiuvOR4dQN1QISmxswuxHOtceMcH5hr7YPW3x9tYrIk1xiu4iu1DIp26wc9bEhuUlYqEWxtN1cvqIoj4aepVtgUthLPPgYc2H7MH7YLmJwluuWeOnRRhOWTFoFAhJH9Dt5ATAeF19yujlumfkaxAq1o2Du4RsgzMetoZwvjQG3IGii5gJT6G6TuMobjuW6kVFnLGz7SY",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاميرا خارجية تعمل بالطاقة الشمسية أو البطارية (Solar, USB-C, 3W)",
+          "description": "كاميرا خارجية تعمل ببطارية أو لوح شمسي بلا حاجة إلى توصيل كهرباء، مفيدة حيث لا يوجد مقبس قريب؛ راجع عمر البطارية وخيارات التخزين. من عنوان العرض: Solar, USB-C, 3W. راجع قواعد الخصوصية في بلدك قبل توجيه كاميرا نحو أماكن مشتركة أو عامة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Solar",
+            "USB-C",
+            "3W",
+            "أمان ومراقبة"
+          ]
+        },
+        "en": {
+          "title": "Solar / Battery Outdoor Camera (Solar, USB-C, 3W)",
+          "description": "An outdoor camera that runs on a battery or solar panel and needs no mains wiring, useful where there is no nearby socket; check battery life and storage options. From the listing: Solar, USB-C, 3W. Check the privacy rules where you live before pointing a camera at shared or public areas. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Solar",
+            "USB-C",
+            "3W",
+            "Security"
+          ]
+        },
+        "fr": {
+          "title": "Caméra extérieure solaire / sur batterie (Solar, USB-C, 3W)",
+          "description": "Une caméra extérieure sur batterie ou panneau solaire, sans câblage secteur, utile là où il n'y a pas de prise proche ; vérifiez l'autonomie et le stockage. D'après l'annonce : Solar, USB-C, 3W. Vérifiez les règles de confidentialité de votre pays avant de filmer des espaces partagés ou publics. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Solar",
+            "USB-C",
+            "3W",
+            "Sécurité"
+          ]
+        },
+        "es": {
+          "title": "Cámara exterior solar / de batería (Solar, USB-C, 3W)",
+          "description": "Una cámara exterior con batería o panel solar que no necesita cableado, útil donde no hay enchufe cerca; revisa la autonomía y el almacenamiento. Según el anuncio: Solar, USB-C, 3W. Revisa las normas de privacidad de tu país antes de grabar zonas comunes o públicas. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Solar",
+            "USB-C",
+            "3W",
+            "Seguridad"
+          ]
+        },
+        "de": {
+          "title": "Outdoor-Kamera mit Solar / Akku (Solar, USB-C, 3W)",
+          "description": "Eine Außenkamera mit Akku oder Solarpanel ohne Netzanschluss, nützlich wo keine Steckdose in der Nähe ist; prüfe Akkulaufzeit und Speicheroptionen. Laut Angebot: Solar, USB-C, 3W. Informiere dich über die Datenschutzregeln vor Ort, bevor du eine Kamera auf gemeinsam genutzte oder öffentliche Bereiche richtest. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Solar",
+            "USB-C",
+            "3W",
+            "Sicherheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "video-doorbell-wi-fi-tuya-64342",
+      "category": "security",
+      "price": 26.97,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf1bd68c1497744e4859cfb265bd8fd970.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2ZNubDRjM3pSp75n1nR28UzVutqmIZzAMHtx6CkWhzI0mEPCowFRVlbsnzJtgKjbgL7eXU6ODRpFPhAMSEIXVFTdzKXzFfhpk6FNs8bw6KaVaxThwvo6QBlUkgpW7dZXJRojiHPPyiv0bZmzxOlb7p3oKTw5vOmgqsrigkqemrrh9o4wHO9BTQQwybmxUuEbTp1NCBdLX91KyQrg2DerytxJpEdtFZWqAYjJLx3GfeCEO7ALSXT0gINlCcfSJW2GcShSh5Xot45DKNfFNTrsHzRJEEcNWYdVaZO4k7sSVmZ6o4ihnSbwl4EgbOIOjVltXTmEq4IsRO3XPOtXfxg2eeY1rKkMG1Pv40VJMWy9jTlvUS9wCFdRMwfWzwTlfY7wYzqtHB3zgYWyAGGxXhBM7YbZc8Mqe1wfjionWjtfeNv6Taks8kZ4AfFc44bw8hk0iymIkuBw6aO6oQnMrjBmDjNo4x3ZWg6VJOcJQqPOPOf3wRqeIg77JXbBN0QcCj0wG7dKsf70lueIXnPLc7V3oMDT1CKoHYPlqLoIxqyFtnYok5FzVHyaG7q6GWQUlIE4ycLKZ4j2GY13KG2vAOZ5n03rZgad0NBGJkSvZqVFxxh7d6Tueq2rk0OWFZsCaXDw6Jb1GzkrhnQNWoY48yI3b3YN0DQxBTcAxS2pJKBCK2bwPonBQ9KgOTZBf8yuTwSMnQuDlW0jrBr4y",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "جرس باب بكاميرا (Wi-Fi, Tuya)",
+          "description": "جرس باب بكاميرا يرسل إشعارًا إلى هاتفك عندما يضغط أحدهم الجرس أو يقترب؛ خيارات التشغيل والتوصيل تختلف. من عنوان العرض: Wi-Fi, Tuya. راجع قواعد الخصوصية في بلدك قبل توجيه كاميرا نحو أماكن مشتركة أو عامة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "أمان ومراقبة",
+            "جرس باب بكاميرا"
+          ]
+        },
+        "en": {
+          "title": "Video Doorbell (Wi-Fi, Tuya)",
+          "description": "A doorbell with a camera that notifies your phone when someone rings or approaches; power and wiring options vary. From the listing: Wi-Fi, Tuya. Check the privacy rules where you live before pointing a camera at shared or public areas. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Security",
+            "Video Doorbell"
+          ]
+        },
+        "fr": {
+          "title": "Sonnette vidéo (Wi-Fi, Tuya)",
+          "description": "Une sonnette avec caméra qui prévient votre téléphone quand quelqu'un sonne ou approche ; l'alimentation et le câblage varient. D'après l'annonce : Wi-Fi, Tuya. Vérifiez les règles de confidentialité de votre pays avant de filmer des espaces partagés ou publics. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Sécurité",
+            "Sonnette vidéo"
+          ]
+        },
+        "es": {
+          "title": "Timbre con vídeo (Wi-Fi, Tuya)",
+          "description": "Un timbre con cámara que avisa a tu móvil cuando alguien llama o se acerca; la alimentación y el cableado varían. Según el anuncio: Wi-Fi, Tuya. Revisa las normas de privacidad de tu país antes de grabar zonas comunes o públicas. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Seguridad",
+            "Timbre con vídeo"
+          ]
+        },
+        "de": {
+          "title": "Video-Türklingel (Wi-Fi, Tuya)",
+          "description": "Eine Türklingel mit Kamera, die dein Handy benachrichtigt, wenn jemand klingelt oder sich nähert; Stromversorgung und Verkabelung unterscheiden sich. Laut Angebot: Wi-Fi, Tuya. Informiere dich über die Datenschutzregeln vor Ort, bevor du eine Kamera auf gemeinsam genutzte oder öffentliche Bereiche richtest. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Sicherheit",
+            "Video-Türklingel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "video-doorbell-wi-fi-tuya-01056",
+      "category": "security",
+      "price": 69.13,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4c115a5d52fe413da4bccd95bd3b4659L.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CpaBy4suh8yhN9SLoQ5swfugTBA7icynNDGGJcY90T5WOAelLPvnnW89Mplb2zB0QWELldkscBJa4T8gyjXw3YxEpZm3b5Ow9O5oPiTwYGC661RiP1gClrKbYQdd5do87Itzdm2eqOkYOgiKP8BPEsT5Sbl22MyuOZJzIGjgwlsAmzMQiRgmLVUqTb7IEANN5uceV53OsfmuXJG3mkJMfMzJCUMDnpmEiDVpjiUGUgUmKAHUopHxWTqsEAZUoZlrBujeadl9KiM3CtrCffifMkr1ce0g1VC21z4uDxRoR4GWitBvvF0Fp0YasXLAZdRSG9Sot0WI3qHqsUqrlrG4ROaLVWTwDN03Xn4LHAuCz5WdMivICzydEuFVeRCY4U3GTw3qAYRDfGVxnNcNE7z8KV47AzbBUa3ndTqjGwYq8rXYczfjqkYibyNOaPECp1aztpyAT44top33ghAktMZmw7pF4oy5fRU8jfapRj6EFZFGJkc2Row9wsJPjISKhCdjJPXOsZ70xPcYtiNuevLLoq9xZsOz71I4FtiMrjEP6VIvTuEO453YJSPz23uyuszGMrOUZF4sUDbZ0VoqlWCDtdZ4A1rIB8ddeVp6AiFiJpZcJbIGRvSJrQiGxohUN0Z1Qmp8RtjeIOIPOd9vrDKwOQRjcOugK8bhjVJ0gJojEjzcPS8YUTGKdGf8P9hinNnnU1IDbt2759zRi8",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "جرس باب بكاميرا (Wi-Fi, Tuya, 1080P)",
+          "description": "جرس باب بكاميرا يرسل إشعارًا إلى هاتفك عندما يضغط أحدهم الجرس أو يقترب؛ خيارات التشغيل والتوصيل تختلف. من عنوان العرض: Wi-Fi, Tuya, 1080P. راجع قواعد الخصوصية في بلدك قبل توجيه كاميرا نحو أماكن مشتركة أو عامة. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "1080P",
+            "أمان ومراقبة"
+          ]
+        },
+        "en": {
+          "title": "Video Doorbell (Wi-Fi, Tuya, 1080P)",
+          "description": "A doorbell with a camera that notifies your phone when someone rings or approaches; power and wiring options vary. From the listing: Wi-Fi, Tuya, 1080P. Check the privacy rules where you live before pointing a camera at shared or public areas. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "1080P",
+            "Security"
+          ]
+        },
+        "fr": {
+          "title": "Sonnette vidéo (Wi-Fi, Tuya, 1080P)",
+          "description": "Une sonnette avec caméra qui prévient votre téléphone quand quelqu'un sonne ou approche ; l'alimentation et le câblage varient. D'après l'annonce : Wi-Fi, Tuya, 1080P. Vérifiez les règles de confidentialité de votre pays avant de filmer des espaces partagés ou publics. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "1080P",
+            "Sécurité"
+          ]
+        },
+        "es": {
+          "title": "Timbre con vídeo (Wi-Fi, Tuya, 1080P)",
+          "description": "Un timbre con cámara que avisa a tu móvil cuando alguien llama o se acerca; la alimentación y el cableado varían. Según el anuncio: Wi-Fi, Tuya, 1080P. Revisa las normas de privacidad de tu país antes de grabar zonas comunes o públicas. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "1080P",
+            "Seguridad"
+          ]
+        },
+        "de": {
+          "title": "Video-Türklingel (Wi-Fi, Tuya, 1080P)",
+          "description": "Eine Türklingel mit Kamera, die dein Handy benachrichtigt, wenn jemand klingelt oder sich nähert; Stromversorgung und Verkabelung unterscheiden sich. Laut Angebot: Wi-Fi, Tuya, 1080P. Informiere dich über die Datenschutzregeln vor Ort, bevor du eine Kamera auf gemeinsam genutzte oder öffentliche Bereiche richtest. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "1080P",
+            "Sicherheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smoke-detector-wi-fi-tuya-06971",
+      "category": "security",
+      "price": 13.3,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S18891381776d416bbf623a15563a9ca68.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4b6FbmTNtXb2A1Oafd52ERmMlfVmJphOaAYZVbvfRkNahpaugWmLI0xruMm6xZatf2EdsG9TL8PrpAdmxPjUPn2XApXE3ZJvWuH4k7E4FiXtJ0dNBRMLifHmKAU8t33uYzRY6KGQ69ij7UNi2NHr7enxTN0PAiseGNuwBG07L24Ifbomt7WqG6xAUyrLog6PeBcGVKDgU8dxDmwxaV9Ynuj5e4Lv0OwiyDvHXkK6SglqAuH3Tj2t972iY0kJpRXojh2QkC5WU9D3hNw80CaXMsGoPDQR9MxVWRKyBbt7cqEEZXmocPsNmRe4PsJVcuNFNh8Y7o1IPLgOv9x4zgAqdERmjPNFWCA959I65eUeYRZwinQeGpp2F6ySJBIQGJyTen5mIyGrBTLgFA1hBHJLvcm9ZEmC3BuzfESqWFG1yjizDinOKk7eDlrwRxoYSYRFfK99B6JDG2CUdxJmmsUdi5A5CnhFz4pSqCiEWV6YJ3CUuaXGaOlgmTaqLfGPLQ9hJVkAceQcgcRY2N6cNO5QYfsecem0lW9HVY7E1gPKtq9OIo3ImIDWDum3kh2FBSNomVXyLLqFTbrV7z7x46xz5hcyxIeGmkGQUC4PWyIYWxps4hgv6EHGyFO8RHhS5I5JmxKsOdx86AYBSe1mrwwFwKW9FdJlmAEitrOFnTAWmc93bkLJC7wGLLlypNJkjsevBJgeWZzSO4miw",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاشف دخان (Wi-Fi, Tuya, Smart Life)",
+          "description": "كاشف دخان يطلق إنذارًا، وفي النسخ الذكية يرسل إشعارًا إلى هاتفك. من عنوان العرض: Wi-Fi, Tuya, Smart Life. هو طبقة حماية إضافية وليس بديلًا عن جهاز كشف معتمد. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "أمان ومراقبة"
+          ]
+        },
+        "en": {
+          "title": "Smoke Detector (Wi-Fi, Tuya, Smart Life)",
+          "description": "A smoke detector that sounds an alarm and, on smart versions, sends a notification to your phone. From the listing: Wi-Fi, Tuya, Smart Life. It is an extra layer of protection, not a replacement for a certified detector. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Security"
+          ]
+        },
+        "fr": {
+          "title": "Détecteur de fumée (Wi-Fi, Tuya, Smart Life)",
+          "description": "Un détecteur de fumée qui déclenche une alarme et, sur les versions connectées, envoie une notification à votre téléphone. D'après l'annonce : Wi-Fi, Tuya, Smart Life. C'est une couche de protection supplémentaire, pas un remplaçant d'un détecteur certifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Sécurité"
+          ]
+        },
+        "es": {
+          "title": "Detector de humo (Wi-Fi, Tuya, Smart Life)",
+          "description": "Un detector de humo que emite una alarma y, en las versiones inteligentes, envía una notificación a tu móvil. Según el anuncio: Wi-Fi, Tuya, Smart Life. Es una capa extra de protección, no un sustituto de un detector certificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Seguridad"
+          ]
+        },
+        "de": {
+          "title": "Rauchmelder (Wi-Fi, Tuya, Smart Life)",
+          "description": "Ein Rauchmelder, der Alarm schlägt und bei smarten Versionen eine Meldung an dein Handy sendet. Laut Angebot: Wi-Fi, Tuya, Smart Life. Er ist eine zusätzliche Sicherheitsebene und kein Ersatz für einen zertifizierten Melder. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Sicherheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smoke-detector-zigbee-wi-fi-35017",
+      "category": "security",
+      "price": 15.59,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S95d910c1606a4f9fac18ea52b3534964Z.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CohdghqxkUqaGIGjNi7FO0Ckouah9WUaATSraprFsAvoGgeQ8YIIVrVD4CGypMztLbZwbLFdyXP3TxDy8UBdNH7iAhZKp7CETKsGFB8vX9cj7ij79JdZs6didyVM2ROtMN69VWRy4mRUZxIeL09RW3izjABrUAE7WxvduUZ9CU4Q8qA5ppLYDgeIiO1lBDzCHS3BPkKTRAk0nWYYsu7Lq00pINim4U1mRrOzNzT7Firv2twxGVAiGik5PZ973l5cKD42Fi0Xo0QuvKlAuNKwt9huZieO1IOk37hQFRonDDlyvhXrOqNS6qqSit5xv0J8KBvIQkTASPFGvfrQDhnXWwHQMN5EgbBLNB3cBS73PvtGboT7VhQoT28DGwNQmPRkXdSGzltWPtVutIbhO4AJf3RGyAl5pfxxht1aKhOPummuHEeIgf2qgbEPpUPAmeeI3bWgKUcUWrsP9r1maCoA6BxcaUfw0b4gKDHM8eKTbmBaOPvEoitvRI1BBH1Lf2w1EaGIJx2RyiPQjLnBydHkJOB6Mo3N8IwUFnMLzH5bmIIh3NbizCOfqfD6Mjk1aePgVRxaB2aFSCHBr5MZjetX0ZJWBfSrvv4gfT8hHOY1r4gKJNzsDratiBlP8YGPVLM0DQRqWLBmab6DOXTgmkZ9rBwMLSJav4ORcqU2emVnMEP0e2yNlXuXCpccvWSCSwHB211CM7WA9Hg4AU",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاشف دخان (Zigbee, Wi-Fi, Tuya)",
+          "description": "كاشف دخان يطلق إنذارًا، وفي النسخ الذكية يرسل إشعارًا إلى هاتفك. من عنوان العرض: Zigbee, Wi-Fi, Tuya. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. هو طبقة حماية إضافية وليس بديلًا عن جهاز كشف معتمد. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "أمان ومراقبة"
+          ]
+        },
+        "en": {
+          "title": "Smoke Detector (Zigbee, Wi-Fi, Tuya)",
+          "description": "A smoke detector that sounds an alarm and, on smart versions, sends a notification to your phone. From the listing: Zigbee, Wi-Fi, Tuya. Zigbee versions need a Zigbee gateway, sold separately. It is an extra layer of protection, not a replacement for a certified detector. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Security"
+          ]
+        },
+        "fr": {
+          "title": "Détecteur de fumée (Zigbee, Wi-Fi, Tuya)",
+          "description": "Un détecteur de fumée qui déclenche une alarme et, sur les versions connectées, envoie une notification à votre téléphone. D'après l'annonce : Zigbee, Wi-Fi, Tuya. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. C'est une couche de protection supplémentaire, pas un remplaçant d'un détecteur certifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Sécurité"
+          ]
+        },
+        "es": {
+          "title": "Detector de humo (Zigbee, Wi-Fi, Tuya)",
+          "description": "Un detector de humo que emite una alarma y, en las versiones inteligentes, envía una notificación a tu móvil. Según el anuncio: Zigbee, Wi-Fi, Tuya. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Es una capa extra de protección, no un sustituto de un detector certificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Seguridad"
+          ]
+        },
+        "de": {
+          "title": "Rauchmelder (Zigbee, Wi-Fi, Tuya)",
+          "description": "Ein Rauchmelder, der Alarm schlägt und bei smarten Versionen eine Meldung an dein Handy sendet. Laut Angebot: Zigbee, Wi-Fi, Tuya. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Er ist eine zusätzliche Sicherheitsebene und kein Ersatz für einen zertifizierten Melder. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Sicherheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gas-leak-detector-79914",
+      "category": "security",
+      "price": 13.64,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c6e0c7ab66241978beb3e22cc7ef1dct.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cnak6aR5oiCPkWVP57wOUrXIfBCrT9g1nOncGhfoHP0f1nUeqTaiwuhwOn0hESC4dmGNSv6EbgUkOoY6gf7twr6jWpJR0mweTOYdfn9iRD1hJUmjaAglVBSFvm3T3bCLVXZMgXJ2DPhv3qgrp6uueAXgTBA73A4NsmjLfqpOYzaIwZMLvevVzvJuetyXcveUbk6awP4Pd2o6B8h9UCauPhlinTnCZPGNNVhui0qI4Cyp8BP2s1L29hDAbic7AVqMlMu1LCV2BcTy2T9XMc66nvs5CzFCwTWa3uPRmdmpPhsGrmBnSgKYJKorFoSi8dyI8onRRTZgKYJgbqzwuI8o02IeUfiOreYhwJYdV84sdCZHVCDazsaVDr0MBj3gll9OULrQF8ye72esST55DYKYbC7MhVvwMxclDbPsvGrWS8CGW2bL0w4FZ88m1M4X7iDuCjbCx3L7IE8ostFG1Li5BSziRHB3LbzHJh7s9shpbBg3oubJPfki3rt7c6jXADmVAUSmBm1F3NxstbiPJQKiISDEyueoyAnhcAY42IPUtBPRXPEVXPORB9u3gH9hAHLcG8Lnk8ydzGfiAheB3WJlHYkIasqo4w4rVcIzDNKGFJ20Nofbs8D8jQvrSXtsV27wNFmnMCnabc0Q9qZQLdx7StDpvzlNIMTTD1FiEBL3xMtjEkw6p4CfUnRujGnVINq8C7vykYxdLFsj6e",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاشف تسرب الغاز",
+          "description": "كاشف يطلق إنذارًا عند استشعار الغاز قرب الموقد أو المدفأة؛ والنسخ الذكية ترسل إشعارًا إلى الهاتف أيضًا. هو طبقة حماية إضافية وليس بديلًا عن جهاز كشف معتمد. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "أمان ومراقبة",
+            "كاشف تسرب الغاز",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "en": {
+          "title": "Gas Leak Detector",
+          "description": "A detector that sounds an alarm when it senses gas near a cooker or heater; smart versions can also notify your phone. It is an extra layer of protection, not a replacement for a certified detector. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Security",
+            "Gas Leak Detector",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "fr": {
+          "title": "Détecteur de fuite de gaz",
+          "description": "Un détecteur qui déclenche une alarme lorsqu'il détecte du gaz près d'une cuisinière ou d'un chauffage ; les versions connectées préviennent aussi votre téléphone. C'est une couche de protection supplémentaire, pas un remplaçant d'un détecteur certifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Sécurité",
+            "Détecteur de fuite de gaz",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "es": {
+          "title": "Detector de fugas de gas",
+          "description": "Un detector que emite una alarma al percibir gas cerca de una cocina o calefactor; las versiones inteligentes también avisan a tu móvil. Es una capa extra de protección, no un sustituto de un detector certificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Seguridad",
+            "Detector de fugas de gas",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "de": {
+          "title": "Gasmelder",
+          "description": "Ein Melder, der Alarm schlägt, wenn er Gas in der Nähe von Herd oder Heizung erkennt; smarte Versionen benachrichtigen auch dein Handy. Er ist eine zusätzliche Sicherheitsebene und kein Ersatz für einen zertifizierten Melder. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Sicherheit",
+            "Gasmelder",
+            "Smart Home",
+            "AliExpress"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gas-leak-detector-27436",
+      "category": "security",
+      "price": 10.34,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S593d65a66d0d4ee0929400600f0d5a1bp.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cnp46hUKDlrlT9Au3exMjeJQG0uGcm7OF0PJ71Dju6p9EVRJsTPGFULN5SRp8h9lB6BoyVpOGAeIy6mfJVSokgGOEpPZny36f4ItTlbxw6bh7eUvoDSO8sDHlyBqGgUq5eUI1w8FOLihFxCDCwjzQ7GPPEUMsqBuxA0XwX36x6HhpYWOP6ZXGE4uLW0Uugi6mPsuxRgvJ1W0iLWtDzuxy6I05hEyYmo4MkmXpf2N6lZpBGz9BZHNsmLRDs8okofzPTwcHFdgeli4wCBAu5wkWotBXKH8K96CW7xu7Rw3veMPzAY0rFVM1OiqgngVhOVECZGALUeqse6IxNOSjvmqfsupqeOPjXLFpfkRGhLi4IsaKgTrPwM5PFnAyQNRlj9olLnkz65sMQIlhlTxVmcCUV0RKxosTkSSWboc3L8jPJzx2OjJYY7f4UXIVaUGpZ3uMdFg3p9j9ec8d0OZ3boGhpnlXn0AEJOjo5fuGvjTErXqvbQmMF93R04atx6hozDlhKRqbazLt03qbyoas18htNZI0J1ijMkYy5l3aVSv3SHNlSOwTkqa79jHTtt5vrK34lU3sPPyBSD3mkLhXDcHO1O29Ojrfpk42jYm2SW9jhk1oI5sMhzffG1W8wrim2KyWb3mHhD8Mjm7ewif92Bz3XP7DuhdRxD6a6HYqq9Qy7CY9j9H6uDI3rxlqUwuP3PYFMjD6KOkvfiwkQ",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "كاشف تسرب الغاز · #7436",
+          "description": "كاشف يطلق إنذارًا عند استشعار الغاز قرب الموقد أو المدفأة؛ والنسخ الذكية ترسل إشعارًا إلى الهاتف أيضًا. هو طبقة حماية إضافية وليس بديلًا عن جهاز كشف معتمد. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "أمان ومراقبة",
+            "كاشف تسرب الغاز",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "en": {
+          "title": "Gas Leak Detector · #7436",
+          "description": "A detector that sounds an alarm when it senses gas near a cooker or heater; smart versions can also notify your phone. It is an extra layer of protection, not a replacement for a certified detector. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Security",
+            "Gas Leak Detector",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "fr": {
+          "title": "Détecteur de fuite de gaz · #7436",
+          "description": "Un détecteur qui déclenche une alarme lorsqu'il détecte du gaz près d'une cuisinière ou d'un chauffage ; les versions connectées préviennent aussi votre téléphone. C'est une couche de protection supplémentaire, pas un remplaçant d'un détecteur certifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Sécurité",
+            "Détecteur de fuite de gaz",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "es": {
+          "title": "Detector de fugas de gas · #7436",
+          "description": "Un detector que emite una alarma al percibir gas cerca de una cocina o calefactor; las versiones inteligentes también avisan a tu móvil. Es una capa extra de protección, no un sustituto de un detector certificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Seguridad",
+            "Detector de fugas de gas",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "de": {
+          "title": "Gasmelder · #7436",
+          "description": "Ein Melder, der Alarm schlägt, wenn er Gas in der Nähe von Herd oder Heizung erkennt; smarte Versionen benachrichtigen auch dein Handy. Er ist eine zusätzliche Sicherheitsebene und kein Ersatz für einen zertifizierten Melder. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Sicherheit",
+            "Gasmelder",
+            "Smart Home",
+            "AliExpress"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-door-lock-69416",
+      "category": "security",
+      "price": 12.29,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5e08646148b44f6091c7912841c99052e.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2hMShoXqxsbugOtyZAMltfUFmOHcelny3FXvbIkitq9p1MYNWQTBCcYSSrEVW7wVjIN3i7t9T3iK1DAv8P8D7ueJPbHa9jhDZNHjTKwi6H7ZO5FR50BonTcp5IF6YjTAIChKiMeu2ksJkGJz9KrBqJmpajqEGoDQpOQPXqmZCj5Nfz5oky5HGOXFpQfMOUDhl4S00TolaWIuq321WgwUIOEkXr2UszxpndonwHCfjWgxtEH4hJ8xhuDIGvYZFzc8By2GSLHVYqaKTuF9kw14kJxNZNw31QOtbwOWzkcsjhe1HHN1BLx4dRfziRY8TK9Be3LAFRew1P7YNqurb8KDFRwj9CbTiz6ofh9uYpe4HxovBjQzPq4HMO5txtcdYg6INFV1jnlnYUbLj6R8NmusdJTwuwxixbISfiX5eSlmZ1Od6sZ3jgYGjoblhuiG3nsv8ZLNOY8t20ylc85Hcm9UUi89x0sfNhykQoLbKQ8SEIseSDBdC8yqkXPYKgHsFdxGaExPEZ8vLKUyUQH8Isia8j91qdxV8nMFFhQyYtH6IoSYxgD63LWtK5fmgNtTX858S8k92hM826kS97sGfzCme95D4WUs0e40032sd1w6EUIs7EhDfAQpbj726Hjshk1zt5R5iO7juNg39moagKe0nFEHLbMKFAlnGisVHPhVjVSKlzswK7JCOoiJgTdqPcuqmj1dScB23vOv0",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "قفل باب ذكي",
+          "description": "قفل إلكتروني يُفتح بالبصمة أو الرمز أو البطاقة أو التطبيق حسب الطراز. تأكد أنه يناسب نوع بابك، واحتفظ بمفتاح احتياطي عادي. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "أمان ومراقبة",
+            "قفل باب ذكي",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "en": {
+          "title": "Smart Door Lock",
+          "description": "An electronic lock that opens by fingerprint, code, card or app, depending on the model. Check that it fits your door type, and keep a physical backup key. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Security",
+            "Smart Door Lock",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "fr": {
+          "title": "Serrure connectée",
+          "description": "Une serrure électronique qui s'ouvre par empreinte, code, badge ou application selon le modèle. Vérifiez qu'elle convient à votre type de porte et gardez une clé de secours physique. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Sécurité",
+            "Serrure connectée",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "es": {
+          "title": "Cerradura inteligente",
+          "description": "Una cerradura electrónica que se abre con huella, código, tarjeta o app según el modelo. Comprueba que encaja con tu tipo de puerta y guarda una llave física de respaldo. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Seguridad",
+            "Cerradura inteligente",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "de": {
+          "title": "Smartes Türschloss",
+          "description": "Ein elektronisches Schloss, das je nach Modell per Fingerabdruck, Code, Karte oder App öffnet. Prüfe, ob es zu deiner Türart passt, und bewahre einen mechanischen Ersatzschlüssel auf. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Sicherheit",
+            "Smartes Türschloss",
+            "Smart Home",
+            "AliExpress"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-door-lock-58896",
+      "category": "security",
+      "price": 14.61,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa20f1b51f2ab4039ba6f198be87e2bd5t.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C22i33gyBpRrgccfPfMsuO899sAUAoOsU78Pk3MixoJHyy5V4EHZxMAGQK8tbPR0mVxiGdhBRCrllKjZ6kBD75kZ7jSMF7vvlvIbmsz40p7lEHwx8FabFczksTGLI9duP1iBY9hYcasu6S0JV11tZSH989LPNlxA34gIWUp9TPRIwj8GV9UeOFUtkFnLPM2TKPUw66fNUkbdtCWjNPGictNwuUON7NzsbIFA01o5pBTGffPpFuNYoMoHG3tPUUumFOmq1NywutugvxZ4k4gpr2b7e7BG1d54vAUsTLtRrMoL15gM98tW3OV8ue8US1bJ1X3pqeLY1RHcED2QNj4LbU2Fay3WVEYFPC3HocD6yEPF8t1DVKU6cfJfep04Mh9zR0H4fzBbr26ujK2fMTc53yKqhee1N9fK0FA0MDl7ny3iRvaXFenjIOQTk4nOSurN4oCfyJUa0EUydjMOLmP4kqqt0JHSgVF4DdzW23t69LUCqjVNYJhuwXSiITfNVkjXAWyG95RdiSBB1anKoYEkQV8wMYPwq7V5hqZQJVpnkEOKbtbJhrLiceI608RL9NW0o3ckqYmV1vL7QjhwxXXTI8Lh0KlA8MWq1uQBgJqwjDUjN0rItELg8FfMKwDxAzQqG61UPJ4xN8yC7viO6HbJUxjr6iQ6bBMIehc9hISW7bAsjPBzmgUs7mXapsc1yft5D91KAXdOMKanMw",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "قفل باب ذكي · #8896",
+          "description": "قفل إلكتروني يُفتح بالبصمة أو الرمز أو البطاقة أو التطبيق حسب الطراز. تأكد أنه يناسب نوع بابك، واحتفظ بمفتاح احتياطي عادي. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "أمان ومراقبة",
+            "قفل باب ذكي",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "en": {
+          "title": "Smart Door Lock · #8896",
+          "description": "An electronic lock that opens by fingerprint, code, card or app, depending on the model. Check that it fits your door type, and keep a physical backup key. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Security",
+            "Smart Door Lock",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "fr": {
+          "title": "Serrure connectée · #8896",
+          "description": "Une serrure électronique qui s'ouvre par empreinte, code, badge ou application selon le modèle. Vérifiez qu'elle convient à votre type de porte et gardez une clé de secours physique. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Sécurité",
+            "Serrure connectée",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "es": {
+          "title": "Cerradura inteligente · #8896",
+          "description": "Una cerradura electrónica que se abre con huella, código, tarjeta o app según el modelo. Comprueba que encaja con tu tipo de puerta y guarda una llave física de respaldo. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Seguridad",
+            "Cerradura inteligente",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "de": {
+          "title": "Smartes Türschloss · #8896",
+          "description": "Ein elektronisches Schloss, das je nach Modell per Fingerabdruck, Code, Karte oder App öffnet. Prüfe, ob es zu deiner Türart passt, und bewahre einen mechanischen Ersatzschlüssel auf. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Sicherheit",
+            "Smartes Türschloss",
+            "Smart Home",
+            "AliExpress"
+          ]
+        }
+      }
+    },
+    {
+      "id": "alarm-siren-wi-fi-12v-04998",
+      "category": "security",
+      "price": 8.28,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1d5214d5e319484eac2d6ff14b0f81cbS.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2PA7ZT8dHVzUAuGoUolW24NNzFnHLMT7ahJd0K5s6qFr3FketOSSDDHXC8gZhAhqZti3WE8jjIPSAMfvjRqLblSURPb9pie78QwYNR354BxbmfBrd5CvlK2ZaoIcLtbZwomXUvjkk8hHdB4SqN6tletAfs1IMaaddwg5IAyI1aglduQJktEvxVX6zaGrAXBlYx2iCR05HazGUbbUQfc2wPnqKCTQ6QAJHQoLiHjqDZCkEUl6jwT9dB5f0Ry1TILpIo2FjMwATIn3C0SQTHWxRaVpmLbM4Mqq0lVeyczEMUUSMTiT0BtiqvJnJaK1oidhrth5w5cCY6MQukuekOPCGqOA9Jff9g4kNPbBlQHTBh9CqhGxg3HELM44VP1lgAzMxtpQja6FiWOvUlTuLjLqPlBsXIBRoZJtMphs9D57dLTinx1HaO99Hhufw4YL5ZY7bMZsS6XHre4fDdL8HQRfyRxi9V8Z6MB7MghSolMh6qkNVnH76Xerr9HoqPrbshHMPCegxZjeT1kjxN5uGuq1RIQ8JL9V48Q02JDwoKySSZdpSwfZHYIYYPuKzyClGsKZrPUE70mXYiEzOVVgsSvguSLthWeZtgpAVvadzHehwwPddKrTaSpTiCihEl0hg5joeHiVCFIa6ldybAibsKiAQyZVmZDyxhel0XMR0J0owDrhUnGaIPDMsBGP04GiovWY3wtdPXQxLk0F0",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "صفارة إنذار (Wi-Fi, 12V)",
+          "description": "صفارة عالية الصوت يمكن تشغيلها بالحساسات أو التطبيق ضمن منظومة إنذار منزلي. من عنوان العرض: Wi-Fi, 12V. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "12V",
+            "أمان ومراقبة",
+            "صفارة إنذار"
+          ]
+        },
+        "en": {
+          "title": "Alarm Siren (Wi-Fi, 12V)",
+          "description": "A loud siren that sensors or an app can trigger as part of a home alarm setup. From the listing: Wi-Fi, 12V. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "12V",
+            "Security",
+            "Alarm Siren"
+          ]
+        },
+        "fr": {
+          "title": "Sirène d'alarme (Wi-Fi, 12V)",
+          "description": "Une sirène puissante que des capteurs ou une application peuvent déclencher dans un système d'alarme domestique. D'après l'annonce : Wi-Fi, 12V. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "12V",
+            "Sécurité",
+            "Sirène d'alarme"
+          ]
+        },
+        "es": {
+          "title": "Sirena de alarma (Wi-Fi, 12V)",
+          "description": "Una sirena potente que sensores o una app pueden activar dentro de un sistema de alarma doméstico. Según el anuncio: Wi-Fi, 12V. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "12V",
+            "Seguridad",
+            "Sirena de alarma"
+          ]
+        },
+        "de": {
+          "title": "Alarmsirene (Wi-Fi, 12V)",
+          "description": "Eine laute Sirene, die Sensoren oder eine App als Teil einer Heimalarmanlage auslösen können. Laut Angebot: Wi-Fi, 12V. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "12V",
+            "Sicherheit",
+            "Alarmsirene"
+          ]
+        }
+      }
+    },
+    {
+      "id": "alarm-siren-wi-fi-solar-42970",
+      "category": "security",
+      "price": 23.12,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S712e0a6384f04a59804a01ad98a67b241.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CohdTy5IVQSsEF1QWcpWsL4o9K1fVcvHZ5HTSZtWmMu9YJR1nHN50ZU1KaC7T7dLgZaYooLEvpKaYd6Ifyx7GI9lTr9lZ8BHn89pndhIBFxwVen4vfI30ysNwTJ9FGtJa0khZpePCDl14cNDw52d9iFXNRzhOg3zVyFKjUVz9TEFIvLXIKUSk5Sk7ZTu3B56xxihfO8uCzrnpHriEP7RglJaSyG37B7VChsA206QuYWdD9So0zqzjeRkqJmJkZPAQSOqRo8o6fYpaZ0BJgAUNIVPZR3GLCjgd9nWwEXZDQXwp8C89R5wmWz7tKRBmWOhulad816eSyq21PTW3JT53B5c8oapfF4kmiFpVNUAaSBH9vM5jXLb2PBBNIzDU68UwsRAcqJlaodnJa5t7ksCUyAUGMPIjZecznGLIh20EPtrleqcaUSZ773b2KdHmuIq0TajBtBQgSc4UIKudRsWh0d5ojBBEhj2b3xleNgbPrw0iNqUrRpJR534yqS7HvD3yi8Gg5xMM6l9wACP1gTGRUCT01mbr7wilaWJhQ8bAdBdJ2MxdXF6z6bBn2MlXkWmoAIZJcHuRV1oAMJLtRpqXDzVypmEnqv4Np9SfuH3c0QlOLSaqLzlS8QwKn6CSrjJ1SU9acOlDV2NjCWYwkYsA5Z47Y35RNoHP1m7zI14OY5rQrgQG0oAsgCfJaQ3Pb0X8DVsKzDPS8Dy00",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "صفارة إنذار (Wi-Fi, Solar)",
+          "description": "صفارة عالية الصوت يمكن تشغيلها بالحساسات أو التطبيق ضمن منظومة إنذار منزلي. من عنوان العرض: Wi-Fi, Solar. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "أمان ومراقبة",
+            "صفارة إنذار"
+          ]
+        },
+        "en": {
+          "title": "Alarm Siren (Wi-Fi, Solar)",
+          "description": "A loud siren that sensors or an app can trigger as part of a home alarm setup. From the listing: Wi-Fi, Solar. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "Security",
+            "Alarm Siren"
+          ]
+        },
+        "fr": {
+          "title": "Sirène d'alarme (Wi-Fi, Solar)",
+          "description": "Une sirène puissante que des capteurs ou une application peuvent déclencher dans un système d'alarme domestique. D'après l'annonce : Wi-Fi, Solar. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "Sécurité",
+            "Sirène d'alarme"
+          ]
+        },
+        "es": {
+          "title": "Sirena de alarma (Wi-Fi, Solar)",
+          "description": "Una sirena potente que sensores o una app pueden activar dentro de un sistema de alarma doméstico. Según el anuncio: Wi-Fi, Solar. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "Seguridad",
+            "Sirena de alarma"
+          ]
+        },
+        "de": {
+          "title": "Alarmsirene (Wi-Fi, Solar)",
+          "description": "Eine laute Sirene, die Sensoren oder eine App als Teil einer Heimalarmanlage auslösen können. Laut Angebot: Wi-Fi, Solar. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Solar",
+            "Sicherheit",
+            "Alarmsirene"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-plug-zigbee-wi-fi-34227",
+      "category": "power",
+      "price": 9.88,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S931b4b75f2af4e5eb8996b1587130f2aW.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4l6CtxSJMgPyNnRWiFx8KTbLU5Uv4Yj1pa8u0zni0sxg33LyGtwqz73uogtc2lxTjoMyNFEmUaIBlW653j5lLWnw1bMkMx73ur8h9ukzZaSR9K5ufiYYPA35xV2oIgALuV1SmuV4JZGLr6ED3HxChocmKt2gcEKW6dlE8IQ6UnvftARlw0Ocvs6dV2VNvBpL4aBTn2zMTJlpGJLS1kNltYv8sUxmrOhbpbR4Wca7b1G1oq7dP56zpWZjXNkVVRfFFheo4GqzgyP4wqyytEW8t4KTetECwOeapCVhk9ipWIH6cAuCDKtdgpwSIWESZuh21EWnLLiNl4sh7ZSr4q2R501MBdZvbK9KcNaJP9TempgwQ5AxM7j7vDdqJHfpvo4LcQJhnvmt57x9xm9bw0MnUHWcBe2amlAS18c51tIL7wUTo6AeuVyD92MQKL8bdrfMXJW2NfZFTehdO9NCfLs66JN1LNuXRq3BVLieKIqB5GLO5jzUCG7cU5fd7Ux9AnPDvwj45ccepMQtuikcsbX45sn0t6BJcE332T3EftKgXm4X0dveGuqLmIWtr5IFnt2t1jYdC8iXv8JoAONOEZKmlaFAzTjzpoKtfVMr20EWxEw13EYEwlW3R4JoL6jRuoktnLFB7SpvCaMT0AHg4lgR3P6B1KjNlC2n8vrpThhOKyDN95gLzqTHAyO8g0laLidHX9ohuajvD4DTk",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس ذكي (Zigbee, Wi-Fi, Tuya)",
+          "description": "قابس يوضع بين المقبس والجهاز لتشغيله وإطفائه وضبط جداول زمنية من الهاتف. من عنوان العرض: Zigbee, Wi-Fi, Tuya. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. تحقق من نوع القابس والحمل الأقصى (أمبير أو واط) ومن مطابقته للمقبس والجهاز. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "مقابس وطاقة"
+          ]
+        },
+        "en": {
+          "title": "Smart Plug (Zigbee, Wi-Fi, Tuya)",
+          "description": "A plug that sits between a socket and a device so you can switch it on or off and set schedules from your phone. From the listing: Zigbee, Wi-Fi, Tuya. Zigbee versions need a Zigbee gateway, sold separately. Check the plug type and maximum load (amps or watts) against your socket and device. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Smart Plugs"
+          ]
+        },
+        "fr": {
+          "title": "Prise connectée (Zigbee, Wi-Fi, Tuya)",
+          "description": "Une prise placée entre la prise murale et l'appareil pour l'allumer, l'éteindre et programmer des horaires depuis le téléphone. D'après l'annonce : Zigbee, Wi-Fi, Tuya. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. Vérifiez le type de fiche et la charge maximale (ampères ou watts) par rapport à votre prise et votre appareil. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Prises connectées"
+          ]
+        },
+        "es": {
+          "title": "Enchufe inteligente (Zigbee, Wi-Fi, Tuya)",
+          "description": "Un enchufe que se coloca entre la toma y el aparato para encenderlo, apagarlo y programar horarios desde el móvil. Según el anuncio: Zigbee, Wi-Fi, Tuya. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Comprueba el tipo de clavija y la carga máxima (amperios o vatios) frente a tu toma y tu aparato. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Enchufes inteligentes"
+          ]
+        },
+        "de": {
+          "title": "Smarte Steckdose (Zigbee, Wi-Fi, Tuya)",
+          "description": "Ein Zwischenstecker, mit dem du ein Gerät per Handy ein- und ausschalten und zeitlich steuern kannst. Laut Angebot: Zigbee, Wi-Fi, Tuya. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Prüfe Steckertyp und maximale Last (Ampere oder Watt) im Verhältnis zu deiner Steckdose und deinem Gerät. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Smarte Steckdosen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-plug-zigbee-wi-fi-70357",
+      "category": "power",
+      "price": 9.71,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa25e5e07410049a989fabc5c31c13716B.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C23ZqrJ5ZC6OeJvkvpg3jLmIF3tbRqhmQXaCVXzYhdqeMczPDHDBXVSLrnwffNQ381VlBz717guZBLqVHFdiz5Q1o9TXJmnSQ06J1E1cnd4fV8bLgywjS9GMRlUT8ImPSzaGs9Ku60biTAyhpzh1jUIuqmGxlJKqVvtMucKAN3r6X83KDHcSfga2NnrvYNG7ErWtkJ96Df2jcwWuP3uojRohc4KB0Kns7TaSHY9DECRkN5SfZtJoXRZAEv0rM2AbEF6CDFrUDT4Zx3C0aS8889fxQ1vRrLRN4goTQCnQc3b9QqLdvo1cU3NOLbt6l4U04VsN7mfwld8pOM8VP96LLu1J8c0LSXwbaHFvXmKSdYD4DEXr1wyHx90rlmS78v68IufLjHi6OMbkPjWhrfKcsw4cMkAlJn98h936LPdNEgVdOcfIAviqx8EBwpsVLJWADtNUuvjyMLuVOQa9fhA7fJdzrd4pl85GfJv6AVo6Mh87uS0su8FMbnKituiczgQZ6u04jnlJzmL8Uwup9jdyMhSPes1PMfoJE4KP7JmZdvJ6jTWCzWuslf8RxYJuJcwV6gkCEx8Zm4MCy6Uwiq0BcQBsAyJC0BmrOXEiZV6NMgzhxHSY8ekvEoZ4DfHH4p4j91WEZJVu8Iw8Ozbz7Orhlk36ftA81cHcIV36IrFAiV025cWbdEO0jSBqIF3jAMIS93x3pXXGfR1S54",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس ذكي (Zigbee, Wi-Fi, Tuya) · #0357",
+          "description": "قابس يوضع بين المقبس والجهاز لتشغيله وإطفائه وضبط جداول زمنية من الهاتف. من عنوان العرض: Zigbee, Wi-Fi, Tuya. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. تحقق من نوع القابس والحمل الأقصى (أمبير أو واط) ومن مطابقته للمقبس والجهاز. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "مقابس وطاقة"
+          ]
+        },
+        "en": {
+          "title": "Smart Plug (Zigbee, Wi-Fi, Tuya) · #0357",
+          "description": "A plug that sits between a socket and a device so you can switch it on or off and set schedules from your phone. From the listing: Zigbee, Wi-Fi, Tuya. Zigbee versions need a Zigbee gateway, sold separately. Check the plug type and maximum load (amps or watts) against your socket and device. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Smart Plugs"
+          ]
+        },
+        "fr": {
+          "title": "Prise connectée (Zigbee, Wi-Fi, Tuya) · #0357",
+          "description": "Une prise placée entre la prise murale et l'appareil pour l'allumer, l'éteindre et programmer des horaires depuis le téléphone. D'après l'annonce : Zigbee, Wi-Fi, Tuya. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. Vérifiez le type de fiche et la charge maximale (ampères ou watts) par rapport à votre prise et votre appareil. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Prises connectées"
+          ]
+        },
+        "es": {
+          "title": "Enchufe inteligente (Zigbee, Wi-Fi, Tuya) · #0357",
+          "description": "Un enchufe que se coloca entre la toma y el aparato para encenderlo, apagarlo y programar horarios desde el móvil. Según el anuncio: Zigbee, Wi-Fi, Tuya. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Comprueba el tipo de clavija y la carga máxima (amperios o vatios) frente a tu toma y tu aparato. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Enchufes inteligentes"
+          ]
+        },
+        "de": {
+          "title": "Smarte Steckdose (Zigbee, Wi-Fi, Tuya) · #0357",
+          "description": "Ein Zwischenstecker, mit dem du ein Gerät per Handy ein- und ausschalten und zeitlich steuern kannst. Laut Angebot: Zigbee, Wi-Fi, Tuya. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Prüfe Steckertyp und maximale Last (Ampere oder Watt) im Verhältnis zu deiner Steckdose und deinem Gerät. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Smarte Steckdosen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-plug-zigbee-tuya-18011",
+      "category": "power",
+      "price": 10.3,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa4f6697205ad46188cf08a27d86b2f34S.jpeg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Co6qEXo528VeJOFZR3BqQ4sOpbBe5J4eGT0qATP5dNPGIxLyDAy6XMCwgsLrnvxmIkYA9pC9TJmyq2J2mBCLi2ZnI7SVI7YdJiZDWvBs0EpWkKDQJJr3H17exOUQcgWYihd5ZmFOua4h1TYVLnfYeqcVZzZ5aNadHNWSYSlFOrEwgZ7A4k6iNNmL8ZsZa8uEwPDiP7jowC6ff0t1NeO7xfH016OSJe3P8b3E8UJigASsxmdYQyKVpAosOnnNWpuG6eZW1lVsSV9tC0i2jyVjVleR7JjfnGg3nwo86JTAxd3csxHXyjovSLYRM6X6FneF2p4VJSH2QFUWOCGKhF6bq9Pn8MdoAY36ExdjNSQupP1TmhtLQ0NL4tNdPQ7IXzS1ujG1bMv8qX0J7brr8dVMwAFTmFoE8WytFlOst2MN9lPXHPFSOrz4D5VazHUXncbZaCuhUEwDiiAQ2GJy9P0kmDmq6TJNnsMsW1PzM77yjPfLxdJXv7372slN2olJ3cyGiyE5aa7TlMjxkVvw99adGrZWnLa21baE3xL9AipA8AuOpbILgqRyFbegsr752kLOizFd6JXZmnzocRAwSw5UbAgfemD3FtExFtMwNj36iPagPt2zsD6yHOTD646XLDUbT79C38SWneOCyTSOqNPScebyjWJiJ5JZL4eMU8JuRbKFKlKETvyMozESRNEKxDsIGl3GKAlE88YsBy",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس ذكي (Zigbee, Tuya, Alexa)",
+          "description": "قابس يوضع بين المقبس والجهاز لتشغيله وإطفائه وضبط جداول زمنية من الهاتف. من عنوان العرض: Zigbee, Tuya, Alexa. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. تحقق من نوع القابس والحمل الأقصى (أمبير أو واط) ومن مطابقته للمقبس والجهاز. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "مقابس وطاقة"
+          ]
+        },
+        "en": {
+          "title": "Smart Plug (Zigbee, Tuya, Alexa)",
+          "description": "A plug that sits between a socket and a device so you can switch it on or off and set schedules from your phone. From the listing: Zigbee, Tuya, Alexa. Zigbee versions need a Zigbee gateway, sold separately. Check the plug type and maximum load (amps or watts) against your socket and device. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "Smart Plugs"
+          ]
+        },
+        "fr": {
+          "title": "Prise connectée (Zigbee, Tuya, Alexa)",
+          "description": "Une prise placée entre la prise murale et l'appareil pour l'allumer, l'éteindre et programmer des horaires depuis le téléphone. D'après l'annonce : Zigbee, Tuya, Alexa. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. Vérifiez le type de fiche et la charge maximale (ampères ou watts) par rapport à votre prise et votre appareil. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "Prises connectées"
+          ]
+        },
+        "es": {
+          "title": "Enchufe inteligente (Zigbee, Tuya, Alexa)",
+          "description": "Un enchufe que se coloca entre la toma y el aparato para encenderlo, apagarlo y programar horarios desde el móvil. Según el anuncio: Zigbee, Tuya, Alexa. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Comprueba el tipo de clavija y la carga máxima (amperios o vatios) frente a tu toma y tu aparato. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "Enchufes inteligentes"
+          ]
+        },
+        "de": {
+          "title": "Smarte Steckdose (Zigbee, Tuya, Alexa)",
+          "description": "Ein Zwischenstecker, mit dem du ein Gerät per Handy ein- und ausschalten und zeitlich steuern kannst. Laut Angebot: Zigbee, Tuya, Alexa. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Prüfe Steckertyp und maximale Last (Ampere oder Watt) im Verhältnis zu deiner Steckdose und deinem Gerät. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "Smarte Steckdosen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-plug-zigbee-tuya-03832",
+      "category": "power",
+      "price": 10.54,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se2ea59efca274c9eb318fd4dd85e32b9B.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4KAQaX89debZReH2J7hy2nQgcqQU9bz1aMw9TQFq3qNtr3Iw0xQe4ij2QDfisKOkUe3Nvsm3e8DSZ4oNotP5FzLgiYHeHmZTJ79Y6jb3UVbvQttEpQ3NgnMIdYPZF5fhdKBlC5poALhdrqXgPo1VcZcKIwWJuzkeuHJz07JlqDxfloLa3aw9bzZFY6iVLILuvOqdB3p2lCax3NNHRE9ZzOzmr1s61Aq5ylzCmg3wmSbEYq27qfsaCIGRSPbWbgUEOWoEK7jAR3PD7e2f8OPhLV6ZVRldvwH8lfxbN6taDpTV5jCLjp0dEpf27rDiV7TyjBLe8S83O49eJOqcVwA3OXo30B4gTH92D9ixrNsJPN6ciMjZ2ihZvDXUP9UNh2QRtYG76qO8EdcuGbVuDZ6o96MVMsHbSPn2uQymZELJAyLoYPeJErJaN09jdYT8Y1pXCvhTRQ6RgciHquEabF4MZ3gH65fa3WGAgxVvtBKPaPTI7mGoUw8xJuDh6osKJohUjY6mqfV1rJRmKjM2nCY74rM3AHNWq8p2INrmaWXpRWuSsdzZE9WStZ6yPCiL0xdTQ6L83RnWIqpFuiSQ2b8bj5lPQSRqau7Wi7luxcLX1gePVuibqZklqQS8IRbRC7uYG9GpyfP7mG2peh4u7kDOUgJS6UqkzFMD9jjQJ3Axb57cr8ngcUQJ4rrGQlydPjqv8Uxfznf6eSADs",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس ذكي (Zigbee, Tuya, Alexa) · #3832",
+          "description": "قابس يوضع بين المقبس والجهاز لتشغيله وإطفائه وضبط جداول زمنية من الهاتف. من عنوان العرض: Zigbee, Tuya, Alexa. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. تحقق من نوع القابس والحمل الأقصى (أمبير أو واط) ومن مطابقته للمقبس والجهاز. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "مقابس وطاقة"
+          ]
+        },
+        "en": {
+          "title": "Smart Plug (Zigbee, Tuya, Alexa) · #3832",
+          "description": "A plug that sits between a socket and a device so you can switch it on or off and set schedules from your phone. From the listing: Zigbee, Tuya, Alexa. Zigbee versions need a Zigbee gateway, sold separately. Check the plug type and maximum load (amps or watts) against your socket and device. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "Smart Plugs"
+          ]
+        },
+        "fr": {
+          "title": "Prise connectée (Zigbee, Tuya, Alexa) · #3832",
+          "description": "Une prise placée entre la prise murale et l'appareil pour l'allumer, l'éteindre et programmer des horaires depuis le téléphone. D'après l'annonce : Zigbee, Tuya, Alexa. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. Vérifiez le type de fiche et la charge maximale (ampères ou watts) par rapport à votre prise et votre appareil. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "Prises connectées"
+          ]
+        },
+        "es": {
+          "title": "Enchufe inteligente (Zigbee, Tuya, Alexa) · #3832",
+          "description": "Un enchufe que se coloca entre la toma y el aparato para encenderlo, apagarlo y programar horarios desde el móvil. Según el anuncio: Zigbee, Tuya, Alexa. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Comprueba el tipo de clavija y la carga máxima (amperios o vatios) frente a tu toma y tu aparato. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "Enchufes inteligentes"
+          ]
+        },
+        "de": {
+          "title": "Smarte Steckdose (Zigbee, Tuya, Alexa) · #3832",
+          "description": "Ein Zwischenstecker, mit dem du ein Gerät per Handy ein- und ausschalten und zeitlich steuern kannst. Laut Angebot: Zigbee, Tuya, Alexa. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Prüfe Steckertyp und maximale Last (Ampere oder Watt) im Verhältnis zu deiner Steckdose und deinem Gerät. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Zigbee",
+            "Tuya",
+            "Alexa",
+            "Smarte Steckdosen"
           ]
         }
       }

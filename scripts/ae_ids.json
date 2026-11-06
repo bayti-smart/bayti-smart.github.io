@@ -130,7 +130,27 @@
   "1005007345055984",
   "1005006994791021",
   "1005006701718591",
-  "1005007635886042"
+  "1005007635886042",
+  "1005007476666646",
+  "1005006996206751",
+  "1005006345355520",
+  "1005011718096593",
+  "1005009648930864",
+  "1005008932865297",
+  "1005009738264342",
+  "1005007857301056",
+  "1005011763806971",
+  "1005008392435017",
+  "1005012889679914",
+  "1005009171027436",
+  "1005009384169416",
+  "1005010754558896",
+  "1005006006604998",
+  "1005007476442970",
+  "1005012986734227",
+  "1005006597670357",
+  "1005013266218011",
+  "1005012977903832"
  ],
  "added": {
   "smart-bulb-wi-fi-tuya-92723": {
@@ -182,6 +202,106 @@
    "ae_id": "1005007635886042",
    "date": "2026-11-05",
    "src_title": "30W 36W Smart LED Ceiling Light RGB Dimming APP TUYA Remote Control Timing Indoor Home Decor Bluetooth WIFI Bedroom Livi"
+  },
+  "security-camera-wi-fi-66646": {
+   "ae_id": "1005007476666646",
+   "date": "2026-11-06",
+   "src_title": "Pet Dog Camera with Phone App, 5G/2.4GHz WiFi Indoor Security Baby Camera, 360° Pan & Tilt, 2-Way Audio, Night Vision"
+  },
+  "security-camera-wi-fi-4k-06751": {
+   "ae_id": "1005006996206751",
+   "date": "2026-11-06",
+   "src_title": "4K 8MP WiFi Surveillance Camera, Dual Lens, 4X Digital Zoom, AI Human Detect, ONVIF, Outdoor Security PTZ IP Cameras"
+  },
+  "security-camera-wi-fi-4k-55520": {
+   "ae_id": "1005006345355520",
+   "date": "2026-11-06",
+   "src_title": "8MP 4K IP Camera 5MP Speed Dome Auto Tracking PTZ Camera Smart Home Outdoor Wireless WIFI Camera Surveillance Monitor"
+  },
+  "security-camera-wi-fi-tuya-96593": {
+   "ae_id": "1005011718096593",
+   "date": "2026-11-06",
+   "src_title": "Tuya 5K 10MP Dual Lens WIFI Camera Full HD Dual Screen Ai Human Auto Tracking PTZ Cam Outdoor Security Video Surveillanc"
+  },
+  "solar-security-camera-wi-fi-solar-30864": {
+   "ae_id": "1005009648930864",
+   "date": "2026-11-06",
+   "src_title": "KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual Lens Camera Solar Panel Home Security CCTV Video Surveillance"
+  },
+  "solar-security-camera-solar-usb-c-65297": {
+   "ae_id": "1005008932865297",
+   "date": "2026-11-06",
+   "src_title": "Monocrystalline 3W Outdoor Solar Panel Micro Type-C Port Solar Charger For Security Camera Small Household Lighting Syst"
+  },
+  "video-doorbell-wi-fi-tuya-64342": {
+   "ae_id": "1005009738264342",
+   "date": "2026-11-06",
+   "src_title": "Tuya WiFi Wireless Video Doorbell Camera HD Video Intercom Smart Home Security Protection Night Vision For Home Office"
+  },
+  "video-doorbell-wi-fi-tuya-01056": {
+   "ae_id": "1005007857301056",
+   "date": "2026-11-06",
+   "src_title": "Tuya Smart WiFi Video Doorbell 1080P Dual Band 5G 2.4G Waterproof Outdoor Wireless Intercom Security Camera for Home Saf"
+  },
+  "smoke-detector-wi-fi-tuya-06971": {
+   "ae_id": "1005011763806971",
+   "date": "2026-11-06",
+   "src_title": "Tuya Smart WiFi Smoke Sensor Fire Protection Smoke Detector 85dB Sound Security System Firefighters Smartlife APP Contro"
+  },
+  "smoke-detector-zigbee-wi-fi-35017": {
+   "ae_id": "1005008392435017",
+   "date": "2026-11-06",
+   "src_title": "ZigBee WiFi Smart Smoke Detector Alarm, Works with Tuya Smart Life App Compatible Fire Sensor for Home Security, App Ale"
+  },
+  "gas-leak-detector-79914": {
+   "ae_id": "1005012889679914",
+   "date": "2026-11-06",
+   "src_title": "Digital Carbon Monoxide Detector Sensor CO Alarm Detector Home Safety with LED Indicator High Sensitive Sound Warning Ga"
+  },
+  "gas-leak-detector-27436": {
+   "ae_id": "1005009171027436",
+   "date": "2026-11-06",
+   "src_title": "Carbon Monoxide Alarm Smoke Alarm Co Detector LCD Display Alarm Home Wireless Toxic Gas Leak Detector Fire Sound Alarm"
+  },
+  "smart-door-lock-69416": {
+   "ae_id": "1005009384169416",
+   "date": "2026-11-06",
+   "src_title": "KERUI Smart Fingerprint Padlock Built-in Rechargeable Battery Door lock Waterproof Zinc Alloy Biometric Padlocks Door Lo"
+  },
+  "smart-door-lock-58896": {
+   "ae_id": "1005010754558896",
+   "date": "2026-11-06",
+   "src_title": "KERUI Fingerprint Lock Keyless USB Charging Smart Padlock Waterproof Door Lock 0.2sec Unlock Portable Anti-theft Padlock"
+  },
+  "alarm-siren-wi-fi-12v-04998": {
+   "ae_id": "1005006006604998",
+   "date": "2026-11-06",
+   "src_title": "120 DB Flash LED Strobe Light Wired Siren 12V/ 5V /24V /220V Work For Wifi GSM PSTN Home Security Voice Burglar Alarm Sy"
+  },
+  "alarm-siren-wi-fi-solar-42970": {
+   "ae_id": "1005007476442970",
+   "date": "2026-11-06",
+   "src_title": "Powered Strobe Sound Flash Waterproof Wireless Outdoor Solar Siren Alarm Siren for 433MHz Wifi GSM Alarm System"
+  },
+  "smart-plug-zigbee-wi-fi-34227": {
+   "ae_id": "1005012986734227",
+   "date": "2026-11-06",
+   "src_title": "TNCE Tuya Smart Plug WiFi/Zigbee3.0 Socket 16A/20A Power Monitor Remote Control Smart Life APP Remote Control Voice Cont"
+  },
+  "smart-plug-zigbee-wi-fi-70357": {
+   "ae_id": "1005006597670357",
+   "date": "2026-11-06",
+   "src_title": "TNCE TUYA Smart Plug WiFi or Zigbee3.0 Socket EU 16A/20A Power Monitor Timing Function Voice Control Work With Alexa Goo"
+  },
+  "smart-plug-zigbee-tuya-18011": {
+   "ae_id": "1005013266218011",
+   "date": "2026-11-06",
+   "src_title": "tuya Smart Plug Zigbee EU 16A/20A Smart Socket With Power Monitor Timing Voice Control Works Whit Alexa Google Home Alic"
+  },
+  "smart-plug-zigbee-tuya-03832": {
+   "ae_id": "1005012977903832",
+   "date": "2026-11-06",
+   "src_title": "Tuya Zigbee Smart Plug 20A EU Smart Socket With Power Monitoring Timing Function Voice Control Via Alexa Google Home Yan"
   }
  }
 }
