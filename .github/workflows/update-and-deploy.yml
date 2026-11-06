@@ -13,6 +13,11 @@ on:
         description: "تجربة فقط: اكتب التقرير بلا تعديل المنتجات"
         type: boolean
         default: false
+      audit:
+        description: "تدقيق المنتجات الحالية (apply = يطبّق التعديلات، report = تقرير فقط، off = إيقاف)"
+        type: choice
+        options: [apply, report, off]
+        default: apply
       count:
         description: "عدد المنتجات (اتركه فارغًا للعشوائي بين 5 و20)"
         type: string
@@ -44,6 +49,16 @@ jobs:
           ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
           ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
           ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+
+      - name: تدقيق المنتجات الحالية (صور، توفّر، سعر، تكرار)
+        if: github.event_name != 'push' && github.event.inputs.audit != 'off'
+        run: python scripts/audit_products.py
+        continue-on-error: true
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+          AUDIT_MODE: ${{ github.event.inputs.audit || 'apply' }}
 
       - name: إضافة منتجات جديدة تلقائيًا (5 إلى 20 يوميًا)
         if: github.event_name != 'push' && github.event.inputs.auto_add != 'false'

@@ -26,8 +26,8 @@ REPORT_PATH = ROOT / "scripts" / "auto_report.txt"
 
 MAX_SEARCHES = 30
 MAX_PER_SPEC = 2
-MIN_RATE, MIN_SOLD = 92.0, 200
-PRICE_MIN, PRICE_MAX = 1.0, 200.0
+MIN_RATE, MIN_SOLD = 94.0, 1000   # تقييم إيجابي ≥ 94% ومبيعات ≥ 1000
+PRICE_MIN, PRICE_MAX = 1.0, 1000.0
 MAX_PAGE = 5
 
 LOG = []
@@ -68,6 +68,22 @@ def tokens_for(title):
         m = re.search(rx, low)
         if m and fmt(m) not in out: out.append(fmt(m))
     return out
+
+
+STOP = set("smart wifi wi fi tuya with for and the new hot sale free shipping 2024 2025 2026 app control remote support works work compatible alexa google home life pcs pc set kit".split())
+
+
+def tokset(t):
+    return {w for w in re.findall(r"[a-z0-9]+", t.lower()) if w not in STOP and len(w) > 1}
+
+
+def too_similar(a, b):
+    if len(a) < 4 or len(b) < 4: return False
+    return len(a & b) / min(len(a), len(b)) >= 0.8
+
+
+def fname(url):
+    return url.split("?")[0].rsplit("/", 1)[-1]
 
 
 def slugify(s):
@@ -146,6 +162,12 @@ def main():
     existing_slugs = set(tr["products"])
     banned = re.compile(BANNED, re.I)
 
+    existing_titles = [tokset(v["en"]["title"]) for v in tr["products"].values() if "en" in v]
+    existing_titles += [tokset(v.get("src_title", "")) for v in ids_db.get("added", {}).values()]
+    csv_images = set()
+    with open(CSV_PATH, encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f):
+            csv_images.add(fname(row["image"]))
     pool, seen_prefix, searches = [], set(), 0
     n = len(SPECS)
     start = state.get("cursor", 0) % n
@@ -174,7 +196,9 @@ def main():
             if tkey in NEG and re.search(NEG[tkey], low): continue
             prefix = re.sub(r"[^a-z0-9]", "", low)[:35]
             if prefix in seen_prefix: continue
-            seen_prefix.add(prefix)
+            tk = tokset(title)
+            if any(too_similar(tk, e) for e in existing_titles): continue
+            seen_prefix.add(prefix); existing_titles.append(tk)
             fresh.append({"pid": pid, "kw": kw, "tkey": tkey, "cat": cat, "title": title,
                           "sold": int(p.get("lastest_volume") or 0)})
         fresh.sort(key=lambda c: c["sold"], reverse=True)
@@ -201,6 +225,8 @@ def main():
             except Exception: price = 0
             if not link.startswith("https://s.click.aliexpress.com/"): log("bad link", c["pid"]); continue
             if not img.startswith("https://"): log("bad image", c["pid"]); continue
+            if fname(img) in csv_images: log("duplicate image, skipping", c["pid"]); continue
+            csv_images.add(fname(img))
             if not (PRICE_MIN <= price <= PRICE_MAX): log("bad price", c["pid"]); continue
             slug_base, toks, texts = build_texts(c["tkey"], c["cat"], c["title"], cat_names, c["pid"], used_titles)
             slug = "-".join([slug_base] + [slugify(t) for t in toks[:2]] + [c["pid"][-5:]]).strip("-")
@@ -229,6 +255,7 @@ def main():
             tr["products"][a["slug"]] = a["texts"]
             ids_db["known"].append(a["pid"])
             ids_db["added"][a["slug"]] = {"ae_id": a["pid"], "date": str(today), "src_title": a["src_title"][:120]}
+            ids_db.setdefault("map", {})[a["slug"]] = a["pid"]
         TR_PATH.write_text(json.dumps(tr, ensure_ascii=False, indent=2), encoding="utf-8")
         IDS_PATH.write_text(json.dumps(ids_db, ensure_ascii=False, indent=1), encoding="utf-8")
     if not dry:

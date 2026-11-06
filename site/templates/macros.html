@@ -35,7 +35,7 @@
 
 {% macro card(p, t, u, eager=false) -%}
 <article class="card" data-cat="{{ p.category }}" data-s="{{ (p.title ~ ' ' ~ p.tags|join(' ') ~ ' ' ~ p.cat_name)|lower }}">
-  <div class="card-img"><img src="{{ p.image }}" alt="" width="400" height="400" loading="{{ 'eager' if eager else 'lazy' }}" decoding="async"></div>
+  <div class="card-img"><img src="{{ p.image }}" alt="" width="400" height="400" referrerpolicy="no-referrer" loading="{{ 'eager' if eager else 'lazy' }}" decoding="async"></div>
   <div class="card-body">
     <span class="cat">{{ p.cat_name }}</span>
     <h3><a href="{{ u('product', p.id) }}">{{ p.title }}</a></h3>

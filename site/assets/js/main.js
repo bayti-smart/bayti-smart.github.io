@@ -23,6 +23,19 @@
     if (target !== location.pathname) location.replace(target);
   })();
 
+  /* 1b. Product images: retry once after a short delay, then show a neutral placeholder */
+  d.addEventListener('error', function (e) {
+    var im = e.target;
+    if (!im || im.tagName !== 'IMG' || !im.closest('.card-img, .pp-img')) return;
+    if (!im.dataset.retry) {
+      im.dataset.retry = '1';
+      var src = im.currentSrc || im.src;
+      setTimeout(function () { im.src = src; }, 1500);
+    } else {
+      im.parentNode.classList.add('img-fail');
+    }
+  }, true);
+
   /* 2. Dropdowns close on outside click / Escape */
   d.addEventListener('click', function (e) {
     $$('details.dd[open]').forEach(function (x) { if (!x.contains(e.target)) x.removeAttribute('open'); });
