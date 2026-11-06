@@ -12,14 +12,14 @@ jobs:
         run: |
           mkdir -p scripts
           {
-            for q in "smart%20home" "internet%20of%20things" "home%20automation"; do
-              echo "=== $q"
-              curl -s -m 30 -w "\nHTTP %{http_code}\n" -A "Mozilla/5.0" "https://api.coursera.org/api/courses.v1?q=search&query=$q&limit=3&fields=name,slug,photoUrl,description,primaryLanguages,workload,courseType,partnerIds,domainTypes,startDate" | cut -c1-2500
-            done
-            echo "=== ratings probe"
-            curl -s -m 30 -w "\nHTTP %{http_code}\n" -A "Mozilla/5.0" "https://api.coursera.org/api/courses.v1?q=search&query=arduino&limit=2&includes=partnerIds&fields=name,slug,photoUrl,partnerIds,averageFiveStarRating,ratingCount" | cut -c1-1500
-            echo "=== udemy public"
-            curl -s -m 30 -o /dev/null -w "udemy catalog HTTP %{http_code}\n" -A "Mozilla/5.0" "https://www.udemy.com/api-2.0/courses/?search=smart+home&page_size=2"
+            echo "=== list page"
+            curl -s -m 40 -w "\nHTTP %{http_code}\n" -A "Mozilla/5.0" "https://api.coursera.org/api/courses.v1?limit=3&start=0&fields=name,slug,photoUrl,description,primaryLanguages,workload,courseType,partnerIds,domainTypes,startDate,certificates" | cut -c1-2600
+            echo "=== total"
+            curl -s -m 40 "https://api.coursera.org/api/courses.v1?limit=1" | python3 -c "import sys,json;d=json.load(sys.stdin);print(d.get('paging'))"
+            echo "=== partners"
+            curl -s -m 40 -w "\nHTTP %{http_code}\n" -A "Mozilla/5.0" "https://api.coursera.org/api/partners.v1?limit=2&fields=name,shortName,logo" | cut -c1-800
+            echo "=== specializations"
+            curl -s -m 40 -w "\nHTTP %{http_code}\n" -A "Mozilla/5.0" "https://api.coursera.org/api/onDemandSpecializations.v1?limit=2&fields=name,slug,logo,description,courseIds,partnerIds,tagline" | cut -c1-1500
           } > scripts/probe_courses.txt 2>&1
       - name: commit
         run: |
