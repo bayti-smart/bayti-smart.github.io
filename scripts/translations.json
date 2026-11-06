@@ -7307,58 +7307,6 @@
         ]
       }
     },
-    "smoke-detector-wi-fi-tuya-06971": {
-      "en": {
-        "title": "Smoke Detector (Wi-Fi, Tuya, Smart Life)",
-        "description": "A smoke detector that sounds an alarm and, on smart versions, sends a notification to your phone. From the listing: Wi-Fi, Tuya, Smart Life. It is an extra layer of protection, not a replacement for a certified detector. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
-        "tags": [
-          "Wi-Fi",
-          "Tuya",
-          "Smart Life",
-          "Security"
-        ]
-      },
-      "ar": {
-        "title": "كاشف دخان (Wi-Fi, Tuya, Smart Life)",
-        "description": "كاشف دخان يطلق إنذارًا، وفي النسخ الذكية يرسل إشعارًا إلى هاتفك. من عنوان العرض: Wi-Fi, Tuya, Smart Life. هو طبقة حماية إضافية وليس بديلًا عن جهاز كشف معتمد. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
-        "tags": [
-          "Wi-Fi",
-          "Tuya",
-          "Smart Life",
-          "أمان ومراقبة"
-        ]
-      },
-      "fr": {
-        "title": "Détecteur de fumée (Wi-Fi, Tuya, Smart Life)",
-        "description": "Un détecteur de fumée qui déclenche une alarme et, sur les versions connectées, envoie une notification à votre téléphone. D'après l'annonce : Wi-Fi, Tuya, Smart Life. C'est une couche de protection supplémentaire, pas un remplaçant d'un détecteur certifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
-        "tags": [
-          "Wi-Fi",
-          "Tuya",
-          "Smart Life",
-          "Sécurité"
-        ]
-      },
-      "es": {
-        "title": "Detector de humo (Wi-Fi, Tuya, Smart Life)",
-        "description": "Un detector de humo que emite una alarma y, en las versiones inteligentes, envía una notificación a tu móvil. Según el anuncio: Wi-Fi, Tuya, Smart Life. Es una capa extra de protección, no un sustituto de un detector certificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
-        "tags": [
-          "Wi-Fi",
-          "Tuya",
-          "Smart Life",
-          "Seguridad"
-        ]
-      },
-      "de": {
-        "title": "Rauchmelder (Wi-Fi, Tuya, Smart Life)",
-        "description": "Ein Rauchmelder, der Alarm schlägt und bei smarten Versionen eine Meldung an dein Handy sendet. Laut Angebot: Wi-Fi, Tuya, Smart Life. Er ist eine zusätzliche Sicherheitsebene und kein Ersatz für einen zertifizierten Melder. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
-        "tags": [
-          "Wi-Fi",
-          "Tuya",
-          "Smart Life",
-          "Sicherheit"
-        ]
-      }
-    },
     "smoke-detector-zigbee-wi-fi-35017": {
       "en": {
         "title": "Smoke Detector (Zigbee, Wi-Fi, Tuya)",
@@ -7766,58 +7714,6 @@
       },
       "de": {
         "title": "Smarte Steckdose (Zigbee, Wi-Fi, Tuya)",
-        "description": "Ein Zwischenstecker, mit dem du ein Gerät per Handy ein- und ausschalten und zeitlich steuern kannst. Laut Angebot: Zigbee, Wi-Fi, Tuya. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Prüfe Steckertyp und maximale Last (Ampere oder Watt) im Verhältnis zu deiner Steckdose und deinem Gerät. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
-        "tags": [
-          "Zigbee",
-          "Wi-Fi",
-          "Tuya",
-          "Smarte Steckdosen"
-        ]
-      }
-    },
-    "smart-plug-zigbee-wi-fi-70357": {
-      "en": {
-        "title": "Smart Plug (Zigbee, Wi-Fi, Tuya) · #0357",
-        "description": "A plug that sits between a socket and a device so you can switch it on or off and set schedules from your phone. From the listing: Zigbee, Wi-Fi, Tuya. Zigbee versions need a Zigbee gateway, sold separately. Check the plug type and maximum load (amps or watts) against your socket and device. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
-        "tags": [
-          "Zigbee",
-          "Wi-Fi",
-          "Tuya",
-          "Smart Plugs"
-        ]
-      },
-      "ar": {
-        "title": "مقبس ذكي (Zigbee, Wi-Fi, Tuya) · #0357",
-        "description": "قابس يوضع بين المقبس والجهاز لتشغيله وإطفائه وضبط جداول زمنية من الهاتف. من عنوان العرض: Zigbee, Wi-Fi, Tuya. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. تحقق من نوع القابس والحمل الأقصى (أمبير أو واط) ومن مطابقته للمقبس والجهاز. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
-        "tags": [
-          "Zigbee",
-          "Wi-Fi",
-          "Tuya",
-          "مقابس وطاقة"
-        ]
-      },
-      "fr": {
-        "title": "Prise connectée (Zigbee, Wi-Fi, Tuya) · #0357",
-        "description": "Une prise placée entre la prise murale et l'appareil pour l'allumer, l'éteindre et programmer des horaires depuis le téléphone. D'après l'annonce : Zigbee, Wi-Fi, Tuya. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. Vérifiez le type de fiche et la charge maximale (ampères ou watts) par rapport à votre prise et votre appareil. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
-        "tags": [
-          "Zigbee",
-          "Wi-Fi",
-          "Tuya",
-          "Prises connectées"
-        ]
-      },
-      "es": {
-        "title": "Enchufe inteligente (Zigbee, Wi-Fi, Tuya) · #0357",
-        "description": "Un enchufe que se coloca entre la toma y el aparato para encenderlo, apagarlo y programar horarios desde el móvil. Según el anuncio: Zigbee, Wi-Fi, Tuya. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. Comprueba el tipo de clavija y la carga máxima (amperios o vatios) frente a tu toma y tu aparato. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
-        "tags": [
-          "Zigbee",
-          "Wi-Fi",
-          "Tuya",
-          "Enchufes inteligentes"
-        ]
-      },
-      "de": {
-        "title": "Smarte Steckdose (Zigbee, Wi-Fi, Tuya) · #0357",
         "description": "Ein Zwischenstecker, mit dem du ein Gerät per Handy ein- und ausschalten und zeitlich steuern kannst. Laut Angebot: Zigbee, Wi-Fi, Tuya. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Prüfe Steckertyp und maximale Last (Ampere oder Watt) im Verhältnis zu deiner Steckdose und deinem Gerät. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
         "tags": [
           "Zigbee",
