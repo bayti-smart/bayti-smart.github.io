@@ -1,0 +1,37 @@
+AUDIT 2026-11-06 mode=report
+products in CSV: 151
+IMAGES broken without referer: 0 | with site referer: 0
+AFFILIATE format bad: 0 []
+DUPLICATE images: 2 [('smoke-detector-wi-fi-tuya-06971', 'tuya-wifi-smoke-detector'), ('smart-plug-zigbee-wi-fi-70357', 'tnce-tuya-eu-smart-plug')]
+AFFILIATE live-check 151: bad 0 []
+detail error {"error_response": {"type": "ISV", "code": "ApiCallLimit", "msg": "Api access frequency exceeds the limit. this ban will last 1 seconds", "request_id": "212a6b7
+detail error {"error_response": {"type": "ISV", "code": "ApiCallLimit", "msg": "Api access frequency exceeds the limit. this ban will last 1 seconds", "request_id": "214125d
+mapped 88 of 121 previously unmapped
+detail error {"error_response": {"type": "ISV", "code": "ApiCallLimit", "msg": "Api access frequency exceeds the limit. this ban will last 1 seconds", "request_id": "0b83c70
+detail error {"error_response": {"type": "ISV", "code": "ApiCallLimit", "msg": "Api access frequency exceeds the limit. this ban will last 1 seconds", "request_id": "2151e8f
+detail error {"error_response": {"type": "ISV", "code": "ApiCallLimit", "msg": "Api access frequency exceeds the limit. this ban will last 1 seconds", "request_id": "0bb49d8
+detail error {"error_response": {"type": "ISV", "code": "ApiCallLimit", "msg": "Api access frequency exceeds the limit. this ban will last 1 seconds", "request_id": "210142b
+detail error {"error_response": {"type": "ISV", "code": "ApiCallLimit", "msg": "Api access frequency exceeds the limit. this ban will last 1 seconds", "request_id": "2140d42
+detail error {"error_response": {"type": "ISV", "code": "ApiCallLimit", "msg": "Api access frequency exceeds the limit. this ban will last 1 seconds", "request_id": "21015bd
+DETAIL audit: batch 118 | api errors 6 | missing now 0
+  price tuya-wifi-garden-watering-timer: 48.85 -> 46.86
+  price wofea-wifi-garage-door-opener: 22.89 -> 21.09
+  price zealot-s32-bluetooth-speaker: 27.84 -> 25.65
+  price moes-wifi-zigbee-switch-dimmer-module: 11.29 -> 10.40
+  price wifi-smart-power-strip-4-eu-usb: 39.48 -> 38.27
+  price bseed-eu-touch-light-switch-1-3-gang: 12.59 -> 12.17
+  price smart-fingerprint-cabinet-lock-no-drill: 19.19 -> 18.04
+  price tuya-zigbee-pir-motion-sensor-120deg: 7.16 -> 6.58
+  price sonoff-snzb-04pr2-zigbee-door-window-sensor: 7.99 -> 7.03
+  price sonoff-snzb-02b-zigbee-temp-humidity-sensor: 6.60 -> 6.27
+  price htmck-mini-solar-fountain-pump-kit: 15.00 -> 13.80
+  price solar-motion-floodlight-2000lm-77led: 17.92 -> 16.49
+  price pir-motion-sensor-light-switch-110-220v: 4.75 -> 4.37
+  price bluetooth-6-aux-audio-transmitter-receiver: 8.74 -> 8.04
+  price tuya-wifi-floor-heating-thermostat-boiler: 22.00 -> 19.56
+  price bluetooth-smart-body-fat-scale-app: 33.39 -> 30.66
+  price usb-c-ethernet-adapter-1000mbps: 6.13 -> 5.64
+  price wifi-6-usb3-adapter-1800mbps: 8.39 -> 7.70
+  price solar-security-camera-wi-fi-solar-30864: 64.62 -> 75.43
+  REMOVE smoke-detector-wi-fi-tuya-06971: duplicate image of tuya-wifi-smoke-detector
+  REMOVE smart-plug-zigbee-wi-fi-70357: duplicate image of tnce-tuya-eu-smart-plug
