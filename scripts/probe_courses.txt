@@ -1,0 +1,14 @@
+=== smart%20home
+{"msg":"Routing error: finder 'search' not implemented"}
+HTTP 405
+=== internet%20of%20things
+{"msg":"Routing error: finder 'search' not implemented"}
+HTTP 405
+=== home%20automation
+{"msg":"Routing error: finder 'search' not implemented"}
+HTTP 405
+=== ratings probe
+{"msg":"Routing error: finder 'search' not implemented"}
+HTTP 405
+=== udemy public
+udemy catalog HTTP 403
