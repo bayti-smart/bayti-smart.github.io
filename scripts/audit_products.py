@@ -18,6 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ae_sync as ae
+from ae_util import call_retry
 
 ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "scripts" / "sources.csv"
@@ -78,8 +79,8 @@ def details(pids):
     out, errors = {}, 0
     for i in range(0, len(pids), 10):
         chunk = pids[i:i + 10]
-        time.sleep(1.5)
-        st, data = ae.call("aliexpress.affiliate.productdetail.get", {
+        time.sleep(2)
+        st, data = call_retry("aliexpress.affiliate.productdetail.get", {
             "product_ids": ",".join(chunk),
             "fields": "target_sale_price,product_title,product_main_image_url,evaluate_rate,lastest_volume",
             "target_currency": "USD", "target_language": "EN", "tracking_id": ae.TRACK, "country": "DZ"})
@@ -205,7 +206,9 @@ def main():
 
     if mode == "apply":
         for s, o, n in price_updates: by_slug[s]["price"] = f"{n:.2f}"
-        for s, u in img_fixes: by_slug[s]["image"] = u
+        for s, u in img_fixes:
+            by_slug[s]["image"] = u
+            (ROOT / "site" / "assets" / "img" / "p" / f"{s}.jpg").unlink(missing_ok=True)  # أعد تخزين الصورة الجديدة
         for s in remove:
             by_slug.pop(s, None); tr["products"].pop(s, None)
             ids_db["map"].pop(s, None); ids_db.get("added", {}).pop(s, None); state["missing"].pop(s, None)

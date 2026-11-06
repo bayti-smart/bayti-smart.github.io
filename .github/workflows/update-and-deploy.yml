@@ -71,6 +71,12 @@ jobs:
           AUTO_COUNT: ${{ github.event.inputs.count }}
           AUTO_DRY_RUN: ${{ github.event.inputs.dry_run }}
 
+      - name: تخزين صور المنتجات محليًا (أسرع وأوثق)
+        run: |
+          pip install pillow
+          python scripts/cache_images.py
+        continue-on-error: true
+
       - name: تحديث products.json من sources.csv
         run: python scripts/fetch_products.py
 
@@ -78,7 +84,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A products.json scripts
+          git add -A products.json scripts site/assets/img/p
           git diff --cached --quiet && exit 0
           git commit -m "تحديث تلقائي للمنتجات"
           for i in 1 2 3; do

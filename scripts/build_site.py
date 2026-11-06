@@ -66,6 +66,9 @@ def main():
     base = cfg['site_url'].rstrip('/')
     i18n = json.load(open(SITE / 'i18n.json', encoding='utf-8'))
     data = json.load(open(ROOT / 'products.json', encoding='utf-8'))
+    for _p in data['products']:  # نسخة الصورة المحلية إن وُجدت (أسرع ولا تعتمد على CDN خارجي)
+        if (SITE / 'assets/img/p' / (_p['id'] + '.jpg')).exists():
+            _p['image'] = '/assets/img/p/' + _p['id'] + '.jpg'
     guide_titles = json.load(open(SITE / 'content/guides/titles.json', encoding='utf-8'))
     guide_index = json.load(open(SITE / 'content/guides/index.json', encoding='utf-8'))
     year = datetime.date.today().year
@@ -212,7 +215,7 @@ def main():
             guide = next((g for g in d['guides'] if g['id'] == gid), None)
             related = [r for r in d['prods'] if r['category'] == p['category'] and r['id'] != p['id']][:4]
             ctx = make_ctx(lang, 'product', p['id'], title=f"{p['title']} | Smart Casa", description=trim(p['description'], 158),
-                           p=p, guide=guide, related=related, og_image=p['image'], og_type='article', body_class='has-sticky',
+                           p=p, guide=guide, related=related, og_image=(p['image'] if p['image'].startswith('http') else absu(p['image'])), og_type='article', body_class='has-sticky',
                            jsonld=[breadcrumb_ld(lang, [(t('breadcrumb_home'), path(lang, 'home')), (p['cat_name'], path(lang, 'cat', p['category'])), (p['title'], None)])])
             write(path(lang, 'product', p['id']), render('product.html', ctx))
             sitemap.append(('product', p['id']))

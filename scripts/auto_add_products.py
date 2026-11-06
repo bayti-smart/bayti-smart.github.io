@@ -15,6 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ae_sync as ae
+from ae_util import call_retry
 from auto_catalog_data import TYPES, SPECS, MSG, TOKENS, BANNED, LANGS, NEG
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -117,7 +118,7 @@ def build_texts(tkey, cat, title_en, cat_names, pid="", used_titles=()):
 
 
 def search(kw, page):
-    st, data = ae.call("aliexpress.affiliate.product.query", {
+    st, data = call_retry("aliexpress.affiliate.product.query", {
         "keywords": kw, "page_size": "40", "page_no": str(page), "sort": "LAST_VOLUME_DESC",
         "target_currency": "USD", "target_language": "EN", "ship_to_country": "DZ", "tracking_id": ae.TRACK,
         "fields": "commission_rate,target_sale_price,product_title,evaluate_rate,lastest_volume,product_id"})
@@ -132,8 +133,8 @@ def details(ids):
     got = {}
     for i in range(0, len(ids), 10):
         chunk = ids[i:i + 10]
-        time.sleep(1.5)
-        st, data = ae.call("aliexpress.affiliate.productdetail.get", {
+        time.sleep(2)
+        st, data = call_retry("aliexpress.affiliate.productdetail.get", {
             "product_ids": ",".join(chunk),
             "fields": "commission_rate,target_sale_price,product_title,product_main_image_url,promotion_link,evaluate_rate,lastest_volume",
             "target_currency": "USD", "target_language": "EN", "tracking_id": ae.TRACK, "country": "DZ"})
