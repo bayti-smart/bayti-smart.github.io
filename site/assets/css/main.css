@@ -253,3 +253,7 @@ html[dir=rtl] .pp .cat-link{text-transform:none;letter-spacing:0}
 [hidden]{display:none!important}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media print{.site-header,.site-footer,.back-top,.sticky-cta,.banner{display:none}}
+
+.topic-h{margin:34px 0 14px;font-size:1.25rem}
+.topic-n{font-size:.8rem;font-weight:500;color:var(--muted);margin-inline-start:8px}
+.card-foot .more a{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:600}

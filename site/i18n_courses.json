@@ -1,0 +1,83 @@
+{
+ "ui": {
+  "nav_courses": {
+   "ar": "الدورات",
+   "en": "Courses",
+   "fr": "Cours",
+   "es": "Cursos",
+   "de": "Kurse"
+  },
+  "courses_h1": {
+   "ar": "دورات عبر الإنترنت لبيت أذكى",
+   "en": "Online courses for a smarter home",
+   "fr": "Cours en ligne pour une maison plus intelligente",
+   "es": "Cursos en línea para un hogar más inteligente",
+   "de": "Online-Kurse für ein smarteres Zuhause"
+  },
+  "courses_intro": {
+   "ar": "قائمة متنامية من الدورات في المنزل الذكي وإنترنت الأشياء والإلكترونيات وشبكات المنزل والطاقة، تُجمع تلقائيًا من كتالوج Coursera العام. تبقى عناوين الدورات بلغتها الأصلية.",
+   "en": "A growing list of courses on smart home, IoT, electronics, home networking and energy, collected automatically from Coursera's public catalogue. Course titles stay in each course's own language.",
+   "fr": "Une liste qui s'enrichit de cours sur la maison connectée, l'IoT, l'électronique, les réseaux domestiques et l'énergie, collectés automatiquement dans le catalogue public de Coursera. Les titres restent dans la langue de chaque cours.",
+   "es": "Una lista en crecimiento de cursos sobre hogar inteligente, IoT, electrónica, redes domésticas y energía, recopilados automáticamente del catálogo público de Coursera. Los títulos se mantienen en el idioma de cada curso.",
+   "de": "Eine wachsende Liste von Kursen zu Smart Home, IoT, Elektronik, Heimnetzwerken und Energie, automatisch aus dem öffentlichen Katalog von Coursera zusammengestellt. Die Titel bleiben in der Sprache des jeweiligen Kurses."
+  },
+  "courses_note": {
+   "ar": "لم نراجع محتوى الدورات ولا تقييماتها. بعض دورات Coursera يمكن حضورها مجانًا دون شهادة وبعضها مدفوع، فراجع صفحة كل دورة قبل التسجيل.",
+   "en": "We have not reviewed the courses' content or ratings. Some Coursera courses can be audited for free while others require payment, so check each course page before enrolling.",
+   "fr": "Nous n'avons pas examiné le contenu ni les avis de ces cours. Certains cours Coursera peuvent être suivis gratuitement sans certificat, d'autres sont payants : vérifiez la page de chaque cours avant de vous inscrire.",
+   "es": "No hemos revisado el contenido ni las valoraciones de estos cursos. Algunos cursos de Coursera pueden seguirse gratis sin certificado y otros son de pago, así que revisa la página de cada curso antes de inscribirte.",
+   "de": "Wir haben Inhalt und Bewertungen dieser Kurse nicht geprüft. Manche Coursera-Kurse lassen sich kostenlos ohne Zertifikat belegen, andere sind kostenpflichtig, prüfe also vor der Anmeldung die Seite jedes Kurses."
+  },
+  "courses_note_aff": {
+   "ar": "بعض الروابط روابط أفلييت: إن سجّلت عبرها قد نحصل على عمولة دون أي تكلفة إضافية عليك. لم نراجع محتوى الدورات ولا تقييماتها، وبعض دورات Coursera مجانية الحضور دون شهادة وبعضها مدفوع.",
+   "en": "Some links are affiliate links: if you enroll through them we may earn a commission at no extra cost to you. We have not reviewed the courses' content or ratings, and some Coursera courses can be audited for free while others require payment.",
+   "fr": "Certains liens sont des liens d'affiliation : si vous vous inscrivez par leur intermédiaire, nous pouvons toucher une commission sans frais supplémentaires pour vous. Nous n'avons pas examiné le contenu ni les avis des cours, et certains cours Coursera sont gratuits sans certificat, d'autres payants.",
+   "es": "Algunos enlaces son de afiliado: si te inscribes a través de ellos, podemos recibir una comisión sin coste adicional para ti. No hemos revisado el contenido ni las valoraciones de los cursos, y algunos cursos de Coursera son gratis sin certificado y otros de pago.",
+   "de": "Einige Links sind Affiliate-Links: Wenn du dich darüber anmeldest, erhalten wir möglicherweise eine Provision, ohne dass dir Mehrkosten entstehen. Wir haben Inhalt und Bewertungen der Kurse nicht geprüft, und manche Coursera-Kurse sind ohne Zertifikat kostenlos, andere kostenpflichtig."
+  },
+  "view_course": {
+   "ar": "عرض على Coursera",
+   "en": "View on Coursera",
+   "fr": "Voir sur Coursera",
+   "es": "Ver en Coursera",
+   "de": "Auf Coursera ansehen"
+  },
+  "courses_count": {
+   "ar": "{n} دورة",
+   "en": "{n} courses",
+   "fr": "{n} cours",
+   "es": "{n} cursos",
+   "de": "{n} Kurse"
+  }
+ },
+ "topics": {
+  "smart-home": {
+   "ar": "المنزل الذكي وإنترنت الأشياء",
+   "en": "Smart home & IoT",
+   "fr": "Maison connectée & IoT",
+   "es": "Hogar inteligente e IoT",
+   "de": "Smart Home & IoT"
+  },
+  "electronics": {
+   "ar": "الإلكترونيات والتحكم الدقيق",
+   "en": "Electronics & microcontrollers",
+   "fr": "Électronique & microcontrôleurs",
+   "es": "Electrónica y microcontroladores",
+   "de": "Elektronik & Mikrocontroller"
+  },
+  "network-security": {
+   "ar": "الشبكات والأمان",
+   "en": "Networking & security",
+   "fr": "Réseaux & sécurité",
+   "es": "Redes y seguridad",
+   "de": "Netzwerke & Sicherheit"
+  },
+  "energy": {
+   "ar": "الطاقة والاستدامة",
+   "en": "Energy & sustainability",
+   "fr": "Énergie & durabilité",
+   "es": "Energía y sostenibilidad",
+   "de": "Energie & Nachhaltigkeit"
+  }
+ }
+}

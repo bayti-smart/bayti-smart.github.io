@@ -55,3 +55,17 @@
   <span class="go">{{ t('read_guide') }} {{ ico('arrow', 'flip') }}</span>
 </a>
 {%- endmacro %}
+
+{% macro course_card(c, t, eager=false) -%}
+<article class="card">
+  <div class="card-img"><img src="{{ c.image }}" alt="" width="400" height="400" referrerpolicy="no-referrer" loading="lazy" decoding="async"></div>
+  <div class="card-body">
+    <span class="cat">{{ c.partner }}</span>
+    <h3><a href="{{ c.href }}" target="_blank" rel="sponsored nofollow noopener">{{ c.title }}</a></h3>
+    <div class="tags"><span>{{ c.lang }}</span>{% if c.workload %}<span>{{ c.workload }}</span>{% endif %}</div>
+    <div class="card-foot">
+      <span class="more"><a href="{{ c.href }}" target="_blank" rel="sponsored nofollow noopener"><span class="t">{{ t('view_course') }}</span> {{ ico('ext') }}</a></span>
+    </div>
+  </div>
+</article>
+{%- endmacro %}

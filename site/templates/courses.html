@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% from 'macros.html' import ico, course_card %}
+{% from 'crumbs.html' import crumbs %}
+{% block content %}
+<div class="page-head"><div class="container">
+  {{ crumbs([(t('breadcrumb_home'), u('home')), (t('nav_courses'), None)]) }}
+  <h1>{{ t('courses_h1') }}</h1>
+  <p>{{ t('courses_intro') }}</p>
+  <p class="aff" style="margin-top:10px">{{ t('courses_note_aff') if aff else t('courses_note') }}</p>
+</div></div>
+<section class="section" style="padding-top:12px"><div class="container">
+  {% for tp in topics %}
+  <h2 class="topic-h">{{ tp.name }} <span class="topic-n">{{ t('courses_count').replace('{n}', tp['items']|length|string) }}</span></h2>
+  <div class="grid">{% for c in tp['items'] %}{{ course_card(c, t, loop.index <= 4 and loop.first) }}{% endfor %}</div>
+  {% endfor %}
+</div></section>
+{% endblock %}

@@ -43,6 +43,7 @@
           <div class="dd-panel cats-panel">{% for c in cats %}<a href="{{ u('cat', c.id) }}">{{ ico(c.id) }}<span>{{ c.name }}</span></a>{% endfor %}</div>
         </details>
         <a href="{{ u('guides') }}" {% if active == 'guides' %}aria-current="page"{% endif %}>{{ t('nav_guides') }}</a>
+        {% if has_courses %}<a href="{{ u('courses') }}" {% if active == 'courses' %}aria-current="page"{% endif %}>{{ t('nav_courses') }}</a>{% endif %}
         <a href="{{ u('about') }}" {% if active == 'about' %}aria-current="page"{% endif %}>{{ t('nav_about') }}</a>
       </nav>
       <span class="spacer"></span>
@@ -70,6 +71,7 @@
       <a href="{{ u('products') }}">{{ t('nav_products') }}</a>
       <div class="mcats">{% for c in cats %}<a href="{{ u('cat', c.id) }}">{{ c.name }}</a>{% endfor %}</div>
       <a href="{{ u('guides') }}">{{ t('nav_guides') }}</a>
+      {% if has_courses %}<a href="{{ u('courses') }}">{{ t('nav_courses') }}</a>{% endif %}
       <a href="{{ u('about') }}">{{ t('nav_about') }}</a>
     </div>
   </div>
@@ -87,6 +89,7 @@
       <div><h4>{{ t('footer_explore') }}</h4><ul>
         <li><a href="{{ u('products') }}">{{ t('nav_products') }}</a></li>
         <li><a href="{{ u('guides') }}">{{ t('nav_guides') }}</a></li>
+        {% if has_courses %}<li><a href="{{ u('courses') }}">{{ t('nav_courses') }}</a></li>{% endif %}
         {% for c in cats[:4] %}<li><a href="{{ u('cat', c.id) }}">{{ c.name }}</a></li>{% endfor %}
       </ul></div>
       <div><h4>{{ t('footer_site') }}</h4><ul>

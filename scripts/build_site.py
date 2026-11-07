@@ -14,6 +14,7 @@ import json
 import re
 import shutil
 import sys
+import urllib.parse
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -65,6 +66,13 @@ def main():
     cfg = json.load(open(SITE / 'config.json', encoding='utf-8'))
     base = cfg['site_url'].rstrip('/')
     i18n = json.load(open(SITE / 'i18n.json', encoding='utf-8'))
+    extra = json.load(open(SITE / 'i18n_courses.json', encoding='utf-8'))
+    i18n['ui'].update(extra['ui'])
+    topic_names = extra['topics']
+    courses_file = ROOT / 'scripts' / 'courses.json'
+    courses_raw = json.load(open(courses_file, encoding='utf-8'))['courses'] if courses_file.exists() else []
+    has_courses = bool(courses_raw)
+    coursera_aff = cfg.get('coursera_affiliate', '')
     data = json.load(open(ROOT / 'products.json', encoding='utf-8'))
     for _p in data['products']:  # نسخة الصورة المحلية إن وُجدت (أسرع ولا تعتمد على CDN خارجي)
         if (SITE / 'assets/img/p' / (_p['id'] + '.jpg')).exists():
@@ -85,7 +93,7 @@ def main():
         p = prefix(lang)
         return {
             'home': p + '/', 'products': p + '/products/', 'cat': f'{p}/c/{arg}/', 'product': f'{p}/p/{arg}/',
-            'guides': p + '/guides/', 'guide': f'{p}/guides/{arg}/', 'about': p + '/about/', 'privacy': p + '/privacy/',
+            'courses': p + '/courses/', 'guides': p + '/guides/', 'guide': f'{p}/guides/{arg}/', 'about': p + '/about/', 'privacy': p + '/privacy/',
         }[kind]
 
     def absu(p):
@@ -131,7 +139,21 @@ def main():
         for pg in ('about', 'privacy'):
             pages[pg] = {'title': read(f'content/pages/{lang}/{pg}.title').strip(),
                          'body': read(f'content/pages/{lang}/{pg}.html').replace('[[guides]]', path(lang, 'guides'))}
-        L[lang] = {'ui': ui, 'cats': cats, 'prods': prods, 'guides': guides, 'pages': pages}
+        topics = []
+        for tid in topic_names:
+            items = [c for c in courses_raw if c['topic'] == tid]
+            items.sort(key=lambda c: c['lang'] != lang)
+            if not items:
+                continue
+            cl = []
+            for c in items:
+                url = f"https://www.coursera.org/learn/{c['slug']}"
+                href = coursera_aff.replace('{url}', urllib.parse.quote(url, safe='')) if coursera_aff else url
+                img = f"/assets/img/c/{c['id']}.jpg" if (SITE / 'assets/img/c' / (c['id'] + '.jpg')).exists() else c['image']
+                cl.append({'id': c['id'], 'title': c['title'], 'image': img, 'href': href, 'partner': c.get('partner', ''),
+                           'lang': c['lang'].upper(), 'workload': c.get('workload', '')})
+            topics.append({'id': tid, 'name': topic_names[tid][lang], 'items': cl})
+        L[lang] = {'ui': ui, 'cats': cats, 'prods': prods, 'guides': guides, 'pages': pages, 'topics': topics}
 
     sitemap = []  # list of (kind, arg)
 
@@ -152,7 +174,7 @@ def main():
             'canonical': absu(alt_paths[lang]), 'og_image': absu('/assets/img/og-default.png'),
             'og_locale': OG_LOCALE[lang], 'banner_json': banner_json, 'ver': ver, 'year': year,
             'social': {k: cfg.get(k, '') for k in ('facebook', 'instagram', 'tiktok')},
-            'goatcounter': cfg.get('goatcounter', ''), 'jsonld': [], 'active': '',
+            'goatcounter': cfg.get('goatcounter', ''), 'jsonld': [], 'active': '', 'has_courses': has_courses,
         }
         ctx.update(page)
         return ctx
@@ -240,6 +262,18 @@ def main():
                            jsonld=[breadcrumb_ld(lang, [(t('breadcrumb_home'), path(lang, 'home')), (gi['title'], path(lang, 'guides')), (g['title'], None)]), article])
             write(path(lang, 'guide', gid), render('guide.html', ctx))
             sitemap.append(('guide', gid))
+
+        # ----- courses -----
+        if has_courses:
+            n_courses = sum(len(tp['items']) for tp in d['topics'])
+            allc = [c for tp in d['topics'] for c in tp['items']]
+            itemlist = {'@context': 'https://schema.org', '@type': 'ItemList', 'name': t('courses_h1'), 'itemListElement': [
+                {'@type': 'ListItem', 'position': i + 1, 'url': c['href'], 'name': c['title']} for i, c in enumerate(allc[:30])]}
+            ctx = make_ctx(lang, 'courses', title=f"{t('courses_h1')} | Smart Casa", description=trim(t('courses_intro'), 158),
+                           topics=d['topics'], n_courses=n_courses, aff=bool(coursera_aff), active='courses',
+                           jsonld=[breadcrumb_ld(lang, [(t('breadcrumb_home'), path(lang, 'home')), (t('nav_courses'), None)]), itemlist])
+            write(path(lang, 'courses'), render('courses.html', ctx))
+            sitemap.append(('courses', None))
 
         # ----- about / privacy -----
         for pg in ('about', 'privacy'):
