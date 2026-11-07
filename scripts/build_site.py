@@ -174,7 +174,7 @@ def main():
             'canonical': absu(alt_paths[lang]), 'og_image': absu('/assets/img/og-default.png'),
             'og_locale': OG_LOCALE[lang], 'banner_json': banner_json, 'ver': ver, 'year': year,
             'social': {k: cfg.get(k, '') for k in ('facebook', 'instagram', 'tiktok')},
-            'goatcounter': cfg.get('goatcounter', ''), 'jsonld': [], 'active': '', 'has_courses': has_courses,
+            'goatcounter': cfg.get('goatcounter', ''), 'head_meta': cfg.get('head_meta', []), 'jsonld': [], 'active': '', 'has_courses': has_courses,
         }
         ctx.update(page)
         return ctx

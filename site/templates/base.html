@@ -29,7 +29,8 @@
 {% for ld in jsonld %}<script type="application/ld+json">{{ ld|tojson }}</script>
 {% endfor %}
 {% if goatcounter %}<script data-goatcounter="https://{{ goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
-</head>
+{% for m in head_meta %}{{ m|safe }}
+{% endfor %}</head>
 <body class="{{ body_class|default('') }}">
 {{ sprite() }}
 <a class="skip" href="#main">{{ t('skip') }}</a>
