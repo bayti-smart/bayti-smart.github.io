@@ -1,32 +1,14 @@
-AUTO 2026-11-06 dry=False target=20
-search [wifi security camera indoor] p1: 40 results, 19 fresh, took 2
-search [ptz camera wifi 5mp] p1: 40 results, 6 fresh, took 2
-search [solar security camera outdoor] p1: 40 results, 17 fresh, took 2
-search [video doorbell wifi] p1: 40 results, 10 fresh, took 2
-search [smoke detector wifi] p1: 40 results, 11 fresh, took 2
-search [gas leak detector alarm] p1: 40 results, 6 fresh, took 2
-search [smart door lock fingerprint] p1: 40 results, 25 fresh, took 2
-search [alarm siren strobe wifi] p1: 40 results, 3 fresh, took 2
-search [tuya wifi smart plug] p1: 40 results, 25 fresh, took 2
-search [zigbee smart plug] p1: 39 results, 15 fresh, took 2
-ADD security-camera-wi-fi-66646 | security | $28.20 | Pet Dog Camera with Phone App, 5G/2.4GHz WiFi Indoor Securit
-ADD security-camera-wi-fi-4k-06751 | security | $43.35 | 4K 8MP WiFi Surveillance Camera, Dual Lens, 4X Digital Zoom,
-ADD security-camera-wi-fi-4k-55520 | security | $34.78 | 8MP 4K IP Camera 5MP Speed Dome Auto Tracking PTZ Camera Sma
-ADD security-camera-wi-fi-tuya-96593 | security | $52.90 | Tuya 5K 10MP Dual Lens WIFI Camera Full HD Dual Screen Ai Hu
-ADD solar-security-camera-wi-fi-solar-30864 | security | $64.62 | KERUI Outdoor Waterproof 6MP 4G SIM WIFI Solar Camera Dual L
-ADD solar-security-camera-solar-usb-c-65297 | security | $16.52 | Monocrystalline 3W Outdoor Solar Panel Micro Type-C Port Sol
-ADD video-doorbell-wi-fi-tuya-64342 | security | $26.97 | Tuya WiFi Wireless Video Doorbell Camera HD Video Intercom S
-ADD video-doorbell-wi-fi-tuya-01056 | security | $69.13 | Tuya Smart WiFi Video Doorbell 1080P Dual Band 5G 2.4G Water
-ADD smoke-detector-wi-fi-tuya-06971 | security | $13.30 | Tuya Smart WiFi Smoke Sensor Fire Protection Smoke Detector 
-ADD smoke-detector-zigbee-wi-fi-35017 | security | $15.59 | ZigBee WiFi Smart Smoke Detector Alarm, Works with Tuya Smar
-ADD gas-leak-detector-79914 | security | $13.64 | Digital Carbon Monoxide Detector Sensor CO Alarm Detector Ho
-ADD gas-leak-detector-27436 | security | $10.34 | Carbon Monoxide Alarm Smoke Alarm Co Detector LCD Display Al
-ADD smart-door-lock-69416 | security | $12.29 | KERUI Smart Fingerprint Padlock Built-in Rechargeable Batter
-ADD smart-door-lock-58896 | security | $14.61 | KERUI Fingerprint Lock Keyless USB Charging Smart Padlock Wa
-ADD alarm-siren-wi-fi-12v-04998 | security | $8.28 | 120 DB Flash LED Strobe Light Wired Siren 12V/ 5V /24V /220V
-ADD alarm-siren-wi-fi-solar-42970 | security | $23.12 | Powered Strobe Sound Flash Waterproof Wireless Outdoor Solar
-ADD smart-plug-zigbee-wi-fi-34227 | power | $9.88 | TNCE Tuya Smart Plug WiFi/Zigbee3.0 Socket 16A/20A Power Mon
-ADD smart-plug-zigbee-wi-fi-70357 | power | $9.71 | TNCE TUYA Smart Plug WiFi or Zigbee3.0 Socket EU 16A/20A Pow
-ADD smart-plug-zigbee-tuya-18011 | power | $10.30 | tuya Smart Plug Zigbee EU 16A/20A Smart Socket With Power Mo
-ADD smart-plug-zigbee-tuya-03832 | power | $10.54 | Tuya Zigbee Smart Plug 20A EU Smart Socket With Power Monito
-RESULT searches=10 pool=20 added=20
+AUTO 2026-11-07 dry=False target=7
+search [smart plug energy monitor 16a] p1: 39 results, 1 fresh, took 1
+search [smart power strip wifi] p1: 40 results, 0 fresh, took 0
+search [din rail energy meter wifi] p1: 40 results, 2 fresh, took 2
+search [tuya wifi wall switch] p1: 39 results, 5 fresh, took 2
+search [zigbee wall light switch] p1: 39 results, 2 fresh, took 2
+ADD smart-plug-wi-fi-tuya-21729 | power | $9.20 | Tuya 20A WiFi Smart Plug EU Socket Energy Monitoring Timer A
+ADD energy-meter-din-rail-wi-fi-tuya-53258 | power | $15.31 | TUYA WIFI Smart Circuit Breaker Power Metering 1P 63A DIN Ra
+ADD energy-meter-din-rail-wi-fi-tuya-19016 | power | $11.88 | TUYA Smartlife 63A TOMZN 1P+N WIFI Smart Switch Energy Meter
+ADD smart-wall-switch-wi-fi-tuya-14733 | control | $7.48 | Tuya Smart WiFi Switch Smart Home Wireless RF 433mhz Smart S
+ADD smart-wall-switch-zigbee-wi-fi-50550 | control | $14.01 | TNCE Tuya US WiFi or Zigbee Smart Wall Switch 1/2/3/4 Gang W
+ADD smart-wall-switch-wi-fi-tuya-56850 | control | $6.99 | Tuya Smart WiFi Switch For Lighting RF 433MHz Wireless Switc
+ADD smart-wall-switch-77443 | control | $9.59 | Self-powered Wireless Wall Switch No Battery Required 86Type
+RESULT searches=5 pool=7 added=7

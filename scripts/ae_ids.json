@@ -150,7 +150,14 @@
   "1005012986734227",
   "1005006597670357",
   "1005013266218011",
-  "1005012977903832"
+  "1005012977903832",
+  "1005006995721729",
+  "1005009884453258",
+  "1005007028319016",
+  "1005010043914733",
+  "1005006597250550",
+  "1005006297456850",
+  "1005007494777443"
  ],
  "added": {
   "smart-bulb-wi-fi-tuya-92723": {
@@ -292,6 +299,41 @@
    "ae_id": "1005012977903832",
    "date": "2026-11-06",
    "src_title": "Tuya Zigbee Smart Plug 20A EU Smart Socket With Power Monitoring Timing Function Voice Control Via Alexa Google Home Yan"
+  },
+  "smart-plug-wi-fi-tuya-21729": {
+   "ae_id": "1005006995721729",
+   "date": "2026-11-07",
+   "src_title": "Tuya 20A WiFi Smart Plug EU Socket Energy Monitoring Timer App Voice Control Smart Life Compatible With Alexa Google Hom"
+  },
+  "energy-meter-din-rail-wi-fi-tuya-53258": {
+   "ae_id": "1005009884453258",
+   "date": "2026-11-07",
+   "src_title": "TUYA WIFI Smart Circuit Breaker Power Metering 1P 63A DIN Rail for Smart Home Wireless Remote Control Smart Switch by AP"
+  },
+  "energy-meter-din-rail-wi-fi-tuya-19016": {
+   "ae_id": "1005007028319016",
+   "date": "2026-11-07",
+   "src_title": "TUYA Smartlife 63A TOMZN 1P+N WIFI Smart Switch Energy Meter Kwh Metering Monitoring Circuit Breaker Timer Relay MCB"
+  },
+  "smart-wall-switch-wi-fi-tuya-14733": {
+   "ae_id": "1005010043914733",
+   "date": "2026-11-07",
+   "src_title": "Tuya Smart WiFi Switch Smart Home Wireless RF 433mhz Smart Switch Wall Switch Smart Life APP Voice Control Via Alexa Goo"
+  },
+  "smart-wall-switch-zigbee-wi-fi-50550": {
+   "ae_id": "1005006597250550",
+   "date": "2026-11-07",
+   "src_title": "TNCE Tuya US WiFi or Zigbee Smart Wall Switch 1/2/3/4 Gang Wire Touch Sensor LED Light Switches Smart Home Alexa Google "
+  },
+  "smart-wall-switch-wi-fi-tuya-56850": {
+   "ae_id": "1005006297456850",
+   "date": "2026-11-07",
+   "src_title": "Tuya Smart WiFi Switch For Lighting RF 433MHz Wireless Switch Smart Life APP Voice Control Work With Alexa Google Home A"
+  },
+  "smart-wall-switch-77443": {
+   "ae_id": "1005007494777443",
+   "date": "2026-11-07",
+   "src_title": "Self-powered Wireless Wall Switch No Battery Required 86Type RF433Mhz Waterproof Wall Switch"
   }
  },
  "map": {
@@ -424,6 +466,13 @@
   "tuya-wifi-energy-meter-ct-clamp-80a": "1005011962313376",
   "tuya-zigbee-ir-remote-temp-humidity": "1005012918320382",
   "tuya-wifi-e27-smart-lamp-holder-adapter": "1005012079364333",
-  "zigbee-e27-rgbcw-smart-bulb": "1005012977953468"
+  "zigbee-e27-rgbcw-smart-bulb": "1005012977953468",
+  "smart-plug-wi-fi-tuya-21729": "1005006995721729",
+  "energy-meter-din-rail-wi-fi-tuya-53258": "1005009884453258",
+  "energy-meter-din-rail-wi-fi-tuya-19016": "1005007028319016",
+  "smart-wall-switch-wi-fi-tuya-14733": "1005010043914733",
+  "smart-wall-switch-zigbee-wi-fi-50550": "1005006597250550",
+  "smart-wall-switch-wi-fi-tuya-56850": "1005006297456850",
+  "smart-wall-switch-77443": "1005007494777443"
  }
 }

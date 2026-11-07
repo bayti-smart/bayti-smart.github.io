@@ -1,5 +1,6 @@
-COURSES 2026-11-07 existing=51
-ADD [smart-home/en] Cybersecurity and the Internet of Things — Kennesaw State University
-ADD [electronics/en] Advanced Data Structures for Microcontrollers — Packt
-ADD [network-security/en] Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux — Packt
-RESULT pool=247 added=3 total=54
+COURSES 2026-11-07 existing=54
+  REMOVE (off-topic/banned): Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux
+ADD [smart-home/en] Internet of Things: Setting Up Your DragonBoard™ Development Platform — University of California San Diego
+ADD [electronics/en] Equivalent Circuit Cell Model Simulation — University of Colorado Boulder
+ADD [network-security/en] 5G Network Fundamentals — Institut Mines-Télécom
+RESULT pool=241 added=3 total=56

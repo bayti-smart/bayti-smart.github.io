@@ -584,13 +584,35 @@
    "added": "2026-11-07"
   },
   {
-   "id": "bykYkz5OEe-2agr_xDd37Q",
-   "slug": "packt-hacking-wep-wpa-wpa2-wi-fi-networks-using-kali-linux-6xxcq",
-   "title": "Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux",
-   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/35/1e4b7ea0e04b4a812c0ee2bc6386be/V18230.jpg",
+   "id": "H9j3VizfEeW-zwq84wShFQ",
+   "slug": "internet-of-things-dragonboard",
+   "title": "Internet of Things: Setting Up Your DragonBoard™ Development Platform",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/80/4a2c904d0811e593d7637e1c80c9be/internet-of-things.jpg",
    "lang": "en",
-   "partner": "Packt",
+   "partner": "University of California San Diego",
    "workload": "",
+   "topic": "smart-home",
+   "added": "2026-11-07"
+  },
+  {
+   "id": "cSmgaioWEee6gA5XksfBbg",
+   "slug": "equivalent-circuit-cell-model-simulation",
+   "title": "Equivalent Circuit Cell Model Simulation",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f7/d1614facf74623ae35a2212e3b1a52/Equivalent-Circuit-Cell-Model-Simulation.png",
+   "lang": "en",
+   "partner": "University of Colorado Boulder",
+   "workload": "",
+   "topic": "electronics",
+   "added": "2026-11-07"
+  },
+  {
+   "id": "1yJL2xeyEe24OxJKbpgSRQ",
+   "slug": "5g-network-fundamentals",
+   "title": "5G Network Fundamentals",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/86/0fe2cb49e3464cb08b51992c705c01/asset-v1-MinesTelecom-04035-session03-type-asset-block-vignette_fun_5G_2.png",
+   "lang": "en",
+   "partner": "Institut Mines-Télécom",
+   "workload": "7 weeks, 3-4 hours/week",
    "topic": "network-security",
    "added": "2026-11-07"
   }

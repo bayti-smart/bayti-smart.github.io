@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:52:24.550018+00:00",
+  "updated_at": "2026-11-07T09:54:57.428506+00:00",
   "languages": [
     "ar",
     "en",
@@ -186,7 +186,7 @@
     {
       "id": "sherway-2k-security-camera",
       "category": "security",
-      "price": 92.63,
+      "price": 47.61,
       "currency": "USD",
       "rating": 4.8,
       "reviews_count": 155,
@@ -9503,6 +9503,447 @@
             "Tuya",
             "Alexa",
             "Smarte Steckdosen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-plug-wi-fi-tuya-21729",
+      "category": "power",
+      "price": 9.2,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saff5d0e8b2b345d79fc6b6922dd0a37aC.png",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4a47ZOPGXOmchtXttjk3vFGrMzx4HfsSbIdjyaPAlmIU9S96mNL5qLjGvDVAnzaTARyiCfHqfIUD5XkHyrD2HcOFir3YzE6rdiuIgnkSMXxCnKqNi92jtJapoXViTCJBRj6RA8TBIaadnoBxc21wFLKCtdDCxuUy6hKQHcm6Qg1wlnCyHqMShhWCeyYJLa4JeN3Cp1h7wmoLs3alXg7kcrL7cXvclCNNQM03Eu55W4HB7g61JjytEnqKXzdCdr9HTK9UjOgblshw1OFGoF3s14M96kSNywQZDDmw0uRoyWxDebqUfdhbCrsvQlahLSTC0hrtuQKObYVesTNDcw3UgGD8wS8E67fBzKFtgMafGzufWwE69o3qMpD9eogV8U6ZvAuinCg9dJM54U1LgajqEp7aTXifiST1euyOJaoGhOVTIxB6A7LNdN4xPWgbV5Jq72aUI8lvEngh7QPPw09WzCxeyn7os1bsHHkua2uDJld9Qqj6Q1hapmQEi8c9LKYHg2BJptj8XJEbPvCoe8JILIvmYPdgfgmfONYW4NCKbYJqzcRRywCxaX3ftTDuKkXOFuOt1iMHY4yz443N0bwwTmE9MxoDsriZYIY7DzkMLt4jJUqtcer0aOV2nNnNA7nGsPSs7z7gBmaHA7MO3otGCrN1F1rzwCilSIldLTryjlmVd7FeQq1E7C3dpEhLTuejW1IsyueBwDI2m",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مقبس ذكي (Wi-Fi, Tuya, Smart Life)",
+          "description": "قابس يوضع بين المقبس والجهاز لتشغيله وإطفائه وضبط جداول زمنية من الهاتف. من عنوان العرض: Wi-Fi, Tuya, Smart Life. تحقق من نوع القابس والحمل الأقصى (أمبير أو واط) ومن مطابقته للمقبس والجهاز. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "مقابس وطاقة"
+          ]
+        },
+        "en": {
+          "title": "Smart Plug (Wi-Fi, Tuya, Smart Life)",
+          "description": "A plug that sits between a socket and a device so you can switch it on or off and set schedules from your phone. From the listing: Wi-Fi, Tuya, Smart Life. Check the plug type and maximum load (amps or watts) against your socket and device. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Smart Plugs"
+          ]
+        },
+        "fr": {
+          "title": "Prise connectée (Wi-Fi, Tuya, Smart Life)",
+          "description": "Une prise placée entre la prise murale et l'appareil pour l'allumer, l'éteindre et programmer des horaires depuis le téléphone. D'après l'annonce : Wi-Fi, Tuya, Smart Life. Vérifiez le type de fiche et la charge maximale (ampères ou watts) par rapport à votre prise et votre appareil. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Prises connectées"
+          ]
+        },
+        "es": {
+          "title": "Enchufe inteligente (Wi-Fi, Tuya, Smart Life)",
+          "description": "Un enchufe que se coloca entre la toma y el aparato para encenderlo, apagarlo y programar horarios desde el móvil. Según el anuncio: Wi-Fi, Tuya, Smart Life. Comprueba el tipo de clavija y la carga máxima (amperios o vatios) frente a tu toma y tu aparato. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Enchufes inteligentes"
+          ]
+        },
+        "de": {
+          "title": "Smarte Steckdose (Wi-Fi, Tuya, Smart Life)",
+          "description": "Ein Zwischenstecker, mit dem du ein Gerät per Handy ein- und ausschalten und zeitlich steuern kannst. Laut Angebot: Wi-Fi, Tuya, Smart Life. Prüfe Steckertyp und maximale Last (Ampere oder Watt) im Verhältnis zu deiner Steckdose und deinem Gerät. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Smarte Steckdosen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "energy-meter-din-rail-wi-fi-tuya-53258",
+      "category": "power",
+      "price": 15.31,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S183e2ce51d6e40f7b9baad632e4f18eaq.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4MJyD3iyYzHzQxI6Tgxj4fij9wOtVjLrZ7QKTkMgDAkZklCYJCLqqoTdhsKpCNQfEkPspH3xz3yf38Ciqsqwu99Zs8b7Vm0C4X4Fmd4PS0oxkexLVbi4xHvD9cP83VgbzcC76S6E4p19p1FHgU7VuyWVa5MZc7ewJzSjViIaJUgdF2KfftWURRBNsEPvDMpwGzO8hBUHaLcRg2uQocWWgtLOMzHo8pII7BsaTmfFzqzaeA3FmurQ6Gz2IIXK3ykAMUJfUnaxBYel3ynsiyhsGSQoKslvzPvzmL3d5VcL4So9GU0S0WHU8vN4rjUCmUtrLg4BcqGZd6HD0l57k306XnvHp77TNvJN7rQHznzIvQqFiKSPlj24KmdN2H5oqv9041in1bfdN1oLKCAzdcOPs8FrbqOsegUZ8tlw5HjjGJ3EfvUCzZuv1UmwXtc8YictjDHefGPPFz3W8BoCbbstIjDtxSz9gUQ8AOClGmG323umffN7NfamzLdyCaEjXyGTLebM0QphJS91wvZ6pPhVnHIwUxRHhs7yITpnikhYJP4YRavy9LfaPbiah5t3HA1K7Z7B6b8oiPl8YtAyyUcyE1MDJj28hZ3uVuxeia6bvqYL1C9CBkg9HHGtPBTBJdSy5G4at8PPOWkqmnJ0oRmVSmBYTTovfRRaET9px0FRT2bIQpa25YUnyb9d6df2cZSyQnP0jsbUUG5k8",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "عدّاد طاقة ذكي (Wi-Fi, Tuya, DIN Rail)",
+          "description": "عدّاد يتتبع استهلاك الكهرباء؛ وطرازات DIN-rail تُركَّب داخل لوحة الكهرباء. من عنوان العرض: Wi-Fi, Tuya, DIN Rail. التركيب يتضمن توصيلات كهرباء رئيسية، فيُفضَّل أن يقوم به كهربائي مؤهل. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "DIN Rail",
+            "مقابس وطاقة"
+          ]
+        },
+        "en": {
+          "title": "Smart Energy Meter (Wi-Fi, Tuya, DIN Rail)",
+          "description": "A meter that tracks electricity use; DIN-rail models are mounted inside the electrical panel. From the listing: Wi-Fi, Tuya, DIN Rail. Installation involves mains wiring, so have a qualified electrician fit it. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "DIN Rail",
+            "Smart Plugs"
+          ]
+        },
+        "fr": {
+          "title": "Compteur d'énergie connecté (Wi-Fi, Tuya, DIN Rail)",
+          "description": "Un compteur qui suit la consommation d'électricité ; les modèles sur rail DIN se montent dans le tableau électrique. D'après l'annonce : Wi-Fi, Tuya, DIN Rail. L'installation touche au câblage secteur : faites-la poser par un électricien qualifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "DIN Rail",
+            "Prises connectées"
+          ]
+        },
+        "es": {
+          "title": "Medidor de energía inteligente (Wi-Fi, Tuya, DIN Rail)",
+          "description": "Un medidor que registra el consumo eléctrico; los modelos de carril DIN se instalan en el cuadro eléctrico. Según el anuncio: Wi-Fi, Tuya, DIN Rail. La instalación implica cableado de red eléctrica, así que que la haga un electricista cualificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "DIN Rail",
+            "Enchufes inteligentes"
+          ]
+        },
+        "de": {
+          "title": "Smarter Energiezähler (Wi-Fi, Tuya, DIN Rail)",
+          "description": "Ein Zähler, der den Stromverbrauch erfasst; Hutschienen-Modelle (DIN-Rail) werden im Sicherungskasten montiert. Laut Angebot: Wi-Fi, Tuya, DIN Rail. Die Installation betrifft die Netzverkabelung, lass sie von einem Elektriker durchführen. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "DIN Rail",
+            "Smarte Steckdosen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "energy-meter-din-rail-wi-fi-tuya-19016",
+      "category": "power",
+      "price": 11.88,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4af6d0111640f6bc43ff630ef759bbN.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2OzyTsJRJpAiQglqt6HdaJUgbTVRVfxPsczC8ay7fI0JYNnEH77ObnC7zJHWGhhZwinlelh5BJkyY0H0PZK9HgrmbStREpiofGeAjafQFBWxa70NGDvGXzKEJfPEgLFKWrVa7fZe1smwSXgIIW5C58j4jTXqMGXH94FvHoLmXE1x2uzdCkhrLEGxkQZuYJxkIyIkM0B5C1yLZbWrVK1yM6evz1Duo0wwfZA2HoEgCvQ6vddEzhYvlnd0BbrDSoEkooiCeT1q4PYCLq6icvbCJoOnJfL3anFM9BR6YOnrTvfnxrnERaQyutjVE8CpwJBcuoe72Pgl3ViZYGkDS5TP6otJgLzpQhN0fAfBvfn15xldm4q3AMj2p57HI3TAgWR8TWkdmUIZ3zS862inQ7uYv3z9HsoD2p2WGkzlnXStIrDRJM2BLyvNYpBKYmRmlH94IaqpBkSbTvKYwJfI8gCUeFnDuNBWFyG9jgmf96b8JTJOI9uS84MJ9fDqxoIx8wo3C3KDSxsGkeX5d78yTolB6nPIqv074sYggtbf0BjXDg5PB5vRt1H9HyBFrKirCNQiocNGumfAqmOm6HSPXDZNmUqMY7TLlU19VtkuExQeCpEdZQ6yj4suPyIuMVgKTJi8lATRFLpXhZGyhE5udpPWABS1cPKnlqXMI3YcGjXJfEBXoSTffltnqsGg1KkgBAIhYZEFmOPa7RSKy",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "عدّاد طاقة ذكي (Wi-Fi, Tuya, Smart Life)",
+          "description": "عدّاد يتتبع استهلاك الكهرباء؛ وطرازات DIN-rail تُركَّب داخل لوحة الكهرباء. من عنوان العرض: Wi-Fi, Tuya, Smart Life. التركيب يتضمن توصيلات كهرباء رئيسية، فيُفضَّل أن يقوم به كهربائي مؤهل. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "مقابس وطاقة"
+          ]
+        },
+        "en": {
+          "title": "Smart Energy Meter (Wi-Fi, Tuya, Smart Life)",
+          "description": "A meter that tracks electricity use; DIN-rail models are mounted inside the electrical panel. From the listing: Wi-Fi, Tuya, Smart Life. Installation involves mains wiring, so have a qualified electrician fit it. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Smart Plugs"
+          ]
+        },
+        "fr": {
+          "title": "Compteur d'énergie connecté (Wi-Fi, Tuya, Smart Life)",
+          "description": "Un compteur qui suit la consommation d'électricité ; les modèles sur rail DIN se montent dans le tableau électrique. D'après l'annonce : Wi-Fi, Tuya, Smart Life. L'installation touche au câblage secteur : faites-la poser par un électricien qualifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Prises connectées"
+          ]
+        },
+        "es": {
+          "title": "Medidor de energía inteligente (Wi-Fi, Tuya, Smart Life)",
+          "description": "Un medidor que registra el consumo eléctrico; los modelos de carril DIN se instalan en el cuadro eléctrico. Según el anuncio: Wi-Fi, Tuya, Smart Life. La instalación implica cableado de red eléctrica, así que que la haga un electricista cualificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Enchufes inteligentes"
+          ]
+        },
+        "de": {
+          "title": "Smarter Energiezähler (Wi-Fi, Tuya, Smart Life)",
+          "description": "Ein Zähler, der den Stromverbrauch erfasst; Hutschienen-Modelle (DIN-Rail) werden im Sicherungskasten montiert. Laut Angebot: Wi-Fi, Tuya, Smart Life. Die Installation betrifft die Netzverkabelung, lass sie von einem Elektriker durchführen. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Smarte Steckdosen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-wall-switch-wi-fi-tuya-14733",
+      "category": "control",
+      "price": 7.48,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf0e76b298311415f87f9c16e5320908cw.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2onOvIi8ZCRICfCGQLYUDOnDdHbDcdYPPHFVd1ppabqkQuQ83Xh0Nc9ii758028JAMczrfMsHOi2kNWNIDUIdsEQILOEaT4Yrth5iEb0px95k9NR2bWqqRQcefLuiksHvPrul5lNbqcHhvds9YxDlDFpXKNuyGP7rnlCbNVHWPLBlbXlj289bf6SOVicNO62e6Hsu0mgbpXozwbPtgHAz14AyasX1dOSzhBkuX1OXc6lxpxLC2abXIZHDaFHrRPfkRK4gbz1r1oW0CTk88xqe3wOveYpZyQZX9Cgsa7WqnfmDr0BDKmjK4Kw6RAL0wBSUcXB7lv5zxmbTyWIRffzS5pT7Zeyjt2KNuiROUt13E18JyXCuifQg3JW6w4xdeOJbqkFx8WgOInmIvIYvNHg8HZ8CZVvvbYoQILB64Jex50aezD6QL7tjmCprJ4ZJ57pEzwqt9u06IeIjN3rSVbBoczmP5xMF40HUh0Tj3YTDuhbEaKk3LgTjWO6iSGTYgWcvAPlPnJF1eN8RwtMK9BzEv8zSR8h52vzWus75cGzyvx9gWocUzmorz84i7VvgfSnYpMkDcCmuvJSFxQRWMUryGNVXavIh2iEoRiyCqu5l6zbP5y1wwe6orjysNePadHMAZA1VaVsEKcYpPh1GsQWbsFx0WfODOAPsPro8iCw9WLQh96edWmfJn07BuRBdXuIrzNw9wfN10Qku",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح جداري ذكي (Wi-Fi, Tuya, Smart Life)",
+          "description": "مفتاح جداري يحل محل مفتاح الإضاءة العادي ليُتحكَّم بالأضواء من تطبيق أو مساعد صوتي. من عنوان العرض: Wi-Fi, Tuya, Smart Life. التركيب يتضمن توصيلات كهرباء رئيسية، فيُفضَّل أن يقوم به كهربائي مؤهل. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "تحكم عن بعد"
+          ]
+        },
+        "en": {
+          "title": "Smart Wall Switch (Wi-Fi, Tuya, Smart Life)",
+          "description": "A wall switch that replaces a standard light switch so lights can be controlled from an app or voice assistant. From the listing: Wi-Fi, Tuya, Smart Life. Installation involves mains wiring, so have a qualified electrician fit it. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Remote Control"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur mural connecté (Wi-Fi, Tuya, Smart Life)",
+          "description": "Un interrupteur mural qui remplace un interrupteur classique pour commander les lumières par application ou assistant vocal. D'après l'annonce : Wi-Fi, Tuya, Smart Life. L'installation touche au câblage secteur : faites-la poser par un électricien qualifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Télécommande"
+          ]
+        },
+        "es": {
+          "title": "Interruptor de pared inteligente (Wi-Fi, Tuya, Smart Life)",
+          "description": "Un interruptor de pared que sustituye al convencional para controlar las luces desde una app o un asistente de voz. Según el anuncio: Wi-Fi, Tuya, Smart Life. La instalación implica cableado de red eléctrica, así que que la haga un electricista cualificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Control remoto"
+          ]
+        },
+        "de": {
+          "title": "Smarter Wandschalter (Wi-Fi, Tuya, Smart Life)",
+          "description": "Ein Wandschalter, der einen normalen Lichtschalter ersetzt, damit sich das Licht per App oder Sprachassistent steuern lässt. Laut Angebot: Wi-Fi, Tuya, Smart Life. Die Installation betrifft die Netzverkabelung, lass sie von einem Elektriker durchführen. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Fernsteuerung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-wall-switch-zigbee-wi-fi-50550",
+      "category": "control",
+      "price": 14.01,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa9e9cb8a621c4fdf9f7faef264f09c8eq.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CojC81poB9LYvR9kTac5QV2Zhzjd2bG3OfDQmz4XKVH5o87ml8d4jNLNSOPhXhxlv1kHxgrhKW6tkvCv3O2mRCnjzdJRK52EZjcRdqqe3Nv2viZrNK2enC6fKi9yvIXM3OYXQm5mYLWKyiZt9NXHYYJqJIKUfvdP8i5v8yotQfkRmvMlD9ZIbFsIvvIh9zFqG07HLrq5dudIM8VCxbZ5V3AtDj787U5qUZZQ6KoRvNRBWFVTcVLZVI2Kv8Mc5gTyTRukzU54Q2gDMd7mdtxSbzg9JbEAdAfptid9G1M931zfhQJXdNclyw03AYb8mZGxmhLCF0PFb7mhK0yW3uSB3POBz5VNU7lXQt40NKhhcGrYr6osO0GUY7acbQs34n4nQqbCWw8Jox6O2NQcPzXuZ6iSWZ6yXonPUMyaUvFvE1smwVDajMwWsGdTiLXY6QQGWgxICFnvFApmLYN9gDKddUtWFM5myjTNyGYi3JMyGXF0YulbNDuFHbn02EtS0KlPXzaLDDoZJ3pAGsHXqToAnN8eWe3VA1ckElceWZh4jw5EpW79uTQQs3GUqKVjFRWdTcpDB2nTyARDOviqUaalzJkWgw0S5nAG823lCkdPH6BosiylQvouCFs5cEmnZ7mB3MnCuzaGw4gKSyxlzgkt8HHr3dWLSW5PtU7w2RJo6pciItgo45jATN9wnNOvFjnA2l5YoTNOrRhHsS",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح جداري ذكي (Zigbee, Wi-Fi, Tuya, 4 Gang)",
+          "description": "مفتاح جداري يحل محل مفتاح الإضاءة العادي ليُتحكَّم بالأضواء من تطبيق أو مساعد صوتي. من عنوان العرض: Zigbee, Wi-Fi, Tuya, 4 Gang. نسخ Zigbee تحتاج إلى بوابة Zigbee تُشترى منفصلة. التركيب يتضمن توصيلات كهرباء رئيسية، فيُفضَّل أن يقوم به كهربائي مؤهل. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "تحكم عن بعد"
+          ]
+        },
+        "en": {
+          "title": "Smart Wall Switch (Zigbee, Wi-Fi, Tuya, 4 Gang)",
+          "description": "A wall switch that replaces a standard light switch so lights can be controlled from an app or voice assistant. From the listing: Zigbee, Wi-Fi, Tuya, 4 Gang. Zigbee versions need a Zigbee gateway, sold separately. Installation involves mains wiring, so have a qualified electrician fit it. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Remote Control"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur mural connecté (Zigbee, Wi-Fi, Tuya, 4 Gang)",
+          "description": "Un interrupteur mural qui remplace un interrupteur classique pour commander les lumières par application ou assistant vocal. D'après l'annonce : Zigbee, Wi-Fi, Tuya, 4 Gang. Les versions Zigbee nécessitent une passerelle Zigbee vendue séparément. L'installation touche au câblage secteur : faites-la poser par un électricien qualifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Télécommande"
+          ]
+        },
+        "es": {
+          "title": "Interruptor de pared inteligente (Zigbee, Wi-Fi, Tuya, 4 Gang)",
+          "description": "Un interruptor de pared que sustituye al convencional para controlar las luces desde una app o un asistente de voz. Según el anuncio: Zigbee, Wi-Fi, Tuya, 4 Gang. Las versiones Zigbee necesitan una pasarela Zigbee que se vende aparte. La instalación implica cableado de red eléctrica, así que que la haga un electricista cualificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Control remoto"
+          ]
+        },
+        "de": {
+          "title": "Smarter Wandschalter (Zigbee, Wi-Fi, Tuya, 4 Gang)",
+          "description": "Ein Wandschalter, der einen normalen Lichtschalter ersetzt, damit sich das Licht per App oder Sprachassistent steuern lässt. Laut Angebot: Zigbee, Wi-Fi, Tuya, 4 Gang. Zigbee-Versionen brauchen ein separat erhältliches Zigbee-Gateway. Die Installation betrifft die Netzverkabelung, lass sie von einem Elektriker durchführen. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Zigbee",
+            "Wi-Fi",
+            "Tuya",
+            "Fernsteuerung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-wall-switch-wi-fi-tuya-56850",
+      "category": "control",
+      "price": 6.99,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sce88e1f4e1934311a9b4671c39ba1b3dJ.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoVnq8Vnfxci7NUbfdb7XfgCAwM5WL920KjMzztTp2RhcD6d5Uxvo3Kuo1imy18VT07dSwKStSiXuiwR4ZNSlePdahzVIXrqn87KLekpxQgmc0gHtA4YTUBioN0huTjEeS3Y7jgUqeGRKH4M2HZ6CcgEPbFRPq46mrWFn1G3AGiAd4iuvXvf3QRHFmxEVvAltfr6KdGKY7Rv2tbUunhR7dOKiDvZdnrv9ddcQv7RIGjrkqlrdHqbyCZ7s7qDFBpASNohDRNzwn2Q8BmPfCu3D08nsvTTY7wqufiM8815ppZQKtoOo0NrnZqXO51rR7qk1sSq5ktmS9V2OxKnJoFzS0M3evuseYu8VdjX7y73VWTl0Z5h8xAFUAlpFBflWO0f9jPXegIBd2yJjG87v1naNlr8JHmJwEpG8i9NEme7GmJQeTAzoNv2mAgES4ygqLGkiJkafQ82yWGExNb8QyBtlFPtloXPZMGST6hgEnmUaEaIKsS8rZN5lKWrSm770mNn210SqZoLAdYcCgSUlrovzzC4kIFzveTYd5XD4of0HXUe5dW4C1JudLroR0V4Wr9DeyOsAdfOULoTXxdpk9L4uvaHPsPxfqqGgHJl8afKj06qi1a6iBxEqxjI6tcxNm3s8iEiKCN0DUsnRgUq5BOXmQH5D98PDm3HvUrwD4Po9AWbX23KrC4yk7S6ZBo8DlLgig9jDyctw5kTrw",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح جداري ذكي (Wi-Fi, Tuya, Smart Life) · #6850",
+          "description": "مفتاح جداري يحل محل مفتاح الإضاءة العادي ليُتحكَّم بالأضواء من تطبيق أو مساعد صوتي. من عنوان العرض: Wi-Fi, Tuya, Smart Life. التركيب يتضمن توصيلات كهرباء رئيسية، فيُفضَّل أن يقوم به كهربائي مؤهل. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "تحكم عن بعد"
+          ]
+        },
+        "en": {
+          "title": "Smart Wall Switch (Wi-Fi, Tuya, Smart Life) · #6850",
+          "description": "A wall switch that replaces a standard light switch so lights can be controlled from an app or voice assistant. From the listing: Wi-Fi, Tuya, Smart Life. Installation involves mains wiring, so have a qualified electrician fit it. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Remote Control"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur mural connecté (Wi-Fi, Tuya, Smart Life) · #6850",
+          "description": "Un interrupteur mural qui remplace un interrupteur classique pour commander les lumières par application ou assistant vocal. D'après l'annonce : Wi-Fi, Tuya, Smart Life. L'installation touche au câblage secteur : faites-la poser par un électricien qualifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Télécommande"
+          ]
+        },
+        "es": {
+          "title": "Interruptor de pared inteligente (Wi-Fi, Tuya, Smart Life) · #6850",
+          "description": "Un interruptor de pared que sustituye al convencional para controlar las luces desde una app o un asistente de voz. Según el anuncio: Wi-Fi, Tuya, Smart Life. La instalación implica cableado de red eléctrica, así que que la haga un electricista cualificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Control remoto"
+          ]
+        },
+        "de": {
+          "title": "Smarter Wandschalter (Wi-Fi, Tuya, Smart Life) · #6850",
+          "description": "Ein Wandschalter, der einen normalen Lichtschalter ersetzt, damit sich das Licht per App oder Sprachassistent steuern lässt. Laut Angebot: Wi-Fi, Tuya, Smart Life. Die Installation betrifft die Netzverkabelung, lass sie von einem Elektriker durchführen. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Wi-Fi",
+            "Tuya",
+            "Smart Life",
+            "Fernsteuerung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-wall-switch-77443",
+      "category": "control",
+      "price": 9.59,
+      "currency": "USD",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7104914848114304a15cb6eb442066acg.jpg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmGHnMRFhM75ZJYNN2ozSmyLp87EhH8eDDDA7vB0oleGMbj2x5QcKwsity4NeCS2xudMp3c0LdVxy0h1Cjmqj5GFgdMt79pYeou4NIrBIJQK7eL71HsldfZqSkOhKN71bBDnguOMQJGUlrKQfNwXlT06lZNPLGmWdfMLQkWumGqqkjbyZOE34iAfIW5tqA3odhPybB0mI5PMFB0JwuEhcGTzCjJL7N5gVB9bI1pRvSghf3KkdzCBg4vj9BHC0D2Z9Y6DRPFKnIhb8IqrpOiqLMtN0zou205MpetgJPrDxPdHQvbx06szfFh8KRp1ZIBJlAK42g3T8tFvOcSsFOEWp7okk3714GCvOmpay5WJveqsrpNTveIlxBvH0KfFDJZ8GEkhkV94VHTa92UQMzs7yu7iktOTNgH6iYUQpHFFbhdeMOK6toAdt4BOiFh02QLJXYHmVaWzkVEbnthYvU7GEx9LqAPJ04njj14x505DG0Gdk6TJCoH5xu9Ape7lk9syuky0UjuJBUpVvJXsvcPWQPWAOyy0VQNawZnEFxfSKVayyuawOl7GKb17zWcQzSjghb6c0dAi9ioZszG2JV8ljfbQjHjvikC60TsmRq4XJCGjAvIx5muwDGX2kyhJYctoiVDHP7nnzsGk99FbP3hCcFYm4WaSyleuMupxa2euHWT30Qe8kwgh9ICEsGGZjg3Z2pWq11POz7OwI8",
+      "network": "aliexpress",
+      "i18n": {
+        "ar": {
+          "title": "مفتاح جداري ذكي",
+          "description": "مفتاح جداري يحل محل مفتاح الإضاءة العادي ليُتحكَّم بالأضواء من تطبيق أو مساعد صوتي. التركيب يتضمن توصيلات كهرباء رئيسية، فيُفضَّل أن يقوم به كهربائي مؤهل. المواصفات والخيارات والسعر والشحن قد تختلف حسب الخيار والبلد، فراجع صفحة المنتج قبل الطلب.",
+          "tags": [
+            "تحكم عن بعد",
+            "مفتاح جداري ذكي",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "en": {
+          "title": "Smart Wall Switch",
+          "description": "A wall switch that replaces a standard light switch so lights can be controlled from an app or voice assistant. Installation involves mains wiring, so have a qualified electrician fit it. Specs, variants, price and shipping can differ by option and country, so check the product page before ordering.",
+          "tags": [
+            "Remote Control",
+            "Smart Wall Switch",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "fr": {
+          "title": "Interrupteur mural connecté",
+          "description": "Un interrupteur mural qui remplace un interrupteur classique pour commander les lumières par application ou assistant vocal. L'installation touche au câblage secteur : faites-la poser par un électricien qualifié. Les caractéristiques, variantes, prix et livraison peuvent varier selon l'option et le pays : vérifiez la page du produit avant de commander.",
+          "tags": [
+            "Télécommande",
+            "Interrupteur mural connecté",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "es": {
+          "title": "Interruptor de pared inteligente",
+          "description": "Un interruptor de pared que sustituye al convencional para controlar las luces desde una app o un asistente de voz. La instalación implica cableado de red eléctrica, así que que la haga un electricista cualificado. Las características, variantes, precio y envío pueden cambiar según la opción y el país, así que revisa la página del producto antes de pedir.",
+          "tags": [
+            "Control remoto",
+            "Interruptor de pared inteligente",
+            "Smart Home",
+            "AliExpress"
+          ]
+        },
+        "de": {
+          "title": "Smarter Wandschalter",
+          "description": "Ein Wandschalter, der einen normalen Lichtschalter ersetzt, damit sich das Licht per App oder Sprachassistent steuern lässt. Die Installation betrifft die Netzverkabelung, lass sie von einem Elektriker durchführen. Daten, Varianten, Preis und Versand können je nach Option und Land abweichen, prüfe also vor der Bestellung die Produktseite.",
+          "tags": [
+            "Fernsteuerung",
+            "Smarter Wandschalter",
+            "Smart Home",
+            "AliExpress"
           ]
         }
       }
