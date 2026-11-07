@@ -16,7 +16,7 @@ on:
       audit:
         description: "تدقيق المنتجات الحالية (apply = يطبّق التعديلات، report = تقرير فقط، off = إيقاف)"
         type: choice
-        options: [apply, report, off]
+        options: [apply, report, "off"]
         default: apply
       count:
         description: "عدد المنتجات (اتركه فارغًا للعشوائي بين 5 و20)"
