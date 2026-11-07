@@ -28,7 +28,7 @@ TOPICS = {
     "network-security": r"home network|computer networks?|network fundamentals|networking basics|wi-?fi|cyber ?security (fundamentals|basics|essentials)|online safety|digital privacy",
     "energy": r"solar|renewable energy|energy efficien|energy management|smart grid|photovoltaic|heat pump",
 }
-BAN = re.compile(r"exam|prep\b|practice test|aws certified|aws networking|azure|salesforce|tableau|blockchain|crypto|mba|tutorial for|capstone|clinical|nursing|medic|solar system|music|audio|sound|ccst|ccna|comptia|cissp|security\+|astronom|planet", re.I)
+BAN = re.compile(r"exam|prep\b|practice test|aws certified|aws networking|azure|salesforce|tableau|blockchain|crypto|mba|tutorial for|capstone|clinical|nursing|medic|solar system|music|audio|sound|ccst|ccna|comptia|cissp|security\+|astronom|planet|hack|kali|exploit|pentest|penetration", re.I)
 
 
 def log(*a):
