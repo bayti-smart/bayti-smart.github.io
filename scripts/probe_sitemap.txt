@@ -1,0 +1,24 @@
+/robots.txt 200 text/plain; charset=utf-8 75 final: https://bayti-smart.github.io/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://bayti-smart.github.io/sitemap.xml
+
+/sitemap.xml 200 application/xml 507 final: https://bayti-smart.github.io/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://bayti-smart.github.io/sitemap-en.xml</loc></sitemap>
+  <sitemap><loc>https://bayti-smart.github.io/sitemap-ar.xml</loc></sitemap>
+  <sitemap><loc>https://bayti-smart.github.io/sitemap-fr.xml</loc></sitemap>
+  <sitemap><loc>https://bayti-smart.github.io/sitemap-es.xml</loc></sitemap>
+  <sitemap><loc>https://bayti-smart.github.io/sitemap-de.xml</loc></sitemap>
+</sitemapindex>
+
+XML well-formed: yes
+locs in sitemap.xml: 5
+ child https://bayti-smart.github.io/sitemap-en.xml 200 application/xml 140871 urls 173 ok
+ child https://bayti-smart.github.io/sitemap-ar.xml 200 application/xml 141390 urls 173 ok
+ child https://bayti-smart.github.io/sitemap-fr.xml 200 application/xml 141390 urls 173 ok
+ child https://bayti-smart.github.io/sitemap-es.xml 200 application/xml 141390 urls 173 ok
+ child https://bayti-smart.github.io/sitemap-de.xml 200 application/xml 141390 urls 173 ok
+sampled 25 bad 0
