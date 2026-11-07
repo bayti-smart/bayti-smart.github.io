@@ -4,21 +4,21 @@
   "en": "How to choose smart bulbs",
   "fr": "Comment choisir des ampoules connectées",
   "es": "Cómo elegir bombillas inteligentes",
-  "de": "So wählen Sie smarte Glühbirnen"
+  "de": "So wählst du smarte Glühbirnen"
  },
  "cameras": {
   "ar": "كيف تختار كاميرا مراقبة",
   "en": "How to choose a security camera",
   "fr": "Comment choisir une caméra de surveillance",
   "es": "Cómo elegir una cámara de seguridad",
-  "de": "So wählen Sie eine Überwachungskamera"
+  "de": "So wählst du eine Überwachungskamera"
  },
  "plugs": {
   "ar": "كيف تختار المقابس الذكية",
   "en": "How to choose smart plugs",
   "fr": "Comment choisir des prises connectées",
   "es": "Cómo elegir enchufes inteligentes",
-  "de": "So wählen Sie smarte Steckdosen"
+  "de": "So wählst du smarte Steckdosen"
  },
  "zigbee": {
   "ar": "Zigbee أم Wi-Fi؟ وما هي البوابة",
@@ -32,7 +32,7 @@
   "en": "How to choose smart home sensors",
   "fr": "Comment choisir des capteurs pour la maison connectée",
   "es": "Cómo elegir sensores para el hogar inteligente",
-  "de": "So wählen Sie Smart-Home-Sensoren"
+  "de": "So wählst du Smart-Home-Sensoren"
  },
  "garden": {
   "ar": "الري الذكي والحديقة",
@@ -47,5 +47,19 @@
   "fr": "Installation électrique : quand appeler un électricien",
   "es": "Instalación eléctrica: cuándo llamar a un electricista",
   "de": "Elektroinstallation: wann ein Elektriker gefragt ist"
+ },
+ "start": {
+  "ar": "المنزل الذكي للمبتدئين: من أين تبدأ",
+  "en": "Smart home for beginners: where to start",
+  "fr": "Maison connectée pour débutants : par où commencer",
+  "es": "Hogar inteligente para principiantes: por dónde empezar",
+  "de": "Smart Home für Einsteiger: womit du anfängst"
+ },
+ "network": {
+  "ar": "أساسيات شبكة المنزل للأجهزة الذكية",
+  "en": "Home network basics for smart devices",
+  "fr": "Bases du réseau domestique pour les appareils connectés",
+  "es": "Conceptos básicos de la red doméstica para dispositivos inteligentes",
+  "de": "Heimnetzwerk-Grundlagen für Smart-Home-Geräte"
  }
 }

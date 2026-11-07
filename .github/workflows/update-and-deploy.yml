@@ -60,7 +60,7 @@ jobs:
           ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
           AUDIT_MODE: ${{ github.event.inputs.audit || 'apply' }}
 
-      - name: إضافة منتجات جديدة تلقائيًا (5 إلى 20 يوميًا)
+      - name: إضافة منتجات جديدة تلقائيًا (5 إلى 8 يوميًا)
         if: github.event_name != 'push' && github.event.inputs.auto_add != 'false'
         run: python scripts/auto_add_products.py
         continue-on-error: true

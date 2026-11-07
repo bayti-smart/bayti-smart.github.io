@@ -69,3 +69,11 @@
   </div>
 </article>
 {%- endmacro %}
+
+{% macro pager(pg, t) -%}
+{% if pg.last > 1 %}<nav class="pager" aria-label="{{ t('page_nav') }}" id="pager">
+  {% if pg.prev %}<a rel="prev" href="{{ pg.prev }}">{{ t('page_prev') }}</a>{% endif %}
+  {% for it in pg['items'] %}{% if it is none %}<span class="gap">…</span>{% elif it.n == pg.cur %}<span class="cur" aria-current="page">{{ it.n }}</span>{% else %}<a href="{{ it.url }}">{{ it.n }}</a>{% endif %}{% endfor %}
+  {% if pg.next %}<a rel="next" href="{{ pg.next }}">{{ t('page_next') }}</a>{% endif %}
+</nav>{% endif %}
+{%- endmacro %}

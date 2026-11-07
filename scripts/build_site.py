@@ -25,7 +25,7 @@ SITE = ROOT / 'site'
 LANGS = ['en', 'ar', 'fr', 'es', 'de']
 LANG_NAMES = [('en', 'English'), ('ar', 'العربية'), ('fr', 'Français'), ('es', 'Español'), ('de', 'Deutsch')]
 OG_LOCALE = {'en': 'en_US', 'ar': 'ar_AR', 'fr': 'fr_FR', 'es': 'es_ES', 'de': 'de_DE'}
-GIDS = ['bulbs', 'cameras', 'plugs', 'zigbee', 'sensors', 'garden', 'electrical']
+GIDS = ['start', 'network', 'bulbs', 'cameras', 'plugs', 'zigbee', 'sensors', 'garden', 'electrical']
 # Mirrors the rules the old site used (first match wins)
 GUIDE_RULES = [
     (r'zigbee', 'zigbee'),
@@ -91,6 +91,10 @@ def main():
 
     def path(lang, kind, arg=None):
         p = prefix(lang)
+        if kind == 'products_page':
+            return f'{p}/products/page/{arg}/'
+        if kind == 'cat_page':
+            return f'{p}/c/{arg[0]}/page/{arg[1]}/'
         return {
             'home': p + '/', 'products': p + '/products/', 'cat': f'{p}/c/{arg}/', 'product': f'{p}/p/{arg}/',
             'courses': p + '/courses/', 'guides': p + '/guides/', 'guide': f'{p}/guides/{arg}/', 'about': p + '/about/', 'privacy': p + '/privacy/',
@@ -156,6 +160,21 @@ def main():
         L[lang] = {'ui': ui, 'cats': cats, 'prods': prods, 'guides': guides, 'pages': pages, 'topics': topics}
 
     sitemap = []  # list of (kind, arg)
+    PAGE_SIZE = 36
+
+    def chunk(items):
+        return [items[i:i + PAGE_SIZE] for i in range(0, len(items), PAGE_SIZE)] or [[]]
+
+    def pager(cur, last, url_of):
+        nums = sorted({1, last, *range(max(1, cur - 2), min(last, cur + 2) + 1)})
+        items, prev = [], 0
+        for n in nums:
+            if n - prev > 1:
+                items.append(None)
+            items.append({'n': n, 'url': url_of(n)})
+            prev = n
+        return {'cur': cur, 'last': last, 'items': items,
+                'prev': url_of(cur - 1) if cur > 1 else None, 'next': url_of(cur + 1) if cur < last else None}
 
     def make_ctx(lang, kind, arg=None, **page):
         d = L[lang]
@@ -210,14 +229,26 @@ def main():
         write(path(lang, 'home'), render('home.html', ctx))
         sitemap.append(('home', None))
 
-        # ----- all products -----
-        ctx = make_ctx(lang, 'products', title=f"{t('all_products')} | Smart Casa", description=t('site_desc'),
-                       products=d['prods'], active='products',
-                       jsonld=[breadcrumb_ld(lang, [(t('breadcrumb_home'), path(lang, 'home')), (t('all_products'), None)])])
-        write(path(lang, 'products'), render('products.html', ctx))
-        sitemap.append(('products', None))
+        # ----- all products (paginated) + search index -----
+        pp = chunk(d['prods'])
+        uo = lambda n, lang=lang: path(lang, 'products') if n == 1 else path(lang, 'products_page', n)
+        for n, items in enumerate(pp, 1):
+            kind, arg = ('products', None) if n == 1 else ('products_page', n)
+            ttl = t('all_products') + ('' if n == 1 else ' – ' + t('page_n').replace('{n}', str(n)))
+            pg = pager(n, len(pp), uo)
+            ctx = make_ctx(lang, kind, arg, title=f"{ttl} | Smart Casa", description=t('site_desc'),
+                           products=items, total=len(d['prods']), pg=pg, active='products',
+                           prev_url=absu(pg['prev']) if pg['prev'] else None, next_url=absu(pg['next']) if pg['next'] else None,
+                           index_url=f"/search-{lang}.json",
+                           jsonld=[breadcrumb_ld(lang, [(t('breadcrumb_home'), path(lang, 'home')), (t('all_products'), None)])])
+            write(path(lang, kind, arg), render('products.html', ctx))
+            sitemap.append((kind, arg))
+        (out / f'search-{lang}.json').write_text(json.dumps([
+            {'t': p['title'], 'cn': p['cat_name'], 'p': p['price'], 'i': p['image'], 'u': path(lang, 'product', p['id']),
+             's': (p['title'] + ' ' + ' '.join(p['tags']) + ' ' + p['cat_name']).lower()} for p in d['prods']],
+            ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
 
-        # ----- categories -----
+        # ----- categories (paginated) -----
         for c in d['cats']:
             prods = [p for p in d['prods'] if p['category'] == c['id']]
             gid = CAT_GUIDE.get(c['id'])
@@ -225,11 +256,18 @@ def main():
             itemlist = {'@context': 'https://schema.org', '@type': 'ItemList', 'name': c['name'], 'itemListElement': [
                 {'@type': 'ListItem', 'position': i + 1, 'url': absu(path(lang, 'product', p['id'])), 'name': p['title']}
                 for i, p in enumerate(prods[:30])]}
-            ctx = make_ctx(lang, 'cat', c['id'], title=f"{c['name']} | Smart Casa", description=trim(c['intro'], 158),
-                           cat=c, products=prods, guide=guide, active='products',
-                           jsonld=[breadcrumb_ld(lang, [(t('breadcrumb_home'), path(lang, 'home')), (t('nav_products'), path(lang, 'products')), (c['name'], None)]), itemlist])
-            write(path(lang, 'cat', c['id']), render('category.html', ctx))
-            sitemap.append(('cat', c['id']))
+            cp = chunk(prods)
+            uc = lambda n, lang=lang, cid=c['id']: path(lang, 'cat', cid) if n == 1 else path(lang, 'cat_page', (cid, n))
+            for n, items in enumerate(cp, 1):
+                kind, arg = ('cat', c['id']) if n == 1 else ('cat_page', (c['id'], n))
+                ttl = c['name'] + ('' if n == 1 else ' – ' + t('page_n').replace('{n}', str(n)))
+                pg = pager(n, len(cp), uc)
+                ctx = make_ctx(lang, kind, arg, title=f"{ttl} | Smart Casa", description=trim(c['intro'], 158),
+                               cat=c, products=items, total=len(prods), pg=pg, guide=guide if n == 1 else None, active='products',
+                               prev_url=absu(pg['prev']) if pg['prev'] else None, next_url=absu(pg['next']) if pg['next'] else None,
+                               jsonld=[breadcrumb_ld(lang, [(t('breadcrumb_home'), path(lang, 'home')), (t('nav_products'), path(lang, 'products')), (c['name'], None)]), itemlist])
+                write(path(lang, kind, arg), render('category.html', ctx))
+                sitemap.append((kind, arg))
 
         # ----- products -----
         for p in d['prods']:

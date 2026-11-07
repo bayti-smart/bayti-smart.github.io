@@ -1,21 +1,23 @@
 {% extends 'base.html' %}
-{% from 'macros.html' import ico, card %}
+{% from 'macros.html' import ico, card, pager %}
 {% from 'crumbs.html' import crumbs %}
 {% block content %}
 <div class="page-head"><div class="container">
   {{ crumbs([(t('breadcrumb_home'), u('home')), (t('all_products'), None)]) }}
   <h1>{{ t('all_products') }}</h1>
-  <p><span class="count" id="count" data-tpl="{{ t('products_count') }}">{{ t('products_count').replace('{n}', products|length|string) }}</span> · {{ t('price_note_short') }}</p>
+  <p><span class="count" id="count" data-tpl="{{ t('products_count') }}">{{ t('products_count').replace('{n}', total|string) }}</span> · {{ t('price_note_short') }}</p>
 </div></div>
 <section class="section" style="padding-top:28px"><div class="container">
   <div class="toolbar">
-    <div class="filter"><label class="vh" for="filter">{{ t('filter_placeholder') }}</label><input id="filter" type="search" placeholder="{{ t('filter_placeholder') }}" autocomplete="off"></div>
+    <div class="filter"><label class="vh" for="filter">{{ t('filter_placeholder') }}</label><input id="filter" type="search" placeholder="{{ t('filter_placeholder') }}" autocomplete="off" data-index="{{ index_url }}"></div>
   </div>
   <div class="chips" role="group" style="margin-bottom:22px">
-    <button class="chip" type="button" data-cat="all" aria-pressed="true">{{ t('chip_all') }}</button>
-    {% for c in cats %}<button class="chip" type="button" data-cat="{{ c.id }}" aria-pressed="false">{{ c.name }}</button>{% endfor %}
+    <a class="chip" href="{{ u('products') }}" aria-pressed="true">{{ t('chip_all') }}</a>
+    {% for c in cats %}<a class="chip" href="{{ u('cat', c.id) }}" data-cat="{{ c.id }}" aria-pressed="false">{{ c.name }}</a>{% endfor %}
   </div>
-  <div class="grid">{% for p in products %}{{ card(p, t, u, eager=loop.index <= 4) }}{% endfor %}</div>
+  <div class="grid" id="grid">{% for p in products %}{{ card(p, t, u, eager=loop.index <= 4) }}{% endfor %}</div>
+  <div class="grid" id="results" hidden data-view="{{ t('view_details') }}"></div>
   <p class="empty" id="empty" hidden>{{ t('no_results') }}</p>
+  {{ pager(pg, t) }}
 </div></section>
 {% endblock %}

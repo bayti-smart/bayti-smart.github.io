@@ -257,3 +257,9 @@ html[dir=rtl] .pp .cat-link{text-transform:none;letter-spacing:0}
 .topic-h{margin:34px 0 14px;font-size:1.25rem}
 .topic-n{font-size:.8rem;font-weight:500;color:var(--muted);margin-inline-start:8px}
 .card-foot .more a{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:600}
+
+.pager{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;margin:34px 0 6px}
+.pager a,.pager span{min-width:40px;height:40px;padding:0 12px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line,#e4e1d8);border-radius:10px;text-decoration:none;font-weight:600}
+.pager .cur{background:var(--teal);color:#fff;border-color:var(--teal)}
+.pager .gap{border:0}
+a.chip{text-decoration:none;display:inline-flex;align-items:center}

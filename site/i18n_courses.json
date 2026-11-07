@@ -48,6 +48,34 @@
    "fr": "{n} cours",
    "es": "{n} cursos",
    "de": "{n} Kurse"
+  },
+  "page_prev": {
+   "ar": "السابق",
+   "en": "Previous",
+   "fr": "Précédent",
+   "es": "Anterior",
+   "de": "Zurück"
+  },
+  "page_next": {
+   "ar": "التالي",
+   "en": "Next",
+   "fr": "Suivant",
+   "es": "Siguiente",
+   "de": "Weiter"
+  },
+  "page_nav": {
+   "ar": "التنقل بين الصفحات",
+   "en": "Pagination",
+   "fr": "Pagination",
+   "es": "Paginación",
+   "de": "Seitennavigation"
+  },
+  "page_n": {
+   "ar": "صفحة {n}",
+   "en": "Page {n}",
+   "fr": "Page {n}",
+   "es": "Página {n}",
+   "de": "Seite {n}"
   }
  },
  "topics": {

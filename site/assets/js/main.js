@@ -106,31 +106,39 @@
     top.addEventListener('click', function () { window.scrollTo({ top: 0 }); });
   }
 
-  /* 8. Product filter (products page) */
+  /* 8. Product search (products page): searches the whole catalogue via a JSON index */
   var input = $('#filter');
   if (input) {
-    var cards = $$('.card[data-s]'), empty = $('#empty'), chips = $$('.chip[data-cat]'), count = $('#count'), cat = 'all';
-    var apply = function () {
-      var terms = input.value.toLowerCase().split(/\s+/).filter(Boolean), shown = 0;
-      cards.forEach(function (c) {
-        var s = c.getAttribute('data-s');
-        var ok = (cat === 'all' || c.getAttribute('data-cat') === cat) && terms.every(function (t) { return s.indexOf(t) > -1; });
-        c.hidden = !ok; if (ok) shown++;
-      });
-      if (empty) empty.hidden = shown > 0;
-      if (count) count.textContent = count.getAttribute('data-tpl').replace('{n}', shown);
+    var grid = $('#grid'), res = $('#results'), pager = $('#pager'), empty = $('#empty'), count = $('#count'), idx = null, loading = false;
+    var total0 = count ? count.textContent : '';
+    var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+    var cardHtml = function (p) {
+      return '<article class="card"><div class="card-img"><img src="' + esc(p.i) + '" alt="" width="400" height="400" referrerpolicy="no-referrer" loading="lazy" decoding="async"></div>' +
+        '<div class="card-body"><span class="cat">' + esc(p.cn) + '</span><h3><a href="' + esc(p.u) + '">' + esc(p.t) + '</a></h3>' +
+        '<div class="card-foot"><div class="price"><bdi dir="ltr">≈ $' + Number(p.p).toFixed(2) + '</bdi></div>' +
+        '<span class="more"><span class="t">' + esc(res.getAttribute('data-view')) + '</span> <svg class="ico flip" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></div></div></article>';
     };
-    chips.forEach(function (b) {
-      b.addEventListener('click', function () {
-        cat = b.getAttribute('data-cat');
-        chips.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
-        apply();
-      });
-    });
-    input.addEventListener('input', apply);
-    var q = new URLSearchParams(location.search).get('q'); if (q) input.value = q;
-    var c0 = new URLSearchParams(location.search).get('cat');
-    if (c0) { var b0 = chips.filter(function (x) { return x.getAttribute('data-cat') === c0; })[0]; if (b0) b0.click(); }
-    apply();
+    var show = function () {
+      var terms = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+      if (!terms.length) {
+        res.hidden = true; grid.hidden = false; empty.hidden = true; if (pager) pager.hidden = false;
+        if (count) count.textContent = total0; return;
+      }
+      if (!idx) {
+        if (loading) return; loading = true;
+        fetch(input.getAttribute('data-index')).then(function (r) { return r.json(); }).then(function (d) { idx = d; loading = false; show(); }).catch(function () { loading = false; });
+        return;
+      }
+      var hits = idx.filter(function (p) { return terms.every(function (t) { return p.s.indexOf(t) > -1; }); });
+      grid.hidden = true; if (pager) pager.hidden = true;
+      res.innerHTML = hits.slice(0, 60).map(cardHtml).join(''); res.hidden = false;
+      empty.hidden = hits.length > 0;
+      if (count) count.textContent = count.getAttribute('data-tpl').replace('{n}', hits.length);
+    };
+    input.addEventListener('input', show);
+    var qs = new URLSearchParams(location.search);
+    if (qs.get('q')) { input.value = qs.get('q'); show(); }
+    var c0 = qs.get('cat');
+    if (c0) { var l0 = $$('a.chip[data-cat]').filter(function (x) { return x.getAttribute('data-cat') === c0; })[0]; if (l0) location.replace(l0.href); }
   }
 })();

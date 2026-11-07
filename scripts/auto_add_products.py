@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-إضافة منتجات جديدة تلقائيًا كل يوم (من 5 إلى 20) عبر AliExpress Affiliate API، بلا أي خدمة مدفوعة.
+إضافة منتجات جديدة تلقائيًا كل يوم (من 5 إلى 8) عبر AliExpress Affiliate API، بلا أي خدمة مدفوعة.
 
 الآلية: كلمات بحث دوّارة (SPECS) ← فرز بالجودة (تقييم ≥ 92% ومبيعات ≥ 200) ← استبعاد المكرر
 ← جلب رابط العمولة والصورة والسعر ← توليد العنوان والوصف والوسوم بالخمس لغات من قوالب
@@ -149,7 +149,7 @@ def main():
     dry = os.environ.get("AUTO_DRY_RUN", "").lower() in ("1", "true", "yes")
     today = datetime.now(timezone.utc).date()
     rng = random.Random(today.toordinal())
-    lo, hi = int(os.environ.get("AUTO_MIN") or 5), int(os.environ.get("AUTO_MAX") or 20)
+    lo, hi = int(os.environ.get("AUTO_MIN") or 5), int(os.environ.get("AUTO_MAX") or 8)
     target = int(os.environ.get("AUTO_COUNT") or 0) or rng.randint(lo, hi)
     log(f"AUTO {today} dry={dry} target={target}")
 
