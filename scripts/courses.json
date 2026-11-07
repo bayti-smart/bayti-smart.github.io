@@ -527,6 +527,39 @@
    "workload": "",
    "topic": "smart-home",
    "added": "2026-11-07"
+  },
+  {
+   "id": "b-zi6DJvEfGXhxLBhLRsSQ",
+   "slug": "packt-foundations-of-industrial-iot-devices-data-flow-and-security",
+   "title": "Foundations of Industrial IoT Devices, Data Flow, & Security",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f0/5d507e0539441d87f372352059197a/9781835887462_square.jpg",
+   "lang": "en",
+   "partner": "Packt",
+   "workload": "",
+   "topic": "smart-home",
+   "added": "2026-11-07"
+  },
+  {
+   "id": "HPk-y4tuEeiVjw5P0bOweA",
+   "slug": "modeling-debugging-embedded-systems",
+   "title": "Modeling and Debugging Embedded Systems",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/d5/33a050e08611e896ff859a08beff57/Logo-Image.png",
+   "lang": "en",
+   "partner": "University of Colorado Boulder",
+   "workload": "4 weeks, 2-3 hours/week",
+   "topic": "electronics",
+   "added": "2026-11-07"
+  },
+  {
+   "id": "mkyh_PhUEfCkURJ26JwNHQ",
+   "slug": "wifi6",
+   "title": "WiFi 6 & WiFi 7/Optimize Wi-Fi 6/7 with OFDMA, MU-MIMO & MLO",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/0b/233a20db334746ba1642ef21cf690f/Christina-Steele-1.png",
+   "lang": "en",
+   "partner": "Coursera",
+   "workload": "",
+   "topic": "network-security",
+   "added": "2026-11-07"
   }
  ]
 }

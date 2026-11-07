@@ -1,12 +1,5 @@
 COURSES 2026-11-07 existing=48
-  REMOVE (off-topic/banned): Cisco CCST 100-140: Cybersecurity Fundamentals
-  REMOVE (off-topic/banned): Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & El
-  REMOVE (off-topic/banned): The Solar System
-  REMOVE (off-topic/banned): Aplicaciones musicales con Arduino
-  REMOVE (off-topic/banned): AWS Networking Basics v01.01.00s
-ADD [smart-home/en] Industrial IoT Markets and Security — University of Colorado Boulder
-ADD [electronics/en] Embedded Systems using C — EDUCBA
-ADD [network-security/en] 4G Network Fundamentals — Institut Mines-Télécom
-ADD [energy/en] Organic Solar Cells - Theory and Practice — Technical University of Denmark (DTU)
-ADD [smart-home/en] Build Your First Internet of Things (IoT) Application on Arm — Arm
-RESULT pool=247 added=5 total=48
+ADD [smart-home/en] Foundations of Industrial IoT Devices, Data Flow, & Security — Packt
+ADD [electronics/en] Modeling and Debugging Embedded Systems — University of Colorado Boulder
+ADD [network-security/en] WiFi 6 & WiFi 7/Optimize Wi-Fi 6/7 with OFDMA, MU-MIMO & MLO — Coursera
+RESULT pool=247 added=3 total=51
