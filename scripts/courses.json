@@ -560,6 +560,39 @@
    "workload": "",
    "topic": "network-security",
    "added": "2026-11-07"
+  },
+  {
+   "id": "GkyTjuR5EeWpUQ6vdoq9ZQ",
+   "slug": "iot-cyber-security",
+   "title": "Cybersecurity and the Internet of Things",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/42/c427d0e47b11e58924673e58025fe8/internet.png",
+   "lang": "en",
+   "partner": "Kennesaw State University",
+   "workload": "4 weeks of study, 2-3 hours/week",
+   "topic": "smart-home",
+   "added": "2026-11-07"
+  },
+  {
+   "id": "s34L-qxBEfGO8g6psWid0Q",
+   "slug": "packt-advanced-data-structures-for-microcontrollers-mfmuw",
+   "title": "Advanced Data Structures for Microcontrollers",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/65/905cac63ac4dac8c4265138d80cbac/skill_image_square.jpg",
+   "lang": "en",
+   "partner": "Packt",
+   "workload": "",
+   "topic": "electronics",
+   "added": "2026-11-07"
+  },
+  {
+   "id": "bykYkz5OEe-2agr_xDd37Q",
+   "slug": "packt-hacking-wep-wpa-wpa2-wi-fi-networks-using-kali-linux-6xxcq",
+   "title": "Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux",
+   "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/35/1e4b7ea0e04b4a812c0ee2bc6386be/V18230.jpg",
+   "lang": "en",
+   "partner": "Packt",
+   "workload": "",
+   "topic": "network-security",
+   "added": "2026-11-07"
   }
  ]
 }

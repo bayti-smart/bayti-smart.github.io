@@ -1,5 +1,5 @@
-COURSES 2026-11-07 existing=48
-ADD [smart-home/en] Foundations of Industrial IoT Devices, Data Flow, & Security — Packt
-ADD [electronics/en] Modeling and Debugging Embedded Systems — University of Colorado Boulder
-ADD [network-security/en] WiFi 6 & WiFi 7/Optimize Wi-Fi 6/7 with OFDMA, MU-MIMO & MLO — Coursera
-RESULT pool=247 added=3 total=51
+COURSES 2026-11-07 existing=51
+ADD [smart-home/en] Cybersecurity and the Internet of Things — Kennesaw State University
+ADD [electronics/en] Advanced Data Structures for Microcontrollers — Packt
+ADD [network-security/en] Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux — Packt
+RESULT pool=247 added=3 total=54
