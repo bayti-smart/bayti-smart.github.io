@@ -28,7 +28,7 @@ TOPICS = {
     "network-security": r"home network|computer networks?|network fundamentals|networking basics|wi-?fi|cyber ?security (fundamentals|basics|essentials)|online safety|digital privacy",
     "energy": r"solar|renewable energy|energy efficien|energy management|smart grid|photovoltaic|heat pump",
 }
-BAN = re.compile(r"exam|prep\b|practice test|aws certified|azure|salesforce|tableau|blockchain|crypto|mba|tutorial for|capstone|clinical|nursing|medic", re.I)
+BAN = re.compile(r"exam|prep\b|practice test|aws certified|aws networking|azure|salesforce|tableau|blockchain|crypto|mba|tutorial for|capstone|clinical|nursing|medic|solar system|music|audio|sound|ccst|ccna|comptia|cissp|security\+|astronom|planet", re.I)
 
 
 def log(*a):
@@ -110,8 +110,12 @@ def main():
             log("scan incomplete; keeping previous pool and courses")
     pool = pool_d.get("pool", [])
 
+    for c in [c for c in courses if BAN.search(c["title"])]:
+        log("  REMOVE (off-topic/banned):", c["title"][:70])
+    courses = [c for c in courses if not BAN.search(c["title"])]
+    pool = [c for c in pool if not BAN.search(c["title"])]
     have = {c["id"] for c in courses}
-    want = FIRST_BATCH if not courses else DAILY
+    want = max(DAILY, FIRST_BATCH - len(courses)) if len(courses) < FIRST_BATCH else DAILY
     want = max(0, min(want, CAP - len(courses)))
     cand = {}
     for c in pool:
