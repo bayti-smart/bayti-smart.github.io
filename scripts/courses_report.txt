@@ -1,0 +1,52 @@
+COURSES 2026-11-07 existing=0
+scanning Coursera catalogue ...
+scanned 25608 courses; matched 256
+ADD [smart-home/en] Node-RED: IoT projects with ESP32, MQTT and Docker — Packt
+ADD [electronics/en] Embedded C Programming Essentials — EDUCBA
+ADD [network-security/en] Cisco CCST 100-140: Cybersecurity Fundamentals — Pearson
+ADD [energy/en] Exploring Renewable Energy Schemes — University of Pennsylvania
+ADD [smart-home/en] Industrial Internet of Things (IIoT) — University of Michigan
+ADD [electronics/en] Web Connectivity and Security in Embedded Systems — 28DIGITAL
+ADD [network-security/en] Cyber Security Fundamentals — University of London
+ADD [energy/en] Photovoltaic Systems — Technical University of Denmark (DTU)
+ADD [electronics/es] Arduino y algunas aplicaciones — Universidad Nacional Autónoma de México
+ADD [energy/es] Introducción a la Energía solar : El módulo fotovoltaico — Universitat Politècnica de València
+ADD [smart-home/en] Master AWS IoT: Build, Automate & Deploy Smart Systems — EDUCBA
+ADD [electronics/en] Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & El — University of Rochester
+ADD [network-security/en] Systems and Cybersecurity Fundamentals Part 2 — Northeastern University 
+ADD [energy/en] Renewable Energy Projects — University of Colorado Boulder
+ADD [smart-home/en] Managing IoT Security in Networks — LearnQuest
+ADD [electronics/en] Embedded Software and Hardware Architecture — University of Colorado Boulder
+ADD [network-security/en] Introduction to Cybersecurity Fundamentals — Coursera
+ADD [energy/en] Solar Energy System Design — The State University of New York
+ADD [electronics/es] Aprendiendo Python con circuitos digitales — Coursera
+ADD [smart-home/en] Industrial IoT Integration with Micro850 PLC — Packt
+ADD [electronics/en] Electrical Design Engineer - Circuit Analysis — Coursera
+ADD [network-security/en] Systems and Cybersecurity Fundamentals Part 1 — Northeastern University 
+ADD [energy/en] The Solar System — American Museum of Natural History
+ADD [smart-home/en] IoT Enabled Farming — EDUCBA
+ADD [electronics/en] Fundamentals of Robotics & Industrial Automation — L&T EduTech
+ADD [network-security/en] Cybersecurity basics for everyone — Universitat Politècnica de València
+ADD [energy/en] Solar Energy Codes, Permitting and Zoning — 
+ADD [electronics/es] Aplicaciones musicales con Arduino — Universidad Nacional Autónoma de México
+ADD [smart-home/en] Smart Energy Management with IoT Technologies — STARWEAVER
+ADD [electronics/en] Embedded Hardware and Operating Systems — 28DIGITAL
+ADD [network-security/en] The Bits and Bytes of Computer Networking — Google
+ADD [energy/en] Renewable Energy Futures — University of Colorado Boulder
+ADD [smart-home/en] M2M & IoT Interface Design & Protocols for Embedded Systems — University of Colorado Boulder
+ADD [electronics/en] Linux Embedded System Topics and Projects — University of Colorado Boulder
+ADD [network-security/en] AWS Networking Basics v01.01.00s — Amazon Web Services
+ADD [energy/en] Solar Energy and Electrical System Design — 
+ADD [electronics/es] Circuitos con SPICE: Análisis en el tiempo y la frecuencia — Pontificia Universidad Católica de Chile
+ADD [smart-home/en] IoT Communications and Networks — Institut Mines-Télécom
+ADD [electronics/en] Introduction to Electronics — Georgia Institute of Technology
+ADD [network-security/en] Introduction to Cybersecurity Essentials — IBM
+ADD [energy/en] Renewable Energy Technology Fundamentals — University of Colorado Boulder
+ADD [smart-home/en] IoT Hardware Projects with SwiftIO Playground — Packt
+ADD [electronics/en] Embedded Linux Essentials Handbook — Packt
+ADD [network-security/en] Security Fundamentals – Core Cybersecurity Essentials — Packt
+ADD [energy/en] Hydro, Wind & Solar power: Resources, Variability & Forecast — École Polytechnique
+ADD [electronics/es] Electrones en Acción: Electrónica y Arduinos para tus propios Inventos — Pontificia Universidad Católica de Chile
+ADD [smart-home/en] Foundations of IoT Systems and Industrial Automation — LearnQuest
+ADD [electronics/en] Interfacing with the Raspberry Pi — University of California, Irvine
+RESULT pool=256 added=48 total=48
