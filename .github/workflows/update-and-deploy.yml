@@ -1,0 +1,181 @@
+name: تحديث المنتجات ونشر الموقع
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      auto_add:
+        description: "add new items automatically"
+        type: boolean
+        default: true
+      dry_run:
+        description: "report only, no changes to items"
+        type: boolean
+        default: false
+      audit:
+        description: "audit existing items (apply, report, off)"
+        type: choice
+        options: [apply, report, "off"]
+        default: apply
+      count:
+        description: "number of new items (empty = random within the daily range)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site-update
+  cancel-in-progress: false
+
+jobs:
+  update-products:
+    runs-on: ubuntu-latest
+    steps:
+      - name: shell
+        uses: actions/checkout@v4
+
+      - name: private source
+        uses: actions/checkout@v4
+        with:
+          repository: bayti-smart/smart-casa-core
+          ssh-key: ${{ secrets.CORE_DEPLOY_KEY }}
+          path: core
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: sync
+        working-directory: core
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+        run: python scripts/ae_sync.py > logs/ae_sync.log 2>&1 || echo "::warning::step failed (details in the private logs)"
+
+      - name: audit
+        if: github.event.inputs.audit != 'off'
+        working-directory: core
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+          AUDIT_MODE: ${{ github.event.inputs.audit || 'apply' }}
+        run: python scripts/audit_products.py > logs/audit.log 2>&1 || echo "::warning::step failed (details in the private logs)"
+
+      - name: add
+        if: github.event.inputs.auto_add != 'false'
+        working-directory: core
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+          AUTO_COUNT: ${{ github.event.inputs.count }}
+          AUTO_DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: python scripts/auto_add_products.py > logs/add.log 2>&1 || echo "::warning::step failed (details in the private logs)"
+
+      - name: courses
+        working-directory: core
+        run: python scripts/courses_sync.py > logs/courses.log 2>&1 || echo "::warning::step failed (details in the private logs)"
+
+      - name: images
+        working-directory: core
+        run: |
+          pip install -q pillow
+          python scripts/cache_images.py > logs/images.log 2>&1 || echo "::warning::step failed (details in the private logs)"
+
+      - name: data
+        working-directory: core
+        run: python scripts/fetch_products.py > logs/fetch.log 2>&1 || echo "::warning::step failed (details in the private logs)"
+
+      - name: save to private source
+        working-directory: core
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A products.json scripts site/assets/img logs
+          git diff --cached --quiet && exit 0
+          git commit -q -m "daily update"
+          for i in 1 2 3; do
+            if git pull -q --rebase origin main || { python scripts/fetch_products.py > /dev/null 2>&1 && git add products.json && GIT_EDITOR=true git rebase --continue; }; then
+              git push -q && exit 0
+            fi
+            sleep 5
+          done
+          exit 1
+
+      - name: keepalive (prevents GitHub from pausing the schedule)
+        continue-on-error: true
+        run: |
+          date -u +%F > keepalive.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add keepalive.txt
+          git diff --cached --quiet || { git commit -q -m "keepalive"; git push -q; }
+
+  deploy-pages:
+    needs: update-products
+    runs-on: ubuntu-latest
+    steps:
+      - name: private source
+        uses: actions/checkout@v4
+        with:
+          repository: bayti-smart/smart-casa-core
+          ssh-key: ${{ secrets.CORE_DEPLOY_KEY }}
+          path: core
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: build tools
+        run: pip install -q jinja2 beautifulsoup4
+
+      - name: build and check
+        working-directory: core
+        run: |
+          python scripts/fetch_products.py > logs/fetch.log 2>&1 || { tail -5 logs/fetch.log; exit 1; }
+          python scripts/build_site.py --out dist > logs/build.log 2>&1 || { tail -15 logs/build.log; exit 1; }
+          python scripts/check_site.py dist > logs/check.log 2>&1 || { tail -20 logs/check.log; exit 1; }
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: core/dist
+
+      - name: deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  verify-live:
+    needs: deploy-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: live check
+        run: |
+          B=https://bayti-smart.github.io
+          fail=0
+          check() {
+            for i in 1 2 3 4; do
+              code=$(curl -s -L -o /tmp/o -w "%{http_code}" "$B$1")
+              if [ "$code" = "200" ] && grep -q "$2" /tmp/o; then echo "::notice::OK $1"; return 0; fi
+              sleep 15
+            done
+            echo "::error::FAIL $1 (HTTP $code)"; fail=1
+          }
+          check "/" "Build a smarter home"
+          check "/ar/" 'dir="rtl"'
+          check "/fr/" 'lang="fr"'
+          check "/products/" "All products"
+          check "/guides.html" "location.replace"
+          check "/sitemap.xml" "sitemapindex"
+          check "/sitemap-en.xml" "hreflang"
+          check "/sitemap-ar.xml" "hreflang"
+          check "/robots.txt" "Sitemap:"
+          exit $fail

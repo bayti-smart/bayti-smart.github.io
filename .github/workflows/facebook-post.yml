@@ -1,0 +1,97 @@
+name: نشر يومي على صفحة فيسبوك
+
+on:
+  schedule:
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "dry run, no real post"
+        type: boolean
+        default: true
+      check:
+        description: "check the latest page posts only"
+        type: boolean
+        default: false
+      cleanup_limit:
+        description: "delete old posts (before 2026-10-26); 0 = none"
+        type: string
+        default: "0"
+      cleanup_what:
+        description: "what to delete: posts, videos or photos"
+        type: choice
+        options: [posts, videos, photos]
+        default: posts
+      kind:
+        description: "post type"
+        type: choice
+        options: [auto, product, guide]
+        default: auto
+
+permissions:
+  contents: read
+
+concurrency:
+  group: facebook-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: private source
+        uses: actions/checkout@v4
+        with:
+          repository: bayti-smart/smart-casa-core
+          ssh-key: ${{ secrets.CORE_DEPLOY_KEY }}
+          path: core
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: pillow
+        run: pip install -q pillow
+
+      - name: post
+        working-directory: core
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          KIND: ${{ inputs.kind || 'auto' }}
+          CHECK: ${{ github.event_name == 'workflow_dispatch' && inputs.check || 'false' }}
+          CLEANUP_LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.cleanup_limit || '0' }}
+          CLEANUP_WHAT: ${{ inputs.cleanup_what || 'posts' }}
+        run: |
+          mkdir -p logs
+          rc=0
+          if [ "$CLEANUP_LIMIT" != "0" ]; then
+            python scripts/fb_cleanup.py --what "$CLEANUP_WHAT" --before 2026-10-26T00:00:00+0000 --limit "$CLEANUP_LIMIT" > logs/fb_last.log 2>&1 || rc=$?
+          elif [ "$CHECK" = "true" ]; then
+            python scripts/fb_check.py > logs/fb_last.log 2>&1 || rc=$?
+          else
+            args=""
+            if [ "$DRY_RUN" = "true" ]; then args="--dry-run"; fi
+            python scripts/post_facebook.py --kind "$KIND" $args > logs/fb_last.log 2>&1 || rc=$?
+          fi
+          if [ "$rc" != "0" ]; then echo "::error::post step failed (details in the private logs)"; tail -n 6 logs/fb_last.log | cut -c1-200; fi
+          exit $rc
+
+      - name: save log to private source
+        if: always()
+        continue-on-error: true
+        working-directory: core
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/fb_post_log.txt logs
+          if ! git diff --cached --quiet; then
+            git commit -q -m "fb log"
+            for i in 1 2 3; do
+              git pull -q --rebase origin main && git push -q && break
+              sleep 5
+            done
+          fi
