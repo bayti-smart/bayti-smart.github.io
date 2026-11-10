@@ -179,3 +179,36 @@ jobs:
           check "/sitemap-ar.xml" "hreflang"
           check "/robots.txt" "Sitemap:"
           exit $fail
+
+  indexnow:
+    needs: verify-live
+    runs-on: ubuntu-latest
+    steps:
+      - name: private source
+        uses: actions/checkout@v4
+        with:
+          repository: bayti-smart/smart-casa-core
+          ssh-key: ${{ secrets.CORE_DEPLOY_KEY }}
+          path: core
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: submit new URLs
+        working-directory: core
+        run: python scripts/indexnow.py > logs/indexnow.log 2>&1 || echo "::warning::step failed (details in the private logs)"
+
+      - name: save state
+        working-directory: core
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/indexnow_seen.json logs
+          git diff --cached --quiet && exit 0
+          git commit -q -m "indexnow"
+          for i in 1 2 3; do
+            git pull -q --rebase origin main && git push -q && exit 0
+            sleep 5
+          done
