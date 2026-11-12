@@ -79,10 +79,6 @@ jobs:
           AUTO_DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: python scripts/auto_add_products.py > logs/add.log 2>&1 || echo "::warning::step failed (details in the private logs)"
 
-      - name: courses
-        working-directory: core
-        run: python scripts/courses_sync.py > logs/courses.log 2>&1 || echo "::warning::step failed (details in the private logs)"
-
       - name: images
         working-directory: core
         run: |
